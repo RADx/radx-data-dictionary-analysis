@@ -1,0 +1,42 @@
+"Variable Name","Description","Data Type","Units","Permissible Value"
+"UID","Personal identifier","String","",""
+"Date Stamp","Date and Time stamp for the survey response","Date","","yyyy-mm-ddThh:mm:ss.sssZ"
+"Survey ID","Indicates the version of the demographic consent survey offered to the participants.","Categorical","","0Ks4W000003JkezSAC;
+0Ks4W000003Jkf9SAC;
+0Ks4W000003JkkPSAS;
+0Ks4W000003JktiSAC;
+0Ks4W000003JlC0SAK;
+0Ks4W000003JlCESA0;"
+"Survey Name","Name of the Demographic Consent Survey offered to participants. ","Categorical","","WSSC Consent Survey 0.3"
+"Ethnicity","Ethnicity of participant.","Categorical","","Yes, ""Yes, of Hispanic, Latinx or Spanish origin"" ;
+No, ""No, not of Hispanic, Latinx or Spanish origin"" ; 
+NA;"
+"Transportation","Mode of transportation used to commute to work by participant","Categorical","","Personal vehicle, bike, walk; Carpool; Public Transportation; Varies; NA;Recode_NA"
+"Race","Race of participant","Categorical","","American Indian or Alaska Native; Asian; Black or African American; Native Hawaiian or Other Pacific Islander; White; Two or more races; Other; Prefer not to answer; NA;
+Recode_NA"
+"Zip_Code","Three digit home zipcode of participant.","Categorical","","123**; Recode to 999**"
+"Education","Highest level of Education of participant.","Categorical","","Associate's Degree; Bachelor's Degree; High school or equivalent; Master's Degree; Professional degree; Some college; Technical occupational cert; Recode_NA"
+"Gender","Gender of participant","Categorical","","Male; Female; Intersex; None; Recode_NA"
+"Weight","Weight of participant","Categorical","pounds","100-150; 151-200; 201-250; over250"
+"Height","Height of participant","Categorical","feet and inches","4'5""-5'6""; 5'7"" - 6'; over 6'"
+"Consent","Consent to participate in the study. ","Categorical","","Agree; Disagree"
+"Household_Size","Number of people in the household of participant","Categorical","","1; 2; 3; 4; 5 or more"
+"Age","Age of participant","Categorical","years","20-29; 30-39; 40-49; 50-59; 60-79"
+"Pregnant","Pregnancy status of participant","Categorical","","Yes; No; Recode_NA"
+"Smoker","Smoking status of participant. ","Categorical","","Yes; No; Recode_NA"
+"Diagnosis_None","Indicates that the participant reported not being diagnosed with any of the conditions on the survey.","Categorical","","1, Yes;
+0, No"
+"Diagnosis_Hypertension_HTN","Indicates that the participant reported having been diagnosed with Hypertension","Categorical","","1, Yes;
+0, No"
+"Diagnosis_Diabetes","Indicates that the participant reported having been diagnosed with Diabetes","Categorical","","1, Yes;
+0, No"
+"Diagnosis_Asthma","Indicates that the participant reported having been diagnosed with Asthma","Categorical","","1, Yes;
+0, No"
+"Diagnosis_Cardiovascular_Disease","Indicates that the participant reported having been diagnosed with Cardiovascular Disease","Categorical","","1, Yes;
+0, No"
+"Diagnosis_Depression","Indicates that the participant reported having been diagnosed with Depression","Categorical","","1, Yes;
+0, No"
+"Diagnosis_Chronic_kidney_disease","Indicates that the participant reported having been diagnosed with Chronic kidney disease","Categorical","","1, Yes;
+0, No"
+"Diagnosis_Cancer","Indicates that the participant reported having been diagnosed with Cancer","Categorical","","1, Yes;
+0, No"
