@@ -1,0 +1,322 @@
+datatype,source_file,source_directory
+"",Biorecognition_Element_Data_Element_Template_v000.csv,RADx-rad
+"",data_dictionary.xlsx [C19EX - Health History Survey].csv,RADx-DHT
+"",data_dictionary.xlsx [FBML Minute Level].csv,RADx-DHT
+"",NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+"",PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+"",Performance_Metrics_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+"",RADx-rad_Data_Elements_Wastewater_V006.csv,RADx-rad
+"",RADx-rad_MinimumCDE_REDCapDataDictionary_2021-04-08.csv,RADx-rad
+"",RADxrad_COVID_Testing_Data_Elements_v000.xlsx [RADxrad_COVID_Testing_Data_Elem].csv,RADx-rad
+"",RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP
+"",Spiked_Sample_Data_Element_Template_v000.xlsx [Spiked_Sample_Data_Elements].csv,RADx-rad
+"",survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+autocomplete,RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP
+Boolean,data_dictionary.xlsx [C19EX - Screener].csv,RADx-DHT
+Boolean,data_dictionary.xlsx [FBML Minute Level].csv,RADx-DHT
+Boolean,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+Boolean,data_dictionary.xlsx [Fitbit Intraday Sleep].csv,RADx-DHT
+Boolean,medications_data_dictionary_origcopy.csv,RADx-DHT
+calc,Demographics_and_Clinical.csv,RADx-DHT
+Categorical,COVIDCARE_survey_dictionary_v2_ForSubmission_MIT_Phase_II_2021-12-26.csv,RADx-DHT
+Categorical,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+Categorical,NIH_Daily_Wellness_Survey_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+Categorical,SurveyResults_datadictionary.csv,RADx-DHT
+category,NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+checkbox,Demographics_and_Clinical.csv,RADx-DHT
+Date,data_dictionary.xlsx [Apple Watch Intraday Heart Rate].csv,RADx-DHT
+Date,data_dictionary.xlsx [Apple Watch Intraday Steps].csv,RADx-DHT
+Date,data_dictionary.xlsx [C19EX - Daily Survey].csv,RADx-DHT
+date,data_dictionary.xlsx [C19EX - Daily Survey].csv,RADx-DHT
+Date,data_dictionary.xlsx [C19EX - Health History Survey].csv,RADx-DHT
+date,data_dictionary.xlsx [C19EX - Screener].csv,RADx-DHT
+Date,data_dictionary.xlsx [FBML Day Level].csv,RADx-DHT
+Date,data_dictionary.xlsx [FBML Minute Level].csv,RADx-DHT
+Date,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+Date,data_dictionary.xlsx [Fitbit Intraday Heart Rate].csv,RADx-DHT
+Date,data_dictionary.xlsx [Fitbit Intraday Sleep].csv,RADx-DHT
+Date,data_dictionary.xlsx [Garmin Intraday Dailies (Heart ].csv,RADx-DHT
+Date,data_dictionary.xlsx [Garmin Intraday Sleep].csv,RADx-DHT
+Date,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+Date,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+Date,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+Date,data_dictionary.xlsx [LSFS - Risk_Factor].csv,RADx-DHT
+Date,data_dictionary.xlsx [Wearable Model Features].csv,RADx-DHT
+Date,medications_data_dictionary_origcopy.csv,RADx-DHT
+Date,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+Date,NIH_Daily_Wellness_Survey_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Baseline Survey.csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Hospitalization Survey.csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Monthly Vaccine Follow Up Survey.csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Monthly Vaccine Survey.csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Vaccine Survey.csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 2.csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 3.csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 4.csv,RADx-DHT
+date,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey.csv,RADx-DHT
+date ([yyyy]-[mm]-[dd]),NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+date_mdy,RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP
+date_ymd,RADx-rad_Data_Elements_Wastewater_V006.csv,RADx-rad
+DateTime,GoogleFitSamples_datadictionary.csv,RADx-DHT
+DateTime,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+DateTime,SurveyResults_datadictionary.csv,RADx-DHT
+datetime_mdy,RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP
+Double,data_dictionary.xlsx [Apple Watch Intraday Heart Rate].csv,RADx-DHT
+Double,data_dictionary.xlsx [Apple Watch Intraday Steps].csv,RADx-DHT
+Double,data_dictionary.xlsx [C19EX - Health History Survey].csv,RADx-DHT
+Double,data_dictionary.xlsx [C19EX - Screener].csv,RADx-DHT
+Double,data_dictionary.xlsx [FBML Day Level].csv,RADx-DHT
+Double,data_dictionary.xlsx [FBML Minute Level].csv,RADx-DHT
+Double,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+Double,data_dictionary.xlsx [Fitbit Intraday Heart Rate].csv,RADx-DHT
+Double,data_dictionary.xlsx [Garmin Intraday Dailies (Heart ].csv,RADx-DHT
+Double,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+Double,data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+Double,data_dictionary.xlsx [LSFS - Risk_Factor].csv,RADx-DHT
+Double,data_dictionary.xlsx [Wearable Model Features].csv,RADx-DHT
+dropdown,Demographics_and_Clinical.csv,RADx-DHT
+email,RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP
+FLOAT,activity__garmin_activities_origcopy.csv,RADx-DHT
+Float,data_dictionary.xlsx [Garmin Intraday Sleep].csv,RADx-DHT
+float,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+Float,data_dictionary.xlsx [LSFS - Flu].csv,RADx-DHT
+Float,medications_data_dictionary_origcopy.csv,RADx-DHT
+float,NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+float,survey_data_dictionary_origcopy.csv - Your Smoking History.csv,RADx-DHT
+Int,medications_data_dictionary_origcopy.csv,RADx-DHT
+Integer,COVIDCARE_survey_dictionary_v2_ForSubmission_MIT_Phase_II_2021-12-26.csv,RADx-DHT
+integer,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+Integer,data_dictionary.xlsx [LSFS - Flu].csv,RADx-DHT
+Integer,data_dictionary_user.xlsx [User].csv,RADx-DHT
+Integer,data_dictionary_vaccination.xlsx [Vaccination].csv,RADx-DHT
+integer,NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+integer,RADx-rad_MinimumCDE_REDCapDataDictionary_2021-04-08.csv,RADx-rad
+integer,RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP
+integer,survey_data_dictionary_origcopy.csv - Baseline Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Contact Tracing and Disagreements Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 10.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 11.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 12.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 13.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 14.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 15.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 16.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 17.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 18.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 19.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 2.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 20.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 21.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 22.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 23.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 24.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 25.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 26.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 27.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 28.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 3.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 4.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 5.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 6.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 7.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 8.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 9.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Home Visits and Mask Type.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Hospitalization Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Largest Gathering and Height Weight.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Mail and Places of Worship.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Monthly COVID-19 Citizen Science Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Monthly Vaccine Follow Up Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Monthly Vaccine Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Public Transit and Shared Elevators.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Regular Healthcare and COVID-19.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Religious Services.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Spice Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Vaccine Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 2.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 3.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 4.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey.csv,RADx-DHT
+integer,survey_data_dictionary_origcopy.csv - Your Smoking History.csv,RADx-DHT
+"jurisdiction id (a string 20 characters or less, containing only numbers, English alphabetic characters, underscores, and hyphens; white space is not allowed; not case sensitive)",NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+list (comma-separated strings),NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+Long,data_dictionary.xlsx [Apple Watch Intraday Steps].csv,RADx-DHT
+Long,data_dictionary.xlsx [C19EX - Daily Survey].csv,RADx-DHT
+Long,data_dictionary.xlsx [C19EX - Screener].csv,RADx-DHT
+Long,data_dictionary.xlsx [FBML Day Level].csv,RADx-DHT
+Long,data_dictionary.xlsx [FBML Minute Level].csv,RADx-DHT
+Long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+Long,data_dictionary.xlsx [Fitbit Intraday Heart Rate].csv,RADx-DHT
+Long,data_dictionary.xlsx [Fitbit Intraday Sleep].csv,RADx-DHT
+Long,data_dictionary.xlsx [Garmin Intraday Sleep].csv,RADx-DHT
+Long,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+Long,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+Map,data_dictionary.xlsx [Garmin Intraday Dailies (Heart ].csv,RADx-DHT
+Map,data_dictionary.xlsx [Garmin Intraday Sleep].csv,RADx-DHT
+Map,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+Map,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+notes,Demographics_and_Clinical.csv,RADx-DHT
+NPDES permit number (<2-letter abbreviation><#######>),NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+NUMBER,activity__garmin_activities_origcopy.csv,RADx-DHT
+number,RADx-rad_MinimumCDE_REDCapDataDictionary_2021-04-08.csv,RADx-rad
+number,RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP
+NUMBER,survey__baseline_survey_origcopy.csv,RADx-DHT
+NUMBER,survey__weekly_survey_origcopy.csv,RADx-DHT
+phone,RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP
+radio,Demographics_and_Clinical.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Baseline Survey.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Cars and Allergies.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 10.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 11.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 12.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 13.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 14.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 15.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 16.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 17.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 18.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 19.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 2.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 20.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 21.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 22.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 23.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 24.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 25.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 26.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 27.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 28.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 3.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 4.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 5.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 6.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 7.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 8.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 9.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Demographics Survey.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Home Visits and Mask Type.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Mail and Places of Worship.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Monthly Vaccine Follow Up Survey.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Monthly Vaccine Survey.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Vaccine Survey.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 2.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 3.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 4.csv,RADx-DHT
+Select any,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Anxiety Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Baseline Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Cars and Allergies.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Contact Tracing and Disagreements Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - COVID-19 News.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 10.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 11.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 12.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 13.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 14.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 15.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 16.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 17.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 18.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 19.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 2.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 20.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 21.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 22.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 23.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 24.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 25.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 26.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 27.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 28.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 3.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 4.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 5.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 6.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 7.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 8.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey 9.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Daily COVID-19 Citizen Science Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Demographics Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Flying.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Food Security.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Hospitalization Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Mail and Places of Worship.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Monthly COVID-19 Citizen Science Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Monthly Vaccine Follow Up Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Monthly Vaccine Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Mood Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Regular Healthcare and COVID-19.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Religious Services.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Return to School and College.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Shoes on or off.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Sleep Position.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Small Gatherings and SpO2 Monitors.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Vaccine Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 2.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 3.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey 4.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Weekly COVID-19 Citizen Science Survey.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Wildfire.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Select one,survey_data_dictionary_origcopy.csv - Your Smoking History.csv,RADx-DHT
+String,COVIDCARE_survey_dictionary_v2_ForSubmission_MIT_Phase_II_2021-12-26.csv,RADx-DHT
+String,data_dictionary.xlsx [Apple Watch Intraday Heart Rate].csv,RADx-DHT
+String,data_dictionary.xlsx [Apple Watch Intraday Steps].csv,RADx-DHT
+String,data_dictionary.xlsx [C19EX - Daily Survey].csv,RADx-DHT
+String,data_dictionary.xlsx [C19EX - Health History Survey].csv,RADx-DHT
+String,data_dictionary.xlsx [C19EX - Screener].csv,RADx-DHT
+String,data_dictionary.xlsx [FBML Day Level].csv,RADx-DHT
+String,data_dictionary.xlsx [FBML Minute Level].csv,RADx-DHT
+String,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+String,data_dictionary.xlsx [Fitbit Intraday Heart Rate].csv,RADx-DHT
+String,data_dictionary.xlsx [Fitbit Intraday Sleep].csv,RADx-DHT
+String,data_dictionary.xlsx [Garmin Intraday Dailies (Heart ].csv,RADx-DHT
+String,data_dictionary.xlsx [Garmin Intraday Sleep].csv,RADx-DHT
+String,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+String,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+string,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+String,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+String,data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+String,data_dictionary.xlsx [LSFS - Flu].csv,RADx-DHT
+String,data_dictionary.xlsx [LSFS - Health Conditions].csv,RADx-DHT
+String,data_dictionary.xlsx [LSFS - Risk_Factor].csv,RADx-DHT
+String,data_dictionary.xlsx [Wearable Model Features].csv,RADx-DHT
+string,data_dictionary_test.xlsx [Test].csv,RADx-DHT
+string,data_dictionary_user.xlsx [User].csv,RADx-DHT
+string,data_dictionary_vaccination.xlsx [Vaccination].csv,RADx-DHT
+String,data_dictionary_vaccination.xlsx [Vaccination].csv,RADx-DHT
+String,GoogleFitSamples_datadictionary.csv,RADx-DHT
+String,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+String,NIH_Daily_Wellness_Survey_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+string,NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+string,survey_data_dictionary_origcopy.csv - Baseline Survey.csv,RADx-DHT
+string,survey_data_dictionary_origcopy.csv - Demographics Survey.csv,RADx-DHT
+string,survey_data_dictionary_origcopy.csv - Hospitalization Survey.csv,RADx-DHT
+string,survey_data_dictionary_origcopy.csv - Monthly Vaccine Follow Up Survey.csv,RADx-DHT
+string,survey_data_dictionary_origcopy.csv - Monthly Vaccine Survey.csv,RADx-DHT
+string,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+string,survey_data_dictionary_origcopy.csv - Vaccine Survey.csv,RADx-DHT
+String,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+String,SurveyResults_datadictionary.csv,RADx-DHT
+TEXT,activity__garmin_activities_origcopy.csv,RADx-DHT
+Text,COVIDCARE_survey_dictionary_v2_ForSubmission_MIT_Phase_II_2021-12-26.csv,RADx-DHT
+text,Demographics_and_Clinical.csv,RADx-DHT
+Text,medications_data_dictionary_origcopy.csv,RADx-DHT
+TEXT,survey__baseline_survey_origcopy.csv,RADx-DHT
+TEXT,survey__weekly_survey_origcopy.csv,RADx-DHT
+time,RADx-rad_Data_Elements_Wastewater_V006.csv,RADx-rad
+time zone (UTC-[hh]:[mm]),NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+"time, 24-hr ([hh]:[mm])",NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+Timestamp,GoogleFitSamples_datadictionary.csv,RADx-DHT
+TIMESTAMP_NTZ,activity__garmin_activities_origcopy.csv,RADx-DHT
+TIMESTAMP_NTZ,survey__baseline_survey_origcopy.csv,RADx-DHT
+TIMESTAMP_NTZ,survey__weekly_survey_origcopy.csv,RADx-DHT
+yesno,Demographics_and_Clinical.csv,RADx-DHT
+ZIP code (#####),NWSS-Data-Dictionary_v2_0_3_20210621.xlsx [Metadata].csv,Unknown Source
+Zipcode,RADx-rad_Data_Elements_Wastewater_V006.csv,RADx-rad
+zipcode,RADxUP_DataDIctionary_2022-04-01_1.5t1t2.csv,RADx-UP

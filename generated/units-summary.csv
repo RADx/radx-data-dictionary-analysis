@@ -1,0 +1,42 @@
+units
+""
+[none]
+[units specified in 'hum_frac_chem_unit']
+[units specified in 'hum_frac_mic_unit']
+[units specified in 'other_norm_conc']
+[units specified in 'sars_cov2_units']
+Celsius
+copies/ml
+Days
+Feet
+feet and inches
+foot
+g/L
+hour
+Hours
+If flow-weighted composite: number per million gallons; if time-weighted or manual composite: number per hour
+inch
+Inches
+log10 copies/mL
+mg/L
+microsiemens/cm
+Million gallons per day (MGD)
+million gallons/day
+minutes
+mL
+ml
+mL wastewater or g sludge
+nM
+ntu
+parts per thousand
+People
+percent
+pH units
+pound
+Pounds
+pounds
+TCID50/ml
+unit?
+USD
+Years
+years
