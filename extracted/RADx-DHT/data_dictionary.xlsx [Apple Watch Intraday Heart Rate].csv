@@ -1,0 +1,16 @@
+variable_name,description,seeAlso,datatype
+id_participant_external,Participant external identifier,,string
+dt,Evidation based date of record,,date
+end_timestamp,Local timestamp corresponding to the end of the activity recording,,string
+start_timestamp,Local timestamp corresponding to the start of the activity recording,,string
+details[array].end_timestamp,Timestamp corresponding to the end of the activity sample recording,,string
+details[array].start_timestamp,Timestamp corresponding to the start of the activity sample recording,,string
+details[array].user_entered,Boolean signifying if sample entry was manually entered by device user,,string
+details[array].value.activity_type,A static identifier for sample activity type,,string
+details[array].value.heartrade_bpm,,,double
+details[array].value.heartrate_bpm,A quantity sample type that measures the user’s heart rate.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615138-heartrate,double
+details[array].value.resting_heartrate_bpm,A quantity sample type that measures the user’s resting heart rate.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/2867756-restingheartrate,double
+heartrate_bpm,A quantity sample type that measures the user’s heart rate.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615138-heartrate,double
+resting_heartrate_bpm,A quantity sample type that measures the user’s resting heart rate.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/2867756-restingheartrate,double
+is_aggregate,"Boolean signifying if entry is aggregated (which it is for all so might remove due to redudancy) ",,string
+user_entered,Boolean signifying if entry was manually entered by device user,,string

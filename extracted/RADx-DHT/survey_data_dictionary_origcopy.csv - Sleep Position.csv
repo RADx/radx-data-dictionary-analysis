@@ -1,0 +1,2 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Sleep Position,0;1,sleep_position,In what position are you most comfortable sleeping?,true,select one,On my back;On my side;On my stomach;No preference;I don't know;Other

@@ -1,0 +1,2 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+COVID-19 News,0,news_updates,"In the past WEEK, how frequently have you checked the news for updates around COVID-19?",true,select one,Not at all;On 1-2 different days;On 3-4 different days;On 4-6 different days;Every day;More than once a day;Other

@@ -1,0 +1,2 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Flying,0,plane,"In the past MONTH, have you flown on a commercial airplane?",true,select one,Yes;No;Other

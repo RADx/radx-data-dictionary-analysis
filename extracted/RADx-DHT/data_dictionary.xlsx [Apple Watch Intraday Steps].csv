@@ -1,0 +1,21 @@
+variable_name,description,seeAlso,datatype
+id_participant_external,Participant external identifier,,string
+dt,Evidation based date of record,,date
+details[array].end_timestamp,Local timestamp corresponding to the end of the activity recording,,string
+details[array].start_timestamp,Local timestamp corresponding to the start of the activity recording,,string
+details[array].user_entered,Boolean signifying if entry was manually entered by device user,,string
+details[array].value.activity_type,A static identifier for activity type,,string
+details[array].value.basal_calories_kcal,"Resting energy is the energy that the user’s body burns to maDoubleain its normal, resting state. The body uses this energy to perform basic functions like breathing, circulating blood, and managing the growth and maDoubleenance of cells. ",https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615512-basalenergyburned,double
+details[array].value.calories_kcal,Active energy is the energy that the user has burned due to physical activity and exercise.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615771-activeenergyburned,double
+details[array].value.distance_flights_climbed,A quantity sample type that measures the number flights of stairs that the user has climbed.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifierflightsclimbed?language=objc,long
+details[array].value.distance_meters,A quantity sample type that measures the distance the user has moved by walking or running.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615230-distancewalkingrunning,double
+details[array].value.distance_steps,A quantity sample type that measures the number of steps the user has taken.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615548-stepcount,long
+end_timestamp,Timestamp corresponding to the end of the activity recording,,string
+start_timestamp,Timestamp corresponding to the start of the activity recording,,string
+user_entered,Boolean signifying if entry was manually entered by device user,,string
+activity_type,A static identifier for activity type,,string
+basal_calories_kcal,"Resting energy is the energy that the user’s body burns to maDoubleain its normal, resting state. The body uses this energy to perform basic functions like breathing, circulating blood, and managing the growth and maDoubleenance of cells. ",https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615512-basalenergyburned,double
+calories_kcal,Active energy is the energy that the user has burned due to physical activity and exercise.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615771-activeenergyburned,double
+distance_flights_climbed,A quantity sample type that measures the number flights of stairs that the user has climbed.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifierflightsclimbed?language=objc,long
+distance_meters,A quantity sample type that measures the distance the user has moved by walking or running.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615230-distancewalkingrunning,double
+distance_steps,A quantity sample type that measures the number of steps the user has taken.,https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615548-stepcount,double

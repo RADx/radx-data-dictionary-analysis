@@ -1,0 +1,32 @@
+variable_name,description,datatype
+user_id,User's Unique ID,int
+site,Site/Referral the user signed up with,text
+data_source,Source of Data,text
+organization_name,(not currently used),text
+full_generic_name,Medication generic name,text
+brand_name,Medication commercial brand name,text
+medication_name,Medication commercial name,text
+product_name,Medication commercial product name,text
+sxdg_name,RXNorm SXDG Name,text
+ndc_code,(not currently used) National Drug Code,text
+rxcui,RxNorm RXCUI,int
+generic_rxcui,RxNorm generic RXCUI,int
+start_date,(not currently used),date
+end_date,(not currently used),date
+dosage_value,(not currently used),text
+dosage_form,Form of medication dosage,text
+frequency_number,Number of medication to take at interval,float
+frequency_every,Number of units in an interval to take medication,int
+frequency_unit,Unit of time for determing when to take medication,text
+route,Route for administering medication,text
+strength_number,(not currently used),float
+strength_unit,(not currently used),text
+strength,Strength of medication,text
+dosage_instructions,(not currently used),text
+can_refill,(not currently used),boolean
+has_pending_refill,(not currently used),boolean
+generic_product_indicator,(not currently used),int
+currently_taking,Whether medication is currently being taken,boolean
+as_needed,"Whether medication is taken on an ""as-needed"" basis",boolean
+reason,Reason for taking medication,text
+variable_basis,"User-entered frequency for taking medication, if it is not taken on a regular schedule",text
