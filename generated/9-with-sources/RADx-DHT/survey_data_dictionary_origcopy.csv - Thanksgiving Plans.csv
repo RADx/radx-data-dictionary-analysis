@@ -1,0 +1,22 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory
+Thanksgiving Plans,0,thanksgiving-yes,Do you celebrate Thanksgiving?,true,select one,Yes,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving-no,,,,No,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving-na,,,,Thanksgiving is not an observed holiday where I am from.,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving-other,,,,Other,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_exp,Please explain.,true,string,String,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,travel_yrs_past-car,"In years past, how did you usually travel during the Thanksgiving holiday? Select all that apply.",true,select any,Car,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,travel_yrs_past-plane,,,,Plane,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,travel_yrs_past-bus,,,,Bus,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,travel_yrs_past-train,,,,Train,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,travel_yrs_past-none,,,,I don’t usually travel during the Thanksgiving holiday,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,travel_yrs_past-other,,,,Other,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020-no,How has COVID-19 impacted your Thanksgiving plans in 2020? Select all that apply.,true,select any,I will not celebrate Thanksgiving this year.,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020-virtually,,,,I will celebrate Thanksgiving virtually this year.,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020-househld,,,,I will celebrate at home by myself or only with those who live in my household.,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020-fam,,,,I will celebrate at home and include invited family outside my household,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020-guests,,,,I will celebrate at home and include invited guests that are not family members.,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020-small,,,,I will celebrate with friends and/or family outside of my household in a smaller group than normal.,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020-na,,,,COVID-19 has not impacted my Thanksgiving plans this year,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020-other,,,,Other,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,thanksgiving_2020_exp,Please explain how COVID-19 has impacted your Thanksgiving plans in 2020.,true,string,String,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT
+Thanksgiving Plans,0,num_ppl,How many people outside of your household will you be celebrating with?,true,integer,|people,survey_data_dictionary_origcopy.csv - Thanksgiving Plans.csv,RADx-DHT

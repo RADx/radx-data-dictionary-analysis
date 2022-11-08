@@ -1,0 +1,29 @@
+variable_name,description,datatype
+id_participant_external,Participant external identifier,String
+dt,Evidation based date of record,Date
+calendarDate,The calendar date this summary would be displayed on in Garmin Connect. The date format is ‘yyyy-mm-dd’.,String
+startTimeInSeconds,"Start time of the activity in seconds since January 1, 1970, 00:00:00 UTC (Unix timestamp).",Double
+startTimeOffsetInSeconds,"Offset in seconds to add to startTimeInSeconds to derive the ""local"" time of the device that captured the data.",Double
+activityType,This field is included in daily summaries for backwards compatibility purposes. It can be ignored and will always default to WALKING.,String
+durationInSeconds,"Length of the monitoring period in seconds. 86400 once a full day is complete, but less if a user syncs mid-day.",Double
+steps,Count of steps recorded during the monitoring period.,Double
+distanceInMeters,Distance traveled in meters.,Double
+activeTimeInSeconds,Portion of the monitoring period (in seconds) in which the device wearer was considered Active. This relies on heuristics internal to each device.,Double
+activeKilocalories,Active kilocalories (dietary calories) burned through actual movement and activity during the monitoring period.,Double
+moderateIntensityDurationInSeconds,"Cumulative duration of activities of moderate intensity, lasting at least 600 seconds at a time. Moderate intensity is defined as activity with MET value range 3-6.",Double
+vigorousIntensityDurationInSeconds,"Cumulative duration of activities of vigorous intensity, lasting at least 600 seconds at a time. Vigorous intensity is defined as activity with MET value > 6.",Double
+floorsClimbed,Number of floors climbed during the monitoring period.,Double
+minHeartRateInBeatsPerMinute,"Minimum of heart rate values captured during the monitoring period, in beats per minute.",Double
+averageHeartRateInBeatsPerMinute,"Average of heart rate values captured during the last 7 days, in beats per minute. The average heart rate value for the monitoring period can be calculated based on the data from timeOffsetHeartRateSamples.",Double
+maxHeartRateInBeatsPerMinute,"Maximum of heart rate values captured during the monitoring period, in beats per minute.",Double
+restingHeartRateInBeatsPerMinute,"Average heart rate at rest during the monitoring period, in beats per minute.",Double
+timeOffsetHeartRateSamples[map].key,"Collection of mappings between offset from start time (in seconds) to a heart rate value recorded for that time, in beats per minute. Each entry is a representative sample of the previous 15 seconds from the given offset. Lack of entry for a given offset should be interpreted as no data available. For example, in the response below, the user had 75 BPM for the first 30 seconds of the daily summary, took off their device until the 3180 second time slice, and took it off again after the 3255 second entry.",Map
+timeOffsetHeartRateSamples[map].value,"Collection of mappings between offset from start time (in seconds) to a heart rate value recorded for that time, in beats per minute. Each entry is a representative sample of the previous 15 seconds from the given offset. Lack of entry for a given offset should be interpreted as no data available. For example, in the response below, the user had 75 BPM for the first 30 seconds of the daily summary, took off their device until the 3180 second time slice, and took it off again after the 3255 second entry.",Map
+averageStressLevel,"An abstraction of the user’s average stress level in this monitoring period, measured from 1 to 100, or -1 if there is not enough data to calculate average stress.  Scores between 1 and 25 are considered “rest” (i.e not stressful), 26-50 as “low” stress, 51-75 “medium” stress, and 76-100 as “high” stress.",Double
+maxStressLevel,The highest stress level measurement taken during this monitoring period.,Double
+stressDurationInSeconds,The number of seconds in this monitoring period where stress level measurements were in the stressful range (26-100).,Double
+restStressDurationInSeconds,The number of seconds in this monitoring period where stress level measurements were in the restful range (1 to 25).,Double
+activityStressDurationInSeconds,"The number of seconds in this monitoring period where the user was engaging in physical activity and so stress measurement was unreliable.  All duration in this monitoring period not covered by stress, rest, and activity stress should be considered Uncategorized, either because the device was not worn or because not enough data could be taken to generate a stress score.",Double
+lowStressDurationInSeconds,The portion of the user’s stress duration where the measured stress score was in the low range (26-50).,Double
+mediumStressDurationInSeconds,The portion of the user’s stress duration where the measured stress score was in the medium range (51-75).,Double
+highStressDurationInSeconds,The portion of the user’s stress duration where the measured stress score was in the high range (76-100).,Double

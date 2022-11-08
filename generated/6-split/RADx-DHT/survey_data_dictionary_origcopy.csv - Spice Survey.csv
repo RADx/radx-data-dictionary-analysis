@@ -1,0 +1,216 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Spice Survey,0,mouthwash,"In the last week, how often did you use mouthwash?",true,select one,Not at all;Some days but not all;Once every day;Twice or more every day;Other
+Spice Survey,0,alc_mouthwash,Do you use mouthwash that contains alcohol (ethyl alcohol/ethanol)?,true,select one,Yes;No;Sometimes;I don’t know
+Spice Survey,0,glasses,Do you wear glasses to help with your vision?,true,select one,"Yes, I wear glasses most of the time;Yes, some of the time (such as for reading or driving);No;Other"
+Spice Survey,1,food_last,"The food that I bought just didn’t last, and I didn’t have money to get more.",true,select one,Often true;Sometimes true;Never true
+Spice Survey,1,balance_meals,I couldn’t afford to eat balanced meals.,true,select one,Often true;Sometimes true;Never true
+Spice Survey,1,skip_meals,"In the last 30 days, did you ever have to cut the size of your meals or skip meals because there wasn’t enough money for food?",true,select one,"Yes, on 1 day;Yes, on 2 days;Yes, on 3 or more days;No"
+Spice Survey,1,eat_less,"In the last 30 days, did you ever eat less than you felt you should because there wasn't enough money for food?",true,select one,Yes;No
+Spice Survey,1,hungry," In the last 30 days, were you ever hungry but didn't eat because there wasn't enough money for food?",true,select one,Yes;No
+Spice Survey,2,reg_healthcare,"Since January 1, 2020, have you seen your healthcare provider for a regularly scheduled visit or immunization?",true,select one,Yes;No;Other
+Spice Survey,2,reg_healthcare_concern,Are you avoiding your regular healthcare visits due to concerns about COVID-19?,true,select one,Yes;No;Other
+Spice Survey,2,num_ppl_test_pos,How many people do you personally know who have tested positive for COVID-19 (PCR or antibody)?,true,integer,|people
+Spice Survey,3,small_gatherings,"In the past week, have you attended any small gatherings (<10 people) with people outside your household for more than 15 minutes?",true,select one,Yes;No;Other
+Spice Survey,3,track_spo2,"Do you track your blood oxygen (SpO2) level using a wearable device such as Oura, Fitbit, Garmin, or similar?",true,select one,Yes;No;Other
+Spice Survey,4,large_gatherings,"In the past week, approximately how many people outside your household were at the largest gathering you attended?",true,integer,|people
+Spice Survey,4,height,What is your height in inches?,true,integer,|inches
+Spice Survey,4,weight,What is your weight in pounds?,true,integer,|pounds
+Spice Survey,5,public_transit,"In the past WEEK, how many times have you travelled on public transit (such as by bus, train, or ferry)?",true,integer,|times
+Spice Survey,5,shared_elevator,"In the past WEEK, how many times have you used a shared elevator in your home or place of work?",true,integer,|times
+Spice Survey,6,news_updates,"In the past WEEK, how frequently have you checked the news for updates around COVID-19?",true,select one,Not at all;On 1-2 different days;On 3-4 different days;On 4-6 different days;Every day;More than once a day;Other
+Spice Survey,7,small_gatherings,"In the past week, have you attended any small gatherings (<10 people) with people outside your household for more than 15 minutes?",true,select one,Yes;No;Other
+Spice Survey,7,track_spo2,"Do you track your blood oxygen (SpO2) level using a wearable device such as Oura, Fitbit, Garmin, or similar?",true,select one,Yes;No;Other
+Spice Survey,8,contact_tracing,Would you be willing to participate in a COVID-19 contact tracing app that tracks your location and others with whom you come in contact?,true,select one,Yes;No;Other
+Spice Survey,8,neg_int,"Have you experienced negative interactions, including verbal arguments or physical altercations, as a result of disagreements over social/ physical distancing, facial covering, or hygiene practices?",true,select one,Yes;No;Other
+Spice Survey,8,percent_neg_int,What percentage of those interactions were with strangers?,true,integer,|%
+Spice Survey,9,mail,Do you treat your mail and/or delivered packages differently now than you did before the pandemic? Select all that apply.,true,select any,"Yes, I sanitize these items (with a wipe, alcohol, or other agent);Yes, I deliberately wait for a period of time before touching them;Yes, I use gloves or other physical protective barrier when I open them;Yes, in other ways not described here;No;Other"
+Spice Survey,9,place_worship,"In the past WEEK, have you visited a church, synagogue, mosque, temple, or other place of worship?",true,select one,Yes;No;Other
+Spice Survey,9,times_visit_place_worship,"In the past WEEK, about how many times have you visited a place of worship?",true,integer,| visit(s)
+Spice Survey,10,face_cover_while_driving,Do you wear a face covering while traveling between locations in your own car?,true,select one,Yes;No;Other
+Spice Survey,10,seasonal_allergies,Do you experience seasonal allergies?,true,select one,Yes;No;Other
+Spice Survey,10,when_seasonal_allergies,When during the year do you experience allergies? Select all that apply.,true,select any,Winter;Spring;Summer;Fall/Autumn;Other;I don’t know
+Spice Survey,11,wildfire,"In the past WEEK, have you or your environment been affected by wildfire or the associated smoke?",true,select one,Yes;No;Other
+Spice Survey,11,air_quality,Has your local air quality been noticeably affected by wildfire smoke?,true,select one,Yes;No;Other
+Spice Survey,11,evacuated,Have you evacuated to escape the effects of wildfire?,true,select one,Yes;No;Other
+Spice Survey,11,public_sheltering,"Are you sheltering in a shared public location, such as a stadium or school gymnasium?",true,select one,Yes;No;Other
+Spice Survey,12,school_age_child,Do you have school aged children living with you who have recently started or returned to in-person instruction (physically located at school)?,true,select one,Yes;No;Other
+Spice Survey,12,college_child,Do you have college aged children who have recently started or returned to on-campus instruction?,true,select one,Yes;No;I am a college student;Other
+Spice Survey,12,college_child_home,Is your college aged child (or children) living in your household while attending school on campus?,true,select one,Yes;No;Other
+Spice Survey,12,on_campus_inst,Have you recently started or returned to on-campus instruction?,true,select one,Yes;No;Other
+Spice Survey,12,dorm,Are you currently living in a shared space such as a dormitory or multi-tenant apartment?,true,select one,Yes;No;Other
+Spice Survey,13,other_home,"In the past WEEK, how many times were you inside someone else’s home?",true,integer,|times
+Spice Survey,13,type_mask,Which type of mask do you usually wear outside the home?,true,select any,"Surgical;Valved N95;Fitted N95, no valve;Knitted;Cotton, single or double layer;Gaiter-type neck fleece;Bandana, single or double layer;I don’t know;I don’t wear a mask outside the home;Other"
+Spice Survey,14,plane,"In the past MONTH, have you flown on a commercial airplane?",true,select one,Yes;No;Other
+Spice Survey,15,attend_relig_service,"In the past WEEK, how many times did you attend a church, synagogue, mosque, temple, or other place of worship?",true,integer,|times
+Spice Survey,15,service_outdoors,Is your place of worship required to hold services outdoors?,true,select one,Yes;No;Don’t Know
+Spice Survey,15,service_soc_dist,Do services at your place of worship practice physical/social distancing?,true,select one,Yes;No;Don’t Know
+Spice Survey,15,percent_mask,Approximately what percentage of people at your place of worship wear masks?,true,integer,|%
+Spice Survey,16,flu_shot_last_yr,Did you get a flu shot last year?,true,select one,Yes;No
+Spice Survey,16,flu_shot_last_yr_why_not,Why not? (Check all that apply),true,select any,My risk of getting the flu is too low;Concern regarding adverse effects from the vaccine;Too busy;Difficulty paying for it;Difficulty finding a place to get it;Confidence I wouldn’t get the flu or suffer bad consequences if I did;Fear of needles/ shots;A known allergy;Other reason
+Spice Survey,16,flu_shot_this_yr,Have you already received a flu shot or do you plan on receiving a flu shot this year?,true,select one,Yes;No
+Spice Survey,16,flu_shot_this_yr_why_not,Why not? (Check all that apply),true,select any,My risk of getting the flu is too low;Concern regarding adverse effects from the vaccine;Too busy;Difficulty paying for it;Difficulty finding a place to get it;Confidence I wouldn’t get the flu or suffer bad consequences if I did;Fear of needles/ shots;A known allergy;Other reason
+Spice Survey,16,health_news,Where do you get the majority of your health-related news?,true,select one,Local or national print newspaper;Local TV News;National cable network news;Social Media;Internet search provider’s news
+Spice Survey,16,which_tvnews,Which do you use the most?,true,select one,CNN;MSNBC;Fox News;Other
+Spice Survey,16,which_social_media,Which do you use the most?,true,select one,Facebook;Instagram;Twitter;Reddit;Tumblr;LinkedIn;Snapchat;Other
+Spice Survey,16,which_int_news,Which do you use the most?,true,select one,Google News;YouTube;Bing News;Apple News;Other
+Spice Survey,16,likelihood_try_prod,"Compared to others, I would describe myself as:",true,select one,The last to try a new product;Among the last to try a new product;In the middle when it comes to trying a new product;Among the first to try a new product;The first to try a new product
+Spice Survey,16,covid_vac,Will you get a COVID-19 vaccine after it is approved?,true,select one,Definitely;Very likely;Unsure;Probably not;Definitely not
+Spice Survey,16,when_covid_vac,When would you prefer to get a COVID-19 vaccine?,true,select one,Right after approval (within the first 3 months);Soon after approval (3-6 months after approval);A little bit later (6-12 months after approval);After it has been around for a while (a year or more after approval);I don’t plan on getting the COVID-19 vaccine
+Spice Survey,16,fact_inf_get_vac,What factors would influence you to receive a COVID-19 vaccine? (Check all that apply),true,select any,"Concern for your own health;Concern for health of others/stopping the spread;Desire to return to pre-COVID way of life (e.g. work, school, economy);Confidence that it will work (effectiveness);Convenience/easily available;Workplace requirements;Religious reasons;Political reasons;Trust in your healthcare provider;Information found in the news (television, radio, internet);Information found in social media (Facebook, Twitter)"
+Spice Survey,16,fact_inf_not_get_vac,What factors influence you NOT to receive a COVID-19 vaccine? (Check all that apply),true,select any,"My risk of getting COVID-19 is low;If I did get COVID-19 I wouldn’t suffer bad consequences;Concern that it won’t work;Concern regarding adverse effects from the vaccine;Too busy;Concerns about difficulty paying for it;Concerns about difficulty finding a place to get it;Fear of needles/shots;Religious reasons;Political reasons;Information found in the news (television, radio, internet);Information found in social media (Facebook, Twitter)"
+Spice Survey,16,covid_vac_rec,"Of the groups or persons below, whose recommendation on whether or not to receive a COVID-19 vaccine matters the most to you?",true,select one,"Family and friends;Scientific community (doctors, researchers);Pharmaceutical industry (vaccine manufacturers);Governmental health organizations (e.g. FDA, CDC);The President of the United States"
+Spice Survey,16,covid_vac_need,"On a scale of 1-10 please rate your level of NEED to receive a COVID-19 vaccine (1 = no need, 5 = moderate need, 10 = high need)",true,integer,Integer
+Spice Survey,16,concern_covid_vac,"On a scale of 1-10 please rate your level of CONCERN about receiving a COVID-19 vaccine(1 = no concerns, 10 = high level of concerns)",true,integer,Integer
+Spice Survey,16,covid_vac_beneficial,Receiving a COVID-19 vaccine(s) will be beneficial to me.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,16,covid_vac_safe,COVID-19 vaccines will be safe.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,16,covid_vac_effective,COVID-19 vaccines will be effective.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,16,receipt_covid_vac,Most people who are important to me will receive a COVID-19 vaccine.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,16,expect_covid_vac,People who are important to me expect ME to receive a COVID-19 vaccine.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,16,covid_vac_my_decis,Whether or not I receive a COVID-19 vaccine is completely up to me.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,16,covid_vac_challenge,Receiving a COVID-19 vaccine will be challenging.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,16,covid_vac_logistics,If you were going to receive a COVID-19 vaccine where would you feel comfortable getting it. (Check all that apply),true,select any,"My doctor’s office;A pharmacy;A grocery store (not connected to a pharmacy);A health fair or other public event;At my home, if someone came to administer it to me;At my workplace;At a school;Other"
+Spice Survey,16,covid_vac_logistics_explain,Please explain:,true,string,String
+Spice Survey,17,thanksgiving-yes,Do you celebrate Thanksgiving?,true,select one,Yes
+Spice Survey,17,thanksgiving-no,,,,No
+Spice Survey,17,thanksgiving-na,,,,Thanksgiving is not an observed holiday where I am from.
+Spice Survey,17,thanksgiving-other,,,,Other
+Spice Survey,17,thanksgiving_exp,Please explain.,true,string,String
+Spice Survey,17,travel_yrs_past-car,"In years past, how did you usually travel during the Thanksgiving holiday? Select all that apply.",true,select any,Car
+Spice Survey,17,travel_yrs_past-plane,,,,Plane
+Spice Survey,17,travel_yrs_past-bus,,,,Bus
+Spice Survey,17,travel_yrs_past-train,,,,Train
+Spice Survey,17,travel_yrs_past-none,,,,I don’t usually travel during the Thanksgiving holiday
+Spice Survey,17,travel_yrs_past-other,,,,Other
+Spice Survey,17,thanksgiving_2020-no,How has COVID-19 impacted your Thanksgiving plans in 2020? Select all that apply.,true,select any,I will not celebrate Thanksgiving this year.
+Spice Survey,17,thanksgiving_2020-virtually,,,,I will celebrate Thanksgiving virtually this year.
+Spice Survey,17,thanksgiving_2020-househld,,,,I will celebrate at home by myself or only with those who live in my household.
+Spice Survey,17,thanksgiving_2020-fam,,,,I will celebrate at home and include invited family outside my household
+Spice Survey,17,thanksgiving_2020-guests,,,,I will celebrate at home and include invited guests that are not family members.
+Spice Survey,17,thanksgiving_2020-small,,,,I will celebrate with friends and/or family outside of my household in a smaller group than normal.
+Spice Survey,17,thanksgiving_2020-na,,,,COVID-19 has not impacted my Thanksgiving plans this year
+Spice Survey,17,thanksgiving_2020-other,,,,Other
+Spice Survey,17,thanksgiving_2020_exp,Please explain how COVID-19 has impacted your Thanksgiving plans in 2020.,true,string,String
+Spice Survey,17,num_ppl,How many people outside of your household will you be celebrating with?,true,integer,|people
+Spice Survey,18,flu_shot_last_yr,Did you get a flu shot last year?,true,select one,Yes;No
+Spice Survey,18,flu_shot_last_yr_why_not,Why not? (Check all that apply),true,select any,My risk of getting the flu is too low;Concern regarding adverse effects from the vaccine;Too busy;Difficulty paying for it;Difficulty finding a place to get it;Confidence I wouldn’t get the flu or suffer bad consequences if I did;Fear of needles/ shots;A known allergy;Other reason
+Spice Survey,18,flu_shot_this_yr,Have you already received a flu shot or do you plan on receiving a flu shot this year?,true,select one,Yes;No
+Spice Survey,18,flu_shot_this_yr_why_not,Why not? (Check all that apply),true,select any,My risk of getting the flu is too low;Concern regarding adverse effects from the vaccine;Too busy;Difficulty paying for it;Difficulty finding a place to get it;Confidence I wouldn’t get the flu or suffer bad consequences if I did;Fear of needles/ shots;A known allergy;Other reason
+Spice Survey,18,health_news,Where do you get the majority of your health-related news?,true,select one,Local or national print newspaper;Local TV News;National cable network news;Social Media;Internet search provider’s news
+Spice Survey,18,which_tvnews,Which do you use the most?,true,select one,CNN;MSNBC;Fox News;Other
+Spice Survey,18,which_social_media,Which do you use the most?,true,select one,Facebook;Instagram;Twitter;Reddit;Tumblr;LinkedIn;Snapchat;Other
+Spice Survey,18,which_int_news,Which do you use the most?,true,select one,Google News;YouTube;Bing News;Apple News;Other
+Spice Survey,18,likelihood_try_prod,"Compared to others, I would describe myself as:",true,select one,The last to try a new product;Among the last to try a new product;In the middle when it comes to trying a new product;Among the first to try a new product;The first to try a new product
+Spice Survey,18,covid_vac,Will you get a COVID-19 vaccine after it is approved?,true,select one,Definitely;Very likely;Unsure;Probably not;Definitely not
+Spice Survey,18,when_covid_vac,When would you prefer to get a COVID-19 vaccine?,true,select one,Right after approval (within the first 3 months);Soon after approval (3-6 months after approval);A little bit later (6-12 months after approval);After it has been around for a while (a year or more after approval);I don’t plan on getting the COVID-19 vaccine
+Spice Survey,18,fact_inf_get_vac,What factors would influence you to receive a COVID-19 vaccine? (Check all that apply),true,select any,"Concern for your own health;Concern for health of others/stopping the spread;Desire to return to pre-COVID way of life (e.g. work, school, economy);Confidence that it will work (effectiveness);Convenience/easily available;Workplace requirements;Religious reasons;Political reasons;Trust in your healthcare provider;Information found in the news (television, radio, internet);Information found in social media (Facebook, Twitter)"
+Spice Survey,18,fact_inf_not_get_vac,What factors influence you NOT to receive a COVID-19 vaccine? (Check all that apply),true,select any,"My risk of getting COVID-19 is low;If I did get COVID-19 I wouldn’t suffer bad consequences;Concern that it won’t work;Concern regarding adverse effects from the vaccine;Too busy;Concerns about difficulty paying for it;Concerns about difficulty finding a place to get it;Fear of needles/shots;Religious reasons;Political reasons;Information found in the news (television, radio, internet);Information found in social media (Facebook, Twitter)"
+Spice Survey,18,covid_vac_rec,"Of the groups or persons below, whose recommendation on whether or not to receive a COVID-19 vaccine matters the most to you?",true,select one,"Family and friends;Scientific community (doctors, researchers);Pharmaceutical industry (vaccine manufacturers);Governmental health organizations (e.g. FDA, CDC);The President of the United States"
+Spice Survey,18,covid_vac_need,"On a scale of 1-10 please rate your level of NEED to receive a COVID-19 vaccine (1 = no need, 5 = moderate need, 10 = high need)",true,integer,Integer
+Spice Survey,18,concern_covid_vac,"On a scale of 1-10 please rate your level of CONCERN about receiving a COVID-19 vaccine(1 = no concerns, 10 = high level of concerns)",true,integer,Integer
+Spice Survey,18,covid_vac_beneficial,Receiving a COVID-19 vaccine(s) will be beneficial to me.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,18,covid_vac_safe,COVID-19 vaccines will be safe.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,18,covid_vac_effective,COVID-19 vaccines will be effective.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,18,receipt_covid_vac,Most people who are important to me will receive a COVID-19 vaccine.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,18,expect_covid_vac,People who are important to me expect ME to receive a COVID-19 vaccine.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,18,covid_vac_my_decis,Whether or not I receive a COVID-19 vaccine is completely up to me.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,18,covid_vac_challenge,Receiving a COVID-19 vaccine will be challenging.,true,select one,Strongly Agree;Agree;Undecided;Disagree;Strongly Disagree
+Spice Survey,18,covid_vac_logistics,If you were going to receive a COVID-19 vaccine where would you feel comfortable getting it. (Check all that apply),true,select any,"My doctor’s office;A pharmacy;A grocery store (not connected to a pharmacy);A health fair or other public event;At my home, if someone came to administer it to me;At my workplace;At a school;Other"
+Spice Survey,18,covid_vac_logistics_explain,Please explain:,true,string,String
+Spice Survey,19,alchol_study_interest-yes,Would you be interested in participating in such a study?,true,select one,"Yes, I would be very interested"
+Spice Survey,19,alchol_study_interest-maybe,,,,"Yes, I would probably be interested"
+Spice Survey,19,alchol_study_interest-not_sure,,,,I’m not sure
+Spice Survey,19,alchol_study_interest-not_really,,,,"No, I probably would not be interested"
+Spice Survey,19,alchol_study_interest-no,,,,"No, I definitely would not be interested"
+Spice Survey,20,alchol_study_interest-yes,Would you be interested in participating in such a study?,true,select one,"Yes, I would be very interested"
+Spice Survey,20,alchol_study_interest-maybe,,,,"Yes, I would probably be interested"
+Spice Survey,20,alchol_study_interest-not_sure,,,,I’m not sure
+Spice Survey,20,alchol_study_interest-not_really,,,,"No, I probably would not be interested"
+Spice Survey,20,alchol_study_interest-no,,,,"No, I definitely would not be interested"
+Spice Survey,21,gathering-yes,Did you attend a gathering due to the Thanksgiving holiday?,true,select one,Yes
+Spice Survey,21,gathering-no,,,,No
+Spice Survey,21,gathering-na,,,,Thanksgiving is not an observed holiday where I am from.
+Spice Survey,21,gathering-other,,,,Other
+Spice Survey,21,gathering_exp,Please explain.,true,string,String
+Spice Survey,21,num_ppl,How many people outside of your household attended your Thanksgiving gathering?,true,integer,|people
+Spice Survey,21,precautions-in,Please indicate which of the following were practiced during your Thanksgiving gathering? Select all that apply.,true,select any,The gathering was held indoors.
+Spice Survey,21,precautions-in_w_vent,,,,The gathering was held indoors with increased ventilation.
+Spice Survey,21,precautions-out,,,,The gathering was held outside.
+Spice Survey,21,precautions-dist,,,,Guests practiced social/physical distancing.
+Spice Survey,21,precautions-mask,,,,Guests wore face masks.
+Spice Survey,21,precautions-no_contact,,,,"Guests avoided direct contact, including handshakes and hugs, with others outside of their household."
+Spice Survey,21,precautions-sanitize,,,,Guests practiced increased hand washing/ hand sanitizing.
+Spice Survey,21,precautions-single_use,,,,Increased use of single-use items.
+Spice Survey,21,precautions-own_items,,,,Guests brought food and drinks for themselves and/or for members of their own household.
+Spice Survey,21,precautions-quarantine,,,,Guests avoided contact with people outside of their households for 14 days before the gathering.
+Spice Survey,21,precautions-test,,,,Guests received COVID-19 tests for active or past infection.
+Spice Survey,21,precautions-none,,,,None
+Spice Survey,21,precautions-other,,,,Other
+Spice Survey,21,precautions_exp,Please explain.,true,string,String
+Spice Survey,21,holiday_travel-car,Please indicate which methods of travel you used during the Thanksgiving holiday? Select all that apply.,true,select any,Car
+Spice Survey,21,holiday_travel-plane,,,,Plane
+Spice Survey,21,holiday_travel-bus,,,,Bus
+Spice Survey,21,holiday_travel-train,,,,Train
+Spice Survey,21,holiday_travel-none,,,,I did not travel during the Thanksgiving holiday.
+Spice Survey,21,holiday_travel-other,,,,Other
+Spice Survey,22,plans_change-yes,Did your holiday plans change during the period of December 2020 through January 2021 due to COVID-19?,true,select one,Yes
+Spice Survey,22,plans_change-no,,,,No
+Spice Survey,22,how_plans_change-postponed,How did your holiday plans change? Check all that apply.,true,select any,I postponed or canceled my holiday plans.
+Spice Survey,22,how_plans_change-virtually,,,,I celebrated virtually.
+Spice Survey,22,how_plans_change-househld,,,,I celebrated at home by myself or only with those who live in my household.
+Spice Survey,22,how_plans_change-small,,,,I celebrated with friends and/or family outside of my household in a smaller group than normal.
+Spice Survey,22,how_plans_change-other,,,,Other
+Spice Survey,22,holiday_2020_exp,Please explain how COVID-19 impacted your holiday plans.,true,string,String
+Spice Survey,22,celeb_holiday-yes,Did you celebrate a holiday in December and/or January?,true,select one,Yes
+Spice Survey,22,celeb_holiday-no,,,,No
+Spice Survey,22,gathering-yes,Did you attend a gathering during the holidays?,true,select one,Yes
+Spice Survey,22,gathering-no,,,,No
+Spice Survey,22,gathering-other,,,,Other
+Spice Survey,22,num_ppl,How many people outside of your household did you celebrate with?,true,integer,|people
+Spice Survey,22,travel-yes,Did you travel during the holidays?,true,select one,Yes
+Spice Survey,22,travel-no,,,,No
+Spice Survey,22,type_travel-car,How did you travel during the holidays? Check all that apply.,true,select any,Car
+Spice Survey,22,type_travel-plane,,,,Plane
+Spice Survey,22,type_travel-bus,,,,Bus
+Spice Survey,22,type_travel-train,,,,Train
+Spice Survey,22,type_travel-other,,,,Other
+Spice Survey,22,duration_travel,What was the duration of your travel?,true,select one,1 hour or less;2 - 4 hrs;4 - 6 hrs;More than 6 hrs
+Spice Survey,22,mask_during_travel-yes,Did you wear a mask for the duration of your travel?,true,select one,Yes
+Spice Survey,22,mask_during_travel-no,,,,No
+Spice Survey,22,mask_during_travel-other,,,,Other
+Spice Survey,22,quarantine-yes,Did you quarantine at your destination?,true,select one,Yes
+Spice Survey,22,quarantine-no,,,,No
+Spice Survey,22,quarantine-other,,,,Other
+Spice Survey,22,household-yes,Did a member of your household travel or return home for the holidays after being away temporarily?,true,select one,Yes
+Spice Survey,22,household-no,,,,No
+Spice Survey,22,household-other,,,,Other
+Spice Survey,23,business_leader-yes,"Do you currently have a leadership role in a business that serves customers in-person, such as a store or restaurant (including take-out only)?",true,select one,Yes
+Spice Survey,23,business_leader-no,,,,No
+Spice Survey,23,business_leader-other,,,,Other
+Spice Survey,23,interest_business_study-yes,"We plan to conduct a study among essential businesses and their employees and/or customers to help us find out more about the risks of COVID-19 transmission. Everyone in the study would use the COVID-19 Citizen Science app, and half of businesses would also be assigned to also use a new COVID-19 hot spotting technology called COVIDSEEKER. Do you think your business might be interested in serving as a site for this study?",true,select one,Yes
+Spice Survey,23,interest_business_study-no,,,,No
+Spice Survey,23,interest_business_study-dk,,,,I don't know
+Spice Survey,23,interest_business_study-other,,,,Other
+Spice Survey,23,explain,Please explain (optional):,false,string,String
+Spice Survey,23,contact-yes,"May we contact you by phone, email, or text message about this new study?",true,select one,Yes
+Spice Survey,23,contact-no,,,,No
+Spice Survey,23,contact-other,,,,Other
+Spice Survey,24,quarantine_pod-one,"Are you in a quarantine pod? A """"quarantine pod"""" is defined as a small, self-contained network of people who limit their non-distanced social interaction to one another— in other words, they are the small group of people with whom you share air without using breath-control precautions such as masks.",true,select one,"Yes, I am in a quarantine pod."
+Spice Survey,24,quarantine_pod-two,,,,"Yes, I am in multiple quarantine pods."
+Spice Survey,24,quarantine_pod-no,,,,"No, I am not in a quarantine pod."
+Spice Survey,24,quarantine_pod-other,,,,Other
+Spice Survey,24,quarantine_pod_explain,Please explain:,false,string,String
+Spice Survey,24,num_ppl_in_pod,How many people are in the quarantine pod?,true,integer,|people
+Spice Survey,24,num_pods,How many quarantine pods are you CURRENTLY in?,true,integer,|quarantine pods
+Spice Survey,24,total_num_ppl_pods,How many people are in the LARGEST quarantine pod?,true,integer,|people
+Spice Survey,24,duration_pod,How long has the quarantine pod been in existence?,true,select one,A few days;2 - 3 weeks;1- 3 months;4 - 6 months;6 - 9 months;More than 9 months;Other
+Spice Survey,24,duration_pods,How long have the quarantine pods been in existence? Please provide the AVERAGE duration of the quarantine pods.,true,select one,A few days;2 - 3 weeks;1- 3 months;4 - 6 months;6 - 9 months;More than 9 months;Other
+Spice Survey,24,pod_size-yes,Has the quarantine pod expanded or contracted over time?,true,select one,Yes
+Spice Survey,24,pod_size-no,,,,No
+Spice Survey,24,pod_size-other,,,,Other
+Spice Survey,24,pods_size-yes,Have the quarantine pods expanded or contracted over time?,true,select one,Yes
+Spice Survey,24,pods_size-no,,,,No
+Spice Survey,24,pods_size-other,,,,Other
+Spice Survey,25,wear_mask_outdrs-yes,"Do you wear a mask when you exercise outdoors (walk, run, hike, bike)?",true,select one,Yes
+Spice Survey,25,wear_mask_outdrs-no,,,,No
+Spice Survey,25,wear_mask_outdrs-other,,,,Other
+Spice Survey,26,etoh_mar_10th,"How many drinks of alcohol did you consume yesterday (one drink is a standard glass of wine, a 12 oz beer, or a shot of hard liquor)?",true,integer,|drinks

@@ -1,0 +1,66 @@
+variable_name,description,seeAlso,datatype
+id_participant_external,Participant external identifier,,String
+dt,Evidation based date of record,,Date
+activeDuration,The amount of time spent in activity recording,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+activityName,Name of activity type for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,String
+activityTypeId,Fitbit Native Identifier for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+averageHeartRate,Average heart rate for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+calories,Total estimated calories expended for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+distance,Total distance for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,Double
+distanceUnit,Unit for distance in activity record,https://dev.fitbit.com/build/reference/web-api/activity/,String
+duration,Duration of activity record in milliseconds,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+elevationGain,"if device has altimeter -- it measures changes in barometric pressure, in feet",https://dev.fitbit.com/build/reference/web-api/activity/,Double
+hasActiveZoneMinutes,Boolean to determine if activity record has Active Zone Minutes,https://dev.fitbit.com/build/reference/web-api/activity/,Boolean
+lastModified,Timestamp showcasing last time activity record was modified (if applicable),https://dev.fitbit.com/build/reference/web-api/activity/,String
+logType,"The type of activity log can be determined by the logType property:
+
+'auto_detected' activity logs are those created by Fitbit’s SmartTrack feature.
+
+'fitstar' activity logs are created after completing a FitStar workout.
+
+'manual' activity logs are user specified overrides of some or all tracker data.
+
+'mobile_run' activity logs are created after completing a MobileRun.
+
+tracker activity logs are those created using the multisport exercise mode on a Fitbit device.",https://dev.fitbit.com/build/reference/web-api/activity/,String
+originalDuration,Original Duration of activity record in milliseconds (if applicable),https://dev.fitbit.com/build/reference/web-api/activity/,Long
+originalStartTime,Original start time of activity record (if applicable),https://dev.fitbit.com/build/reference/web-api/activity/,String
+pace,"Measures minutes per km (or miles) depending on participant's perferences ",https://dev.fitbit.com/build/reference/web-api/activity/,Double
+speed,Measurement that is derived from pace when dividing by 60 minutes,https://dev.fitbit.com/build/reference/web-api/activity/,Double
+startTime,Timestamp of start time for actvity recording,https://dev.fitbit.com/build/reference/web-api/activity/,String
+steps,Total steps accumulated for activity recording,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+activeZoneMinutes.minutesInHeartRateZones[array].minuteMultiplier,Credit given for specific Active Zone where participants are given 2x Active Zone Minutes for time spent in your cardio or peak heart rate zone,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+activeZoneMinutes.minutesInHeartRateZones[array].minutes,Total Minutes within specific activity zone in Active Zone Minutes array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+activeZoneMinutes.minutesInHeartRateZones[array].order,"Integer corresponding to Heart Rate Zone category for Active Zone Minutes array: {
+        0: 'OUT_OF_ZONE',
+        1: 'FAT_BURN',
+        2: 'CARDIO',
+        3: 'PEAK',
+}",https://dev.fitbit.com/build/reference/web-api/activity/,Long
+activeZoneMinutes.minutesInHeartRateZones[array].type,"Name corresponding to Heart Rate Zone cateory for Active Zone category: {
+        0: 'OUT_OF_ZONE',
+        1: 'FAT_BURN',
+        2: 'CARDIO',
+        3: 'PEAK',
+}",https://dev.fitbit.com/build/reference/web-api/activity/,String
+activeZoneMinutes.minutesInHeartRateZones[array].zoneName,"Name corresponding to Heart Rate Zone category for Active Zone category (can differ based on participant's system language): {
+        0: 'OUT_OF_ZONE',
+        1: 'FAT_BURN',
+        2: 'CARDIO',
+        3: 'PEAK',
+}",https://dev.fitbit.com/build/reference/web-api/activity/,String
+activeZoneMinutes.totalMinutes,Total Minutes within Heart Rate Zone for Active Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+activityLevel[array].minutes,Total Minutes within specified activity level array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+activityLevel[array].name,"Name of specified activity level in Activity Level Array. Possible values: {'sedentary', 'lightly', 'fairly', 'very'}",https://dev.fitbit.com/build/reference/web-api/activity/,String
+customHeartRateZones[array].max,Maximum Heart Rate Reached within participant's Custom Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+customHeartRateZones[array].min,Minimum Heart Rate Reached within participant's Custom Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+customHeartRateZones[array].minutes,Total minutes within Custom Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+customHeartRateZones[array].name,Name of Custom Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,String
+heartRateZones[array].caloriesOut,Total estimated calories expended within participant's Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,Double
+heartRateZones[array].max,Maximum Heart Rate Reached within participant's Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+heartRateZones[array].min,Minimum Heart Rate Reached within participant's Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+heartRateZones[array].minutes,Total minutes within Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,Long
+heartRateZones[array].name,"Name of Heart Rate Zone array ",https://dev.fitbit.com/build/reference/web-api/activity/,String
+manualValuesSpecified.calories,Boolean signifying if specific data source (calories) was entered manually,https://dev.fitbit.com/build/reference/web-api/activity/,Boolean
+manualValuesSpecified.distance,Boolean signifying if specific data source (distance) was entered manually,https://dev.fitbit.com/build/reference/web-api/activity/,Boolean
+manualValuesSpecified.steps,Boolean signifying if specific data source (steps) was entered manually,https://dev.fitbit.com/build/reference/web-api/activity/,Boolean

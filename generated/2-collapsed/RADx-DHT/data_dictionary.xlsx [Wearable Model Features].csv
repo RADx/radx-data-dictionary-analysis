@@ -1,0 +1,6 @@
+Channel,Variable name,Data type,Human-readable description
+All,id_participant_external,String,Participant external identifier
+All,dt,Date,Evidation based date of record
+Heart,heart_rate__not_moving__max,Double,Maximum daily heart rate during minutes with no activity
+Heart,heart_rate__perc_50th,Double,50th percentile daily heart rate
+Heart,heart_rate__resting_heart_rate,Double,Daily resting heart rate derived from Fitbit source

@@ -1,0 +1,51 @@
+variable_name,section_header,ui,label,value_constraints,field_note,CDE Reference,source_file,source_directory
+protocol_id,PCR metadata,text,Unique protocol id used in data files to refer to PCR metadata,,example: 2019-nCoV_N1,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_type,PCR metadata,category,,LAMP | V2G-qPCR | rt-qPCR | qPCR | ddPCR (please review/edit this list),,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_multipexed,PCR metadata,category,if pcr was multiplexed,Yes | No,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_nucleic_acid_type,PCR metadata,category,type of nucleic acid targeted in the assay,RNA | DNA,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_organism_name,PCR metadata,text,NCBI organism name,,example: SARS-CoV-2,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_organims_taxonomy_id,PCR metadata,integer,NCBI taxonomy id for organism,,example: 2697049,https://www.ncbi.nlm.nih.gov/taxonomy,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_organism_subtype,PCR metadata,text,subtype of organism,,example: H1N1 (for influenza),,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_refseq,PCR metadata,text,GenBank reference sequence id,,example: MN985325.1,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_gisaid_id,PCR metadata,text,GISAID id reference sequence id,,example: EPI_ISL_402124,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_organism_pango_lineage,PCR metadata,text,Pango lineage for SARS-CoV-2 variants,,example: B.1.1.7,https://cov-lineages.org/,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_organism_who_label,PCR metadata,text,WHO label for SARS-CoV-2 variants,,example: Alpha,https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_organism_gisaid_clade,PCR metadata,text,GISAID clade for SARS-CoV-2 variants,,example: GRY,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_gene_name,PCR metadata,text,NCBI or UniProt gene name,,example: S,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_gene_id,PCR metadata,text,unique identifier for the gene,,example: a gene Ensemble ID,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_gene_region,PCR metadata,text,domain or subunit name,,e.g. receptor binding domain,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_target_chromosome,PCR metadata,text,chromosome number,,"e.g. 1-22, X, Y for human",,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+forward_primer_id,PCR metadata,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-F,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+forward_primer_sequence,PCR metadata,sequence,5' to 3' sequence of primer,,example: 5'-GACCCCAAAATCAGCGAAAT-3',,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+forward_primer_strand,PCR metadata,category,primer strand,Positive | Negative,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+forward_primer_genome_start,PCR metadata,integer,starting position (1-based) of the primer in the genome reference sequence,,example: 28287,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+forward_primer_genome_end,PCR metadata,integer,ending position (1-based) of the primer in the reference genome sequence,,example: 28306,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+reverse_primer_id,PCR metadata,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-R,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+reverse_primer_sequence,PCR metadata,sequence,5' to 3' sequence of primer,,example: 5'-TCTGGTTACTGCCAGTTGAATCTG-3',,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+reverse_primer_strand,PCR metadata,category,primer strand,Positive | Negative,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+reverse_primer_genome_start,PCR metadata,integer,starting position (1-based) of the primer in the genome reference sequence,,example: 28335,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+reverse_primer_genome_end,PCR metadata,integer,ending position (1-based) of the primer in the reference genome sequence,,example: 28358,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+primer_source,PCR metadata,text,"supplier name,  instrument for synthesis, or literature reference",,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+primer_lot_number,PCR metadata,text,lot number for primer,,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+primer_source_url,PCR metadata,url,"URL that links to vendors catalog page for this primer or pcr kit, or link to paper",,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_id,PCR metadata,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-P,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_source,PCR metadata,text,"suppler name,  instrument for synthesis, or literature reference",,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_source_url,PCR metadata,url,URL that links to vendors catalog page for this probe or pcr kit,,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_lot_number," PCR metadata",text,lot number for probe,,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_sequence,PCR metadata,sequence,"5' to 3' sequence of probe with modifications separated by ""-""",,example: FAM-5'-ACCCCGCATTACGTTTGGTGGACC-3'-BHQ1,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_genome_start,PCR metadata,integer,starting position (1-based) of the probe in the genome reference sequence,,example: 28309,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_genome_end,PCR metadata,integer,ending position (1-based) of the primer in the reference genome sequence,,example: 28332,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_reporter,PCR metadata,text,name of the 5' fluorescent probe,,example: FAM,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_quencher_internal,PCR metadata,text,name of internal quencher,,example: ZEN,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_quencher,PCR metadata,text,name of 3' quencher,,example: BHQ1,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+probe_minor_groove_binder,PCR metadata,text,name of the 3' minor groove binder,,example: MGB,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_run_id,PCR,text,unique identifier for the PCR run,,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_instrument,PCR,text,maker and model of PCR instrument used for the assay,,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_cycle_threshold,PCR,float,calculated Cq value based on threshold and standards,,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_count,PCR,integer,calculated Count value based on threshold and standards,,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_indication,PCR,category,indication of positive or negative result for target 1,Positive | Negative,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_standard_type,PCR,text,"indication of whether the well acts as a standard. If so, which type.",NTC | Count Standard | Negative (what does NTC mean?),,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+pcr_standard_count,PCR,integer,"if well is a count standard, known count value",,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+assay_date,PCR,date,date of assay performed,,example: 2021-01-01,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+well_id,PCR,text,well location,,example: A1,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad
+notes,PCR,text,notes about this sample or assay,,,,PCR_Data_Element_Template_v000.xlsx [RADxrad_Data_Element_Template_v].csv,RADx-rad

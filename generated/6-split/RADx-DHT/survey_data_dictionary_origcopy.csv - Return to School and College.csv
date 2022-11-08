@@ -1,0 +1,6 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Return to School and College,0,school_age_child,Do you have school aged children living with you who have recently started or returned to in-person instruction (physically located at school)?,true,select one,Yes;No;Other
+Return to School and College,0,college_child,Do you have college aged children who have recently started or returned to on-campus instruction?,true,select one,Yes;No;I am a college student;Other
+Return to School and College,0,college_child_home,Is your college aged child (or children) living in your household while attending school on campus?,true,select one,Yes;No;Other
+Return to School and College,0,on_campus_inst,Have you recently started or returned to on-campus instruction?,true,select one,Yes;No;Other
+Return to School and College,0,dorm,Are you currently living in a shared space such as a dormitory or multi-tenant apartment?,true,select one,Yes;No;Other

@@ -1,0 +1,2 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Spice Survey,26,etoh_mar_10th,"How many drinks of alcohol did you consume yesterday (one drink is a standard glass of wine, a 12 oz beer, or a shot of hard liquor)?",true,integer,|drinks

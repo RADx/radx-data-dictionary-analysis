@@ -1,0 +1,189 @@
+variable_name,datatype,description,Value Set,units,required,Dependent Fields
+Reporter,,,,,,
+reporting_jurisdiction,category,"The CDC Epidemiology and Laboratory Capacity (ELC) jurisdiction, most frequently a state, reporting these data (2-letter abbreviation)","AL, Alabama;
+AK, Alaska;
+AS, American Samoa;
+AZ, Arizona;
+AK, Arkansas;
+CA, California;
+CI, Chicago, IL;
+CO, Colorado;
+MP, Commonwealth of Northern Mariana Islands;
+CT, Connecticut;
+DE, Delaware;
+DC, District of Columbia;
+FM, Federated States of Micronesia;
+FL, Florida;
+GA, Georgia;
+GU, Guam;
+HI, Hawaii;
+HO, Houston, TX;
+ID, Idaho;
+IL, Illinois;
+IN, Indiana;
+IA, Iowa;
+KS, Kansas;
+KY, Kentucky;
+LC, Los Angeles County, CA;
+LA, Louisiana;
+ME, Maine;
+MD, Maryland;
+MA, Massachusetts;
+MI, Michigan;
+MN, Minnesota;
+MS, Mississippi;
+MO, Missouri;
+MT, Montana;
+NE, Nebraska;
+NV, Nevada;
+NH, New Hampshire;
+NJ, New Jersey;
+NM, New Mexico;
+NY, New York;
+NZ, New York City, NY;
+NC, North Carolina;
+ND, North Dakota;
+OH, Ohio;
+OK, Oklahoma;
+OR, Oregon;
+PA, Pennsylvania;
+PH, Philadelphia, PA;
+PR, Puerto Rico;
+MH, Republic of the Marshall Islands;
+PW, Republic of Palau;
+RI, Rhode Island;
+SC, South Carolina;
+SD, South Dakota;
+TN, Tennessee;
+TX, Texas;
+VI, U.S. Virgin Islands;
+UT, Utah;
+VT, Vermont;
+VA, Virginia;
+WA, Washington;
+WV, West Virginia;
+WI, Wisconsin;
+WY, Wyoming",[none],Required,None
+Collection Site,,,,,,
+county_names,list (comma-separated strings),"Names of all counties served by this sampling site (i.e., served by this wastewater treatment plant or, if 'sample_location' is ""upstream"", then by this upstream location); if there are cities/jurisdictions served that are not within a county (e.g., independent cities), list those in 'other_jurisdiction'","[string];
+[empty]",[none],Required,Either 'county_names' or 'other_jurisdiction' must have a non-empty value
+other_jurisdiction,list (comma-separated strings),"Some geographic locations are not contained within a county or counties (e.g., independent cities). Use this field to specify names of jurisdictions that are not within a county that are served by this sampling site (i.e., served by this wastewater treatment plant or, if 'sample_location' is ""upstream"", then by this upstream location); list counties served in 'county_names'","[string];
+[empty]",[none],Required,Either 'county_names' or 'other_jurisdiction' must have a non-empty value
+zipcode,ZIP code (#####),"ZIP code in which this sampling site is located ",[ZIP code],[none],Required,None
+population_served,integer,"Estimated number of persons served by this sampling site (i.e., served by this wastewater treatment plant or, if 'sample_location' is ""upstream"", then by this upstream location)",[greater than or equal to 0],[none],Required,None
+sewage_travel_time,float,"What is the approximate sewage travel time, on average, from sewage source to this sampling site (i.e., this wastewater treatment plant or, if 'sample_location' is ""upstream"", then this upstream location)? This should be specified as a duration in hours, not a time of day.","[greater than or equal to 0];
+[empty]",Hours,Not required,None
+sample_location,category,"Sample collection location in the wastewater system, whether at a wastewater treatment plant (or other community level treatment infrastructure such as community-scale septic) or upstream in the wastewater system","wwtp;
+upstream",[none],Required,"If 'sample_location' is ""upstream"", specify in 'sample_location_specify'"
+sample_location_specify,string,"If 'sample_location' is ""upstream"", specify the collection location in the wastewater system; an arbitrary name may be used if you do not wish to disclose the real name.","[string, length less than or equal to 40 characters];
+[empty]",[none],Required,"If sample_location is ""upstream"", then this must have a non-empty value"
+institution_type,category,"If this sample represents wastewater from a single institution, facility, or building, specify the institution type; otherwise, specify ""not institution specific""",,[none],Required,None
+WWTP,,,,,,
+epaid,NPDES permit number (<2-letter abbreviation><#######>),NPDES permit number for the wastewater treatment plant specified in 'wwtp_name',[NPDES permit number],[none],Not required,None
+wwtp_name,string,"The name of the Wastewater Treatment Plant (WWTP) to which this wastewater flows. If this wastewater does not flow to a WWTP,  specify an identifiable name for the septic or other treatment system to which this wastewater flows. An arbitrary name may be used if you do not wish to disclose the real name.","[string, length less than or equal to 40 characters]",[none],Required,None
+wwtp_jurisdiction,category,"State, DC, US territory, or Freely Associated State jurisdiction name (2-letter abbreviation) in which the wastewater treatment plant provided in 'wwtp_name' is located",,[none],Required,None
+capacity_mgd,float,Wastewater treatment plant design capacity,[greater than or equal to 0],Million gallons per day (MGD),Required,None
+industrial_input,float,Approximate average percentage of wastewater from industrial sources that is received by the wastewater treatment plant specified in 'wwtp_name',"[0-100];
+[empty]",percent,Not required,None
+stormwater_input,category,"Does the wastewater treatment plant specified in 'wwtp_name' treat water from a combined sewer system (i.e., a sewer system that collects both sewage and stormwater)?",,[none],Not required,None
+influent_equilibrated,category,Is influent to the wastewater treatment plant specified in 'wwtp_name' ever stored prior to treatment to equilibrate or modulate the influent flow rate?,,[none],Not required,None
+Collection Method,,,,,,
+sample_type,category,"Type of sample collected, whether grab or composite. If composite, also provide the duration of sampling and type of composite, as listed in the Value Set (e.g., ""24-hr flow-weighted composite""). A grab sample is defined as an individual sample collected without compositing or adding other samples, regardless of whether the sample matrix is liquid wastewater or sludge.",,[none],Required,None
+composite_freq,float,"Frequency of sub-sample collection (for composite samples only): for flow-weighted, the number of sub-samples collected per million gallons of flow; for time-weighted, the number of sub-samples per hour. Flow-weighted example: a value of 5 would indicate 5 sub-samples per million gallons, or 1 sub-sample per 200,000 gallons","[greater than or equal to 0];
+[empty]",If flow-weighted composite: number per million gallons; if time-weighted or manual composite: number per hour,Not required,None
+sample_matrix,category,Wastewater matrix from which the sample was collected,,[none],Required,None
+collection_storage_time,float,Duration of time the sample was stored after collection and prior to reaching the lab,"[greater than or equal to 0];
+[empty]",Hours,Not required,None
+collection_storage_temp,float,Temperature at which the sample was stored after collection and prior to reaching the lab,"[float];
+[empty]",Celsius,Not required,None
+pretreatment,category,"Was the sample treated with any chemicals prior to reaching the lab? These could include chemicals, such as stabilizers, added to the sample or chemicals, such as chlorine, added to the wastewater treatment train upstream of the sample collection point. Pasteurization should be specified in the 'pasteurized' field.",,[none],Not required,"if 'pretreatment' is ""yes"", then specify in 'pretreatment_specify'"
+pretreatment_specify,string,"If 'pretreatment' is ""yes"", then specify the chemicals used","[string];
+[empty]",[none],Not required,"if 'pretreatment' is ""yes"", then specify in 'pretreatment_specify'"
+Processing Method,,,,,,
+solids_separation,category,"Process used to separate solid and liquid phases of the sample, either prior to or in the absence of the concentration method specified in 'concentration_method'",,[none],Not required,None
+concentration_method,category,Method used to concentrate the sample prior to analysis of the concentrate,,[none],Required,None
+extraction_method,category,Method used for nucleic acid extraction from the sample,,[none],Required,None
+pre_conc_storage_time,float,The approximate average duration of time between when samples reach the lab and when they are concentrated (if concentrated),"[greater than or equal to 0];
+[empty]",Hours,Not required,None
+pre_conc_storage_temp,float,The storage temperature of samples after reaching the lab and prior to concentration (if concentrated),"[float];
+[empty]",Celsius,Not required,None
+pre_ext_storage_time,float,The approximate average duration of time between when samples are concentrated (if concentrated) and when they are extracted,"[greater than or equal to 0];
+[empty]",Hours,Not required,None
+pre_ext_storage_temp,float,The storage temperature of samples after concentration (if concentrated) and prior to extraction,"[float];
+[empty]",Celsius,Not required,None
+tot_conc_vol,float,Total volume of sample concentrated (if concentrated); this total volume is not necessarily assayed and is not necessarily equal to the value specified in 'equiv_sewage_amt',"[greater than or equal to 0];
+[empty]",mL,Not required,None
+ext_blank,category,Are extraction blanks included in the extraction process?,,[none],Not required,None
+rec_eff_target_name,category,Name of the recovery efficiency control target that is spiked in,,[none],Required,"If 'rec_eff_percent' is equal to a value other than ""-1"", then this must have a non-empty value"
+rec_eff_spike_matrix,category,Matrix into which the recovery efficiency control target is spiked,,[none],Required,"If 'rec_eff_target_name' has a non-empty value, then this must have a non-empty value"
+rec_eff_spike_conc,float,"Spike concentration, on average, of the recovery control on a per sample volume basis","[float];
+[empty]",log10 copies/mL,Required,"If 'rec_eff_target_name' has a non-empty value, then this must have a non-empty value"
+pasteurized,category,Was the sample pasteurized?,,[none],Not required,None
+SARSCoV2 Quantification Method,,,,,,
+pcr_target,category,The PCR gene target used to quantify SARS-CoV-2,,[none],Required,None
+pcr_target_ref,string,"A publication, website, or brief description of the PCR gene target used",[string],[none],Required,None
+pcr_type,category,The type of PCR used to quantify SARS-CoV-2,,[none],Required,None
+lod_ref,string,"A publication, website, or brief description of the method used to calculate the limit of detection",[string],[none],Required,None
+hum_frac_target_mic,category,Name of microbial target used to estimate human fecal content,,[none],Not required,"If 'hum_frac_mic_conc' has a non-empty value, then this must have a non-empty value"
+hum_frac_target_mic_ref,string,"A publication, website, or brief description of the microbial target specified in 'hum_frac_target_mic'","[string];
+[empty]",[none],Not required,"If 'hum_frac_mic_conc' has a non-empty value, then this must have a non-empty value"
+hum_frac_target_chem,category,Name of chemical compound used to estimate human fecal content,,[none],Not required,"If 'hum_frac_chem_conc' has a non-empty value, then this must have a non-empty value"
+hum_frac_target_chem_ref,string,"A publication, website, or brief description of the chemical compound specified in 'hum_frac_target_chem'","[string];
+[empty]",[none],Not required,"If 'hum_frac_chem_conc' has a non-empty value, then this must have a non-empty value"
+other_norm_name,category,Name of a target or compound not specified in 'hum_frac_target_mic' or 'hum_frac_target_chem' used to estimate human fecal content,,[none],Not required,"If 'other_norm_conc' has a non-empty value, then this must have a non-empty value"
+other_norm_ref,string,"A publication, website, or brief description of the target or compound specified in 'other_norm_name'","[string];
+[empty]",[none],Not required,"If 'other_norm_conc' has a non-empty value, then this must have a non-empty value"
+quant_stan_type,category,The type of nucleic acid used as a standard for SARS-CoV-2 quantification,,[none],Required,None
+stan_ref,string,"A publication, website, or brief description of the quantitative standard material used",[string],[none],Required,None
+inhibition_method,string,"A publication, website, or brief description of the method used to evaluate molecular inhibition","[string];
+none (if inhibition not tested)",[none],Required,None
+num_no_target_control,category,Number of no-template controls (NTC) per instrument run,,[none],Required,None
+Sample,,,,,,
+sample_collect_date,date ([yyyy]-[mm]-[dd]),"The date of sample collection; for composite samples, specify the date on which sample collection began",[date not after tomorrow's date],[none],Required,None
+sample_collect_time,"time, 24-hr ([hh]:[mm])","The local time of sample collection; for composite samples, specify the time at which sample collection began",[time],[none],Required,None
+time_zone,time zone (UTC-[hh]:[mm]),"Current local time zone corresponding to the time specified in 'sample_collect_time', represented as a UTC time offset (e.g., UTC-06:00)",[time zone],[none],Not required,None
+flow_rate,float,"Wastewater volumetric flow rate at the sample collection location over the 24-hr period during which the sample was collected. If only an instantaneous flow measurement is available, it may be reported in units of million gallons per day. ","[greater than or equal to 0];
+[empty]",Million gallons per day (MGD),Required,"If 'sample_matrix' is liquid sampled from flowing source [""raw wastewater"", ""post grit removal"", ""primary effluent"", ""secondary effluent""], then this must have a non-empty value (i.e., sludge samples are permitted empty values for this field); similarly, if 'sars_cov2_units' is on a per volume wastewater basis (e.g., copies/l wastewater), then this must have a non-empty value"
+ph,float,"pH of wastewater sample (if sludge, pH of influent at time of collection)","[float];
+[empty]",pH units,Not required,None
+conductivity,float,"Specific conductivity of wastewater sample (if sludge, conductivity of influent at time of collection)","[greater than or equal to 0];
+[empty]",microsiemens/cm,Not required,None
+tss,float,"Total suspended solids of raw (or, if unavailable, post-grit removal) wastewater ","[greater than or equal to 0];
+[empty]",mg/L,Not required,None
+collection_water_temp,float,Sample temperature at time of collection,"[greater than or equal to 0];
+[empty]",Celsius,Not required,None
+equiv_sewage_amt,float,Equivalent unconcentrated volume of wastewater or mass of sludge in PCR reaction,"[greater than or equal to 0];
+[empty]",mL wastewater or g sludge,Not required,None
+sample_id,"jurisdiction id (a string 20 characters or less, containing only numbers, English alphabetic characters, underscores, and hyphens; white space is not allowed; not case sensitive)",An ID assigned to a wastewater sample. It must be unique for this NWSS reporting jurisdiction. Wastewater samples that are split and measured by different labs should have the same sample ID but different lab IDs. Wastewater samples for which multiple SARS-CoV-2 PCR targets are measured should also have the same sample ID. Note: do not include PII in this field.,[sample id],[none],Required,None
+lab_id,"jurisdiction id (a string 20 characters or less, containing only numbers, English alphabetic characters, underscores, and hyphens; white space is not allowed; not case sensitive)","An ID assigned to a testing lab. It must be unique across labs used for this NWSS reporting jurisdiction's testing. If the same lab is used across multiple NWSS reporting jurisdictions, each NWSS reporting jurisdiction may assign that lab a different lab ID. Note: including PII in this field is discouraged.",[lab id],[none],Required,None
+SARSCoV2 Quantification Results,,,,,,
+test_result_date,date ([yyyy]-[mm]-[dd]),The date on which this SARS-CoV-2 measurement was made,[date not after tomorrow's date and not before 'sample_collect_date'],[none],Required,None
+sars_cov2_units,category,Units of SARS-CoV-2 sample concentration,,[none],Required,None
+sars_cov2_avg_conc,float,"Concentration of SARS-CoV-2 back-calculated to unconcentrated sample basis; enter ""0"" if no amplification occurred, using the definition of amplification described in 'ntc_amplify'; otherwise, enter the estimated concentration; do not adjust for matrix recovery efficiency","[any float other than 0];
+0 (if no amplification observed)",[units specified in 'sars_cov2_units'],Required,None
+sars_cov2_std_error,float,"Standard error (SE) of SARS-CoV-2 in wastewater sample, or best estimate that is consistently available. If sample replicates are always performed, use SE of sample replicates; else, if processing replicates are always performed, use SE of processing replicates; else, if qPCR is performed, use SE of PCR replicates; else, if digital PCR is performed, use error from multiple replicates if available, and Poisson error if not","[greater than or equal to 0];
+-1 (if cannot be calculated, such as when no amplification observed);
+[empty]",[units specified in 'sars_cov2_units'],Required,Either 'sars_cov2_std_error' or ('sars_cov2_cl_95_lo' and 'sars_cov2_cl_95_up') must have a non-empty value
+sars_cov2_cl_95_lo,float,"Lower bound of 95% confidence interval of SARS-CoV-2 in wastewater sample, or best estimate that is consistently available. Follow the same hierarchy as described for standard error. (Note: 'cl' stands for confidence limit)","[any float other than -1];
+-1 (if cannot be calculated, such as when no amplification observed);
+[empty]",[units specified in 'sars_cov2_units'],Required,Either 'sars_cov2_std_error' or ('sars_cov2_cl_95_lo' and 'sars_cov2_cl_95_up') must have a non-empty value
+sars_cov2_cl_95_up,float,"Upper bound of 95% confidence interval of SARS-CoV-2 in wastewater sample, or best estimate that is consistently available. Follow the same hierarchy as described for standard error. (Note: 'cl' stands for confidence limit)","[any float other than -1];
+-1 (if cannot be calculated, such as when no amplification observed);
+[empty]",[units specified in 'sars_cov2_units'],Required,Either 'sars_cov2_std_error' or ('sars_cov2_cl_95_lo' and 'sars_cov2_cl_95_up') must have a non-empty value
+sars_cov2_below_lod,category,Was the concentration of SARS-CoV-2 below the limit of detection?,,[none],Required,None
+lod_sewage,float,SARS-CoV-2 limit of detection back-calculated to unconcentrated sample basis,[float],[units specified in 'sars_cov2_units'],Required,None
+ntc_amplify,category,"For qPCR, did any no-template controls on this instrument run have a Ct value less than 40? For ddPCR, did any no-template controls on this instrument run have 3 or more positive droplets?",,[none],Required,None
+rec_eff_percent,float,"Percent of spiked recovery control, specified in 'rec_eff_target_name', that was recovered","[greater than or equal to 0];
+-1 (if not tested)",percent,Required,None
+inhibition_detect,category,Was molecular inhibition detected?,,[none],Required,None
+inhibition_adjust,category,Was inhibition incorporated into the SARS-CoV-2 concentration calculation?,,[none],Required,"If 'inhibition_detect' is ""yes"", then this must have a non-empty value"
+hum_frac_mic_conc,float,Concentration of microbial target specified in 'hum_frac_target_mic'; follow the same guidelines outline for 'sars_cov2_avg_conc',"[float];
+[empty]",[units specified in 'hum_frac_mic_unit'],Not required,"If 'hum_frac_mic_unit' has a non-empty value, then this must have a non-empty value"
+hum_frac_mic_unit,category,Concentration units of microbial target specified in 'hum_frac_target_mic',,[none],Not required,"If 'hum_frac_mic_conc' has a non-empty value, then this must have a non-empty value"
+hum_frac_chem_conc,float,Concentration of chemical target specified in 'hum_frac_target_chem',"[float];
+[empty]",[units specified in 'hum_frac_chem_unit'],Not required,"If 'hum_frac_chem_unit' has a non-empty value, then this must have a non-empty value"
+hum_frac_chem_unit,category,Concentration units of chemical target  specified in 'hum_frac_target_chem',,[none],Not required,"If 'hum_frac_chem_conc' has a non-empty value, then this must have a non-empty value"
+other_norm_conc,float,Concentration of target spcified in 'other_norm_name',"[float];
+[empty]",[units specified in 'other_norm_conc'],Not required,"If 'other_norm_unit' has a non-empty value, then this must have a non-empty value"
+other_norm_unit,category,Concentration units of target spcified in 'other_norm_name',,[none],Not required,"If 'other_norm_conc' has a non-empty value, then this must have a non-empty value"
+quality_flag,category,"Does this observation have quality control issues? ",,,Not required,None

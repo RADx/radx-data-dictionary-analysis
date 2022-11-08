@@ -1,0 +1,46 @@
+variable_name,description,datatype,units,value_constraints,label,source_file,source_directory
+uid,Personal identifier,string,,,,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+date stamp,Date and Time stamp for the survey response,date,,yyyy-mm-ddThh:mm:ss.sssZ,,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+survey id,Indicates the version of the demographic consent survey offered to the participants.,categorical,,"0Ks4W000003JkezSAC;
+0Ks4W000003Jkf9SAC;
+0Ks4W000003JkkPSAS;
+0Ks4W000003JktiSAC;
+0Ks4W000003JlC0SAK;
+0Ks4W000003JlCESA0;",,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+survey name,"Name of the Demographic Consent Survey offered to participants. ",categorical,,WSSC Consent Survey 0.3,,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+ethnicity,Ethnicity of participant.,categorical,,"Yes, ""Yes, of Hispanic, Latinx or Spanish origin"" ;
+No, ""No, not of Hispanic, Latinx or Spanish origin"" ; 
+NA;"," ""Are you Hispanic, Latinx, or of Spanish origin?""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+transportation,Mode of transportation used to commute to work by participant,categorical,,"Personal vehicle, bike, walk; Carpool; Public Transportation; Varies; NA;Recode_NA","""How do you typically commute to work?""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+race,Race of participant,categorical,,"American Indian or Alaska Native; Asian; Black or African American; Native Hawaiian or Other Pacific Islander; White; Two or more races; Other; Prefer not to answer; NA;
+Recode_NA"," ""What is your race?""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+zip_code,Three digit home zipcode of participant.,categorical,,123**; Recode to 999**,"""What is your home zip code?""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+education,Highest level of Education of participant.,categorical,,Associate's Degree; Bachelor's Degree; High school or equivalent; Master's Degree; Professional degree; Some college; Technical occupational cert; Recode_NA,"""What is your highest level of education?""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+gender,Gender of participant,categorical,,Male; Female; Intersex; None; Recode_NA,"""What is your biological sex""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+weight,Weight of participant,categorical,pounds,100-150; 151-200; 201-250; over250,"""Please provide your weight""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+height,Height of participant,categorical,feet and inches,"4'5""-5'6""; 5'7"" - 6'; over 6'"," ""Please provide your height""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+consent,"Consent to participate in the study. ",categorical,,Agree; Disagree,"""I have read (or been informed of) the information given above and agree to join by clicking on the ""Agree. I do want to participate in the study and provide my anonymous data to the NIH"" bottom below. I have been offered the opportunity to ask questions concerning this process.""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+household_size,Number of people in the household of participant,categorical,,1; 2; 3; 4; 5 or more,"""How many people live in your household, including yourself?""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+age,Age of participant,categorical,years,20-29; 30-39; 40-49; 50-59; 60-79,"""Enter your age below""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+pregnant,Pregnancy status of participant,categorical,,Yes; No; Recode_NA,"""Are you currently pregnant?""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+smoker,"Smoking status of participant. ",categorical,,Yes; No; Recode_NA,"""Are you a smoker?""",NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_none,Indicates that the participant reported not being diagnosed with any of the conditions on the survey.,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_hypertension_htn,Indicates that the participant reported having been diagnosed with Hypertension,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_diabetes,Indicates that the participant reported having been diagnosed with Diabetes,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_asthma,Indicates that the participant reported having been diagnosed with Asthma,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_cardiovascular_disease,Indicates that the participant reported having been diagnosed with Cardiovascular Disease,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_depression,Indicates that the participant reported having been diagnosed with Depression,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_chronic_kidney_disease,Indicates that the participant reported having been diagnosed with Chronic kidney disease,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_cancer,Indicates that the participant reported having been diagnosed with Cancer,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_chronic_lung_disease,Indicates that the participant reported having been diagnosed with Chronic Lung Disease,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT
+diagnosis_immuno_compromised,Indicates that the participant reported having been diagnosed as Immuno - compromised,categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?,NIH_Consent_Demographic_Data_Dictionary_MIT_Sep09_origcopy.xlsx [Sheet1].csv,RADx-DHT

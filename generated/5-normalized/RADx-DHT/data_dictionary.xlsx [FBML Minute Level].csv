@@ -1,0 +1,19 @@
+Channel,variable_name,description,seeAlso,datatype
+All,id_participant_external,Participant external identifier,,string
+All,dt,Evidation based date of record,,date
+All,minute_level_str,Series of minute level step and heart rate counts evenly spaced with 1440 values representing each minute in specified date. Sleep counts are not 1440 but based on the sleep period,https://dev.fitbit.com/build/reference/web-api/activity/#activity-time-series,string
+"",is_all_zeroes,Boolean flag indicating if series is all 0's,,
+All,is_complete_minute_level_str,Boolean flag indicating if series is complete (i.e. equal to 1440),,boolean
+Sleep,num_sleeps,Number of sleeps (main sleep + naps) in a day,https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,nap_count,Total count of naps within sleep record,https://dev.fitbit.com/build/reference/web-api/sleep/,boolean
+Sleep,main_efficiency,Main sleep efficiency score,https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,num_sleeps,Total minutes asleep for given sleep period,https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,nap_count,Number of naps in a day,https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,total_asleep_minutes,"Total minutes asleep in a day (""totalMinutesAsleep"")",https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,total_in_bed_minutes,"Total minutes in bed (""totalTimeInBed"")",https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,main_asleep_minutes,Minutes asleep for only the main sleep,https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,main_in_bed_minutes,Minutes in bed for only the main sleep of the day,https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,main_efficiency,Sleep efficiency score during main sleep: 0-1,https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Sleep,main_start_time,Timestamp when main sleep starts,https://dev.fitbit.com/build/reference/web-api/sleep/,string
+Sleep,main_start_minute,Minute of the day when the main sleep starts,https://dev.fitbit.com/build/reference/web-api/sleep/,long
+Heart,resting_heart_rate,Series of minute level heart rates,https://dev.fitbit.com/build/reference/web-api/heart-rate/,double

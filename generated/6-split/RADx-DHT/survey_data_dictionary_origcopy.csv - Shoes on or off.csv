@@ -1,0 +1,2 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Shoes on or off,0;1,freq_wash_hands,How often do you currently ask people entering your home to remove their shoes?,true,select one,Never;Sometimes;Always

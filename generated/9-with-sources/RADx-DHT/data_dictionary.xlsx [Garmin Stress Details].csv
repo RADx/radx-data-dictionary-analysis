@@ -1,0 +1,11 @@
+variable_name,description,datatype,source_file,source_directory
+id_participant_external,Participant external identifier,string,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+dt,Evidation based date of record,date,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+calendardate,"The calendar date this summary would be displayed on in Garmin Connect. The date format is ‚ ""yyyy-mm-dd""",string,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+durationinseconds,The duration of the measurement period in seconds.,long,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+starttimeinseconds,"Start time of the summary in seconds since January 1, 1970, 00:00:00 UTC (Unix timestamp).",long,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+starttimeoffsetinseconds,"Offset in seconds to add to startTimeInSeconds to derive the ""local"" time of the device that captured the data.",long,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+timeoffsetbodybatteryvalues[map].key,Collection of mappings between offset from start time (in seconds) to a body battery value recorded for that time. Information on and a list of devices that support Body Battery are available here: https://support.garmin.com/ms-MY/?faq=2qczgfbN00AIMJbX33dRq9 .,map,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+timeoffsetbodybatteryvalues[map].value,Collection of mappings between offset from start time (in seconds) to a body battery value recorded for that time. Information on and a list of devices that support Body Battery are available here: https://support.garmin.com/ms-MY/?faq=2qczgfbN00AIMJbX33dRq9 .,map,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+timeoffsetstresslevelvalues[map].key,Collection of mappings between offset from start time (in seconds) to a stress level value recorded for that time.,map,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT
+timeoffsetstresslevelvalues[map].value,Collection of mappings between offset from start time (in seconds) to a stress level value recorded for that time.,map,data_dictionary.xlsx [Garmin Stress Details].csv,RADx-DHT

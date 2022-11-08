@@ -1,0 +1,9 @@
+variable_name,description,datatype,required
+SurveyQuestionResultKey,Unique key for this question result,String,
+SurveyStepResultKey,Unique key for the step result associated with this question.  Link to SurveyStepResults file,String,
+SurveyResultKey,Unique key for the survey result this result is contained in.  Link to SurveyResults file,String,
+ParticipantIdentifier,Identifier of the participant,String,True
+ResultIdentifier,The identifier for the result question. E.G. Symptoms; ContactWithCovid; SwabTestResult,String,
+Answers,The answer(s) the participant provided for the question,String,
+StartDate,Timestamp for when the participant started answering the question in ISO 8601 format,DateTime,
+EndDate,Timestamp for when the participant finished answering the question in ISO 8601 format,DateTime,

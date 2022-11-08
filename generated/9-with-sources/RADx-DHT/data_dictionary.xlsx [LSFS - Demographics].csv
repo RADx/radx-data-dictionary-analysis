@@ -1,0 +1,12 @@
+variable_name,datatype,label,value_constraints,source_file,source_directory
+id_participant_external,string,Participant identifier,,data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__zipcodes,string,,,data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__gender,string,,"['male', 'female', 'other', None, nan]",data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__age,double,,,data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__have_children,double,,"[nan, False, True]",data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__education,string,,"[nan, ""college graduate, associate or bachelor's degree"", 'graduate degree', 'some college, no degree', 'doctorate degree, md', 'high school graduate, diploma or the equivalent (for example, ged)', 'trade/technical/vocational training', 'did not finish high school, no diploma', 'doctorate degree', ""i'd prefer not to answer""]",data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__relationship_status,string,,"[nan, 'single, never married', 'divorced', 'married', 'single, but cohabiting with a significant other', 'separated', 'in a domestic partnership or civil union', 'widowed', ""i'd prefer not to answer""]",data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__weight,double,,,data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__height_inches,double,,,data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__race,string,,"[nan, 'prefer not to answer', 'white / caucasian', 'black or african american', 'american indian or alaskan native', 'asian or pacific islander', 'hispanic or latino']",data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT
+demog__bmi,double,,,data_dictionary.xlsx [LSFS - Demographics].csv,RADx-DHT

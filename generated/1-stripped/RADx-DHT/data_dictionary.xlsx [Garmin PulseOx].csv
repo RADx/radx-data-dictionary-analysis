@@ -1,0 +1,9 @@
+Variable name,Human-readable description [Formal definitions taken from Official Garmin API Documentation),Data Type
+id_participant_external,Participant external identifier,String
+dt,Evidation based date of record,Date
+calendarDate,The calendar date this summary would be displayed on in Garmin Connect. The date format is ‘yyyy-mm-dd’.,string
+startTimeInSeconds,"Start time of the summary in seconds since January 1, 1970, 00:00:00 UTC (Unix timestamp).",float
+startTimeOffsetInSeconds,"Offset in seconds to add to startTimeInSeconds to derive the ""local"" time of the device that captured the data.",integer
+durationInSeconds,The duration of the measurement period in seconds.,integer
+timeOffsetSpo2Values[map].key,Collection of key-value pairs where the key is offset in seconds from the startTimeInSeconds and the value is the SpO2 measurement taken at that time (1 sample/minute),Map
+timeOffsetSpo2Values[map].value,Collection of key-value pairs where the key is offset in seconds from the startTimeInSeconds and the value is the SpO2 measurement taken at that time (1 sample/minute),Map

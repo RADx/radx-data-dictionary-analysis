@@ -1,0 +1,2 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory,Digest (variable_name|source_file|source_directory)
+Flying,0,plane,"In the past MONTH, have you flown on a commercial airplane?",true,select one,Yes;No;Other,survey_data_dictionary_origcopy.csv - Flying.csv,RADx-DHT,53e7ef54e50ca949807785fea8d3c2a4827a757b2e43c62e68f7f63c6f6039e7e0d4207f38ecc4fbab8e2e1906de2c9e9c9a5c4e7e635c7a90084d6f3b1b26ee

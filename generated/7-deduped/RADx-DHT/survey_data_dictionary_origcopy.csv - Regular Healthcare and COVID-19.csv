@@ -1,0 +1,4 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Regular Healthcare and COVID-19,0,reg_healthcare,"Since January 1, 2020, have you seen your healthcare provider for a regularly scheduled visit or immunization?",true,select one,Yes;No;Other
+Regular Healthcare and COVID-19,0,reg_healthcare_concern,Are you avoiding your regular healthcare visits due to concerns about COVID-19?,true,select one,Yes;No;Other
+Regular Healthcare and COVID-19,0,num_ppl_test_pos,How many people do you personally know who have tested positive for COVID-19 (PCR or antibody)?,true,integer,|people

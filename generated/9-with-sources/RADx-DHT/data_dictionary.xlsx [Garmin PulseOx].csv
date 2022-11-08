@@ -1,0 +1,9 @@
+variable_name,description,datatype,source_file,source_directory
+id_participant_external,Participant external identifier,string,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+dt,Evidation based date of record,date,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+calendardate,The calendar date this summary would be displayed on in Garmin Connect. The date format is ‘yyyy-mm-dd’.,string,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+starttimeinseconds,"Start time of the summary in seconds since January 1, 1970, 00:00:00 UTC (Unix timestamp).",float,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+starttimeoffsetinseconds,"Offset in seconds to add to startTimeInSeconds to derive the ""local"" time of the device that captured the data.",integer,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+durationinseconds,The duration of the measurement period in seconds.,integer,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+timeoffsetspo2values[map].key,Collection of key-value pairs where the key is offset in seconds from the startTimeInSeconds and the value is the SpO2 measurement taken at that time (1 sample/minute),map,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT
+timeoffsetspo2values[map].value,Collection of key-value pairs where the key is offset in seconds from the startTimeInSeconds and the value is the SpO2 measurement taken at that time (1 sample/minute),map,data_dictionary.xlsx [Garmin PulseOx].csv,RADx-DHT

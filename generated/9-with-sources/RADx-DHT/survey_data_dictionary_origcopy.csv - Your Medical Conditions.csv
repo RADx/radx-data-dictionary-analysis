@@ -1,0 +1,16 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory
+Your Medical Conditions,4,hbp,High blood pressure or hypertension (except that occurred during pregnancy and did not last after pregnancy)?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,diabetes,Diabetes? Do not include pre-diabetes.,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,blockages_in_your_coronary,Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,heart_attack,A heart attack (myocardial infarction)?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,chf,"Congestive Heart failure (CHF, Heart Failure)?",true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,stroke,Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,afib,"Atrial fibrillation (Afib, AF)?",true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,sleep_apnea,"Sleep apnea (obstructive sleep apnea, OSA)?",true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,copd,"COPD (emphysema, chronic bronchitis, obstructive pulmonary disease)?",true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,asthma,"Asthma, to the point that you use inhalers daily or have been to the hospital for your asthma?",true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,cancer,Cancer (including leukemia or lymphoma) undergoing active treatment?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,immunodeficiency,Immunodeficiency (NOT including HIV)?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,hiv,Chronic HIV infection?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,anemia,Anemia or other blood disorder (do not include leukemia or lymphoma)?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT
+Your Medical Conditions,4,pregnant,Are you currently pregnant?,true,select one,Yes;No;Don't know,survey_data_dictionary_origcopy.csv - Your Medical Conditions.csv,RADx-DHT

@@ -1,0 +1,190 @@
+Variable Name,Description,Prompt,Data Type,Permissible Values
+record_id,Unique Identifier,Record ID,text,
+current_age,Age of participant,5.1 Current Age (years),text,
+gender,Gender of participant,7. Gender,dropdown,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me | 5, Prefer not to answer"
+race,Race of participant,8. Race,dropdown,"1, American Indian/Alaskan Native | 2, Asian | 3, Black/African American | 4, Native Hawaiian/Pacific Islander | 5, White | 6, Other | 7, Unknown | 8, Prefers not to identify"
+ethnicity,Ethnicity of participant,9. Ethnicity,dropdown,"1, Hispanic/Latino | 2, Not Hispanic/Latino | 3, Unknown | 4, Prefers not to identify"
+height,Height of participant,10. Height (inches),text,
+weight,Weight of participant,11. Weight (lbs),text,
+bmi,BMI of participant,"12. BMI
+
+
+",calc,([weight]/([height]*[height]))*703
+education,Education of participant,"What is the highest grade or level of school you have completed or the highest degree you have received? (ENTER HIGHEST LEVEL OF SCHOOL)
+",dropdown,"0, NEVER ATTENDED/KINDERGARTEN Only | 1, 1ST GRADE | 2, 2ND GRADE | 3, 3RD GRADE | 4, 4TH GRADE | 5, 5TH GRADE | 6, 6TH GRADE | 7, 7TH GRADE | 8, 8TH GRADE | 9, 9TH GRADE | 10, 10TH GRADE | 11, 11TH GRADE | 12, 12TH GRADE, NO DIPLOMA | 13, HIGH SCHOOL GRADUATE | 14, GED OR EQUIVALENT | 15, SOME COLLEGE, NO DEGR | 16, ASSOCIATE DEGREE: OCUPATIONAL, TECHNICAL, OR VOCATIONAL PROGRAM | 17, ASSOCIATE DEGREE: ACADEMIC PROGRAM | 18, BACHELOR'S DEGREE (EXAMPLE: BA, AB, BS, BBA) | 19, MASTER'S DEGREE (EXAMPLE: MA, MS, Meng, Med, MBA) | 20, PROFESSIONAL SCHOOL DEGREE (EXAMPLE: MD, DDS, DVM, JD) | 21, DOCTORAL DEGREE (EXAMPLE: PhD, EdD) | 22, REFUSED | 99, DON'T KNOW"
+housing,Housing of participant,What type of housing do you live in?,radio,"1, Detached House | 2, Duplex/Triplex | 3, Row House | 4, Low rise housing (1-3 floors) | 5, High rise housing (>3 floors) | 6, Mobile home/trailer | 7, Boat, RV, Van, etc. | 8, Other | 9, Prefer not to answer | 10, Don't know"
+housing_oth,Other Housing of participant,Specify 'Other' household type,text,
+employ,Employment status of participant,"We would like to know what you do. Are you working now, looking for work, retired, keeping house, a student, or what?",radio,"1, Working now | 2, Only temporarily laid off, sick leave or maternity leave | 3, Looking for work, unemployed | 4, Retired | 5, Disabled, permanently or temporarily | 6, Keeping house | 7, Student | 8, Other | 9, Prefer not to answer/Don't know"
+employ_oth,Other Employment,Specify 'Other' Employment___________,text,
+insurance,Insurance of participant,"Are you currently covered by health insurance or a health coverage plans?
+
+Exclude plans that pay for only one type of Service (such as, nursing home care, accidents, Family planning, or dental care) and plans that only provide extra cash when hospitalized 
+",radio,"1, I do NOT have health insurance | 2, I HAVE PRIVATE health insurance (purchased directly or through Employment) | 3, I have PUBLIC health insurance (Medicare, Medicaid, Tricare)"
+lung_dis,Do you currently have any of the following  conditions? - Chronic lung disease,Chronic Lung Disease,radio,"1, Yes | 2, No"
+depression,Do you currently have any of the following  conditions? Depression,Depression,radio,"1, Yes | 2, No"
+alc_subs,Do you currently have any of the following  conditions? -Alcohol or substance use disorder,Alcohol or substance use disorder,radio,"1, Yes | 2, No"
+mentalhealth,Do you currently have any of the following  conditions? - Other mental health disorder,Other mental health disorder,radio,"1, Yes | 2, No"
+ivd_use,Do you currently have any of the following  conditions? - Intravenous Drug Use,Intravenous Drug Use,radio,"1, Yes | 2, No"
+chronic_oth,Do you currently have any of the following  conditions? -Other chronic condition,Other chronic condition,radio,"1, Yes | 2, No"
+oth_chronic_sp,Do you currently have any of the following  conditions? - Specify 'Other Chronic Condition,Specify 'Other Chronic Condition' ________,text,
+preg,Current Pregnancy,"Are you Currently Pregnant? 	",radio,"1, Pregnant | 2, Not Pregnant | 3, Don't know | 4, Refused/Prefer not to answer"
+alc,Alcohol use,"How often do you have a drink containing alcohol? ",radio,"1, Never | 2, Monthly or less 2-4 times a month | 3, 2-3 times a week | 4, 4 or more times a week"
+smoke,Smoke cigarettes,"Do you now smoke cigarettes?
+
+",radio,"1, Every day | 2, Some days | 3, Not at all | 4, DON'T KNOW | 5, REFUSED"
+n_cig,Smoking per day,"If you smoke every day, on average, how many cigarettes per day do you smoke? ",text,
+e_cig,e cigarette use,"Do you now use electronic cigarettes every day, some days, rarely, or not at all? ",radio,"1, Every day | 2, Some days | 3, Rarely | 4, Not at all"
+fever,Are you currently experiencing any of the following symptoms in the past 24 hours? -Fever or chills,Fever or chills,radio,"1, Yes | 2, No | 3, Don't know"
+cough,Are you currently experiencing any of the following symptoms in the past 24 hours? -Cough,Cough,radio,"1, Yes | 2, No | 3, Don't know"
+short_breath,"Are you currently experiencing any of the following symptoms in the past 24 hours? -Shortness of breath, difficulty breathing or chest discomfort","Shortness of breath, difficulty breathing or chest discomfort",radio,"1, Yes | 2, No | 3, Don't know"
+fatigue,Are you currently experiencing any of the following symptoms in the past 24 hours?-Fatigue,Fatigue,radio,"1, Yes | 2, No | 3, Don't know"
+muscleache,Are you currently experiencing any of the following symptoms in the past 24 hours?-Muscle or body aches,Muscle or body aches,radio,"1, Yes | 2, No | 3, Don't know"
+headache,Are you currently experiencing any of the following symptoms in the past 24 hours? - Headaches,Headache,radio,"1, Yes | 2, No | 3, Don't know"
+loss_taste,Are you currently experiencing any of the following symptoms in the past 24 hours? - New loss of taste or smell,New loss of taste or smell,radio,"1, Yes | 2, No | 3, Don't know"
+gisympt,"Are you currently experiencing any of the following symptoms in the past 24 hours?- Feeling sick to your stomach, vomiting, diarrhea","Feeling sick to your stomach, vomiting, diarrhea",radio,"1, Yes | 2, No | 3, Don't know"
+sorethroat,"Are you currently experiencing any of the following symptoms in the past 24 hours? - Congestion, sore throat, runny nose","Congestion, sore throat, runny nose",radio,"1, Yes | 2, No | 3, Don't know"
+abd_pain,Are you currently experiencing any of the following symptoms in the past 24 hours? - Abdminal pain,Abdominal Pain,radio,"1, Yes | 2, No | 3, Don't know"
+rash,Are you currently experiencing any of the following symptoms in the past 24 hours? - Rash,Rash,radio,"1, Yes | 2, No | 3, Don't know"
+oth,Are you currently experiencing any of the following symptoms in the past 24 hours? - Other,Other,radio,"1, Yes | 2, No | 3, Don't know"
+sympt_oth,Other symptom details,Specify 'Other' Symptoms _______,text,
+health,self rated health status,"Would you say your health in general is excellent, very good, good, fair, or poor?",radio,"1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor | 7, Refused | 9, Don't know"
+disability,disability that interferes with daily activity,"Do you have a disability that interferes with your ability to carry out daily activities? Examples of daily activities include walking, climbing stairs, shopping, balancing a checkbook, bathing or dressing.",radio,"1, Yes | 2, No | 3, prefer not to answer"
+high_risk_cond_v2,Medical History,"Indicate the subject's medical history by checking all appropriate boxes. ",checkbox,"1, Cancer | 2, Chronic kidney disease | 3, Chronic obstructive pulmonary disease | 4, Immunocompromised state from solid organ transplant | 5, Immunocompromised state from blood of bone marrow transplant, immune deficencies, HIV, corticosteroid use, or other immune weakening medications | 6, BMI >30 | 7, Serious heart conditions (i.e., heart failure, CAD, cardiomyopathies) | 8, Sickle cell disease | 9, Type 2 diabetes | 10, Type 1 diabetes | 11, Asthma (moderate-to-severe) | 12, Cerebrovascular disease | 13, Cystic Fibrosis | 14, Hypertension | 15, Neurologic conditions (i.e., dementia) | 16, Liver disease | 17, Pregnancy | 18, Pulmonary disease | 19, History of smoking | 20, Thalassemia"
+risk_cond_other,Other Medical History,Specify any other medical conditions not listed above.,text,
+covid_test_type_v2,Type of COVID test used initially,14. Type of initial testing method,dropdown,"1, rtPCR | 2, POCT | 3, Saliva"
+souce_pt,Enrollment site,Source of Patient enrollment?,radio,"1, UI Health | 2, RUSH | 3, UTHouston | 4, Utah | 5, NW"
+enrolled,UI Health site,"If patient from UI Health, where was the patient enrolled from?",radio,"1, UIH | 2, ED | 3, UI Outpatient Clinic (Miles Square, Pilsen, and all other UI clinics) | 4, Other"
+other_site_type,Outside UI Health site,"If patient is from a site outside of UI Health, please specify where the patient was enrolled from - ",radio,"1, ED | 2, Inpatient | 3, Outpatient | 4, Other"
+covid_difficulty,Impact of COVID on activities,"Are there activities that you could previously do without difficulty that you are unable to do now because of your COVID symptoms? (like being out of breath, tired, dizzy, etc.)",radio,"1, Yes | 2, No"
+consent_yn,Patient withdrawing from study,Does the patient want to withdraw from the study?,yesno,
+not_appl,"If the patient is Screen Failure then mark 'NA' ",Not applicable,checkbox,"1, NA"
+monitor_dt_tm,Monitoring start data and time,"10.2 Please confirm the date and time at which monitoring began
+
+
+{na_monitor}",text,
+na_monitor,"If the patient is Screen Failure then mark the date of study participation start as 'NA' ",Not Applicable,checkbox,"1, NA"
+monitor_term_antic_dt,Anticipated Study end date,10.2.1 Anticipated date to end study participation,text,
+comp_day7,Day 7 compliance call outcomes,Outcome of Day7 Call:,checkbox,"1, LVM | 2, Need extra patches | 3, patient withdrew/LTFU before call"
+comp_patches,Day 7 Number of patches needed,"If 'Needs extra patches' is checked then, how many?",text,
+day7_reported,Day 7 compliance call concerns,"Day 7 - Patient reported (check all that apply)- ",checkbox,"1, CE reported | 2, AE reported | 3, Other | 4, No issues"
+day7_oth,Day 7 Other concerns,If patient reported 'Other' then explain,text,
+comp_day18,Day 18 compliance call outcomes,Outcome of Day18 Call:,checkbox,"1, LVM | 2, Need extra patches | 3, patient withdrew/LTFU before call"
+compd18_patches,Day 18 Number of patches needed,"If 'Needs extra patches' is checked then, how many?",text,
+day18_reported,Day 18 compliance call concerns,"On day 18, patient reported (check all that apply)- ",checkbox,"1, CE reported | 2, AE reported | 3, Other | 4, No issues"
+day7_oth_2,Day 18 Other concerns,If patient reported 'Other' then explain,text,
+termination_dt_tm,Participation end data and time,2. Date and time study participation ended,text,
+reason_monitoring,Reasons for study participation ending,What was the reason for study participation to end?,radio,"0, Screen Failure | 1, Lost to follow up | 2, Withdrew consent | 3, Completed 26-35 days of monitoring"
+lfu_actions,Actions taken when lost to follow up,"If lost to follow up, what actions were taken to follow up with the subject? (be specific and add dates)",notes,
+consent_rsn,Withdrawal reasons,"10.3 If withdrawing consent or not completed monitoring, then why?",checkbox,"1, Privacy concerns | 2, Not interested in remote monitoring | 3, Uncomfortable with device | 4, Did not like the device | 5, Felt well | 6, Medical indication | 7, Patch rash | 8, Ran out of patches | 9, Feeling Better | 10, Did not like device | 11, Unable to complete study expectations | 12, Technology issues | 13, Uncomfortable with technology | 14, No longer interested in study | 99, Other"
+other_reason,Other Withdrawal reasons,"If 'Other', specify here - ",notes,
+consent_dt,Date consent withdrawn,"If consent withdrawn, enter date",text,
+termination_length,Duration of enrollment,2.1 Length of remote enrollment (days),calc,"roundup(datediff([monitor_dt_tm], [termination_dt_tm], ""d"", ""mdy""),0)"
+termination_early,Reasons for not completing monitoring,"Based on the monitoring end date entered, if the length of monitoring was < 26 days, please indicate why the patient did not complete the full monitoring time period",dropdown,"1, Did not like the device | 2, Felt well | 3, Medical indication | 99, Other"
+termination_early_notes,Detailed reasons for not completing monitoring,2.2.1 Please briefly expand on the reason monitoring was ended early,notes,
+termination_survey_dt,When were survey questions asked,3. Date asked patient survey questions,text,
+outcome,health outcomes during monitoring,Did you have any of the following significant health outcomes during their remote monitoring:,checkbox,"1, ED visit | 2, Hospitalization | 3, Urgent Care | 4, PCP visit | 5, Death | 6, Other"
+covid_recovery,Has the participant recovered,Are you recovered from your illness now?,radio,"1, Yes - completely | 2, No - better but still have some problems | 3, No - still quite sick"
+covid_return,return to previous living situation,"If you were hospitalized, did you return to your home or previous living situation?",radio,"1, Yes | 2, No | 3, N/A"
+covid_rec_prob,lingering symptoms,Do you still have some problems or symptoms related to your COVID-19 infection?,radio,"1, Yes | 2, No"
+covid_rec_sympt,symptoms/problems that are still present,"What problems or symptoms do you notice that still trouble you after your illness? ",checkbox,"1, Need supplemental oxygen | 2, More short of breath than before the illness | 3, Tired (more than before illness) | 4, Muscle weakness | 5, Cough | 6, Chest pain | 7, Difficulty walking distances as well as before the illness | 8, Mental confusion | 9, None | 10, Other"
+other_rec_smpt,other symptoms that are still present,"What other symptoms do you have that still trouble you after your illness? ",text,
+event,"clinical_event_1 occurred (Complete clinical_event_1 details, if the patient seeks medical care OR if the APP refers the subject for medical care. Place an event marker in pinpoint IQ (Event ED, Event Hosp, Event Obs))",Did a clinical event occur?,radio,"1, Yes | 0, No"
+loc_death,"clinical_event_1 - if death reported, location of death?",Location of death,text,
+cause_mortality,"clinical_event_1 - if death reported, cause of death?",Cause of death,text,
+sympt_types,clinical_event_1 - description of symptoms,Description of Symptoms-,notes,
+reason_care,clinical_event_1 - reason for seeking care,Reason for seeking care-,notes,
+event_trt,clinical_event_1 - treatment received,What treatment did they receive?,text,
+event_v2_008615,"clinical_event_2 occurred (Complete clinical_event_2 details (second reported event), if the patient seeks medical care OR if the APP refers the subject for medical care. Place an event marker in pinpoint IQ (Event ED, Event Hosp, Event Obs))",Did a clinical event occur?,radio,"1, Yes | 0, No"
+loc_death_v2_106a05,"clinical_event_2 - if death reported, location of death?",Location of death,text,
+cause_mortality_v2_7bb62a,"clinical_event_2 - if death reported, cause of death?",Cause of death,text,
+sympt_types_v2_18fc4a,clinical_event_2 - description of symptoms,Description of Symptoms-,notes,
+reason_care_v2_6411a7,clinical_event_2 - reason for seeking care,Reason for seeking care-,notes,
+event_trt_v2_082487,clinical_event_2 - treatment received,What treatment did they receive?,text,
+event_v2_008615_v2,"clinical_event_3 occurred (Complete clinical_event_3 details (third reported event), if the patient seeks medical care OR if the APP refers the subject for medical care. Place an event marker in pinpoint IQ (Event ED, Event Hosp, Event Obs))",Did a clinical event occur?,radio,"1, Yes | 0, No"
+loc_death_v2_106a05_v2,"clinical_event_3 - if death reported, location of death?",Location of death,text,
+cause_mortality_v2_7bb62a_v2,"clinical_event_3 - if death reported, cause of death?",Cause of death,text,
+sympt_types_v2_18fc4a_v2,clinical_event_3 - description of symptoms,Description of Symptoms-,notes,
+reason_care_v2_6411a7_v2,clinical_event_3 - reason for seeking care,Reason for seeking care-,notes,
+event_trt_v2_082487_v2,clinical_event_3 - treatment received,What treatment did they receive?,text,
+event_v4,"clinical_event_4 occurred (Complete clinical_event_4 details (fourth reported event), if the patient seeks medical care OR if the APP refers the subject for medical care. Place an event marker in pinpoint IQ (Event ED, Event Hosp, Event Obs))",Did a clinical event occur?,radio,"1, Yes | 0, No"
+loc_death_v4,"clinical_event_4 - if death reported, location of death?",Location of death,text,
+cause_mortality_v4,"clinical_event_4 - if death reported, cause of death?",Cause of death,text,
+sympt_types_v4,clinical_event_4 - description of symptoms,Description of Symptoms-,notes,
+reason_care_v4,clinical_event_4 - reason for seeking care,Reason for seeking care-,notes,
+event_trt_v4,clinical_event_4 - treatment received,What treatment did they receive?,text,
+event_v5,"clinical_event_5 occurred (Complete clinical_event_5 details (fifth reported event), if the patient seeks medical care OR if the APP refers the subject for medical care. Place an event marker in pinpoint IQ (Event ED, Event Hosp, Event Obs))",Did a clinical event occur?,radio,"1, Yes | 0, No"
+loc_death_v5,"clinical_event_5 - if death reported, location of death?",Location of death,text,
+cause_mortality_v5,"clinical_event_5 - if death reported, cause of death?",Cause of death,text,
+sympt_types_v5,clinical_event_5 - description of symptoms,Description of Symptoms-,notes,
+reason_care_v5,clinical_event_5 - reason for seeking care,Reason for seeking care-,notes,
+event_trt_v5,clinical_event_5 - treatment received,What treatment did they receive?,text,
+ongoing,clinical_event_1 - Observation/Hospitalization ongoing,Ongoing,radio,"1, Ongoing"
+review_date,clinical_event_1 - reviewer(1) date,Date of Review(1),text,
+review_eventcovid,clinical_event_1 - reviewer(1) opinion,"In the opinion of reviewer(1), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore,clinical_event_1 - reviewer(1) who score,Reviewer(1) Score on WHO Scale ______,text,
+review_date_2,clinical_event_1 - reviewer(2) date,Date of Review(2),text,
+review_eventcovid_2,clinical_event_1 - reviewer(2) opinion,"In the opinion of reviewer(2), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_2,clinical_event_1 - reviewer(2) who score,Reviewer(2) Score on WHO Scale ______,text,
+event_reviewagree,clinical_event_1 - reviewer(1) and (2) agree,Do both investigators agree regarding the event category?,radio,"1, Yes | 2, No"
+review_date_3,clinical_event_1 - reviewer(3) date,Date of Review(3),text,
+review_eventcovid_3,clinical_event_1 - reviewer(3) opinion,"In the opinion of reviewer(3), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_3,clinical_event_1 - reviewer(3) who score,Reviewer(3) Score on WHO Scale ______,text,
+final_determination,clinical_event_1 - final determination,"Final Determination - This event is ",radio,"1, NOT a COVID19 event | 2, a COVID19 event"
+final_whoscore,clinical_event_1 - final who score,Final Determination - Score on WHO Scale ____________,text,
+narrative_event1,clinical_event_1 - narrative,Narrative,notes,
+ongoing_v2,clinical_event_2 - Observation/Hospitalization ongoing,Ongoing,radio,"1, Ongoing"
+review_date_v2,clinical_event_2 - reviewer(1) date,Date of Review(1),text,
+review_eventcovid_v2,clinical_event_2 - reviewer(1) opinion,"In the opinion of reviewer(1), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_v2,clinical_event_2 - reviewer(1) who score,Reviewer(1) Score on WHO Scale ______,text,
+review_date_2_v2,clinical_event_2 - reviewer(2) date,Date of Review(2),text,
+review_eventcovid_2_v2,clinical_event_2 - reviewer(2) opinion,"In the opinion of reviewer(2), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_2_v2,clinical_event_2 - reviewer(2) who score,Reviewer(2) Score on WHO Scale ______,text,
+event_reviewagree_v2,clinical_event_2 - reviewer(1) and (2) agree,Do both investigators agree regarding the event category?,radio,"1, Yes | 2, No"
+review_date_3_v2,clinical_event_2 - reviewer(3) date,Date of Review(3),text,
+review_eventcovid_3_v2,clinical_event_2 - reviewer(3) opinion,"In the opinion of reviewer(3), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_3_v2,clinical_event_2 - reviewer(3) who score,Reviewer(3) Score on WHO Scale ______,text,
+final_determination_v2,clinical_event_2 - final determination,"Final Determination - This event is ",radio,"1, NOT a COVID19 event | 2, a COVID19 event"
+final_whoscore_v2,clinical_event_2 - final who score,Final Determination - Score on WHO Scale ____________,text,
+narrative_event2,clinical_event_2 - narrative,Narrative,notes,
+ongoing_v2_v3,clinical_event_3 - Observation/Hospitalization ongoing,Ongoing,radio,"1, Ongoing"
+review_date_v2_v3,clinical_event_3 - reviewer(1) date,Date of Review(1),text,
+review_eventcovid_v2_v3,clinical_event_3 - reviewer(1) opinion,"In the opinion of reviewer(1), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_v2_v3,clinical_event_3 - reviewer(1) who score,Reviewer(1) Score on WHO Scale ______,text,
+review_date_2_v2_v3,clinical_event_3 - reviewer(2) date,Date of Review(2),text,
+review_eventcovid_2_v2_v3,clinical_event_3 - reviewer(2) opinion,"In the opinion of reviewer(2), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_2_v2_v3,clinical_event_3 - reviewer(2) who score,Reviewer(2) Score on WHO Scale ______,text,
+event_reviewagree_v2_v3,clinical_event_3 - reviewer(1) and (2) agree,Do both investigators agree regarding the event category?,radio,"1, Yes | 2, No"
+review_date_3_v2_v3,clinical_event_3 - reviewer(3) date,Date of Review(3),text,
+review_eventcovid_3_v2_v3,clinical_event_3 - reviewer(3) opinion,"In the opinion of reviewer(3), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_3_v2_v3,clinical_event_3 - reviewer(3) who score,Reviewer(3) Score on WHO Scale ______,text,
+final_determination_v2_v3,clinical_event_3 - final determination,"Final Determination - This event is ",radio,"1, NOT a COVID19 event | 2, a COVID19 event"
+final_whoscore_v2_v3,clinical_event_3 - final who score,Final Determination - Score on WHO Scale ____________,text,
+narrative_event3,clinical_event_3 - narrative,Narrative,notes,
+ongoing_v4,clinical_event_4 - Observation/Hospitalization ongoing,Ongoing,radio,"1, Ongoing"
+review_date_v4,clinical_event_4 - reviewer(1) date,Date of Review(1),text,
+review_eventcovid_v4,clinical_event_4 - reviewer(1) opinion,"In the opinion of reviewer(1), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_v4,clinical_event_4 - reviewer(1) who score,Reviewer(1) Score on WHO Scale ______,text,
+review_date_2_v4,clinical_event_4 - reviewer(2) date,Date of Review(2),text,
+review_eventcovid_2_v4,clinical_event_4 - reviewer(2) opinion,"In the opinion of reviewer(2), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_2_v4,clinical_event_4 - reviewer(2) who score,Reviewer(2) Score on WHO Scale ______,text,
+event_reviewagree_v4,clinical_event_4 - reviewer(1) and (2) agree,Do both investigators agree regarding the event category?,radio,"1, Yes | 2, No"
+review_date_3_v4,clinical_event_4 - reviewer(3) date,Date of Review(3),text,
+review_eventcovid_3_v4,clinical_event_4 - reviewer(3) opinion,"In the opinion of reviewer(3), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_3_v4,clinical_event_4 - reviewer(3) who score,Reviewer(3) Score on WHO Scale ______,text,
+final_determination_v4,clinical_event_4 - final determination,"Final Determination - This event is ",radio,"1, NOT a COVID19 event | 2, a COVID19 event"
+final_whoscore_v4,clinical_event_4 - final who score,Final Determination - Score on WHO Scale ____________,text,
+narrative_event1_v4,clinical_event_4 - narrative,Narrative,notes,
+ongoing_v5,clinical_event_5 - Observation/Hospitalization ongoing,Ongoing,radio,"1, Ongoing"
+review_date_v5,clinical_event_5 - reviewer(1) date,Date of Review(1),text,
+review_eventcovid_v5,clinical_event_5 - reviewer(1) opinion,"In the opinion of reviewer(1), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_v5,clinical_event_5 - reviewer(1) who score,Reviewer(1) Score on WHO Scale ______,text,
+review_date_2_v5,clinical_event_5 - reviewer(2) date,Date of Review(2),text,
+review_eventcovid_2_v5,clinical_event_5 - reviewer(2) opinion,"In the opinion of reviewer(2), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_2_v5,clinical_event_5 - reviewer(2) who score,Reviewer(2) Score on WHO Scale ______,text,
+event_reviewagree_v5,clinical_event_5 - reviewer(1) and (2) agree,Do both investigators agree regarding the event category?,radio,"1, Yes | 2, No"
+review_date_3_v5,clinical_event_5 - reviewer(3) date,Date of Review(3),text,
+review_eventcovid_3_v5,clinical_event_5 - reviewer(3) opinion,"In the opinion of reviewer(3), this event is-",radio,"1, NOT considered a COVID19 event | 2, considered a COVID19 event"
+whoscore_3_v5,clinical_event_5 - reviewer(3) who score,Reviewer(3) Score on WHO Scale ______,text,
+final_determination_v5,clinical_event_5 - final determination,"Final Determination - This event is ",radio,"1, NOT a COVID19 event | 2, a COVID19 event"
+final_whoscore_v5,clinical_event_5 - final who score,Final Determination - Score on WHO Scale ____________,text,
+narrative_event1_v5,clinical_event_5 - narrative,Narrative,notes,

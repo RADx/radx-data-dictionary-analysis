@@ -1,0 +1,22 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Anxiety Survey,0,nervous,"Feeling nervous, anxious, or on edge.",true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,0,worry,Not being able to stop or control worrying.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,0,worry2,Worrying too much about different things.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,0,relax,Trouble relaxing.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,0,restless,Being so restless that it is hard to sit still.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,0,annoyed,Becoming easily annoyed or irritable.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,0,afraid,Feeling afraid as if something awful might happen.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,1,nervous,"Feeling nervous, anxious, or on edge.",true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,1,worry,Not being able to stop or control worrying.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,1,worry2,Worrying too much about different things.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,1,relax,Trouble relaxing.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,1,restless,Being so restless that it is hard to sit still.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,1,annoyed,Becoming easily annoyed or irritable.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,1,afraid,Feeling afraid as if something awful might happen.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,2,nervous,"Feeling nervous, anxious, or on edge.",true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,2,worry,Not being able to stop or control worrying.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,2,worry2,Worrying too much about different things.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,2,relax,Trouble relaxing.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,2,restless,Being so restless that it is hard to sit still.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,2,annoyed,Becoming easily annoyed or irritable.,true,select one,Not at all;Several days;More than half the days;Nearly every day
+Anxiety Survey,2,afraid,Feeling afraid as if something awful might happen.,true,select one,Not at all;Several days;More than half the days;Nearly every day

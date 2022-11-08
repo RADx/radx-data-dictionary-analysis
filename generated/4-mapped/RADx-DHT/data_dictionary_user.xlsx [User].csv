@@ -1,0 +1,8 @@
+variable_name,description,datatype,value_constraints,units
+uID,Opaque id assigned by the mobile app at time of onboarding,string,32 bytes ASCII ; UUID4 format,
+user-hash,An opaque hash of the user data to allow detection of duplicate data,string,32 bytes ASCII,
+Id-type,The identity document type selected by user,string,"Enumerated ; [“dl”, “passport”, “id”]",
+gender,Gender noted on the id document,string,"Enumerated ; [“m”,”f”]",
+state,State in which registration is occurring,string,,
+municipality,Local municipality in which registration is occurring,string,,
+age,Computed from MRZ Scan of Date of Birth on ID Document during registration,Integer,Range 1 - 120,years

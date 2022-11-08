@@ -1,0 +1,64 @@
+survey_name,survey_version,variable_name,label,required,datatype,value_constraints
+Your Smoking History,0,cigarette_ever,"Have you ever smoked a cigarette, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,0,cigarette_past30days,Have you smoked cigarettes in the past 30 days?,true,select one,Yes;No;Refuse to answer
+Your Smoking History,0,smoke_howmanydays,About how many days have you smoked a cigarette in the past 30 days?,true,integer,Integer
+Your Smoking History,0,cig_day,"On average, how many cigarettes per day have you smoked in the past 30 days (use 1 if less than one)",false,float,
+Your Smoking History,0,tobacco_ever,"Have you ever smoked a cigar, cigarillo, or tabacco product other than cigarette, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,0,tobacco_pastmonth,"Have you smoked a cigar, cigarillo, or tobacco product other than a cigarette in the past 30 days?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,0,tobacco_howmanydays,"About how many days have you smoked a cigar, cigarillo, or tobacco product other than cigarette in the past 30 days?",true,integer,|days
+Your Smoking History,0,tobacco_day,"On average, how many cigar, cigarillo, or tobacco product (other than cigarettes) per day have you smoked in the past 30 days (use 1 if less than one)?",false,float,Float
+Your Smoking History,0,ecig,"Have you ever used an electronic nicotine product (e-cigarette, vape nicotine), even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,0,ecig_30days,Have you used an electronic nicotine product in the past 30 days?,true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,0,ecig_howmanydays,About how many days did you use it in the past 30 days?,true,integer,|days
+Your Smoking History,0,ecig_puffs,How many puffs from an e-cigarette do you typically take over the past 30 days?,false,integer,Integer
+Your Smoking History,0,ecig_spending,How much did you spend on electronic delivery products in the past 30 days?,false,float,|Dollars
+Your Smoking History,0,marijuana,"Have you smoked or vaped marijuana, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,0,marijuana_30days,Have you smoked or vaped in the past 30 days?,true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,0,marijuana_days,How many days did you smoke or vape in the past 30 days?,false,integer,|Days
+Your Smoking History,1,cigarette_ever,"Have you ever smoked a cigarette, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,1,cigarette_past30days,Have you smoked cigarettes in the past 30 days?,true,select one,Yes;No;Refuse to answer
+Your Smoking History,1,smoke_howmanydays,About how many days have you smoked a cigarette in the past 30 days?,true,integer,Integer
+Your Smoking History,1,cig_day,"On average, how many cigarettes per day have you smoked in the past 30 days (use 1 if less than one)",false,float,
+Your Smoking History,1,tobacco_ever,"Have you ever smoked a cigar, cigarillo, or tobacco product other than cigarette, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,1,tobacco_pastmonth,"Have you smoked a cigar, cigarillo, or tobacco product other than a cigarette in the past 30 days?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,1,tobacco_howmanydays,"About how many days have you smoked a cigar, cigarillo, or tobacco product other than cigarette in the past 30 days?",true,integer,|days
+Your Smoking History,1,tobacco_day,"On average, how many cigar, cigarillo, or tobacco product (other than cigarettes) per day have you smoked in the past 30 days (use 1 if less than one)?",false,float,Float
+Your Smoking History,1,ecig,"Have you ever used an electronic nicotine product (e-cigarette, vape nicotine), even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,1,ecig_30days,Have you used an electronic nicotine product in the past 30 days?,true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,1,ecig_howmanydays,About how many days did you use it in the past 30 days?,true,integer,|days
+Your Smoking History,1,ecig_puffs,How many puffs from an e-cigarette do you typically take over the past 30 days?,false,integer,Integer
+Your Smoking History,1,ecig_spending,How much did you spend on electronic delivery products in the past 30 days?,false,float,|Dollars
+Your Smoking History,1,marijuana,"Have you smoked or vaped marijuana, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,1,marijuana_30days,Have you smoked or vaped in the past 30 days?,true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,1,marijuana_days,How many days did you smoke or vape in the past 30 days?,false,integer,|Days
+Your Smoking History,2,cigarette_ever,"Have you ever smoked a cigarette, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,2,cigarette_past30days,Have you smoked cigarettes in the past 30 days?,true,select one,Yes;No;Refuse to answer
+Your Smoking History,2,smoke_howmanydays,About how many days have you smoked a cigarette in the past 30 days?,true,integer,Integer
+Your Smoking History,2,cig_day,"On average, how many cigarettes per day have you smoked in the past 30 days (use 1 if less than one)",false,float,
+Your Smoking History,2,tobacco_ever,"Have you ever smoked a cigar, cigarillo, or tobacco product other than cigarette, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,2,tobacco_pastmonth,"Have you smoked a cigar, cigarillo, or tobacco product other than a cigarette in the past 30 days?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,2,tobacco_howmanydays,"About how many days have you smoked a cigar, cigarillo, or tobacco product other than cigarette in the past 30 days?",true,integer,|days
+Your Smoking History,2,tobacco_day,"On average, how many cigar, cigarillo, or tobacco product (other than cigarettes) per day have you smoked in the past 30 days (use 1 if less than one)?",false,float,Float
+Your Smoking History,2,ecig,"Have you ever used an electronic nicotine product (e-cigarette, vape nicotine), even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,2,ecig_30days,Have you used an electronic nicotine product in the past 30 days?,true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,2,ecig_howmanydays,About how many days did you use it in the past 30 days?,true,integer,|days
+Your Smoking History,2,ecig_puffs,How many puffs from an e-cigarette do you typically take over the past 30 days?,false,integer,Integer
+Your Smoking History,2,ecig_spending,How much did you spend on electronic delivery products in the past 30 days?,false,float,|Dollars
+Your Smoking History,2,marijuana,"Have you smoked or vaped marijuana, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,2,marijuana_30days,Have you smoked or vaped marijuana in the past 30 days?,true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,2,marijuana_days,How many days did you smoke or vape marijuana in the past 30 days?,false,integer,|Days
+Your Smoking History,3,cigarette_ever,"Have you ever smoked a cigarette, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,3,cigarette_past30days,Have you smoked cigarettes in the past 30 days?,true,select one,Yes;No;Refuse to answer
+Your Smoking History,3,smoke_howmanydays,About how many days have you smoked a cigarette in the past 30 days?,true,integer,Integer
+Your Smoking History,3,cig_day,"On average, how many cigarettes per day have you smoked in the past 30 days (use 1 if less than one)",false,float,
+Your Smoking History,3,tobacco_ever,"Have you ever smoked a cigar, cigarillo, or tobacco product other than cigarette, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,3,tobacco_pastmonth,"Have you smoked a cigar, cigarillo, or tobacco product other than a cigarette in the past 30 days?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,3,tobacco_howmanydays,"About how many days have you smoked a cigar, cigarillo, or tobacco product other than cigarette in the past 30 days?",true,integer,|days
+Your Smoking History,3,tobacco_day,"On average, how many cigar, cigarillo, or tobacco product (other than cigarettes) per day have you smoked in the past 30 days (use 1 if less than one)?",false,float,Float
+Your Smoking History,3,ecig,"Have you ever used an electronic nicotine product (e-cigarette, vape nicotine), even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,3,ecig_30days,Have you used an electronic nicotine product in the past 30 days?,true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,3,ecig_howmanydays,About how many days did you use it in the past 30 days?,true,integer,|days
+Your Smoking History,3,ecig_puffs,How many puffs from an e-cigarette do you typically take over the past 30 days?,false,integer,Integer
+Your Smoking History,3,ecig_spending,How much did you spend on electronic delivery products in the past 30 days?,false,float,|Dollars
+Your Smoking History,3,marijuana,"Have you smoked or vaped marijuana, even one or two puffs?",true,select one,Yes;No;Don't know;Refuse to answer
+Your Smoking History,3,marijuana_30days,Have you smoked or vaped marijuana in the past 30 days?,true,select one,Yes;No;Don't know;Refuse to answer

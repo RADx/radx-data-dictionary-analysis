@@ -1,0 +1,9 @@
+variable_name,description,datatype,required,source_file,source_directory
+surveyquestionresultkey,Unique key for this question result,string,,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+surveystepresultkey,Unique key for the step result associated with this question.  Link to SurveyStepResults file,string,,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+surveyresultkey,Unique key for the survey result this result is contained in.  Link to SurveyResults file,string,,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+participantidentifier,Identifier of the participant,string,true,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+resultidentifier,The identifier for the result question. E.G. Symptoms; ContactWithCovid; SwabTestResult,string,,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+answers,The answer(s) the participant provided for the question,string,,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+startdate,Timestamp for when the participant started answering the question in ISO 8601 format,datetime,,SurveyQuestionResults_datadictionary.csv,RADx-DHT
+enddate,Timestamp for when the participant finished answering the question in ISO 8601 format,datetime,,SurveyQuestionResults_datadictionary.csv,RADx-DHT

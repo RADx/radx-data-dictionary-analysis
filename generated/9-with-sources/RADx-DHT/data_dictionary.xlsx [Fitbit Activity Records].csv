@@ -1,0 +1,66 @@
+variable_name,description,seeAlso,datatype,source_file,source_directory
+id_participant_external,Participant external identifier,,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+dt,Evidation based date of record,,date,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activeduration,The amount of time spent in activity recording,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activityname,Name of activity type for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activitytypeid,Fitbit Native Identifier for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+averageheartrate,Average heart rate for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+calories,Total estimated calories expended for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+distance,Total distance for activity record,https://dev.fitbit.com/build/reference/web-api/activity/,double,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+distanceunit,Unit for distance in activity record,https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+duration,Duration of activity record in milliseconds,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+elevationgain,"if device has altimeter -- it measures changes in barometric pressure, in feet",https://dev.fitbit.com/build/reference/web-api/activity/,double,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+hasactivezoneminutes,Boolean to determine if activity record has Active Zone Minutes,https://dev.fitbit.com/build/reference/web-api/activity/,boolean,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+lastmodified,Timestamp showcasing last time activity record was modified (if applicable),https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+logtype,"The type of activity log can be determined by the logType property:
+
+'auto_detected' activity logs are those created by Fitbit’s SmartTrack feature.
+
+'fitstar' activity logs are created after completing a FitStar workout.
+
+'manual' activity logs are user specified overrides of some or all tracker data.
+
+'mobile_run' activity logs are created after completing a MobileRun.
+
+tracker activity logs are those created using the multisport exercise mode on a Fitbit device.",https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+originalduration,Original Duration of activity record in milliseconds (if applicable),https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+originalstarttime,Original start time of activity record (if applicable),https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+pace,"Measures minutes per km (or miles) depending on participant's perferences ",https://dev.fitbit.com/build/reference/web-api/activity/,double,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+speed,Measurement that is derived from pace when dividing by 60 minutes,https://dev.fitbit.com/build/reference/web-api/activity/,double,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+starttime,Timestamp of start time for actvity recording,https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+steps,Total steps accumulated for activity recording,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activezoneminutes.minutesinheartratezones[array].minutemultiplier,Credit given for specific Active Zone where participants are given 2x Active Zone Minutes for time spent in your cardio or peak heart rate zone,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activezoneminutes.minutesinheartratezones[array].minutes,Total Minutes within specific activity zone in Active Zone Minutes array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activezoneminutes.minutesinheartratezones[array].order,"Integer corresponding to Heart Rate Zone category for Active Zone Minutes array: {
+        0: 'OUT_OF_ZONE',
+        1: 'FAT_BURN',
+        2: 'CARDIO',
+        3: 'PEAK',
+}",https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activezoneminutes.minutesinheartratezones[array].type,"Name corresponding to Heart Rate Zone cateory for Active Zone category: {
+        0: 'OUT_OF_ZONE',
+        1: 'FAT_BURN',
+        2: 'CARDIO',
+        3: 'PEAK',
+}",https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activezoneminutes.minutesinheartratezones[array].zonename,"Name corresponding to Heart Rate Zone category for Active Zone category (can differ based on participant's system language): {
+        0: 'OUT_OF_ZONE',
+        1: 'FAT_BURN',
+        2: 'CARDIO',
+        3: 'PEAK',
+}",https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activezoneminutes.totalminutes,Total Minutes within Heart Rate Zone for Active Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activitylevel[array].minutes,Total Minutes within specified activity level array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+activitylevel[array].name,"Name of specified activity level in Activity Level Array. Possible values: {'sedentary', 'lightly', 'fairly', 'very'}",https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+customheartratezones[array].max,Maximum Heart Rate Reached within participant's Custom Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+customheartratezones[array].min,Minimum Heart Rate Reached within participant's Custom Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+customheartratezones[array].minutes,Total minutes within Custom Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+customheartratezones[array].name,Name of Custom Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+heartratezones[array].caloriesout,Total estimated calories expended within participant's Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,double,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+heartratezones[array].max,Maximum Heart Rate Reached within participant's Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+heartratezones[array].min,Minimum Heart Rate Reached within participant's Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+heartratezones[array].minutes,Total minutes within Heart Rate Zone array,https://dev.fitbit.com/build/reference/web-api/activity/,long,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+heartratezones[array].name,"Name of Heart Rate Zone array ",https://dev.fitbit.com/build/reference/web-api/activity/,string,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+manualvaluesspecified.calories,Boolean signifying if specific data source (calories) was entered manually,https://dev.fitbit.com/build/reference/web-api/activity/,boolean,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+manualvaluesspecified.distance,Boolean signifying if specific data source (distance) was entered manually,https://dev.fitbit.com/build/reference/web-api/activity/,boolean,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT
+manualvaluesspecified.steps,Boolean signifying if specific data source (steps) was entered manually,https://dev.fitbit.com/build/reference/web-api/activity/,boolean,data_dictionary.xlsx [Fitbit Activity Records].csv,RADx-DHT

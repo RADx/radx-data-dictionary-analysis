@@ -1,0 +1,56 @@
+question_id,variable_name,label,datatype,value_constraints
+"",id_participant_external,Participant identifier,string,
+"",start_timestamp,UTC survey start time,string,
+"",end_timestamp,UTC survey end time,date,
+0.0,flu_studies,Are you involved in any flu studies with Achievement Studies involving at-home testing ?,string,['no']
+0.0,time_zone,Local time zone of participant,string,"['Eastern Time (US & Canada)', 'Pacific Time (US & Canada)', 'Central Time (US & Canada)', 'Arizona', 'Mountain Time (US & Canada)', 'Hawaii', 'Alaska']"
+0.0,age,What is your current age (in years)?,long,
+0.0,us_resident,Do you currently live in the United States?,string,['yes']
+0.0,lang,"Are you able to read, speak, and understand English?",string,['yes']
+0.0,daily_survey_willingness,,string,['yes']
+0.0,disclosures,,string,['yes']
+0.0,postal_code,,long,Zip code is trimmed to only include first 3 digits
+0.0,sex,,string,"['male', 'female', 'other_non_binary', 'pna', nan]"
+0.0,pregnancy,,string,"['skipped', 'no', 'yes', 'pna']"
+0.0,height,,double,
+0.0,weight,,long,
+0.0,ethnicity,,string,"['hispanic_latino', 'not_hispanic_latino', 'pna']"
+0.0,race__american_indian_alaska_native,,boolean,"[False, True]"
+0.0,race__asian,,boolean,"[False, True]"
+0.0,race__black_african_american,,boolean,"[False, True]"
+0.0,race__pacific_islander,,boolean,"[False, True]"
+0.0,race__white,,boolean,"[True, False]"
+0.0,race__other,,boolean,"[False, True]"
+0.0,race__skipped,,boolean,[False]
+0.0,race__not_answered,,boolean,[False]
+0.0,education,,string,"['college', 'some_college', 'doctorate', 'graduate_degree', 'training', 'hs', 'pna', 'no_hs']"
+0.0,income,,string,"['50_74', '75_99', '100_149', '150_or_more', '35_49', '25_34', 'less_than_25', 'pna']"
+0.0,employment,,string,"['employed_full_time', 'employed_part_time', 'sick_leave_disability', 'self_employed', 'retired', 'other', 'student', 'homemaker', 'unemployed']"
+0.0,conditions__asthma,,boolean,"[False, True]"
+0.0,conditions__cancer,,boolean,"[False, True]"
+0.0,conditions__chronic_kidney_disease,,boolean,"[False, True]"
+0.0,conditions__copd,,boolean,"[False, True]"
+0.0,conditions__depression,,boolean,"[False, True]"
+0.0,conditions__diabetes_with_complications,,boolean,"[False, True]"
+0.0,conditions__diabetes_without_complications,,boolean,"[False, True]"
+0.0,conditions__general_anxiety,,boolean,"[False, True]"
+0.0,conditions__heart_disease,,boolean,"[False, True]"
+0.0,conditions__hypertension,,boolean,"[False, True]"
+0.0,conditions__immune_condition,,boolean,"[False, True]"
+0.0,conditions__liver_disease,,boolean,"[False, True]"
+0.0,conditions__not_answered,,boolean,[False]
+0.0,conditions__pneumonia,,boolean,"[False, True]"
+0.0,conditions__other,,boolean,"[False, True]"
+0.0,conditions__skipped,,boolean,[False]
+0.0,covid_diagnostic,,string,"['no_not_tried', 'yes_tested', 'no_unavailable', 'no_not_eligibile']"
+0.0,test_date,,string,[]
+0.0,location_test,,string,"['skipped', 'hospital_or_clinic', 'drive_through_facility', 'other', 'at_home_testing_kit']"
+0.0,type_of_test__blood_test,,string,"['skipped', 'false', 'true']"
+0.0,type_of_test__dont_know,,string,"['skipped', 'false', 'true']"
+0.0,type_of_test__nasal_swab,,string,"['skipped', 'true', 'false']"
+0.0,type_of_test__spit_tube,,string,"['skipped', 'false', 'true']"
+0.0,type_of_test__symptoms_only,,string,"['skipped', 'false', 'true']"
+0.0,type_of_test__throat_swab,,string,"['skipped', 'false', 'true']"
+0.0,type_of_test__other,,string,"['skipped', 'false', 'true']"
+0.0,type_of_test__not_answered,,string,"['skipped', 'false']"
+0.0,test_result,,string,"['skipped', 'positive_covid', 'negative_covid', 'waiting_for_results', 'inconclusive']"

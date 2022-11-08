@@ -1,0 +1,14 @@
+variable_name,description,datatype
+id_participant_external,Participant external identifier,String
+dt,Evidation based date of record,Date
+activeKilocalories,Active kilocalories (dietary calories) burned during the monitoring period.  This includes only the calories burned by the activity and not calories burned as part of the basal metabolic rate (BMR).,Long
+activeTimeInSeconds,Portion of the monitoring period (in seconds) in which the device wearer was active for this activity type. The sum of active times of all epochs of the same start time (and different activity types) should be equal to the duration.,Long
+activityType,Text description of the activity type.,String
+distanceInMeters,Distance traveled in meters,Double
+durationInSeconds,Length of the monitoring period in seconds.,Long
+intensity,"Qualitative measure of intensity. ",String
+maxMotionintensity,"The largest motion intensity score of any minute in this monitoring period. ",Double
+meanMotionintensity,"The average of motion intensity scores for all minutes in this monitoring period. ",Double
+met,"MET (Metabolic Equivalent of Task) value for the active time for this activity type. ",Double
+startTimeInSeconds,"Start time of the monitoring period in seconds since January 1, 1970, 00:00:00 UTC (Unix timestamp).",Long
+startTimeOffsetInSeconds,"Offset in seconds to add to startTimeInSeconds to derive the ""local"" time of the device that captured the data",Long

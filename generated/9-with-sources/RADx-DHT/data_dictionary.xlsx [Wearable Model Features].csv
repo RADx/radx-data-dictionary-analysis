@@ -1,0 +1,6 @@
+Channel,variable_name,datatype,description,source_file,source_directory
+All,id_participant_external,string,Participant external identifier,data_dictionary.xlsx [Wearable Model Features].csv,RADx-DHT
+All,dt,date,Evidation based date of record,data_dictionary.xlsx [Wearable Model Features].csv,RADx-DHT
+Heart,heart_rate__not_moving__max,double,Maximum daily heart rate during minutes with no activity,data_dictionary.xlsx [Wearable Model Features].csv,RADx-DHT
+Heart,heart_rate__perc_50th,double,50th percentile daily heart rate,data_dictionary.xlsx [Wearable Model Features].csv,RADx-DHT
+Heart,heart_rate__resting_heart_rate,double,Daily resting heart rate derived from Fitbit source,data_dictionary.xlsx [Wearable Model Features].csv,RADx-DHT

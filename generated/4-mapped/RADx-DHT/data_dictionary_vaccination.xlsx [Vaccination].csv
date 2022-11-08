@@ -1,0 +1,14 @@
+variable_name,description,datatype,value_constraints
+immunizationDate,The date and time vaccine was administered.,string,ISO 8601 date-time format
+administered-by,"The EHR,Pharmacy or Lab administering the vaccine",String,"32 bytes ASCII "
+valid-dose-count,Total Series of Doses needed,String,32 bytes ASCII Alpha
+vaccineProduct,This identifies the vaccine substance administered - CVX codes.,String,
+vaccineManufacturer,"Marketing Authorization Holder - if no MAH present, then manufacturer",String,32 bytes ASCII Alpha
+vaccineShortDescription,Description of vaccine from CVX,String,2 bytes ASCII Alpha
+countryOfVaccination,Country of vaccination,String,32 bytes ASCII Alpha
+"series-completion-date            ",Date time when vaccination dosage was completed,Integer,Epoch Time
+vaccine-group-name,Group name for vaccines in this dictionary,string,Covid
+vaccineCodeSystem,System encoding vaccine product administered,string,"256 bytes ASCII "
+vaccineCode,Code for vaccine product administered,string,"256 bytes ASCII "
+record-request-date,The date and time at which the C2G system received request for results,string,ISO 8601 date-time format
+record-receive-date,The date and time at which the C2G system receive this result,string,ISO 8601 date-time format

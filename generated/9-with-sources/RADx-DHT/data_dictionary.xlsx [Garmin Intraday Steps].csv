@@ -1,0 +1,14 @@
+variable_name,description,datatype,source_file,source_directory
+id_participant_external,Participant external identifier,string,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+dt,Evidation based date of record,date,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+activekilocalories,Active kilocalories (dietary calories) burned during the monitoring period.  This includes only the calories burned by the activity and not calories burned as part of the basal metabolic rate (BMR).,long,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+activetimeinseconds,Portion of the monitoring period (in seconds) in which the device wearer was active for this activity type. The sum of active times of all epochs of the same start time (and different activity types) should be equal to the duration.,long,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+activitytype,Text description of the activity type.,string,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+distanceinmeters,Distance traveled in meters,double,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+durationinseconds,Length of the monitoring period in seconds.,long,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+intensity,"Qualitative measure of intensity. ",string,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+maxmotionintensity,"The largest motion intensity score of any minute in this monitoring period. ",double,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+meanmotionintensity,"The average of motion intensity scores for all minutes in this monitoring period. ",double,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+met,"MET (Metabolic Equivalent of Task) value for the active time for this activity type. ",double,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+starttimeinseconds,"Start time of the monitoring period in seconds since January 1, 1970, 00:00:00 UTC (Unix timestamp).",long,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
+starttimeoffsetinseconds,"Offset in seconds to add to startTimeInSeconds to derive the ""local"" time of the device that captured the data",long,data_dictionary.xlsx [Garmin Intraday Steps].csv,RADx-DHT
