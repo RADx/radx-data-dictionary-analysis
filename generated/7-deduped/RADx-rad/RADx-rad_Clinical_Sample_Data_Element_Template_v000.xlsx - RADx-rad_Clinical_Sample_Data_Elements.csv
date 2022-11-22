@@ -1,0 +1,22 @@
+variable_name,section_header,ui,label,value_constraints,field_note,branching_logic,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,RADx-rad Minimum CDE
+cohort_id,Clinical,text,Identifier for groups of patients,,,,RADx-rad DCC
+symptom_onset_days,Clinical,integer,Number of days since the onset of symptoms when the patient's sample was collected,,,,RADx-rad DCC
+covid_vaccine_type,Vaccine Acceptance,category,Covid vaccine type,Pfizer-BioNTech | Moderna | Novavax | J&J/Jansen | Pfizer-BioNTech Bivalent| Moderna Bivalent,FDA approved vaccines,,RADx-rad DCC|https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/overview-COVID-19-vaccines.html?s_cid=11758:covid%20vaccine%20brands:sem.ga:p:RG:GM:gen:PTN:FY22
+covid_vaccine,Vaccine Acceptance,radio,Have you received a COVID-19 vaccine?,"1, Yes | 0, No | 98,  not sure/prefer not to answer",,,RADx-rad DCC
+covid_vaccine_doses,Vaccine Acceptance,integer,How many COVID-19 vaccine doses have you received?,,"use 0 if covid_vaccine == 0, leave blank if covid_vaccine == 98",,RADx-rad DCC
+covid_test_target_disease_status,Covid Testing,radio,Participant Testing Disease Status,"1, Asymptomatic | 2, Pre-symptomatic illness | 3, Mild/Moderate outpatient illness | 4, Acute illness | 5, Severe/Critical inpatient illness| 6, Exposed | 9, Convalescent illiness",,,RADx-UP Testing Core
+covid_test_type,Covid Testing,radio,Test Method Target,"1, Antibody | 2, Antigen | 3, Nucleic acid/PCR | 4, Nucleic acid/Isothermal | 5, Molecular/host response | 6, Biochemical marker (eg, pH) | 90, Other, Specify",,,RADx-UP Testing Core
+covid_test_type_other,Covid Testing,text,Other method target,,,"[covid_test_type] = ""90""",RADx-UP Testing Core
+covid_test_name,Covid Testing,text,Test manufacturer (or LDT) and test name,,,,RADx-UP Testing Core
+covid_test_specimen_type,Covid Testing,radio,Specimen Type,"1, Anterior nasal swab | 2, Mid-turbinate nasal swab | 3, Nasopharyngeal swab | 4, Oropharyngeal swab | 5, Nasal lavage | 6, Saliva | 7, Sputum | 8, Whole blood | 90, Other, Specify",,,RADx-UP Testing Core
+covid_test_specimen_type_other,Covid Testing,text,Other specimen type,,,"[covid_test_specimen_type] = ""90""",RADx-UP Testing Core
+covid_test_specimen_collector,Covid Testing,radio,Specimen Collector,"1, Self-collect | 2, Health Care Provider collected | 90, Other, Specify",,,RADx-UP Testing Core
+covid_test_specimen_collector_other,Covid Testing,text,Other specimen collector,,,"[covid_test_specimen_collector] = ""90""",RADx-UP Testing Core
+covid_test_ct_value,Covid Testing,integer,PCR cycle threshold,,,,RADx-rad DCC
+covid_test_result_raw,Covid Testing,text,Raw test result (if not a Positive/Negative/Failed report),,,,RADx-UP Testing Core
+covid_test_result,Covid Testing,radio,Test result,"1, Positive | 2, Negative | 3, Failed | 4, Lost | 90, Other",,,RADx-UP Testing Core
+covid_test_result_other,Covid Testing,text,Other test result,,,"[covid_test_result] = ""90""",RADx-UP Testing Core
+covid_test_result_other_unit,Covid Testing,text,Unit of other test result if applicable,,,,RADx-rad DCC
+covid_diagnosis,Covid Testing,radio,Have you ever been diagnosed with COVID-19?,"1, Yes | 0, No | 98,  not sure/prefer not to answer",,,RADx-rad DCC
+nih_tobacco,Medical History,category,Tobacco Use,"0, No tobacco use| 1, Current Tobacco user| 2, Former Tobacco User| 98, Don't Know | 99, Prefer not to answer",,,RADx-rad Global Codebook

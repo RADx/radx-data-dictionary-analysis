@@ -1,0 +1,77 @@
+variable_name,section_header,ui,label,value_constraints,field_note,units,CDE Reference
+sample_id,Sample,text,Unique identifier for a spiked (contrived) sample,,,,RADx-rad DCC
+sample_media,Sample,text,Media used to prepare the spiked sample,,example: pooled saliva,,RADx-rad DCC
+sample_media_id,Sample,text,"Catalog number, batch number, etc. for the sample media",,,,RADx-rad DCC
+sample_media_provider,Sample,text,Entity that provided the sample media,,example: Lee Biosolutions,,RADx-rad DCC
+sample_media_provider_url,Sample,text,URL of the sample media provider,,example: https://www.leebio.com/product/1769/saliva-pooled-human-donors-991-05-p-prec,,RADx-rad DCC
+sample_concentration,Sample,float,Concentation of target analyte in the sample,,,,RADx-rad DCC
+sample_concentration_unit,Sample,text,Unit of the target analyte concentration,,example: copies/ml,,RADx-rad DCC
+sample_concentration_measured,Sample,float,The measured concentation of target analyte in the sample (for verification),,,,
+target_organism_name,Target,text,NCBI organism name,,example: SARS-CoV-2,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+target_organism_taxonomy_id,Target,text,NCBI taxonomy id for organism,,example: 2697049,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+isolate_name,Target,text,Name of the isolate,,example: hCoV-19/USA/WA1/2020,,RADx-rad DCC
+target_organism_subtype,Target,text,Subtype of organism,,example (Influenza): H1N1,,RDAx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+gisaid_id,Target,text,GISAID isolate id of the original isolate,,example: EPI_ISL_751801,,RADx-rad DCC|https://www.gisaid.org
+gisaid_clade,Target,text,GISAID clade for SARS-CoV-2 variant,,example: GRY,,RADx-rad DCC|https://www.gisaid.org
+nucleotide_db_id,Target,text,"Nucleotide Sequence Database id, e.g., GenBank or ENA id of the original isolate",,example: MN985325.1,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/genbank|https://www.ebi.ac.uk/ena
+pango_lineage,Target,text,Pango lineage for SARS-CoV-2 variant,,example: B.1.1.7,,RADx-rad DCC|https://cov-lineages.org
+who_label,Target,text,WHO label for SARS-CoV-2 variant,,example: Alpha,,RADx-rad DCC|https://www.who.int/en/activities/tracking-SARS-CoV-2-variants
+target_analyte_type,Sample,list,Type of analyte(s) or target(s) to be detected,antigen | genomic RNA | inactivated virus | live virus | pseudovirus | antibody,example: antigen,,RADx-rad DCC
+antigen_name,Sample/Antigen,text,UniProt preferred protein name,,example: Spike glycoprotein,,RADx-rad DCC
+antigen_id,Sample/Antigen,text,"Protein Sequence Database id, e.g., UniProt accession number or NCBI GenPept id",,examples: P0DTC2|YP_009724390.1,,RADx-rad DCC|https://www.uniprot.org/|https://www.ncbi.nlm.nih.gov/protein
+antigen_sequence,Sample/Antigen,sequence,Protein sequence if  protein sequence database id is unavailable,,,,RADx-rad DCC
+antigen_nterminal_tag,Sample/Antigen,text,Name of tag attached to N-terminal,,example: HIS,,RADx-rad DCC
+antigen_cterminal_tag,Sample/Antigen,text,Name of tag attached to C-terminal,,example: HIS,,RADx-rad DCC
+antigen_region,Sample/Antigen,text,Domain or subunit name,,examples: S1|Receptor Binding Domain,,RADx-rad DCC
+antigen_region_start,Sample/Antigen,integer,Start residue number of region,,example: 16,,RADx-rad DCC
+antigen_region_end,Sample/Antigen,integer,End residue number of region,,example: 685,,RADx-rad DCC
+antigen_expression_system,Sample/Antigen,text,System used to express protein,,,,RADx-rad DCC
+antigen_formulation,Sample/Antigen,text,Formulation of antigen,,"example: Lyophilized from sterile PBS, pH 7.4.",,RADx-rad DCC
+antigen_source,Sample/Antigen,text,Supplier of antigen or publication,,example: Sino Biological,,RADx-rad DCC
+antigen_source_url,Sampe/Antigen,url,URL of supplier catalog page or publication DOI link,,example: https://www.sinobiological.com/recombinant-proteins/2019-ncov-cov-spike-40591-v08h,,RADx-rad DCC
+antigen_concentration,Sample/Antigen,float,Protein concentration,,example: 1.0,,RADx-rad DCC
+antigen_concentration_unit,Sample/Antigen,text,Unit of protein concentration,mM | uM| nM | pM | fM,example: nM,,RADx-rad DCC
+virus_sample_id,Sample/VQA panel,text,"Identifier for virus sample, for VQA panels this is the QR code, for BEI the catalog number",,"examples: XXXX-XXXX-XXXX-XXXX (VQA panel),  NR-52286 (BEI Resources)",,RADx-rad DCC
+virus_batch_number,Sample/VQA panel,text,Batch and or/lot number of virus sample,,,,RADx-rad DCC
+virus_sample_formulation,Sample/VQA panel,text,Formulation of virus sample,,"example: Strain diluted in cell culture
+media (DMEM + 1% FBS + 10mM HEPES + 50 units/ml Penicillin and 50 ug/ml Streptomycin).",,RADx-rad DCC
+virus_sample_provider,Sample/VQA panel,text,Provider from where the inactivated virus sample was procured from,,examples: UCSD|BEI Resources|ATCC,,RADx-rad DCC
+virus_sample_provider_url,Sample/VQA panel,url,URL of supplier catalog page or publication DOI link,,example:  https://www.beiresources.org/Catalog/animalviruses/NR-52281.aspx,,RADx-rad DCC
+virus_source,Sample/VQA panel,text,Source of the live virus,,"examples: BEI Resources, UCSD ",,RADx-rad DCC
+virus_location,Sample/VQA panel,text,Location where the virus sample was collected,,,,RADx-rad DCC
+virus_sample_type,Sample/VQA panel,category,Type of virus sample,inactivated virus|life virus,example: inactivated virus,,RADx-rad DCC
+virus_sample_inactivation_method,Sample/VQA panel,category,Method of virus inactivation,UV | heat | Gamma-irradiated,example: heat,,RADx-rad DCC
+virus_sample_formulation,Sample/VQA panel,text,Formulation (media) of virus sample,,,,RADx-rad DCC
+virus_sample_concentration,Sample/VQA panel,float,Concentration of virus (gene copies/ml),,example:  1.48E+10,copies/ml,RADx-rad DCC
+virus_sample_concentration_reference_gene,Sample/VQA panel,text,Reference gene used to determine concentration of virus,,example: N,,RADx-rad DCC
+virus_sample_genome_equivalents,Sample/VQA panel,float,Genome equivalents in virus sample,,example: 4.9E+09,copies/ml,RADx-rad DCC
+virus_sample_genome_equivalents_reference_gene,Sample/VQA panel,text,Reference gene used to determine genome equivalents,,example: ORF1a,,RADx-rad DCC
+virus_preinactivation_tcid50,Sample/VQA panel,float,Tissue Culture Infectious Dose 50% (TCID50) endpoint is the 50% infectious endpoint in cell culture. The TCID50 is the dilution of virus that under the conditions of the assay can be expected to infect 50% of the culture vessels inoculated. (TCID50/ml),,example: 2E+07,TCID50/ml,RADx-rad DCC|https://www.beiresources.org
+virus_sample_grow_cell_line,Sample/VQA panel,text,Cell line used for producing virus,,example: Caco2,,RADx-rad DCC
+neutralizing_antibody_id,Sample/Antibody,text,Unique identifier or catalog number of antibody given by supplier,,,,RADx-rad DCC
+neutralizing_antibody_name,Sample/Antibody,text,Name of the antibody,,,,RADx-rad DCC
+neutralizing_antibody_description,Sample/Antibody,text,Description of the antibody,,,,RADx-rad DCC
+neutralizing_antibody_clonality,Sample/Antibody,category,Clonal state of the antibody,monoclonal | polyclonal,,,RADx-rad DCC
+neutralizing_antibody_clone,Sample/Antibody,text,Name of the antibody clone,,,,RADx-rad DCC
+neutralizing_antibody_modification,Sample/Antibody,text,Name of modification attached to the antibody,,,,RADx-rad DCC
+neutralizing_antibody_modification_role,Sample/Antibody,category,Role of the modification,capturing | capturing + detection | detection,,,RADx-rad DCC
+neutralizing_antibody_sequence,Sample/Antibody,sequence,Protein sequence of the antibody,,,,RADx-rad DCC
+neutralizing_antibody_expression_system,Sample/Antibody,category,Expression system used to express antibody,human-recombinant-baculovirus | human-recombinant-E.coli | human-recombinant-yeast| human-recombinant-mamalian,,,RADx-rad DCC
+neutralizing_antibody_formulation,Sample/Antibody,text,Formulation of antibody,,,,RADx-rad DCC
+neutralizing_antibody_source,Sample/Antibody,text,Supplier of the antibody or antibody conjugate or publication DOI link,,,,RADx-rad DCC
+neutralizing_antibody_source_url,Sample/Antibody,url,URL of supplier catalog page or publication DOI link,,,,RADx-rad DCC
+standard_antibody_id,Sample/Antibody,text,Unique identifier or catalog number of antibody given by supplier,,,,RADx-rad DCC
+standard_antibody_name,Sample/Antibody,text,Name of the capture antibody,,,,RADx-rad DCC
+standard_antibody_clonality,Sample/Antibody,category,Clonal state of the antibody,monoclonal | polyclonal,,,RADx-rad DCC
+standard_antibody_clone,Sample/Antibody,text,Name of the antibody clone,,,,RADx-rad DCC
+standard_antibody_modification,Sample/Antibody,text,Name of modification attached to the antibody,,,,RADx-rad DCC
+standard_antibody_sequence,Sample/Antibody,sequence,Protein sequence of the antibody,,,,RADx-rad DCC
+standard_antibody_expression_system,Sample/Antibody,category,Expression system used to express antibody,human-recombinant-baculovirus | human-recombinant-E.coli | human-recombinant-yeast| human-recombinant-mamalian,,,RADx-rad DCC
+standard_antibody_host_organism_name,Sample/Antibody,text,Host species is the animal in which the antibody was generated.,,example: goat,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+standard_antibody_host_organism_taxonomy_id,Sample/Antibody,text,NCBI taxonomy id for the target organism,,example: 9925,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+standard_antibody_host_organism_subtype,Sample/Antibody,text,Subtype of target organism,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+standard_antibody_purity,Sample/Antibody,text,Purity of antibody in percent (may include < and > signs),,example: >95,%,RADx-rad DCC
+standard_antibody_purification_method,Sample/Antibody,text,Method used for antibody purification,,example: SDS-PAGE,,RADx-rad DCC
+standard_antibody_formulation,Sample/Antibody,text,Formulation of antibody,,,,RADx-rad DCC
+standard_antibody_source,Sample/Antibody,text,Supplier of the antibody or antibody conjugate or publication DOI link,,,,RADx-rad DCC
+standard_antibody_source_url,Sample/Antibody,url,URL of supplier catalog page or publication DOI link,,example:  https://doi.org/10.1002/anie.202107730,,RADx-rad DCC
