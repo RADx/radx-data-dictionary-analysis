@@ -1,0 +1,12 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+system_type,Model System,radio,What model system is being used?,"1, IGE | 0, SP6",,,,,,
+aptamer_present,Surface Type,radio,Is aptamer immobilized on the surface?,"1, Yes | 0, No",,,,,,
+aptamer _type,Model System,radio,What type of aptamer?,"1, monoaptamer | 2, polyaptamer | 3, polyrandomer | 4, N/A",,,,,,
+protein_decorated_bead,Bead Type,radio,Is protein immobilized on the bead?,"1, Yes | 0, No",,,,,,
+protein_type,Bead Type,radio,What type of protein?,"1, IgE | 2, Spike Protein | 3, N/A",,,,,,
+surface_chemistry,Surface Type,radio,What is the surface chemistry?,"1, Streptavidin-Biotin Chemistry | 0, Click Chemistry",,,,,,
+surface_source,Surface Type,radio,Is the surface commercial or made in-house,"1, Commercial | 0, In-house",,,,,,
+average_intensity,Performance,float,What is the average fluorescence signal?,,RFU,,,,RFU,

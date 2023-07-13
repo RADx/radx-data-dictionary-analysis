@@ -1,0 +1,24 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+SELEX_round_number,Aptamer Identification,float,Round of SELEX the aptamer sequence appears in,,,8,12,,,
+SELEX_sequence,Aptamer Identification,sequence,Aptamer DNA sequence without 5' and 3' constant regions,,,,,,,
+SELEX_rank,Aptamer Identification,float,Rank of aptamer among other sequences in its SELEX round,,,1,,,,
+SELEX_read_count,Aptamer Identification,float,Number of times the aptamer sequence is read,,,0,,,,
+aptamer_sequence,Aptamer Characterization,sequence,"Aptamer DNA sequence, in full",,,,,,,
+BLI_aptamer_concentration,Aptamer Characterization,float,Concentration of aptamer used in BLI study,,,0,,,nanomolar,
+BLI_protein_strain,Aptamer Characterization,text,Virus strain of protein used in BLI study,,,,,,,
+BLI_protein_part,Aptamer Characterization,text,Part of spike protein used in BLI study,,,,,,,
+BLI_protein_origin,Aptamer Characterization,text,Place of manufacture of protein used in BLI study,,,,,,,
+BLI_time,Aptamer Characterization,float,Time (x-axis) of measurement taken,,,0,,,seconds,
+BLI_binding,Aptamer Characterization,float,Binding (y-axis) of measurement taken,,,,,,nanometer,
+BLI_fit,Aptamer Characterization,float,Fit of binding curve (Y-axis) based on measurement taken,,,,,,nanometer,
+detection_type,Aptamer Application,dropdown,What detection method was the aptamer applied to?,LFA | ELISA,,,,,,
+detection_sample_ID,Aptamer Application,text,What sample was used in the detection?,,,,,,,
+detection_protein_concentration,Aptamer Application,float,What is the concentration of protein sample used?,,,,,,nanomolar,
+detection_virus_concentration,Aptamer Application,float,What is the concentration of the inactivated virus sample used?,,,,,,copies/mL,
+detection_intensity_background,Aptamer Application,float,"What was the intensity of the background? (0 being black, 256 being white)",,,0,256,,pixel value,
+detection_intensity_control,Aptamer Application,float,"What was the intensity of the control band? (0 being black, 256 being white)",,,0,256,,pixel value,
+detection_intensity_test,Aptamer Application,float,"What was the intensity of the test band? (0 being black, 256 being white)",,,0,256,,pixel value,
+detection_ELISA_RLU,Aptamer Application,float,What was the measured Relative Light Intensity (RLU)?,,,,,,RLU,

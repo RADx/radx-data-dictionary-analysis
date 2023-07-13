@@ -1,4 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory
-Largest Gathering and Height/Weight,0,large_gatherings,"In the past week, approximately how many people outside your household were at the largest gathering you attended?",true,integer,|people,survey_data_dictionary_origcopy.csv - Largest Gathering and Height Weight.csv,RADx-DHT
-Largest Gathering and Height/Weight,0,height,What is your height in inches?,true,integer,|inches,survey_data_dictionary_origcopy.csv - Largest Gathering and Height Weight.csv,RADx-DHT
-Largest Gathering and Height/Weight,0,weight,What is your weight in pounds?,true,integer,|pounds,survey_data_dictionary_origcopy.csv - Largest Gathering and Height Weight.csv,RADx-DHT

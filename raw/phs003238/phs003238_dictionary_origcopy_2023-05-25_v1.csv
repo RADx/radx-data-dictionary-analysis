@@ -1,0 +1,53 @@
+Id,Label,Datatype
+ParticipantIdentifier,Participant Identifier,string
+EmploymentStatus,We would like to know about what you do,string
+Sex,What is your biological sex?,string
+EducationLevel,What is the highest degree or level of education you have completed?,string
+race_white,White,boolean
+race_black,Black or African American,boolean
+race_asian,Asian,boolean
+race_noans,No Answer,boolean
+race_oth,Other Race,boolean
+race_dk,Race Don't Know,boolean
+race_amind,American Indian or Alaska Native,boolean
+HispanicOrigin,Hispanic or Latino,string
+LimitDailyActivity,Do you have a disability that interferes with your ability to carry out daily activities?,string
+HealthInsurance,Are you currently covered by health insurance or health coverage plans?,string
+DifficultyBathing,Do you have difficulty dressing or bathing?,string
+DifficultyErrands,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor’s office or shopping?",string
+height_cm,Height in cm,decimal
+AlcoholUse,How often do you have a drink containing alcohol?,string
+DifficultyWalking,Do you have serious difficulty walking or climbing stairs?,string
+NicotineUse,Do you now smoke cigarettes?,string
+VisionDifficulty,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?",string
+cond_asthma,Asthma,boolean
+cond_cancer,Cancer,boolean
+cond_cvd,CVD,boolean
+cond_ckd,CKD,boolean
+cond_diabetes,Diabetes,boolean
+cond_hypertension,Hypertension,boolean
+cond_mental_health,MentalHealthDisorder,boolean
+cond_copd,COPD,boolean
+cond_depression,Depression,boolean
+cond_none,No Chronic Condition,boolean
+cond_other,OtherChronicCondition,boolean
+cond_alcohol_subs,AlcoholOrSubstanceUseDisorder,boolean
+cond_chronic_lung_disease,Chronic Lung Disease,boolean
+cond_iv_drug,IV Drug Use,boolean
+smp_none,No Symptoms,boolean
+smp_runny_nose,"Congestion, sore throat, runny nose",boolean
+smp_headache,Headache,boolean
+smp_cough,Cough,boolean
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea",boolean
+smp_sob,Shortness of Breath,boolean
+smp_body_aches,Muscle or body aches,boolean
+smp_fatigue,Fatigue,boolean
+smp_loss_smell,New loss of taste or smell,boolean
+smp_rash,Rash,boolean
+smp_other,Other Symptoms,boolean
+Deaf,Are you deaf or do you have serious difficulty hearing?,string
+Pregnant,Are you currently pregnant?,string
+weight_kg,Weight in kg,decimal
+EcigUse,Do you now use vaping/electronic cigarettes?,string
+zip,Zipcode,string
+age,Age at enrollment,integer

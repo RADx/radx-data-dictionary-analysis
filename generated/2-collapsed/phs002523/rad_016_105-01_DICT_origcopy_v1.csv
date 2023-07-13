@@ -1,0 +1,26 @@
+Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Min,Text Validation Max,Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,RADx-rad Minimum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",0,90,,RADx-rad Minimum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,RADx-rad Minimum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,RADx-rad Minimum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,foot,RADx-rad Minimum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,inch,RADx-rad Minimum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,pound,RADx-rad Minimum CDE
+Heartrate file,Health Status,file,,,,40,200,bpm,
+Step file,Health Status,file,,,,0,86400,step count,

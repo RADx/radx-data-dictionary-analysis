@@ -1,0 +1,46 @@
+Id,Label,Datatype
+ParticipantIdentifier,Participant Identifier,string
+AlcoholUse,Alchol Use,string
+EcigUse,E Cigarette Use,string
+EducationLevel,Education Level,string
+EmploymentStatus,Employment Status,string
+HealthInsurance,Health Insurance,string
+height_cm,Height in cm,decimal
+HispanicOrigin,Hispanic or Latino,string
+LimitDailyActivity,Have these problems limited your daily activity?,string
+NicotineUse,Nicotine Use,string
+Pregnant,Pregnant,string
+VisionDifficulty,Vision Difficulty,string
+weight_kg,Weight in kg,decimal
+cond_hypertension,Hypertension,boolean
+cond_immun_compromised,Immuno-compromised,boolean
+cond_diabetes,Diabetes,boolean
+cond_ckd,CKD,boolean
+cond_cancer,Cancer,boolean
+cond_cvd,CVD,boolean
+cond_asthma,Asthma,boolean
+cond_copd,COPD,boolean
+cond_chronic_lung_disease,ChronicLungDisease,boolean
+cond_depression,Depression,boolean
+cond_alcohol_subs,AlcoholOrSubstanceUseDisorder,boolean
+cond_mental_health,MentalHealthDisorder,boolean
+cond_iv_drug,IntravenousDrugUse,boolean
+cond_other,CurrentConditionsOther,boolean
+cond_none,None,boolean
+race_noans,Race: NoAnswer,boolean
+race_oth,Race: Some other race,boolean
+race_nativeam,Race: American Indian or Alaska Native,boolean
+research_test,Study Number,string
+smp_fever,Fever or chills,boolean
+smp_cough,Cough,boolean
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort",boolean
+smp_fatigue,Fatigue,boolean
+smp_body_aches,Muscle or body aches,boolean
+smp_headache,Headache,boolean
+smp_loss_smell,New loss of taste or smell,boolean
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea",boolean
+smp_runny_nose,"Congestion, sore throat, runny nose",boolean
+smp_abd_pain,Abdominal Pain,boolean
+smp_rash,Rash,boolean
+smp_other,Other,boolean
+smp_none,None,boolean

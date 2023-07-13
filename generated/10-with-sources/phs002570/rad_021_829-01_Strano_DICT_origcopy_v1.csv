@@ -1,0 +1,12 @@
+Id,Section,Section,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+sensor_type,Health Status,text,Composition Type of Sensor Element,,,,,,,,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+sensor_details,Health Status,text,Specific Chemical Composition of Sensor Element,,,,,,,,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+analye_type,Health Status,text,Experimental Condition of Analyte,,,,,,,,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+analyte_details,Health Status,text,Other Experimental Details,,,,,,,,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+analyte_concentration,Health Status,text,"Analyte Concentration (units variable, included in text)",,,,,,,,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+replicate,Health Status,integer,Repeat number of experiment,,,,,,,,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+pl_intensity,Health Status,float,,,,,,,counts,,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570
+pl_wavelength,Health Status,float,,,,,,,nanometers,,rad_021_829-01_Strano_DICT_origcopy_v1.csv,phs002570

@@ -1,0 +1,84 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,variable name: patient_id,,,,,RADx-rad Minimum CDE,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+vintage,Health Status,,Dialysis vintage (years on dialysis) of participant at study end,,,,,,"years, to tenth percent",,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+all_diagnoses,Health Status,,All ICD-10 diagnoses assigned to participant,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_asthma,Health Status,,First dialysis date to asthma diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_cancer,Health Status,,First dialysis date to cancer diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_ckd,Health Status,,First dialysis date to CKD diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_copd,Health Status,,First dialysis date to COPD diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_diabetes,Health Status,,First dialysis date todiabetes diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_hypertension,Health Status,,First dialysis date to hypertension diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_immunosupp,Health Status,,First dialysis date to immunosuppressive condition diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_mi,Health Status,,First dialysis date to serious mental illness diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_sc,Health Status,,First dialysis date to sickle cell diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_pregnancy,Health Status,,First dialysis date to pregnancy diagnosis,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+nursing_home,Health Status,,Indicates that participant is living in a nursing home,"1, Yes | 0, No | (blank), Unknown",,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+vasc_access[1-11],Health Status,,Participant's vascular access type,"1, AVF | 2, AVG | 3, PDCATH | 4, CVCATH",,,,,PLEASE USE YYYY/MM/DD FOR DATES IF POSSIBLE,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_va[1-11],Health Status,,First dialysis date to the date participant's vascular access type was recorded,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+first_dose_type,Health Status,,First COVID vaccince type,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_first_dose,Health Status,,First dialysis date to the date of first dose of COVID vaccine,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+second_dose_type,Health Status,,Second COVID vaccine type,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_second_dose,Health Status,,First dialysis date to the date of second dose of COVID vaccine,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_txt_dt,Health Status,,First dialysis date to dialysis treatment date,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+iso_shift,Health Status,,Indicates that the facility had an isolation shift (not necessarily the shift of the treatment),"1, Yes",,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+iso_clinic,Health Status,,Indicates that facility is a designated isolation clinic,"1, Yes",,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+shift,Health Status,,Dialysis shift,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+station_num,Health Status,,Dialysis station number,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+machine_num,Health Status,,Dialysis machine number,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+pod_num,Health Status,,Dialysis pod number,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+target_weight,Health Status,,Prescribed target weight,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+avg_qb,Health Status,,Average blood flow rate,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+avg_qd,Health Status,,Average dialysis flow rate,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+idwg,Health Status,,Intradialytic weight gain,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+pre_sbp,Health Status,,"Pre-treatment systolic blood pressure, sitting",,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+post_sbp,Health Status,,"Post-treatment systolic blood pressure, sitting",,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+pre_dbp,Health Status,,"Pre-treatment diastolic blood pressure, sitting",,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+post_dbp,Health Status,,"Post-treatment diastolic blood pressure, sitting",,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+pre_temp,Health Status,,Pre-treatment temperature,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+post_temp,Health Status,,Post-treatment temperature,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+pre_pulse,Health Status,,Pre-treatment pulse rate,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+post_pulse,Health Status,,Post-treatment pulse rate,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+pre_resp,Health Status,,Pre-treatment respiratory rate,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+post_resp,Health Status,,Post-treatment respiratory rate,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+txt_time,Health Status,,Total treatment time,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+min_sbp,Health Status,,Minimum systolic blood pressure during treatment,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+max_sbp,Health Status,,Maximum systolic blood pressure during treatment,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+min_dbp,Health Status,,Minimum diastolic blood pressure during treatment,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+max_dbp,Health Status,,Maximum diastolic blood pressure during treatment,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+min_pulse,Health Status,,Minimum pulse rate during treatment,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+max_pulse,Health Status,,Maximum pulse rate during treatment,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+pre_o2,Health Status,,Pre-treatment oxygen saturation,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+post_o2,Health Status,,Post-treatment oxygen saturation,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+ktv,Health Status,,Kt/V,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+o2_admin,Health Status,,Total oxygen administered during treatment,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+fdd_to_draw_dt,Health Status,,First dialysis date to  laboratory specimen draw date,,,,,,mm/dd/yyyy,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+covid_pcr,Health Status,,COVID PCR test result value,,,,,,free text,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+covid_igg,Health Status,,COVID IgG test result value,,,,,,free text,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+covid_igm,Health Status,,COVID IgM test result value,,,,,,free text,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+albumin,Health Status,,Albumin value,,,,,,g/dL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+creatinine,Health Status,,Creatinine value,,,,,,mg/dL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+chloride,Health Status,,Chloride value,,,,,,mEq/L,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+bun,Health Status,,BUN value,,,,,,mg/mL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+sodium,Health Status,,Sodium value,,,,,,mEq/L,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+tsat,Health Status,,TSAT value,,,,,,%,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+potassium,Health Status,,Potassium value,,,,,,mEq/L,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+ferritin,Health Status,,Ferritin value,,,,,,ng/mL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+urr,Health Status,,URR value,,,,,,%,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+npcr,Health Status,,NPCR,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+pth,Health Status,,PTH value,,,,,,pg/mL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+total_calcium,Health Status,,Total calcium value,,,,,,mg/dL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+platelets,Health Status,,Platelets value,,,,,,10000/uL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+phosphorus,Health Status,,Phosphorus value,,,,,,mg/dL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+hgb,Health Status,,Hemoglobin value,,,,,,g/dL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+wbc,Health Status,,WBC value,,,,,,10000/uL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+monocytes,Health Status,,Monocyte value,,,,,,%,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+eosinophils,Health Status,,Eosinophil value,,,,,,%,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+basophils,Health Status,,Basophil value,,,,,,%,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+lymphocytes,Health Status,,Lymphocyte value,,,,,,%,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+neutrophils,Health Status,,Neutrophil value,,,,,,%,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+hepb_absag,Health Status,,Hepatitis B surface antigen value,,,,,,m[IU]/mL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+hepb_antihbc,Health Status,,Hepatitis B core antibody value,,,,,,m[IU]/mL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+hepb_antihbs,Health Status,,Hepatitis B surface antibody value,,,,,,m[IU]/mL,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657
+nlr,Health Status,,Neutrophil-to-Lymphocyte Ratio,,,,,,,,rad_016_067-01_DICT_origcopy_v1.csv,phs002657

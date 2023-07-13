@@ -1,0 +1,40 @@
+Id,Description,Datatype,Units,Enumeration,Label
+UID,Personal identifier,String,,,
+Date Stamp,Date and Time stamp for the survey response,Date,,yyyy-mm-ddThh:mm:ss.sssZ,
+Survey ID,Indicates the version of the demographic consent survey offered to the participants.,Categorical,,"0Ks4W000003JkezSAC;
+0Ks4W000003Jkf9SAC;
+0Ks4W000003JkkPSAS;
+0Ks4W000003JktiSAC;
+0Ks4W000003JlC0SAK;
+0Ks4W000003JlCESA0;",
+Survey Name,"Name of the Demographic Consent Survey offered to participants. ",Categorical,,WSSC Consent Survey 0.3,
+Transportation,Mode of transportation used to commute to work by participant,Categorical,,"Personal vehicle, bike, walk; Carpool; Public Transportation; Varies; NA;Recode_NA","""How do you typically commute to work?"""
+Gender,Gender of participant,Categorical,,Male; Female; Intersex; None; Recode_NA,"""What is your biological sex"""
+Weight,Weight of participant,Categorical,pounds,100-150; 151-200; 201-250; over250,"""Please provide your weight"""
+Height,Height of participant,Categorical,feet and inches,"4'5""-5'6""; 5'7"" - 6'; over 6'"," ""Please provide your height"""
+Consent,"Consent to participate in the study. ",Categorical,,Agree; Disagree,"""I have read (or been informed of) the information given above and agree to join by clicking on the ""Agree. I do want to participate in the study and provide my anonymous data to the NIH"" bottom below. I have been offered the opportunity to ask questions concerning this process."""
+Household_Size,Number of people in the household of participant,Categorical,,1; 2; 3; 4; 5 or more,"""How many people live in your household, including yourself?"""
+Pregnant,Pregnancy status of participant,Categorical,,Yes; No; Recode_NA,"""Are you currently pregnant?"""
+Smoker,"Smoking status of participant. ",Categorical,,Yes; No; Recode_NA,"""Are you a smoker?"""
+Diagnosis_None,Indicates that the participant reported not being diagnosed with any of the conditions on the survey.,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Hypertension_HTN,Indicates that the participant reported having been diagnosed with Hypertension,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Diabetes,Indicates that the participant reported having been diagnosed with Diabetes,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Asthma,Indicates that the participant reported having been diagnosed with Asthma,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Cardiovascular_Disease,Indicates that the participant reported having been diagnosed with Cardiovascular Disease,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Depression,Indicates that the participant reported having been diagnosed with Depression,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Chronic_kidney_disease,Indicates that the participant reported having been diagnosed with Chronic kidney disease,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Cancer,Indicates that the participant reported having been diagnosed with Cancer,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Chronic_Lung_Disease,Indicates that the participant reported having been diagnosed with Chronic Lung Disease,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Immuno_compromised,Indicates that the participant reported having been diagnosed as Immuno - compromised,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?
+Diagnosis_Mental_Health_Disorder,Indicates that the participant reported having been diagnosed with Mental Health Disorder,Categorical,,"1, Yes;
+0, No",Have you been diagnosed with any of the following?

@@ -1,0 +1,6 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_017_812-01_07012021to09302021_DICT_origcopy_v1.csv,phs002747
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_017_812-01_07012021to09302021_DICT_origcopy_v1.csv,phs002747
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_017_812-01_07012021to09302021_DICT_origcopy_v1.csv,phs002747
+measurement_day,Breath measurement,integer,,,Breath measurement day after subject being recruited into the study,,,,,,rad_017_812-01_07012021to09302021_DICT_origcopy_v1.csv,phs002747
+chromatogram,Breath measurement,float,raw chromatogram of voltage as a function of time (indication of concentration),,Two rows of data (first row is time and second row is chromatogram intensity in voltage),,,,second (for time) and Volts,,rad_017_812-01_07012021to09302021_DICT_origcopy_v1.csv,phs002747

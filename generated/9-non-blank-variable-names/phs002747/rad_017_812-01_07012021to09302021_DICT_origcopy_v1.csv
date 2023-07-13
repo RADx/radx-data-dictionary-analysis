@@ -1,0 +1,6 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+measurement_day,Breath measurement,integer,,,Breath measurement day after subject being recruited into the study,,,,,
+chromatogram,Breath measurement,float,raw chromatogram of voltage as a function of time (indication of concentration),,Two rows of data (first row is time and second row is chromatogram intensity in voltage),,,,second (for time) and Volts,

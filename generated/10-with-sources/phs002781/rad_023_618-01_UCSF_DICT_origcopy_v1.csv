@@ -1,0 +1,4 @@
+Id,form_name,Section,ui,Label,Enumeration,Notes,pattern,min,max,branching_logic,required,source_file,source_directory
+study_id,demographics,Identity,text,Participant ID,,,,,,,,rad_023_618-01_UCSF_DICT_origcopy_v1.csv,phs002781
+chills,symptoms,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,y,rad_023_618-01_UCSF_DICT_origcopy_v1.csv,phs002781
+diarrhea,symptoms,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,y,rad_023_618-01_UCSF_DICT_origcopy_v1.csv,phs002781

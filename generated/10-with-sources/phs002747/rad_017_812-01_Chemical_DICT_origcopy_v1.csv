@@ -1,0 +1,9 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_017_812-01_Chemical_DICT_origcopy_v1.csv,phs002747
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_017_812-01_Chemical_DICT_origcopy_v1.csv,phs002747
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_017_812-01_Chemical_DICT_origcopy_v1.csv,phs002747
+measurement_day,Breath measurement,integer,,,Breath measurement day after subject being recruited into the study,,,,,,rad_017_812-01_Chemical_DICT_origcopy_v1.csv,phs002747
+2-pentene (c5),Breath measurement,float,Normalized peak area,,,,,,,,rad_017_812-01_Chemical_DICT_origcopy_v1.csv,phs002747
+"pentane, 2,3,3-trimethyl (c8)",Breath measurement,float,Normalized peak area,,,,,,,,rad_017_812-01_Chemical_DICT_origcopy_v1.csv,phs002747
+"heptane,3-methyl (c8)",Breath measurement,float,Normalized peak area,,,,,,,,rad_017_812-01_Chemical_DICT_origcopy_v1.csv,phs002747
+"heptane,3-ethyl, 2-methyl (c10)",Breath measurement,float,Normalized peak area,,,,,,,,rad_017_812-01_Chemical_DICT_origcopy_v1.csv,phs002747

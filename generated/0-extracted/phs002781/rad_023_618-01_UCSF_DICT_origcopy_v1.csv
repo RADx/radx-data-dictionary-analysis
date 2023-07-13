@@ -1,0 +1,47 @@
+﻿Variable / Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Required Field?
+study_id,demographics,Identity,text,Participant ID,,,,,,,
+race,demographics,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,Y
+ethnicity,demographics,Ethnicity,checkbox,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,Y
+age,demographics,Age,text,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",integer,0,90,,Y
+sex,demographics,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,Y
+education,demographics,Education,text,How many years of education have you completed?,,Years of education from 0 - 20+,integer,,,,Y
+zip,demographics,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,Y
+employment,demographics,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,Y
+insurance,demographics,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,Y
+deaf,medical history,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,Y
+blind,medical history,,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,Y
+memory_dis,medical history,,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,Y
+walking_climbing_dis,medical history,,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,Y
+dress_bathe_dis,medical history,,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,Y
+errand_dis,medical history,,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,Y
+vaping,medical history,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,Y
+nicotine,medical history,,radio,Nicotine Use,"1, Yes | 0, No",,,,,,Y
+alcohol_use,medical history,,radio,Alcohol Use,"1, Yes | 0, No",,,,,,Y
+asthma,medical history,,radio,Asthma,"1, Yes | 0, No",,,,,,Y
+cancer,medical history,,radio,Cancer,"1, Yes | 0, No",,,,,,Y
+cardiovascular_disease,medical history,,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,Y
+chronic_kidney_disease,medical history,,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,Y
+chronic_lung_disease,medical history,,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,Y
+diabetes,medical history,,radio,Diabetes,"1, Yes | 0, No",,,,,,Y
+hypertension,medical history,,radio,Hypertension,"1, Yes | 0, No",,,,,,Y
+immunosuppressive_conditio,medical history,,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,Y
+serious_mental_illness,medical history,,radio,Serious mental illness,"1, Yes | 0, No",,,,,,Y
+sickle_cell_disease,medical history,,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,Y
+pregnancy_status,medical history,,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,,[sex] = '2',Y
+cough,symptoms,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,Y
+fever,symptoms,,radio,Fever,"1, Yes | 0, No",,,,,,Y
+shortness_of_breath_or_dif,symptoms,,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,Y
+headache,symptoms,,radio,Headache,"1, Yes | 0, No",,,,,,Y
+muscle_ache,symptoms,,radio,Muscle ache,"1, Yes | 0, No",,,,,,Y
+new_loss_of_taste_or_smell,symptoms,,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,Y
+chills,symptoms,,radio,Chills,"1, Yes | 0, No",,,,,,Y
+excessive_fatigue,symptoms,,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,Y
+nausea_vomiting,symptoms,,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,Y
+diarrhea,symptoms,,radio,Diarrhea,"1, Yes | 0, No",,,,,,Y
+abdominal_pain,symptoms,,radio,Abdominal pain,"1, Yes | 0, No",,,,,,Y
+skin_rash,symptoms,,radio,Skin rash,"1, Yes | 0, No",,,,,,Y
+conjunctivitis,symptoms,,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,Y
+height_feet,health status,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,Y
+height_inches,health status,,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,,Y
+weight_lbs,health status,,text,What is your weight?,,Weight in pounds,number,,,,Y
+health_status,health status,,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,Y

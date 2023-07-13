@@ -1,2 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory,Digest (variable_name|source_file|source_directory)
-Spice Survey,26,etoh_mar_10th,"How many drinks of alcohol did you consume yesterday (one drink is a standard glass of wine, a 12 oz beer, or a shot of hard liquor)?",true,integer,|drinks,survey_data_dictionary_origcopy.csv - Spice Survey.csv,RADx-DHT,9be69ffbe1e6f041dad260e69b0cd7891144822dbf4f6544c4dcc89056135e1ace81c2150b661d6ebb904d9b3ca22b66a3e8fdec1e6dfcd04bc0362928a8aaab

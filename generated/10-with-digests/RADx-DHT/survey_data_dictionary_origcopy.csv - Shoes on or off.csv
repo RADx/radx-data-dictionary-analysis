@@ -1,2 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory,Digest (variable_name|source_file|source_directory)
-Shoes on or off,0;1,freq_wash_hands,How often do you currently ask people entering your home to remove their shoes?,true,select one,Never;Sometimes;Always,survey_data_dictionary_origcopy.csv - Shoes on or off.csv,RADx-DHT,f2c9be7fb8a13487fe89b40a39c0fc504e4bed64df759fd5d389e1dc32b61be2358536cbe53b14c07e3205516ea8f5ce4a0ce798aa46c14deeb14036559b0af0

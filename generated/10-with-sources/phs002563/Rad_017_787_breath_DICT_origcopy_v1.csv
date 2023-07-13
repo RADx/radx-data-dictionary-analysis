@@ -1,0 +1,24 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Units,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minumum CDE,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+covid_vaccine,Vaccine Acceptance,radio,Have you received a COVID-19 vaccine?,"1, Yes | 0, No | 98, Prefer not to answer | 99, Don't know",,,,,,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+covid_test_target_disease_status,Covid Testing,radio,Participant Testing Disease Status,"1, Asymptomatic | 2, Pre-symptomatic illness | 3, Mild/Moderate outpatient illness | 4, Acute illness | 5, Severe/Critical inpatient illness| 6, Exposed | 9, Convalescent illiness",,,,,,RADx-UP Testing Core,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+covid_test_type,Covid Testing,radio,Test Method Target,"1, Antibody | 2, Antigen | 3, Nucleic acid/PCR | 4, Nucleic acid/Isothermal | 5, Molecular/host response | 6, Biochemical marker (eg, pH) | 90, Other, Specify",,,,,,RADx-UP Testing Core,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+covid_test_ct_value,Covid Testing,integer,PCR cycle threshold,,,,,,,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+covid_test_specimen_type,Covid Testing,radio,Specimen Type,"1, Anterior nasal swab | 2, Mid-turbinate nasal swab | 3, Nasopharyngeal swab | 4, Oropharyngeal swab | 5, Nasal lavage | 6, Saliva | 7, Sputum | 8, Whole blood | 90, Other, Specify",,,,,,RADx-UP Testing Core,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+covid_test_specimen_collector,Covid Testing,radio,Specimen Collector,"1, Self-collect | 2, Health Care Provider collected | 90, Other, Specify",,,,,,RADx-UP Testing Core,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+voc_technology_platform,VOC,category,Technology used for VOC detection,"1, GC |2, E-nose",,,,,,RADx-rad DCC,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+voc_specimen_type,VOC,category,Specimen type from which VOC was collected,"1,Breath | 2, Skin",,,,,,RADx-rad DCC,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+ch2o,formaldehyde,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c2h4o,"acetaldehyde ",,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c3h6o,acetone,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c3h6o,propanal,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c4h8o," butanone ",,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c4h8o,butanal,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c5h10o," pentanone ",,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c2h4o2,hydroxyacetaldehyde,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c7h14o,heptanone,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c8h16o,Octanone,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c9h18o,nonanone,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563
+c9h18o,nonanal,,,,,,,,nmol/l,,Rad_017_787_breath_DICT_origcopy_v1.csv,phs002563

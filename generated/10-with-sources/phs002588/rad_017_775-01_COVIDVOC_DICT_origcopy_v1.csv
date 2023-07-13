@@ -1,0 +1,4 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_017_775-01_COVIDVOC_DICT_origcopy_v1.csv,phs002588
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_017_775-01_COVIDVOC_DICT_origcopy_v1.csv,phs002588
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_017_775-01_COVIDVOC_DICT_origcopy_v1.csv,phs002588

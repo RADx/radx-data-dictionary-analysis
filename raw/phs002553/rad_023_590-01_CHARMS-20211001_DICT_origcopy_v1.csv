@@ -1,0 +1,400 @@
+Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minimum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",,0,90,,,RADx-rad Minimum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,,RADx-rad Minimum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,,RADx-rad Minimum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,,RADx-rad Minimum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,,RADx-rad Minimum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,,RADx-rad Minimum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,,[sex] = '2',,RADx-rad Minimum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,foot,RADx-rad Minimum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,,inch,RADx-rad Minimum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,,pound,RADx-rad Minimum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,,RADx-rad Minimum CDE
+snum,eligibility_criteria,text,"Study ID  
+",,,,,,,,
+essworker,eligibility_criteria,radio,"Is one of the patient's household members an essential worker?
+
+<i>According to the U..S Department of Homeland Security, essential workers are those who conduct a range of operations and services that are typically essential to continue critical infrastructure operations. Critical infrastructure is a large, umbrella term encompassing sectors from energy to defense to agriculture.</i>
+
+Examples of essential workers: health care, food service, public transportation, public safety officers and first responders, and electricity industry. ","0, No | 1, Yes | 2, Unknown",,,,,,,nlm-covid-cde?
+enrollstudy,eligibility_criteria,yesno,Is this patient enrolled in any other MIS-C studies?,,,,,,,,nih_all_cde
+stduiesenrolled,eligibility_criteria,checkbox,Which studies is this subject enrolled in:,"0, Overcoming COVID | 1, IKDR | 2, PRISM | 4, MISTIC | 3, Other",,,,,[enrollstudy] = '1',,nih_all_cde
+otherstudyenroll,eligibility_criteria,text,Other study patient enrolled in:,,,,,,[stduiesenrolled(3)] = '1',,nih_all_cde
+substudy,eligibility_criteria,checkbox,Was the patient enroll in the following Sub-Studies?,"0, Photography Sub-Study | 1, Genetic Sub-Study",Click all that apply,,,,,,nih_all_cde
+gender,demographics,dropdown,Sex:,"1, Male | 2, Female",,,,,,,nih_all_cde
+ethmo,demographics,radio,Ethnicity of Mother,"1, Hispanic or Latino(a) | 2, Non-Hispanic or Non-Latino(a) | 3, Unknown",,,,,,,nih_all_cde
+racemo,demographics,radio,"Race of Mother
+
+If you checked Hispanic or Latino(a) and the individual is not Asian or Black, choose White. 
+
+***Most Hispanic residents in the US are classified as White","0, Unknown | 1, Asian | 2, Black or African American | 3, White | 6, More than one race | 7, American Indian or Alaskan native | 8, Native Hawaiian or other Pacific Islander | 9, Other",,,,,,,nlm-covid-cde
+racemoothr,demographics,text,Specify Other Race of Mother,,,,,,[racemo] = '9',,nlm-covid-cde
+racemospcfy,demographics,text,Specify Race of Mother if Mixed,,,,,,[racemo] = '6',,nlm-covid-cde
+asianmo,demographics,checkbox,Specify Asian Nationality of Mother,"1, Cambodian | 2, Chinese | 3, Filipino | 4, Indian | 5, Indonesian | 6, Japanese | 7, Korean | 8, Malaysian | 9, Pakistan | 10, Singaporean | 11, Thai | 12, Vietnamese | 13, Other",Please choose all the apply,,,,[racemo] = '1',,nlm-covid-cde
+racemoasianspec,demographics,text,Specify Other Asian Nationality of Mother,,,,,,[asianmo(13)] = '1',,nlm-covid-cde
+ethfa,demographics,radio,Ethnicity of Father,"1, Hispanic or Latino | 2, Non-Hispanic or Non-Latino | 3, Unknown",,,,,,,nih_all_cde
+racefa,demographics,radio,"Race of Father
+
+If you checked Hispanic or Latino(a) and the individual is not Asian or Black, choose White. 
+
+***Most Hispanic residents in the US are classified as White","0, Unknown | 1, Asian | 2, Black or African American | 3, White | 6, More than one race | 7, American Indian or Alaskan native | 8, Native Hawaiian or other Pacific Islander | 9, Other",,,,,,,nlm-covid-cde
+racefaothr,demographics,text,Specify Other Race of Father,,,,,,[racefa] = '9',,nlm-covid-cde
+racefaspcfy,demographics,text,Specify Race of Father if Mixed,,,,,,[racefa] = '6',,nlm-covid-cde
+asianfa,demographics,checkbox,Specify Asian Nationality of Father,"1, Cambodian | 2, Chinese | 3, Filipino | 4, Indian | 5, Indonesian | 6, Japanese | 7, Korean | 8, Malaysian | 9, Pakistan | 10, Singaporean | 11, Thai | 12, Vietnamese | 13, Other",Please choose all the apply,,,,[racefa] = '1',,nlm-covid-cde
+racefaasianspcfy,demographics,text,Specify Other Asian Nationality of Father,,,,,,[asianfa(13)] = '1',,nlm-covid-cde
+feveronset,clinical_data,text,Date of FEVER onset:,,MM-DD-YYYY,date_mdy,,,,,nih-cde
+hospadmindate,clinical_data,text,Date of hospital admission: ,,MM-DD-YYYY,date_mdy,,,,,nlm-covid-cde
+hospdishdate,clinical_data,text,Date of hospital discharge:,,MM-DD-YYYY,date_mdy,,,,,nlm-covid-cde
+readmithos,clinical_data,yesno,Was the patient readmitted to the hospital within 7 days of hospital discharge?,,,,,,,,nih_all_cde
+whyreadmit,clinical_data,notes,Why was the patient readmitted to the hospital?,,,,,,[readmithos] = '1',,nih_all_cde
+datereadmit,clinical_data,text,Date of hospital readmission: ,,MM-DD-YYYY,date_mdy,,,[readmithos] = '1',,nih_all_cde
+icuadmin,clinical_data,yesno,Was the patient admitted to the Intensive Care Unit (ICU)?,,,,,,,,nih_all_cde
+dateicu,clinical_data,text,Date of ICU admission:,,MM-DD-YYYY,date_mdy,,,[icuadmin] = '1',,nih_all_cde
+dateicudis,clinical_data,text,Date of ICU discharge:,,MM-DD-YYYY,date_mdy,,,[icuadmin] = '1',,nih_all_cde
+comorbid,clinical_data,checkbox,Co-morbid Conditions: ,"1, Hypertension | 2, Obesity (BMI >95th percentile) | 3, Diabetes Mellitus: Type 1 | 4, Diabetes Mellitus: Type 2 | 5, Asthma | 6, Congenital heart disease | 7, Other | 8, None of the above",Click all that apply,,,,,,nlm-covid-cde
+othercomor,clinical_data,text,"Other Co-morbid conditions, please describe:",,,,,,[comorbid(7)] = '1',,nlm-covid-cde
+kdfeatures,clinical_data,checkbox,KD clinical features at the time of MIS-C diagnosis:,"1, Skin Rash | 2, Erythema of the lips, oral mucosa, pharynx | 3, Bilateral conjunctival injection | 4, Enlarged cervical lymph nodes | 5, Swollen dorsa hands/feet, palm/sole erythema | 6, Periungual desquamation | 7, Peripheral gangrene (in youngest babies) | 8, Strawberry tongue | 9, Other | 10, None of the above",Click all that apply,,,,,,
+otherkdfeatures,clinical_data,text,"Other KD clinical features, please describe:",,,,,,[kdfeatures(9)] = '1',,
+def,clinical_data,descriptive,"Definitions:
+
+Hypovolemic shock: dehydration with reduced intravascular volume
+Distributive shock: reduced peripheral vascular resistance (vasodilation)
+Cardiogenic shock: reduced cardiac output (pump failure)
+",,,,,,,,
+otherfeatures,clinical_data,checkbox,Other clinical features at the time of MIS-C diagnosis:,"1, Cough | 2, Abdominal pain | 3, Vomitting | 4, Respiratory distress | 5, Diarrhea | 6, Hypoxia | 7, Hypovolemic Shock | 8, Distributive Shock | 9, Cardiogenic Shock | 10, COVID toes | 11, Other | 12, None of the above",Click all that apply,,,,,,
+otherpresentfeat,clinical_data,text,"Other clinical feature, please describe:",,,,,,[otherfeatures(11)] = '1',,
+sarsvo2pcr,clinical_data,yesno,Was this subject tested for SARS-CoV-2-PCR:,,,,,,,,nlm-covid-cde
+sarspcr,clinical_data,radio,SARS-CoV-2-PCR,"0, Negative | 1, Positive",,,,,[sarsvo2pcr] = '1',,nlm-covid-cde
+testingsite,clinical_data,radio,Collection method:,"1, Nasal/NP Swab | 2, Stool | 3, Other",,,,,[sarsvo2pcr] = '1',,nlm-covid-cde
+othertestingsite,clinical_data,text,Other:,,,,,,[testingsite] = '3',,nlm-covid-cde
+datepossars,clinical_data,text,Date of POSITIVE test: ,,MM-DD-YYYY,date_mdy,,,[sarspcr] = '1',,nlm-covid-cde
+sarsvo2anti,clinical_data,yesno,Was this subject tested for SARS-CoV-2 Antibody:,,,,,,,,nlm-covid-cde
+timeanittest,clinical_data,radio,How many times was the subject tested for SARS-CoV-2 Antibody?,"1, 1 | 2, 2 | 3, 3 | 4, More than 3",,,,,,,nlm-covid-cde
+sarsantibody1,clinical_data,radio,Result of first SARS-CoV-2 Antibody test,"0, Negative | 1, Positive",,,,,[timeanittest] = '1' or [timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+sarsantibodytest1,clinical_data,text,Date of first Antibody Test:,,MM-DD-YYYY,date_mdy,,,[timeanittest] = '1' or [timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+brandsarstest1,clinical_data,text,Brand of first Antibody test:,,,,,,[timeanittest] = '1' or [timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+sarsantibodyclass1,clinical_data,checkbox,Antibody class of first test,"1, IgG | 2, IgM | 3, IgA",,,,,[timeanittest] = '1' or [timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+viralantigen1,clinical_data,radio,First test measures antibody directed to which viral antigen:,"0, Nucleocapsid | 1, RBD of spike protein | 2, Other",,,,,[timeanittest] = '1' or [timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+otherviralanti1,clinical_data,text,"Other viral antigen measured in antibody test, please specify: ",,,,,,[viralantigen1] = '2',,nlm-covid-cde
+sarsantibody2,clinical_data,radio,Result of second SARS-CoV-2 Antibody test,"0, Negative | 1, Positive",,,,,[timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+sarsantibodytest2,clinical_data,text,Date of second Antibody Test:,,MM-DD-YYYY,date_mdy,,,[timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+viralantigen2,clinical_data,radio,Second test measures antibody directed to which viral antigen:,"0, Nucleocapsid | 1, RBD of spike protein | 2, Other",,,,,[timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+sarsantibodyclass2,clinical_data,checkbox,Antibody class of second test,"1, IgG | 2, IgM | 3, IgA",,,,,[timeanittest] = '2' or [timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+otherviralanti2,clinical_data,text,"Other viral antigen measured in antibody test, please specify: ",,,,,,[viralantigen2] = '2',,nlm-covid-cde
+sarsantibody3,clinical_data,radio,Result of third SARS-CoV-2 Antibody test,"0, Negative | 1, Positive",,,,,[timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+sarsantibodytest3,clinical_data,text,Date of third Antibody Test:,,MM-DD-YYYY,date_mdy,,,[timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+viralantigen3,clinical_data,radio,Third test measures antibody directed to which viral antigen:,"0, Nucleocapsid | 1, RBD of spike protein | 2, Other",,,,,[timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+sarsantibodyclass3,clinical_data,checkbox,Antibody class of third test,"1, IgG | 2, IgM | 3, IgA",,,,,[timeanittest] = '3' or [timeanittest] = '4',,nlm-covid-cde
+otherviralanti3,clinical_data,text,"Other viral antigen measured in antibody test, please specify: ",,,,,,[viralantigen3] = '2',,nlm-covid-cde
+covidposcontact,clinical_data,yesno,COVID19 Status positive in close contacts:,,,,,,,,
+preorgandys,clinical_data,yesno,Did the patient experience organ involvement at MIS-C PRESENTATION:,,,,,,,,
+preorgandysloc,clinical_data,checkbox,Which organ(s) did the patient experience organ involvement at presentation:,"0, Liver | 1, Renal | 2, Coagulopathy | 3, CNS (i.e. stroke, ICH, other) | 4, Cardiac | 5, Pulmonary | 6, G.I. | 7, Other",,,,,[preorgandys] = '1',,
+otherpresorgdys,clinical_data,text,Other organ involvement at presentation,,,,,,[preorgandysloc(7)] = '1',,
+hosorgandys,clinical_data,yesno,Did the patient experience new organ involvement during HOSPITALIZATION?,,,,,,,,
+hosorgandysloc,clinical_data,checkbox,Which organ(s) did the patient experience organ involvement  during hospitalization:,"0, Liver | 1, Renal | 2, Coagulopathy | 3, CNS (i.e. stroke, ICH, other) | 4, Cardiac | 5, Pulmonary | 6, G.I. | 7, Other",Click all that apply,,,,[hosorgandys] = '1',,
+otherhosorgdys,clinical_data,text,Other organ involvement  during hospitalization,,,,,,[hosorgandysloc(7)] = '1',,
+commentsclinical,clinical_data,notes,Comments:,,,,,,,,
+labdescription,laboratory_results,descriptive,"Laboratory Results:
+1. At MIS-C Diagnosis 
+2. After treatment, Before discharge
+3. Follow-up visit
+",,,,,,,,nih_all_cde
+cbcdt,laboratory_results,text,"Date of Laboratory
+",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+wbc,laboratory_results,text,White Blood Cell Count (X 10^3/uL),,to 1 decimal place,number,2,40,,,nih_all_cde
+hgb,laboratory_results,text,Hemoglobin (g/dL):,,to 1 decimal place,number,5,50,,,nih_all_cde
+plts,laboratory_results,text,Platelet Count (X 10^3/uL):,,,number,30,2000,,,nih_all_cde
+difftype,laboratory_results,radio,Method for differential count:,"1, Auto differential | 2, Manual differential",,,,,,,nih_all_cde
+neutbands,laboratory_results,text,Neutrophils + Bands (%):,,,number,0,100,[difftype] = '1',,nih_all_cde
+neut,laboratory_results,text,Neutrophils (%):,,,number,0,100,[difftype] = '2',,nih_all_cde
+bands,laboratory_results,text,Bands (%):,,,number,0,30,[difftype] = '2',,nih_all_cde
+lym,laboratory_results,text,Lymphocytes (%):,,,,,,[difftype] = '1' or [difftype] = '2',,nih_all_cde
+atyplym,laboratory_results,text,Atypical Lymphocytes (%):,,,,,,[difftype] = '2',,nih_all_cde
+mono,laboratory_results,text,Monocytes (%):,,,,,,[difftype] = '1' or [difftype] = '2',,nih_all_cde
+eos,laboratory_results,text,Eosinophils (%):,,,,,,[difftype] = '1' or [difftype] = '2',,nih_all_cde
+basophils,laboratory_results,text,Basophils (%):,,,,,,[difftype] = '1' or [difftype] = '2',,nih_all_cde
+metamyo,laboratory_results,text,Metamyelocytes + Myelocytes (%):,,,,,,,,nih_all_cde
+autoanc,laboratory_results,calc,Absolute Neutrophil Count (ANC):,([wbc]*1000)*([neutbands]/100),,,,,[difftype] = '1',,nih_all_cde
+mananc,laboratory_results,calc,Absolute Neutrophil Count (ANC):,([wbc]*1000)*(([neut]+[bands])/100),,,,,[difftype] = '2',,nih_all_cde
+abc,laboratory_results,calc,Absolute Band Count (ABC):,"if ([bands]= """","""", [wbc]*1000*([bands]/100))",,,,,[difftype] = '2',,nih_all_cde
+alc,laboratory_results,calc,Absolute Lymphocyte Count (ALC):,[lym]*[wbc],,,,,[difftype] = '1' or [difftype] = '2',,nih_all_cde
+reticcount,laboratory_results,text,Reticulocyte (Retic) Count (units: %):,,,,,,,,nih_all_cde
+bloodtype,laboratory_results,text,Blood Type (N/A if no blood type),,,,,,,,nih_all_cde
+esrdt,laboratory_results,text,"Date of ESR: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+adminesr,laboratory_results,text,"ESR (mm/hr) 
+",,,number,,141,,,nih_all_cde
+crpdt,laboratory_results,text,"Date of CRP: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+unitcrp,laboratory_results,radio,Unit for CRP,"1, mg/dL | 2, mg/L",,,,,,,nih_all_cde
+crpadmin,laboratory_results,text,C-reactive protein,,to 1 decimal place,number,,,[unitcrp] = '2' or [unitcrp] = '1',,nih_all_cde
+chemdt,laboratory_results,text,"Date of General Chemistry: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+alt,laboratory_results,text,ALT (IU/L):,,,,,,,,nih_all_cde
+ast,laboratory_results,text,AST (IU/L):,,,,,,,,nih_all_cde
+ggt,laboratory_results,text,GGT (IU/L):,,,,,,,,nih_all_cde
+albumin,laboratory_results,text,Albumin (G/dL):,,,,,,,,nih_all_cde
+sodium,laboratory_results,text,Sodium (mmol/L):,,,,,,,,nih_all_cde
+ldh,laboratory_results,text,"LDH (Lactic Acid Dehydrogenase), units U/L:",,,,,,,,nih_all_cde
+tropdt,laboratory_results,text,"Date of Troponin: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+unittrop,laboratory_results,text,Unit for Troponin:,,,,,,,,nih_all_cde
+trop,laboratory_results,text,Troponin value:,,,,,,,,nih_all_cde
+tropnormvalue,laboratory_results,text,Troponin Institutional Normal Values:,,,,,,,,nih_all_cde
+ntbnpdt,laboratory_results,text,"Date of NTproBNP: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+unitntbnp,laboratory_results,text,Unit for NT-proBNP:,,,,,,,,nih_all_cde
+ntbnp,laboratory_results,text,NT-proBNP value:,,,,,,,,nih_all_cde
+ntbnpnormvalue,laboratory_results,text,NT-proBNP Institutional Normal Values:,,,,,,,,nih_all_cde
+bnpdt,laboratory_results,text,"Date of BNP: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+unitbnp,laboratory_results,text,Unit for BNP:,,,,,,,,nih_all_cde
+bnp,laboratory_results,text,BNP value:,,,,,,,,nih_all_cde
+bnpnormvalue,laboratory_results,text,BNP Institutional Normal Values:,,,,,,,,nih_all_cde
+ferrdt,laboratory_results,text,"Date of Ferritin: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+ferritin,laboratory_results,text,Ferritin (ng/mL):,,,,,,,,nih_all_cde
+ferrnormvalue,laboratory_results,text,Ferritin Institutional Normal Values:,,,,,,,,nih_all_cde
+fibdt,laboratory_results,text,"Date of Fibrinogen: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+fibrinogen,laboratory_results,text,Fibrinogen (mg/dL):,,,,,,,,nih_all_cde
+ddimdt,laboratory_results,text,"Date of D-Dimer: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+ddim,laboratory_results,text,D-Dimer (mg/mL):,,,,,,,,nih_all_cde
+vfdt,cardiac_measurements,text,"Date Ventricular Function  and AV Valve measured:
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+ef,cardiac_measurements,text,LV Ejection Fraction (%): ,,,,,,,,nih_all_cde
+efmethod,cardiac_measurements,radio,LV Ejection Fraction method:,"0, Bullet | 1, Biplane Simpson | 2, M-mode | 3, Other",,,,,,,nih_all_cde
+efmethodother,cardiac_measurements,text,"Ejection Fraction method other, please specify",,,,,,[efmethod] = '3',,nih_all_cde
+lvfshort,cardiac_measurements,text,LV Fractional Shortening: ,,,,,,,,nih_all_cde
+rvfuncbase,cardiac_measurements,radio,RV Function,"0, Normal | 1, Mild | 2, Moderate | 3, Severe",,,,,,,nih_all_cde
+mitralreg,cardiac_measurements,yesno,Mitral Valve regurgitation:,,,,,,,,nih_all_cde
+mitralregtype,cardiac_measurements,radio,Mitral Value Regurgitation: ,"0, Trivial | 1, Mild | 2, Moderate",,,,,[mitralreg] = '1',,nih_all_cde
+trireg,cardiac_measurements,yesno,Tricuspid Valve regurgitation:,,,,,,,,nih_all_cde
+trireggtype,cardiac_measurements,radio,Tricuspid Value Regurgitation: ,"0, Trivial | 1, Mild | 2, Moderate",,,,,[trireg] = '1',,nih_all_cde
+echodt,cardiac_measurements,text,"Date of Echocardiogram: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+echoht,cardiac_measurements,text,Height (cm),,,,,,,,nih_all_cde
+echowt,cardiac_measurements,text,Weight (kg),,,,,,,,nih_all_cde
+bsa_1,cardiac_measurements,calc,BSA,sqrt(([echoht]*[echowt])/3600),,,,,,,nih_all_cde
+laddiaecho,cardiac_measurements,text,LAD artery internal diameter on echo (mm): ,,to 1 decimal place,,,,,,nih_all_cde
+aneuladecho,cardiac_measurements,yesno,<p>Is there an aneurysm (z <u>> </u>2.5) in the LAD on the echo?</p>,,,,,,,,nih_all_cde
+maxdimladecho,cardiac_measurements,text,What is the max diameter of the aneurysm in the LAD (mm):,,,,,,[aneuladecho] = '1',,nih_all_cde
+rcadiaecho,cardiac_measurements,text,Proximal RCA internal diameter on echo (mm):,,to 1 decimal place,,,,,,nih_all_cde
+aneurcaecho,cardiac_measurements,yesno,Is there an aneurysm (z <u>> </u>2.5) in the RCA on the echo?,,,,,,,,nih_all_cde
+maxdimrcaecho,cardiac_measurements,text,What is the max diameter of the aneurysm in the RCA (mm):,,,,,,[aneurcaecho] = '1',,nih_all_cde
+ct,cardiac_measurements,yesno,Did the patient get a CTA?,,,,,,,,nih_all_cde
+ctdt,cardiac_measurements,text,"Date of CTA: 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,[ct] = '1',,nih_all_cde
+laddiact,cardiac_measurements,text,LAD artery internal diameter from CTA (mm): ,,to 1 decimal place,,,,[ct] = '1',,nih_all_cde
+aneuladct,cardiac_measurements,yesno,Is there an aneurysm in the LAD on the CTA?,,,,,,[ct] = '1',,nih_all_cde
+maxdimladct,cardiac_measurements,text,What is the max diameter of the aneurysm in the LAD (mm):,,,,,,[aneuladct] = '1',,nih_all_cde
+rcadiact,cardiac_measurements,text,Proximal RCA internal diameter on CTA (mm):,,to 1 decimal place,,,,[ct] = '1',,nih_all_cde
+aneurcact,cardiac_measurements,yesno,Is there an aneurysm in the RCA on the CTA?,,,,,,[ct] = '1',,nih_all_cde
+maxdimrcact,cardiac_measurements,text,What is the max diameter of the an aneurysm in the RCA (mm):,,,,,,[aneurcact] = '1',,nih_all_cde
+ekg,cardiac_measurements,yesno,Did the patient get an EKG?,,,,,,,,nih_all_cde
+ekgresult,cardiac_measurements,radio,What was the result of the EKG:,"0, Abnormal | 1, Normal",,,,,[ekg] = '1',,nih_all_cde
+ekgdate,cardiac_measurements,text,Date of EKG:,,MM-DD-YYYY,date_mdy,,,[ekg] = '1',,nih_all_cde
+ekgstt,cardiac_measurements,radio,ST-T CHanges:,"0, None | 1, Focal | 2, Diffuse",,,,,[ekg] = '1',,nih_all_cde
+ekgarrhy,cardiac_measurements,yesno,Arrhythmia:,,,,,,[ekg] = '1',,nih_all_cde
+ekfarrhydesc,cardiac_measurements,text,Please describe the arrhythmia:,,,,,,[ekgarrhy] = '1',,nih_all_cde
+echocomc,cardiac_measurements,notes,Comments:,,,,,,,,nih_all_cde
+cvsupport,treatments_and_outcomes,yesno,Did the patient receive Inotropic support?,,,,,,,,nih_all_cde
+cvtype,treatments_and_outcomes,checkbox,What kind of Inotropic support did the patient receive:,"0, Dopamine | 1, Milrinone | 2, Epinephrine | 3, Norepinephrine | 4, Other",,,,,[cvsupport] = '1',,nih_all_cde
+dopastartdt,treatments_and_outcomes,text,Dopamine Start Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(0)] = '1',,nih_all_cde
+dopastopdt,treatments_and_outcomes,text,Dopamine Stop Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(0)] = '1',,nih_all_cde
+dopadose,treatments_and_outcomes,text,Dopamine Dose:,,,,,,[cvtype(0)] = '1',,nih_all_cde
+milrstartdt,treatments_and_outcomes,text,Milrinone Start Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(1)] = '1',,nih_all_cde
+milrstopdt,treatments_and_outcomes,text,Milrinone Stop Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(1)] = '1',,nih_all_cde
+milrdose,treatments_and_outcomes,text,Milrinone Dose:,,,,,,[cvtype(1)] = '1',,nih_all_cde
+epinstart,treatments_and_outcomes,text,Epinephrine Start Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(2)] = '1',,nih_all_cde
+epinstop,treatments_and_outcomes,text,Epinephrine Stop Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(2)] = '1',,nih_all_cde
+epindose,treatments_and_outcomes,text,Epinephrine Dose:,,,,,,[cvtype(2)] = '1',,nih_all_cde
+norepistartdt,treatments_and_outcomes,text,Norepinephrine Start Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(3)] = '1',,nih_all_cde
+norepistopdt,treatments_and_outcomes,text,Norepinephrine Stop Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(3)] = '1',,nih_all_cde
+norepidose,treatments_and_outcomes,text,Norepinephrine Dose:,,,,,,[cvtype(3)] = '1',,nih_all_cde
+cvsupother,treatments_and_outcomes,notes,"Other, please describe:",,,,,,[cvtype(4)] = '1',,nih_all_cde
+otherstartdt,treatments_and_outcomes,text,Other medication Start Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(4)] = '1',,nih_all_cde
+otherstopdt,treatments_and_outcomes,text,Other medication Stop Date:,,MM-DD-YYYY,date_mdy,,,[cvtype(4)] = '1',,nih_all_cde
+otherdose,treatments_and_outcomes,text,Other medication Dose:,,MM-DD-YYYY,,,,[cvtype(4)] = '1',,nih_all_cde
+ecmo,treatments_and_outcomes,yesno,Did the patient receive Extracorporeal membrane oxygenation (ECMO)?,,,,,,,,LOINC
+ecmostartdt,treatments_and_outcomes,text,ECMO Start Date:,,MM-DD-YYYY,date_mdy,,,[ecmo] = '1',,LOINC
+ecmostarttime,treatments_and_outcomes,text,ECMO Start Time:,,HH:MM,time,,,[ecmo] = '1',,LOINC
+ecmostopdt,treatments_and_outcomes,text,ECMO Stop Date:,,MM-DD-YYYY,date_mdy,,,[ecmo] = '1',,LOINC
+ecmostoptime,treatments_and_outcomes,text,ECMO Stop Time:,,HH:MM,time,,,[ecmo] = '1',,LOINC
+ecmomode,treatments_and_outcomes,radio,Mode of ECMO:,"0, Veno-Arterial (VA) ECMO | 1, Veno-Venous (VV) ECMO | 2, Other",,,,,[ecmo] = '1',,LOINC
+ecmomodeother,treatments_and_outcomes,text,ECMO mode Other:,,,,,,[ecmomode] = '2',,LOINC
+immunmed,treatments_and_outcomes,yesno,Did the patient receive Immuno-modulant/Suppressant medication:,,,,,,,,NINDS
+immunomedtype,treatments_and_outcomes,checkbox,Which Immuno-modulant/Suppressant medication did the patient receive?,"0, IVIG | 1, Steroid | 2, Infliximab | 3, Anakinra | 4, Tocilizumab | 5, Other",,,,,[immunmed] = '1',,NINDS
+ivigstartdt,treatments_and_outcomes,text,IVIG Start Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(0)] = '1',,NINDS
+ivigdose,treatments_and_outcomes,text,IVIG dose (include unit):,,add unit,,,,[immunomedtype(0)] = '1',,NINDS
+ivigindic,treatments_and_outcomes,radio,IVIG Indication:,"0, Primary Therapy | 1, Recurrent fever | 2, Cardiac Indication | 3, Other",,,,,[immunomedtype(0)] = '1',,NINDS
+otherivigindic,treatments_and_outcomes,text,Other IVIG indication,,,,,,[ivigindic] = '3',,NINDS
+commentsivig,treatments_and_outcomes,text,Additional Comments-IVIG,,,,,,[immunomedtype(0)] = '1',,NINDS
+steriodstartdt,treatments_and_outcomes,text,Steroid Start Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(1)] = '1',,nih_all_cde
+steriodstopdt,treatments_and_outcomes,text,Steroid Stop Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(1)] = '1',,nih_all_cde
+sterdose,treatments_and_outcomes,text,Steroid dose (include unit):,,add unit,,,,[immunomedtype(1)] = '1',,nih_all_cde
+sterindic,treatments_and_outcomes,radio,Steroid Indication:,"0, Primary Therapy | 1, Recurrent fever | 2, Cardiac Indication | 3, Other",,,,,[immunomedtype(1)] = '1',,nih_all_cde
+othersterindic,treatments_and_outcomes,text,Other Steroid indication,,,,,,[sterindic] = '3',,nih_all_cde
+pulsesteriod,treatments_and_outcomes,yesno,Did the subject receive pulse Steroids?,,,,,,,,nih_all_cde
+commentssteriods,treatments_and_outcomes,text,Additional Comments-Steroid,,,,,,[immunomedtype(1)] = '1',,nih_all_cde
+inflixstartdt,treatments_and_outcomes,text,Infliximab Start Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(2)] = '1',,LOINC
+inflixdose,treatments_and_outcomes,text,Infliximab dose (include unit):,,add unit,,,,[immunomedtype(2)] = '1',,LOINC
+inflixindic,treatments_and_outcomes,radio,Infliximab Indication:,"0, Primary Therapy | 1, Recurrent fever | 2, Cardiac Indication | 3, Other",,,,,[immunomedtype(2)] = '1',,LOINC
+otherinflixindic,treatments_and_outcomes,text,Other Infliximab indication,,,,,,[inflixindic] = '3',,LOINC
+commentsinfliximab,treatments_and_outcomes,text,Additional Comments-Infliximab ,,,,,,[immunomedtype(2)] = '1',,LOINC
+anakstartdt,treatments_and_outcomes,text,Anakinra Start Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(3)] = '1',,
+anakstopdt,treatments_and_outcomes,text,Anakinra Stop Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(3)] = '1',,
+anakdose,treatments_and_outcomes,text,Anakinra dose (include unit):,,add unit,,,,[immunomedtype(3)] = '1',,
+anakindic,treatments_and_outcomes,radio,Anakinra Indication:,"0, Primary Therapy | 1, Recurrent fever | 2, Cardiac Indication | 3, Other",,,,,[immunomedtype(3)] = '1',,
+otheanakindic,treatments_and_outcomes,text,Other Anakinra indication,,,,,,[anakindic] = '3',,
+commentanak,treatments_and_outcomes,text,Additional Comments-Anakinra,,,,,,[immunomedtype(3)] = '1',,
+tocstartdt,treatments_and_outcomes,text,Tocilizumab Start Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(4)] = '1',,nlm-covid-cde
+tocstopdt,treatments_and_outcomes,text,Tocilizumab Stop Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(4)] = '1',,nlm-covid-cde
+tocdose,treatments_and_outcomes,text,Tocilizumab dose (include unit):,,add unit,,,,[immunomedtype(4)] = '1',,nlm-covid-cde
+tocindic,treatments_and_outcomes,radio,Tocilizumab Indication:,"0, Primary Therapy | 1, Recurrent fever | 2, Cardiac Indication | 3, Other",,,,,[immunomedtype(4)] = '1',,nlm-covid-cde
+othetocindic,treatments_and_outcomes,text,Other Tocilizumab indication,,,,,,[tocindic] = '3',,nlm-covid-cde
+commenttocili,treatments_and_outcomes,text,Additional Comments-Tocilizumab,,,,,,[immunomedtype(4)] = '1',,nlm-covid-cde
+immunother,treatments_and_outcomes,text,Other Immuno-modulant/Suppressant medication:,,,,,,[immunomedtype(5)] = '1',,NINDS
+immunotherstartdt,treatments_and_outcomes,text,Other Immuno-modulant/Suppressant medication Start Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(5)] = '1',,NINDS
+immunotherstopdt,treatments_and_outcomes,text,Other Immuno-modulant/Suppressant medication Stop Date:,,MM-DD-YYYY,date_mdy,,,[immunomedtype(5)] = '1',,NINDS
+immunotherdose,treatments_and_outcomes,text,Other Immuno-modulant/Suppressant medication dose (include unit):,,add unit,,,,[immunomedtype(5)] = '1',,NINDS
+immunotherindic,treatments_and_outcomes,radio,Other Immuno-modulant/Suppressant medication Indication:,"0, Primary Therapy | 1, Recurrent fever | 2, Cardiac Indication | 3, Other",,,,,[immunomedtype(5)] = '1',,NINDS
+otherimmunoindic,treatments_and_outcomes,text,Other Immuno-modulant/Suppressant medication indication,,,,,,[immunotherindic] = '3',,NINDS
+commentotherimmuno,treatments_and_outcomes,text,Additional Comments-Other Immuno-modulant/Suppressant ,,,,,,[immunomedtype(5)] = '1',,NINDS
+anticomed,treatments_and_outcomes,yesno,Did the patient receive anti-coagulation medication? ,,,,,,,,nih_all_cde
+anticomedtype,treatments_and_outcomes,checkbox,Which anti-coagulation medication did the patient receive?,"0, Therapeutic Heparin | 1, Bivalirudin | 2, Enoxaparin | 3, Other",,,,,[anticomed] = '1',,nih_all_cde
+therhepstartdt,treatments_and_outcomes,text,Therapeutic Heparin Start Date:,,MM-DD-YYYY,date_mdy,,,[anticomedtype(0)] = '1',,ISTH
+therhepstopdt,treatments_and_outcomes,text,Therapeutic Heparin Stop Date:,,MM-DD-YYYY,date_mdy,,,[anticomedtype(0)] = '1',,ISTH
+therhepdose,treatments_and_outcomes,text,Therapeutic Heparin Dose:,,,,,,[anticomedtype(0)] = '1',,ISTH
+bivastartdt,treatments_and_outcomes,text,Bivalirudin Start Date:,,MM-DD-YYYY,date_mdy,,,[anticomedtype(1)] = '1',,ISTH
+bivastopdt,treatments_and_outcomes,text,Bivalirudin Stop Date:,,MM-DD-YYYY,date_mdy,,,[anticomedtype(1)] = '1',,ISTH
+bivadose,treatments_and_outcomes,text,Bivalirudin Dose:,,,,,,[anticomedtype(1)] = '1',,ISTH
+enoxstartdt,treatments_and_outcomes,text,Enoxaparin Start Date:,,MM-DD-YYYY,date_mdy,,,[anticomedtype(2)] = '1',,ISTH
+enoxstopdt,treatments_and_outcomes,text,Enoxaparin Stop Date:,,MM-DD-YYYY,date_mdy,,,[anticomedtype(2)] = '1',,ISTH
+enoxdose,treatments_and_outcomes,text,Enoxaparin Dose:,,,,,,[anticomedtype(2)] = '1',,ISTH
+anticoother,treatments_and_outcomes,text,Other anti-coagulation medication:,,,,,,[anticomedtype(3)] = '1',,NINDS
+otheranticostartdt,treatments_and_outcomes,text,Other anti-coagulation Start Date:,,MM-DD-YYYY,date_mdy,,,[anticomedtype(3)] = '1',,NINDS
+otheranticostopdt,treatments_and_outcomes,text,Other anti-coagulation Stop Date:,,MM-DD-YYYY,date_mdy,,,[anticomedtype(3)] = '1',,NINDS
+otheranticodose,treatments_and_outcomes,text,Other anti-coagulation Dose:,,,,,,[anticomedtype(3)] = '1',,NINDS
+antiplmed,treatments_and_outcomes,yesno,Did the patient receive anti-platelet medication?,,,,,,,,NINDS
+antiplmedtype,treatments_and_outcomes,checkbox,Which anti-platelet medication did the patient receive?,"0, Aspirin | 1, Clopidogrel | 2, Other ADP-receptor antagonists | 3, Other",,,,,[antiplmed] = '1',,nih_all_cde
+aspstartdt,treatments_and_outcomes,text,Aspirin Start Date:,,MM-DD-YYYY,date_mdy,,,[antiplmedtype(0)] = '1',,nih_all_cde
+aspstopdt,treatments_and_outcomes,text,Aspirin Stop Date:,,MM-DD-YYYY,date_mdy,,,[antiplmedtype(0)] = '1',,nih_all_cde
+aspdose,treatments_and_outcomes,text,Aspirin Dose:,,,,,,[antiplmedtype(0)] = '1',,nih_all_cde
+clopstartdt,treatments_and_outcomes,text,Clopidogrel Start Date:,,MM-DD-YYYY,date_mdy,,,[antiplmedtype(1)] = '1',,NINDS
+clopstopdt,treatments_and_outcomes,text,Clopidogrel Stop Date:,,MM-DD-YYYY,date_mdy,,,[antiplmedtype(1)] = '1',,NINDS
+clopdose,treatments_and_outcomes,text,Clopidogrel Dose:,,,,,,[antiplmedtype(1)] = '1',,NINDS
+otheradpstartdt,treatments_and_outcomes,text,Other ADP-receptor antagonists medication Start Date:,,MM-DD-YYYY,date_mdy,,,[antiplmedtype(2)] = '1',,
+otheradpstopdt,treatments_and_outcomes,text,Other ADP-receptor antagonists medication Stop Date:,,MM-DD-YYYY,date_mdy,,,[antiplmedtype(2)] = '1',,
+otheradpdose,treatments_and_outcomes,text,Other ADP-receptor antagonists medication Dose:,,,,,,[antiplmedtype(2)] = '1',,
+otherantiplstartdt,treatments_and_outcomes,text,Other anti-platelet medication Start Date:,,MM-DD-YYYY,date_mdy,,,[antiplmedtype(3)] = '1',,
+otherantiplstopdt,treatments_and_outcomes,text,Other anti-platelet medication Stop Date:,,MM-DD-YYYY,date_mdy,,,[antiplmedtype(3)] = '1',,
+otherantipldose,treatments_and_outcomes,text,Other anti-platelet medication Dose:,,,,,,[antiplmedtype(3)] = '1',,
+mechvent,treatments_and_outcomes,yesno,Did the patient receive mechanical ventilation?,,,,,,,,nih_all_cde
+dateintub,treatments_and_outcomes,text,Date of intubation:,,MM-DD-YYYY,date_mdy,,,[mechvent] = '1',,nih_all_cde
+dateextu,treatments_and_outcomes,text,Date of extubation:,,MM-DD-YYYY,date_mdy,,,[mechvent] = '1',,nih_all_cde
+hosmort,treatments_and_outcomes,yesno,In-hospital mortality:,,,,,,,,nih_all_cde
+datedeath,treatments_and_outcomes,text,Date of death:,,MM-DD-YYYY,date_mdy,,,[hosmort] = '1',,nih_all_cde
+autopsy,treatments_and_outcomes,yesno,Was there an autopsy?,,,,,,[hosmort] = '1',,nih_all_cde
+dateautopsy,treatments_and_outcomes,text,Date of autopsy:,,MM-DD-YYYY,date_mdy,,,[autopsy] = '1',,nih_all_cde
+commntsoutcomes,treatments_and_outcomes,notes,Comments:,,,,,,,,nih_all_cde
+wrostever,worst_ever_lab_results_and_cardiac_measurements,descriptive,Worst ever for laboratory measurements and  cardiac measurements ,,,,,,,,
+dthgb,worst_ever_lab_results_and_cardiac_measurements,text,"Date of lowest Hemoglobin
+",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+hgblowest,worst_ever_lab_results_and_cardiac_measurements,text, Lowest Hemoglobin (g/dL):,,to 1 decimal place,number,5,50,,,nih_all_cde
+dtplt,worst_ever_lab_results_and_cardiac_measurements,text,"Date of lowest Platelet Count:
+",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+pltslowest,worst_ever_lab_results_and_cardiac_measurements,text,Lowest Platelet Count (X 10^3/uL):,,,number,30,2000,,,nih_all_cde
+crpdthighest,worst_ever_lab_results_and_cardiac_measurements,text,"Date of highest CRP: 
+",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+unitcrphighest,worst_ever_lab_results_and_cardiac_measurements,radio,Highest CRP Unit ,"1, mg/dL | 2, mg/L",,,,,,,nih_all_cde
+crphighest,worst_ever_lab_results_and_cardiac_measurements,text,Highest C-reactive protein,,to 1 decimal place,number,,,[unitcrphighest] = '2' or [unitcrphighest] = '1',,nih_all_cde
+tropdthigh,worst_ever_lab_results_and_cardiac_measurements,text,"Date of Highest Troponin: 
+",,MM-DD-YYYY,date_mdy,,,,,nih_all_cde
+trophigh,worst_ever_lab_results_and_cardiac_measurements,text,Highest Troponin value:,,,,,,,,nih_all_cde
+unittrophigh,worst_ever_lab_results_and_cardiac_measurements,text,Unit for Troponin:,,,,,,,,nih_all_cde
+tropnormvaluehigh,worst_ever_lab_results_and_cardiac_measurements,text,Troponin Institutional Normal Values:,,,,,,,,nih_all_cde
+ntbnpdthigh,worst_ever_lab_results_and_cardiac_measurements,text,"Date of Highest NTproBNP: 
+",,MM-DD-YYYY,date_mdy,,,,,NHLBI
+unitntbnphigh,worst_ever_lab_results_and_cardiac_measurements,text,Unit for NT-proBNP:,,,,,,,,NHLBI
+ntbnphigh,worst_ever_lab_results_and_cardiac_measurements,text,Highest NT-proBNP value:,,,,,,,,NHLBI
+ntbnpnormvaluehigh,worst_ever_lab_results_and_cardiac_measurements,text,NT-proBNP Institutional Normal Values:,,,,,,,,NHLBI
+bnpdthigh,worst_ever_lab_results_and_cardiac_measurements,text,"Date of Highest BNP: 
+",,MM-DD-YYYY,date_mdy,,,,,NHLBI
+bnphigh,worst_ever_lab_results_and_cardiac_measurements,text,Highest BNP value:,,,,,,,,NHLBI
+unitbnphigh,worst_ever_lab_results_and_cardiac_measurements,text,Unit for BNP:,,,,,,,,NHLBI
+bnpnormvaluehigh,worst_ever_lab_results_and_cardiac_measurements,text,BNP Institutional Normal Values:,,,,,,,,NHLBI
+ferrdthigh,worst_ever_lab_results_and_cardiac_measurements,text,"Date of Highest Ferritin: 
+",,MM-DD-YYYY,date_mdy,,,,,NHLBI
+ferritinhigh,worst_ever_lab_results_and_cardiac_measurements,text,Highest Ferritin (ng/mL):,,,,,,,,NHLBI
+ferrnormvaluehigh,worst_ever_lab_results_and_cardiac_measurements,text,Ferritin Institutional Normal Values:,,,,,,,,NHLBI
+ddimdthigh,worst_ever_lab_results_and_cardiac_measurements,text,"Date of Highest D-Dimer: 
+",,MM-DD-YYYY,date_mdy,,,,,NHLBI
+ddim_2,worst_ever_lab_results_and_cardiac_measurements,text,D-Dimer (mg/mL):,,,,,,,,NHLBI
+efdtlow,worst_ever_lab_results_and_cardiac_measurements,text,"Date Lowest LV Ejection Fraction : 
+**Use calendar to complete date ",,MM-DD-YYYY,date_mdy,,,,,NHLBI
+eflow,worst_ever_lab_results_and_cardiac_measurements,text,Lowest LV Ejection Fraction (%): ,,,,,,,,NHLBI
+efmethodlow,worst_ever_lab_results_and_cardiac_measurements,radio,LV Ejection Fraction method:,"0, Bullet | 1, Biplane Simpson | 2, M-mode | 3, Other",,,,,,,NHLBI
+efmethodotherlow,worst_ever_lab_results_and_cardiac_measurements,text,"Ejection Fraction method other, please specify",,,,,,[efmethod] = '3',,NINDS
+zscorehigh,worst_ever_lab_results_and_cardiac_measurements,yesno,<p>Did the patient have a z-score (z <u>> </u>2.5) ?</p>,,,,,,,,NINDS
+zscorehighloc,worst_ever_lab_results_and_cardiac_measurements,checkbox,"Which coronary artery had a z-score (z <u>> </u>2.5)?
+select all that apply","1, LAD | 2, Proximal RCA | 3, Neither",,,,,,,NINDS
+echoht_2,worst_ever_lab_results_and_cardiac_measurements,text,Height (cm),,,,,,,,nih_all_cde
+echowt_2,worst_ever_lab_results_and_cardiac_measurements,text,Weight (kg),,,,,,,,nih_all_cde
+bsa_2,worst_ever_lab_results_and_cardiac_measurements,calc,BSA,sqrt(([echoht_2]*[echowt_2])/3600),,,,,,,nih_all_cde
+echodtlad,worst_ever_lab_results_and_cardiac_measurements,text,"Date of Echocardiogram LAD: 
+",,MM-DD-YYYY,date_mdy,,,[zscorehighloc(1)] = '1',,
+laddiaechohigh,worst_ever_lab_results_and_cardiac_measurements,text,LAD artery internal diameter on echo (mm): ,,to 1 decimal place,,,,[zscorehighloc(1)] = '1',,
+echodtrca,worst_ever_lab_results_and_cardiac_measurements,text,"Date of Echocardiogram Proximal RCA: 
+",,MM-DD-YYYY,date_mdy,,,[zscorehighloc(2)] = '1',,
+rcadiaechohigh,worst_ever_lab_results_and_cardiac_measurements,text,Proximal RCA internal diameter on echo (mm):,,to 1 decimal place,,,,[zscorehighloc(2)] = '1',,
+studyidsample,samples,descriptive,Please include the patients study ID on each sample,,,,,,,,
+samplepriority,samples,descriptive,"<div class=""rich-text-field-label""><table style=""width: 415.0pt; border-collapse: collapse; border: none;""> <tbody> <tr style=""height: 82px;""> <td style=""width: 108.9pt; border: 1pt solid windowtext; padding: 0in 5.4pt; height: 82px;""> <p style=""text-align: center;""><strong>Blood samples (order of priority)</strong></p> </td> <td style=""width: 100.7pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; border-left: none; padding: 0in 5.4pt; height: 82px;""> <p style=""text-align: center;""><strong>Pre-Treatment</strong></p> </td> <td style=""width: 112.15pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; border-left: none; padding: 0in 5.4pt; height: 82px;""> <p style=""text-align: center;""><strong>Post-Treatment and Before Discharge</strong></p> </td> <td style=""width: 93.25pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; border-left: none; padding: 0in 5.4pt; height: 82px;""> <p style=""text-align: center;""><strong>Clinic Visit</strong></p> </td> </tr> <tr style=""height: 46px;""> <td style=""width: 108.9pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: initial; border-top: none; padding: 0in 5.4pt; height: 46px;""> <p>PAXgene</p> </td> <td style=""width: 100.7pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> <td style=""width: 112.15pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> <td style=""width: 93.25pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> </tr> <tr style=""height: 46px;""> <td style=""width: 108.9pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: initial; border-top: none; padding: 0in 5.4pt; height: 46px;""> <p>EDTA plasma</p> </td> <td style=""width: 100.7pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> <td style=""width: 112.15pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> <td style=""width: 93.25pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> </tr> <tr style=""height: 46px;""> <td style=""width: 108.9pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: initial; border-top: none; padding: 0in 5.4pt; height: 46px;""> <p>Serum</p> </td> <td style=""width: 100.7pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> <td style=""width: 112.15pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> <td style=""width: 93.25pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">X</p> </td> </tr> <tr style=""height: 46px;""> <td style=""width: 108.9pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-image: initial; border-top: none; padding: 0in 5.4pt; height: 46px;""> <p>DNA</p> </td> <td style=""width: 100.7pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt; height: 46px;""> <p style=""text-align: center;"">",,,,,,,,
+scavblood,samples,yesno,Did you collected scavenged samples?,,,,,,,,nih_all_cde
+scavsampletype,samples,checkbox,Which scavenged samples were collected?,"0, Serum | 1, Plasma (EDTA purple top) | 2, DNA (purple top)",Click all that apply,,,,[scavblood] = '1',,nih_all_cde
+dateserum,samples,text,Date scavenged serum collected:,,MM-DD-YYYY,date_mdy,,,[scavsampletype(0)] = '1',,nih_all_cde
+dateplasma,samples,text,Date scavenged plasma collected:,,MM-DD-YYYY,date_mdy,,,[scavsampletype(1)] = '1',,nih_all_cde
+datedna,samples,text,Date scavenged DNA collected:,,MM-DD-YYYY,date_mdy,,,[scavsampletype(2)] = '1',,nih_all_cde
+charmsblood,samples,yesno,Did you collect samples using the CHARMS tubes?,,,,,,,,
+charmssampletype,samples,checkbox,Which CHARMS samples were collected?,"0, Serum | 1, Plasma (EDTA purple) | 2, RNA (PAX Gene tube) | 3, DNA (purple top or mouthwash)",Click all that apply,,,,[charmsblood] = '1',,
+datecharmssamp,samples,text,Date CHARMS samples collected:,,MM-DD-YYYY,date_mdy,,,[charmsblood] = '1',,
+timecharmssamp,samples,text,Time CHARMS samples collected:,,HH:MM,time,,,[charmsblood] = '1',,
+rectalswab,samples,yesno,Did you collect rectal swab in 95% ethanol?,,,,,,,,
+daterectal,samples,text,Date rectal swab collected with FLOQ swab in 95% ethanol:,,MM-DD-YYYY,date_mdy,,,[rectalswab] = '1',,
+commetssamples,samples,notes,Comments,,,,,,,,

@@ -1,0 +1,49 @@
+Id,Section,ui,Label,Enumeration,Notes,pattern,min,max,phi_id,branching_logic,required,form_name,Description,source_file,source_directory
+study_id,,text,Study ID,,,,,,,,,intake_form_cdes,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+chills,"Symptoms ",radio,Chills,"1, Yes | 0, No",,,,,,,,intake_form_cdes,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+diarrhea,"Symptoms ",radio,Diarrhea,"1, Yes | 0, No",,,,,,,,intake_form_cdes,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+height_embedding,Health status,descriptive,"<div class=""rich-text-field-label""><table style=""border-collapse: collapse; width: 100%; height: 36px;"" border=""0""> <tbody> <tr style=""border-style: none;""> <td style=""width: 60%; height: 36px;"">What is your height?</td> <td style=""height: 36px; width: 32.2489%;"" colspan=""3"">{height_feet} feet<br />{height_inches} in</td> </tr> </tbody> </table></div>",,,,,,,,,intake_form_cdes,height in feet and inches,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+econsent,Health status,radio,"I understand that my rights include the right to obtain this electronic record in non-electronic form (as a hard copy paper version). I understand that I can request a copy of this electronic record by contacting Dr. Jokerst and providing a mailing address: jjokerst@ucsd.edu; 858-246-0896
+
+I understand that I have the right to withdraw my agreement to use an electronic record by contacting Dr. Jokerst: jjokerst@ucsd.edu; 858-246-0896
+
+","1, I agree | 2, I disagree",,,,,,,y,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+consent_pg1,Health status,descriptive,,,,,,,,,,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+consent_pg2,Health status,descriptive,,,,,,,,,,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+consent_pg3,Health status,descriptive,,,,,,,,,,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+consent_pg4,Health status,descriptive,,,,,,,,,,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+consent_pg5,Health status,descriptive,,,,,,,,,,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+consent_pg6,Health status,descriptive,,,,,,,,,,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+first_name,Health status,text,First name.,,,,,,y,,y,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+last_name,Health status,text,Last name.,,,,,,y,,y,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+consent_date,Health status,text,Today's Date.,,,date_mdy,,,,,y,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+consent_signature,Health status,file,"Please sign below to acknowledge the consent form. ",,,signature,,,y,,y,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+participant_email,Health status,text,"Please enter your email address. This is how you will upload pictures of your used Smart Masks. ",,,email,,,y,,y,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+participant_address,Health status,text,"Please enter your mailing address so we can mail you Smart Masks. ",,,,,,y,,y,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+download_consent,Health status,descriptive,"Here is a link to the consent form for your records. ",,,,,,,,,consent,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+mask_able,Health status,yesno,Are you unable or unwilling to wear a face covering?,,,,,,,,,intake_form_cdes,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_times,Health status,radio,"How many hours did you wear the sticker + mask? Round to the nearest hour. ","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,,y,day_1,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+day1_test,Health status,dropdown,"Did you test with an established method (PCR, antigen, etc.) within 48 hours of wearing the sticker?","1, Did not test. | 2, Tested and was positive. | 3, Tested and was negative.",,,,,,,y,day_1,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_control,Health status,dropdown,The control lane (small lane) in the sticker was purple.,"1, True | 2, False",,,,,,,y,day_1,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_test,Health status,dropdown,The test lane on the sticker was purple.,"1, True | 2, False",,,,,,,y,day_1,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_picture,Health status,file,"Please upload a picture of your sticker within 10 minutes of activating the blister pack. ",,,,,,,,y,day_1,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d2_time,Health status,radio,How many hours did you wear the sticker + mask? Round to the nearest hour.,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,,y,day_2,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+day1_test_d2,Health status,dropdown,"Did you test with an established method (PCR, antigen, etc.) within 48 hours of wearing the sticker?","1, Did not test. | 2, Tested and was positive. | 3, Tested and was negative.",,,,,,,y,day_2,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_control_d2,Health status,dropdown,The control lane in the sticker was purple.,"1, True | 2, False",,,,,,,y,day_2,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_test_d2,Health status,dropdown,The test lane on the sticker was purple.,"1, True | 2, False",,,,,,,y,day_2,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_picture_d2,Health status,file,"Please upload a picture of your sticker within 10 minutes of activating the blister pack. ",,,,,,,,y,day_2,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d3_time,Health status,radio,How many hours did you wear the sticker + mask? Round to the nearest hour.,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,,y,day_3,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+day1_test_d2_d3,Health status,dropdown,"Did you test with an established method (PCR, antigen, etc.) within 48 hours of wearing the sticker?","1, Did not test. | 2, Tested and was positive. | 3, Tested and was negative.",,,,,,,y,day_3,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_control_d2_d3,Health status,dropdown,The control lane in the sticker was purple.,"1, True | 2, False",,,,,,,y,day_3,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_test_d2_d3,Health status,dropdown,The test lane on the sticker was purple.,"1, True | 2, False",,,,,,,y,day_3,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_picture_d2_d3,Health status,file,"Please upload a picture of your sticker within 10 minutes of activating the blister pack. ",,,,,,,,y,day_3,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d4_time,Health status,radio,How many hours did you wear the sticker + mask? Round to the nearest hour.,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,,y,day_4,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+day1_test_d2_d3_d4,Health status,dropdown,"Did you test with an established method (PCR, antigen, etc.) within 48 hours of wearing the sticker?","1, Did not test. | 2, Tested and was positive. | 3, Tested and was negative.",,,,,,,y,day_4,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_control_d2_d3_d4,Health status,dropdown,The control lane in the sticker was purple.,"1, True | 2, False",,,,,,,y,day_4,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_test_d2_d3_d4,Health status,dropdown,The test lane on the sticker was purple.,"1, True | 2, False",,,,,,,y,day_4,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_picture_d2_d3_d4,Health status,file,"Please upload a picture of your sticker within 10 minutes of activating the blister pack. ",,,,,,,,y,day_4,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d5_time,Health status,radio,How many hours did you wear the sticker + mask? Round to the nearest hour.,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,,y,day_5,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+day1_test_d2_d3_d4_d5,Health status,dropdown,"Did you test with an established method (PCR, antigen, etc.) within 48 hours of wearing the sticker?","1, Did not test. | 2, Tested and was positive. | 3, Tested and was negative.",,,,,,,y,day_5,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_control_d2_d3_d4_d5,Health status,dropdown,The control lane in the sticker was purple.,"1, True | 2, False",,,,,,,y,day_5,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_test_d2_d3_d4_d5,Health status,dropdown,The test lane on the sticker was purple.,"1, True | 2, False",,,,,,,y,day_5,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524
+d1_sticker_picture_d2_d3_d4_d5,Health status,file,"Please upload a picture of your sticker within 10 minutes of activating the blister pack. ",,,,,,,,y,day_5,,rad_016_114-01_JVJ_DICT_origcopy_v1.csv,phs002524

@@ -1,0 +1,716 @@
+Id,form_name,Section,ui,Label,Enumeration,Notes,pattern,min,max,branching_logic,required,source_file,source_directory
+subject_id,demographics,Identity,text,Participant ID,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chills,symptoms,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,y,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+diarrhea,symptoms,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,y,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+participant redcap id,,Health Status,,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+shifting_days_for_date,,Health Status,,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+shifting_years_for_age,,Health Status,,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+shifting_dates,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of first sample collection,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of samples collected (choice=whole blood),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of samples collected (choice=plasma),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of sample collection (choice=prospective),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of sample collection (choice=retrospective),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+diagnoses (choice=covid-19),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"diagnoses (choice=mis-c (for mis-c, also check covid-19))",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+diagnoses (choice=kawasaki disease),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+diagnoses (choice=healthy control),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"diagnoses (choice=negative control (immunocompromised, underlying conditions))",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+diagnoses (choice=inflammatory control (respiratory virus or bacterial infection)),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+inflammatory control comment,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+negative control comment,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of covid diagnosis,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+covid-19 severity (old classification score),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+covid-19 severity (on date of sample collected (+ or - 1 day)),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+covid-19 severity (highest severity throughout entire hospitalization),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+covid-19 world health organization (who) severity score,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+covid-19 diagnosis notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+sars cov-2 molecular test?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of molecular test (choice=antigen),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of molecular test (choice=pcr),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of molecular test (choice=idnow),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of molecular test (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many instruments were used to run sars cov-2 test(s)?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+instrument 1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+instrument 2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+instrument 3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+instrument 4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many antigen tests?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of antigen test #1,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of antigen test #1,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of antigen test #2,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of antigen test #2,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of antigen test #3,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of antigen test #3,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of antigen test #4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of antigen test #4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many pcr tests?,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of pcr test #1,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of pcr test #1,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of pcr test #2,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of pcr test #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+variant identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of pcr test #3,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of pcr test #3,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many idnow tests?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of idnow test #1,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of idnow test #1,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of idnow test #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of idnow test #2,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of idnow test #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of idnow test #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+viral load or cycle threshold,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+varient identification,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other tests?,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other sars cov-2 test 1,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other sars cov-2 test 1,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of other sars cov-2 test 1,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other sars cov-2 test 2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other sars cov-2 test 2,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of other sars cov-2 test 2,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other sars cov-2 test 3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other sars cov-2 test 3,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of other sars cov-2 test 3,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of mis-c diagnosis,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+confirmation of mis-c diagnosis (choice=pcr positive),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+confirmation of mis-c diagnosis (choice=antibody positive),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+confirmation of mis-c diagnosis (choice=direct contact with covid+ person),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+confirmation of mis-c diagnosis (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+confirmation of mis-c diagnosis (choice=none of the above),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mis-c severity (old classification scores),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mis-c severity (on date of sample collected (+ or - 1 day)),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mis-c severity (highest severity throughout entire hospitalization),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mis-c diagnosis comment,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of kawasaki disease diagnosis,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of kawasaki disease,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+kd severity (on date of sample collected (+ or - 1 day)),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+kd severity (highest severity throughout entire hospitalization),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+kawasaki disease diagnosis comments,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+control comments,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+alternative diagnosis identified?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what is the alternative diagnosis?,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+sars cov-2 antibody test?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of antibody test (choice=spike),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of antibody test (choice=nucleocapsid),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of antibody test (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many spike antibody tests?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of spike antibody test #1,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of spike antibody test #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of spike antibody test #2,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of spike antibody test #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of spike antibody test #3,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of spike antibody test #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many nucleocapsid antibody tests ?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of nucleocapsid antibody test #1,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of nucleocapsid antibody test #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of nucleocapsid antibody test #2,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of nucleocapsid antibody test #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of nucleocapsid antibody test #3,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of nucleocapsid antibody test #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other tests were run?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other antibody test #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other antibody test #1,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of other antibody test #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other antibody test #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other antibody test #2,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result of other antibody test #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what other type of labs were run? (choice=rbd elisa),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what other type of labs were run? (choice=neutralizing antibodies),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what other type of labs were run? (choice=pseudovirus neutralizing antibodies),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what other type of labs were run? (choice=adcc),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what other type of labs were run? (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what other type of labs were run? (choice=none),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what was the date of the rbd elisa?,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what was the date of the neutralizing antibodies?,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what was the date of the pseudovirus neutralizing antibodies?,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+what was the date of the adcc?,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other labs were run?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab #1 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab #2 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab #3 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+received the covid-19 vaccine?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+vaccine type (choice=pfizer-biontech),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+vaccine type (choice=moderna),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+vaccine type (choice=johnson & johnson / janssen),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+vaccine type (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many pfizer doses received?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of first pfizer vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of second pfizer vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of third pfizer vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of fourth pfizer vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many moderna doses received?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of first moderna vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of second moderna vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of third moderna vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of fourth moderna vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many j&j doses received?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of first j&j vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of second j&j vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of third j&j vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other vaccine type,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other vaccine doses received?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of first other vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of second other vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of third other vaccine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+symptoms associated with:,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of symptom onset,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mucous membrane changes (only in acute phase of infection before respiratory intubation),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=conjunctival injection),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=lip erythema),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=lip cracking),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=pharyngeal or tonsillar erythema),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=tongue erythema),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=mucositis),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=unknown),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other mucous membrane changes,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+peripheral extremity changes,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=swelling),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=erythema),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other peripheral extremity changes,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+rash,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=macular),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=maculopapular),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+check all that apply: (choice=unsure),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other rash type,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+distribution of rash?,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+sore throat,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+rhinorrhea/congestion,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+arthralgias (joint pain),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+loss of smell or taste,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest pain,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other symptoms,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory conditions (choice=asthma),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory conditions (choice=chronic lung disease / bpd),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory conditions (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory conditions (choice=none),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying condition?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=hematologic),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=oncologic),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=cardiac),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=diabetes),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=obesity),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=neurologic),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=prematurity),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=transplant),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=immunosuppressed),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+underlying conditions (check all that apply) (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other underlying condition,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other respiratory conditions?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory condition #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory condition #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory condition #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiovascular conditions (choice=congenital heart disease),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiovascular conditions (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiovascular conditions (choice=none),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other cardiovascular conditions?,,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiac condition #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiac condition #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiac condition #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+immunocompromised conditions (choice=malignancy),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+immunocompromised conditions (choice=solid organ transplant),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+immunocompromised conditions (choice=bmt),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+immunocompromised conditions (choice=hiv),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+immunocompromised conditions (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+immunocompromised conditions (choice=none),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other immuno conditions?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other immuno #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other immuno #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other immuno #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+obesity,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other past medical history,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many past medical histories?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+past medical history #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+past medical history #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+past medical history #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+past medical history #4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+past medical history #5,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+past medical history #6,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+lab type,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of labs,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+lab location,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other (specify),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+white blood cell count (wbc),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of wbc,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hemoglobin,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units19,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of hgb,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hematocrit,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of hct,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units21,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of rbc,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+red blood cell count (rbcs),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units33,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+platelet count,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of plt,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units2,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+red cell distribution width (rdw),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of rdw,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units20,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mean corpuscular volume (mcv),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units23,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of mcv,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mch (mean corpuscular hemoglobin),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units31,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of mch,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mchc (mean corpuscular hemoglobin concentration),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units32,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of mchc,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+absolute neutrophil count (anc),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units3,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of anc,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+absolute lymphocyte count,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units4,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of abs lymphocyte,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+absolute monocyte count,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units24,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of abs monocyte,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+absolute eosinophil count,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units26,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of abs eosinophil,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+absolute basophil count,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units25,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of abs basophil,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"immature granulocytes, left shift",,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of imm granulocytes,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units34,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+pt,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of pt,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units41,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+inr,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of inr,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units42,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of ptt,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units40,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ptt,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of fibrinogen,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units43,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+fibrinogen,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of d-dimer,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units44,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+d-dimer,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of fdp,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units45,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+fdp,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units13,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of esr,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+erythrocyte sedimentation rate (esr),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of tropnonin,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+troponin,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units5,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of crp,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+crp,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units14,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of bnp,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+brain natriuretic peptide (bnp),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units7,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of ferritin,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ferritin,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units6,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+sodium,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of sodium,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units10,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+potassium,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of potassium,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units11,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chloride,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of chloride,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units28,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+co2/bicarbonate ,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of co2,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units46,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units8,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+blood urea nitrogen (bun),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of bun,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units30,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+serum (blood) creatinine,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units12,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of creatinine,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+blood glucose (fasting or nonfasting),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+fasting?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of glucose,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+calcium,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of calcium,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units9,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+albumin,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of albumin,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units35,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+magnesium,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of magnesium,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+phosphorus,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of phosphorus,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+lactate dehydrogenase (ldh),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of ldh,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units47,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+alanine aminotransferase (alt),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of alt,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units27,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+aspartate aminotransferase (ast),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of ast,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units29,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units37,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+alkaline phosphatase,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of alkaline phosphatase,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+bilirubin,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of bilirubin,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units36,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+amylase,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of amylase,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units38,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+lipase,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of lipase,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units39,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of sil-2r,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+soluble interleukin-2 receptor (sil-2r),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units15,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of il-6,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+il-6,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units16,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+pyuria,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+additional labs performed?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other labs?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other lab 1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab 1 value,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other lab 2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab 2 value,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units 51,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other lab 3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other lab 3 value,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units 52,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other lab 4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+value of other lab 4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units 53,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other lab 5,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+value of other lab 5,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units 54,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other lab 5,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+result,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory pathogen panel: name of pathogen(s),,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+instrument used,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other positive microbiology tests?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other microbiology tests?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other positive microbiologic test #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other positive microbiologic test #1,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+source,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other positive microbiologic test #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other positive microbiologic test #2,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+source,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other positive microbiologic test #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other positive microbiologic test #3,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+source,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other positive microbiologic test #4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of other positive microbiologic test #4,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+source,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest x-ray,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest x-ray date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest x-ray results,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest x-ray findings (choice=focal infiltrate),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest x-ray findings (choice=diffuse infiltrate),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest x-ray findings (choice=pleural effusion or empyema),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest x-ray findings (choice=atelectasis),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest x-ray findings (choice=other),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest ct,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest ct date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest ct results,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest ct findings (choice=focal infiltrate),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest ct findings (choice=pleural effusion or empyema),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest ct findings (choice=pulmonary embolism),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest ct findings (choice=ards),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chest ct findings (choice=diffuse infiltrate),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiac mri,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiac mri results,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cardiac mri findings (copy and paste impressions),,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+echocardiogram,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+echocardiogram date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+echocardiogram results,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+echocardiogram findings (choice=decreased myocardial function),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+echocardiogram findings (choice=coronary abnormality),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+echocardiogram findings (choice=pericarditis/pericardial effusion),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+echocardiogram findings (choice=valvular disease),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+electrocardiogram (ecg/ekg),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ekg date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ekg results,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ekg findings,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+was other imaging performed?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other imaging methods?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #1: results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #2: results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #3: results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #4: results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #5,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other imaging method #5: results,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+methylprednisolone,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+methylprednisolone start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+methylprednisolone end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+methylprednisolone dose,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hydrocortisone,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hydrocortisone start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hydrocortisone end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hydrocortisone dose,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+number of days,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+oral prednisone (upon discharge),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+oral prednisone (upon discharge) start date,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+oral prednisone (upon discharge) end date,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+number of days,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+prednisolone (upon discharge),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+prednisolone (upon discharge) start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+prednisolone (upon discharge) end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+number of days,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+dexamethasone,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+dexamethasone start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+dexamethasone end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+dexamethasone peak dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+number of days,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+infliximab,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+infliximab dose,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+remdesivir,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+remdesivir start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+remdesivir end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+remdesivir dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+frequency,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other frequency,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+tocilizumab,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+tocilizumab start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+tocilizumab end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+tocilizumab dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units4,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+frequency,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other frequency,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+baricitinib,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+baricitinib dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units6,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+frequency,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other frequency,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+aspirin,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+aspirin start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+aspirin end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+aspirin dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units7,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+frequency,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other frequency,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+anakinra,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+anakinra start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+anakinra end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+anakinra dose,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hydroxychloroquine,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hydroxychloroquine start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hydroxychloroquine end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hydroxychloroquine dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units9,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+frequency,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other frequency,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+monoclonal antibodies,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+monoclonal antibodies type,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other monoclonal antibodies,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ivig (intravenous immune globulin),,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many doses of ivig were administered?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+convalescent plasma,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many doses of convalescent plasma were administered?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+convalescent plasma dose #1 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+convalescent plasma dose #2 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+convalescent plasma dose #3 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+convalescent plasma dose #4 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+convalescent plasma dose #5 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+convalescent plasma dose #6 date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+anticoagulation,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+anticoagulation type,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+name of other anticoagulation,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other anticoagulation start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other anticoagulation end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+anticoagulation dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units10,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+frequency,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other frequency,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other treatments?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #5,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #6,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #7,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #8,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #9,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other treatment #10,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+vasopressor use,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+pressors (duration and type),,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+respiratory support,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+overall duration of oxygen support (days),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of oxygen support (choice=nasal cannula),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of oxygen support (choice=face mask),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of oxygen support (choice=high-flow nasal cannula),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of oxygen support (choice=bipap),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of oxygen support (choice=mechanical ventilation),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of oxygen support (choice=ecmo),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+type of oxygen support (choice=cpap),,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+duration of mechanical oxygen support (days),,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+peak fi02,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+peak peep,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+low-flow o2,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+high-flow o2,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+non-invasive ventilation,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+mechanical ventilation,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ecmo,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ecmo start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+ecmo end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+dialysis,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+dialysis start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+dialysis end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+antiplatelet,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+antiplatelet start date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+antiplatelet end date,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+antiplatelet dose,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+units11,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+frequency,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other frequency,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hospitalization,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"reason for hospitalization? (if patient had covid-19, but it was found incidentally after they were hospitalized for a car accident, the answer here would be other) (choice=covid-19)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"reason for hospitalization? (if patient had covid-19, but it was found incidentally after they were hospitalized for a car accident, the answer here would be other) (choice=misc)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"reason for hospitalization? (if patient had covid-19, but it was found incidentally after they were hospitalized for a car accident, the answer here would be other) (choice=other)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"reason for hospitalization? (if patient had covid-19, but it was found incidentally after they were hospitalized for a car accident, the answer here would be other) (choice=unknown)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other reason for hospitalization,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"hospitalization: date of onset (if a transfer, enter first date)",,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+hospitalization: date resolved,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+icu stay,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"was the icu stay consistent (ex. in 1/1, out 1/10), or inconsistent (ex. in 1/1, out 1/2 but still hospitalized, in again 1/5, out again 1/10)?",,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+icu: date of onset,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+icu: date resolved,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+amount of total days spent in the icu?,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=myocarditis / cardiac dysfunction)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=pulmonary embolus)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=stroke)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=encephalitis)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=dialysis)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=other)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=none)",,Health Status,checkbox,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+complication(s) notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other complications?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #5,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+death,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of death,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+was death due to covid?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+icu: date resolved,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+amount of total days spent in the icu?,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=myocarditis / cardiac dysfunction)",,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=pulmonary embolus)",,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=stroke)",,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=encephalitis)",,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=dialysis)",,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=other)",,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+"other complications (includes during hospitalization, up to 3 months post-discharge) (choice=none)",,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+complication(s) notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+how many other complications?,,Health Status,dropdown,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #1,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #2,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #3,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #4,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+other complication #5,,Health Status,text,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+death,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+date of death,,Health Status,date,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+was death due to covid?,,Health Status,radio,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+notes,,Health Status,notes,,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+sample_id,,Identity,text,Study ID and date of sampling,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+chr,,Methylation_Reference,text,Chromosome,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+start,,Methylation_Reference,text,Start of interval,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+stop,,Methylation_Reference,text,Stop of interval,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+reference,,Methylation_Reference,text,DOI Source of Interval - Background information,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+genomic_loci,,Methylation_Reference,text,"Build from Chromosome_Start of interval_Stop of interval ",,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cfdna_data,,Methylation_Data,Float,Refer to Methylation_Reference_File for variable definition,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+gene_id,,Gene_count_reference,text,Ensembl gene id,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+gene_name,,Gene_count_reference,text,hgnc gene symbol,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+gene_type,,Gene_count_reference,text,Gene biotype,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+genomic_reference,,Gene_count_reference,text,Source of gene information - Background information,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+cfrna_data,,Gene_count_data,Float,Refer to Gene_Count_Reference_File for variable definition,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553
+wbrna_data,,Gene_count_data,Float,Refer to Gene_Count_Reference_File for variable definition,,,,,,,,rad_023_618-01_DICT_UCSF_origcopy_v1.csv,phs002553

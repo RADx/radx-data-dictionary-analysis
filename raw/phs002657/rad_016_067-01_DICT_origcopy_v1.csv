@@ -1,0 +1,128 @@
+﻿Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,variable name: patient_id,,,,,,RADx-rad Minimum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,,"variable name: AgeAtFDD
+Age in years. For babies less than 1 year old, write 0 as the age",,0,90,,,RADx-rad Minimum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",variable name: gender,,,,,,RADx-rad Minimum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,,RADx-rad Minimum CDE
+zip,Domicile,text,Zip or Postal Code:,,"De-identified Zip Code; if less than 3 digits are extracted, “0”s precede the number(s)",,,,,,RADx-rad Minimum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",variable name: employ_sts,,,,,,RADx-rad Minimum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",variable name: ins_type,,,,,,RADx-rad Minimum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No","variable name: WALK_SCORE, score from 0 to 100",,0,100,,,RADx-rad Minimum CDE
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",variable name: ckd,,,,,,RADx-rad Minimum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",variable name: copd,,,,,,RADx-rad Minimum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",variable name: immunosupp,,,,,,RADx-rad Minimum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",variable name: mental_illness,,,,,,RADx-rad Minimum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",variable name: sickle_cell,,,,,,RADx-rad Minimum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",variable name: pregnancy,,,,[sex] = '2',,RADx-rad Minimum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,foot,RADx-rad Minimum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,,inch,RADx-rad Minimum CDE
+weight_lbs,Health Status,float,What is your weight?,,"variable name: post_weight_lbs, pre_weight_lbs",,,,,pound,RADx-rad Minimum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,,RADx-rad Minimum CDE
+vintage,,,Dialysis vintage (years on dialysis) of participant at study end,,,,,,,"years, to tenth percent",
+all_diagnoses,,,All ICD-10 diagnoses assigned to participant,,,,,,,,
+FDD_to_asthma,,,First dialysis date to asthma diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_cancer,,,First dialysis date to cancer diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_CKD,,,First dialysis date to CKD diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_COPD,,,First dialysis date to COPD diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_diabetes,,,First dialysis date todiabetes diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_hypertension,,,First dialysis date to hypertension diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_immunosupp,,,First dialysis date to immunosuppressive condition diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_mi,,,First dialysis date to serious mental illness diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_sc,,,First dialysis date to sickle cell diagnosis,,,,,,,mm/dd/yyyy,
+FDD_to_pregnancy,,,First dialysis date to pregnancy diagnosis,,,,,,,mm/dd/yyyy,
+nursing_home,,,Indicates that participant is living in a nursing home,"1, Yes | 0, No | (blank), Unknown",,,,,,,
+vasc_access[1-11],,,Participant's vascular access type,"1, AVF | 2, AVG | 3, PDCATH | 4, CVCATH",,,,,,PLEASE USE YYYY/MM/DD FOR DATES IF POSSIBLE,
+FDD_to_VA[1-11],,,First dialysis date to the date participant's vascular access type was recorded,,,,,,,mm/dd/yyyy,
+first_dose_type,,,First COVID vaccince type,,,,,,,,
+FDD_to_first_dose,,,First dialysis date to the date of first dose of COVID vaccine,,,,,,,,
+second_dose_type,,,Second COVID vaccine type,,,,,,,,
+FDD_to_second_dose,,,First dialysis date to the date of second dose of COVID vaccine,,,,,,,,
+FDD_to_txt_dt,,,First dialysis date to dialysis treatment date,,,,,,,,
+iso_shift,,,Indicates that the facility had an isolation shift (not necessarily the shift of the treatment),"1, Yes",,,,,,,
+iso_clinic,,,Indicates that facility is a designated isolation clinic,"1, Yes",,,,,,,
+shift,,,Dialysis shift,,,,,,,,
+station_num,,,Dialysis station number,,,,,,,,
+machine_num,,,Dialysis machine number,,,,,,,,
+pod_num,,,Dialysis pod number,,,,,,,,
+target_weight,,,Prescribed target weight,,,,,,,,
+avg_qb,,,Average blood flow rate,,,,,,,,
+avg_qd,,,Average dialysis flow rate,,,,,,,,
+idwg,,,Intradialytic weight gain,,,,,,,,
+pre_sbp,,,"Pre-treatment systolic blood pressure, sitting",,,,,,,,
+post_sbp,,,"Post-treatment systolic blood pressure, sitting",,,,,,,,
+pre_dbp,,,"Pre-treatment diastolic blood pressure, sitting",,,,,,,,
+post_dbp,,,"Post-treatment diastolic blood pressure, sitting",,,,,,,,
+pre_temp,,,Pre-treatment temperature,,,,,,,,
+post_temp,,,Post-treatment temperature,,,,,,,,
+pre_pulse,,,Pre-treatment pulse rate,,,,,,,,
+post_pulse,,,Post-treatment pulse rate,,,,,,,,
+pre_resp,,,Pre-treatment respiratory rate,,,,,,,,
+post_resp,,,Post-treatment respiratory rate,,,,,,,,
+txt_time,,,Total treatment time,,,,,,,,
+min_sbp,,,Minimum systolic blood pressure during treatment,,,,,,,,
+max_sbp,,,Maximum systolic blood pressure during treatment,,,,,,,,
+min_dbp,,,Minimum diastolic blood pressure during treatment,,,,,,,,
+max_dbp,,,Maximum diastolic blood pressure during treatment,,,,,,,,
+min_pulse,,,Minimum pulse rate during treatment,,,,,,,,
+max_pulse,,,Maximum pulse rate during treatment,,,,,,,,
+pre_O2,,,Pre-treatment oxygen saturation,,,,,,,,
+post_O2,,,Post-treatment oxygen saturation,,,,,,,,
+ktv,,,Kt/V,,,,,,,,
+O2_admin,,,Total oxygen administered during treatment,,,,,,,,
+FDD_to_draw_dt,,,First dialysis date to  laboratory specimen draw date,,,,,,,mm/dd/yyyy,
+covid_pcr,,,COVID PCR test result value,,,,,,,free text,
+covid_igg,,,COVID IgG test result value,,,,,,,free text,
+covid_igm,,,COVID IgM test result value,,,,,,,free text,
+albumin,,,Albumin value,,,,,,,g/dL,
+creatinine,,,Creatinine value,,,,,,,mg/dL,
+chloride,,,Chloride value,,,,,,,mEq/L,
+bun,,,BUN value,,,,,,,mg/mL,
+sodium,,,Sodium value,,,,,,,mEq/L,
+tsat,,,TSAT value,,,,,,,%,
+potassium,,,Potassium value,,,,,,,mEq/L,
+ferritin,,,Ferritin value,,,,,,,ng/mL,
+URR,,,URR value,,,,,,,%,
+npcr,,,NPCR,,,,,,,,
+pth,,,PTH value,,,,,,,pg/mL,
+total_calcium,,,Total calcium value,,,,,,,mg/dL,
+platelets,,,Platelets value,,,,,,,10000/uL,
+phosphorus,,,Phosphorus value,,,,,,,mg/dL,
+hgb,,,Hemoglobin value,,,,,,,g/dL,
+wbc,,,WBC value,,,,,,,10000/uL,
+monocytes,,,Monocyte value,,,,,,,%,
+eosinophils,,,Eosinophil value,,,,,,,%,
+basophils,,,Basophil value,,,,,,,%,
+lymphocytes,,,Lymphocyte value,,,,,,,%,
+neutrophils,,,Neutrophil value,,,,,,,%,
+hepb_absag,,,Hepatitis B surface antigen value,,,,,,,m[IU]/mL,
+hepb_antihbc,,,Hepatitis B core antibody value,,,,,,,m[IU]/mL,
+hepb_antihbs,,,Hepatitis B surface antibody value,,,,,,,m[IU]/mL,
+NLR,,,Neutrophil-to-Lymphocyte Ratio,,,,,,,,

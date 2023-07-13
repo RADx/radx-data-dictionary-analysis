@@ -1,0 +1,250 @@
+Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Units,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minumum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,RADx-rad Minumum CDE
+ethnicity,Ethnicity,checkbox,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,RADx-rad Minumum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",0,90,,,RADx-rad Minumum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,RADx-rad Minumum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,RADx-rad Minumum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,RADx-rad Minumum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,RADx-rad Minumum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,RADx-rad Minumum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,[sex] = '2',,RADx-rad Minumum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,foot,RADx-rad Minumum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,inch,RADx-rad Minumum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,pound,RADx-rad Minumum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,RADx-rad Minumum CDE
+sample_id,Sample,text,Unique identifier for a spiked (contrived) sample,,,,,,,
+sample_media,Sample,text,Media used to prepare the spiked sample,,example: pooled saliva,,,,,
+sample_concentration,Sample,float,Concentation of target analyte in the sample,,,,,,,
+sample_concentration_unit,Sample,text,Unit of the sample concentration,,exmaple: copies/ml,,,,,
+target_organism_name,Target,text,NCBI organism name,,example: SARS-CoV-2,,,,,https://www.ncbi.nlm.nih.gov/taxonomy
+target_taxonomy_id,Target,text,NCBI taxonomy id for organism,,example: 2697049,,,,,https://www.ncbi.nlm.nih.gov/taxonomy
+isolate_name,Target,text,Name of the isolate,,example: hCoV-19/USA/WA1/2020,,,,,
+target_subtype,Target,text,Subtype of organism,,example (Influenza): H1N1,,,,,https://www.ncbi.nlm.nih.gov/taxonomy
+gisaid_id,Target,text,GISAID isolate id of the original isolate,,example: EPI_ISL_751801,,,,,https://www.gisaid.org
+pango_lineage,Target,text,Pango lineage for SARS-CoV-2 variant,,example: B.1.1.7,,,,,https://cov-lineages.org
+who_label,Target,text,WHO label for SARS-CoV-2 variant,,example: Alpha,,,,,https://www.who.int/en/activities/tracking-SARS-CoV-2-variants
+target_analyte_type,Sample,list,Type of analyte(s) or target(s) to be detected,antigen | genomic RNA | inactivated virus | live virus | pseudovirus | antibody,example: antigen,,,,,
+antigen_name,Sample/Antigen,text,UniProt preferred protein name,,example: Spike glycoprotein,,,,,
+antigen_nterminal_tag,Sample/Antigen,text,Name of tag attached to N-terminal,,example: HIS,,,,,
+antigen_cterminal_tag,Sample/Antigen,text,Name of tag attached to C-terminal,,example: HIS,,,,,
+antigen_region,Sample/Antigen,text,Domain or subunit name,,examples: S1|Receptor Binding Domain,,,,,
+antigen_expression_system,Sample/Antigen,text,System used to express protein,,,,,,,
+antigen_formulation,Sample/Antigen,text,Formulation of antigen,,"example: Lyophilized from sterile PBS, pH 7.4.",,,,,
+antigen_source,Sample/Antigen,text,Supplier of antigen or publication,,example: Sino Biological,,,,,
+antigen_source_url,Sampe/Antigen,url,URL of supplier catalog page or publication DOI link,,example: https://www.sinobiological.com/recombinant-proteins/2019-ncov-cov-spike-40591-v08h,,,,,
+antigen_concentration,Sample/Antigen,float,Protein concentration,,example: 1.0,,,,,
+antigen_concentration_unit,Sample/Antigen,text,Unit of protein concentration,mM | uM| nM | pM | fM,example: nM,,,,,
+study_id,,,,,,,,,,
+race,,,,,,,,,,
+ethnicity,,,,,,,,,,
+age,,,,,,,,,,
+sex,,,,,,,,,,
+education,,,,,,,,,,
+zip,,,,,,,,,,
+employment,,,,,,,,,,
+insurance,,,,,,,,,,
+deaf,,,,,,,,,,
+blind,,,,,,,,,,
+memory_dis,,,,,,,,,,
+walking_climbing_dis,,,,,,,,,,
+dress_bathe_dis,,,,,,,,,,
+errand_dis,,,,,,,,,,
+vaping,,,,,,,,,,
+nicotine,,,,,,,,,,
+alcohol_use,,,,,,,,,,
+asthma,,,,,,,,,,
+cancer,,,,,,,,,,
+cardiovascular_disease,,,,,,,,,,
+chronic_kidney_disease,,,,,,,,,,
+chronic_lung_disease,,,,,,,,,,
+diabetes,,,,,,,,,,
+hypertension,,,,,,,,,,
+immunosuppressive_conditio,,,,,,,,,,
+serious_mental_illness,,,,,,,,,,
+sickle_cell_disease,,,,,,,,,,
+pregnancy_status,,,,,,,,,,
+cough,,,,,,,,,,
+fever,,,,,,,,,,
+shortness_of_breath_or_dif,,,,,,,,,,
+headache,,,,,,,,,,
+muscle_ache,,,,,,,,,,
+new_loss_of_taste_or_smell,,,,,,,,,,
+chills,,,,,,,,,,
+excessive_fatigue,,,,,,,,,,
+nausea_vomiting,,,,,,,,,,
+diarrhea,,,,,,,,,,
+abdominal_pain,,,,,,,,,,
+skin_rash,,,,,,,,,,
+conjunctivitis,,,,,,,,,,
+height_feet,,,,,,,,,,
+height_inches,,,,,,,,,,
+weight_lbs,,,,,,,,,,
+health_status,,,,,,,,,,
+protocol_id,,,,,,,,,,
+technology_platform,,,,,,,,,,
+technology_description,,,,,,,,,,
+biorecognition_type,,,,,,,,,,
+analyte_type,,,,,,,,,,
+signal_detection,,,,,,,,,,
+surface,,,,,,,,,,
+immobilization_reagent_name,,,,,,,,,,
+immobilization_reagent_id,,,,,,,,,,
+immoblization_reagent_source,,,,,,,,,,
+capture_antigen_name,,,,,,,,,,
+capture_antigen_region,,,,,,,,,,
+capture_antigen_source,,,,,,,,,,
+capture_antigen_source_url,,,,,,,,,,
+capture_antibody_name,,,,,,,,,,
+capture_antibody_clonality,,,,,,,,,,
+capture_antibody_clone,,,,,,,,,,
+capture_antibody_modification,,,,,,,,,,
+capture_antibody_modification_role,,,,,,,,,,
+capture_antibody_expression_system,,,,,,,,,,
+capture_antibody_host_organism_name,,,,,,,,,,
+capture_antibody_target_organism_name,,,,,,,,,,
+capture_antibody_target_organism_taxonomy_id,,,,,,,,,,
+capture_antibody_purity,,,,,,,,,,
+capture_antibody_purification_method,,,,,,,,,,
+capture_antibody_formulation,,,,,,,,,,
+capture_antibody_source,,,,,,,,,,
+capture_antibody_source_url,,,,,,,,,,
+detector_antibody_name,,,,,,,,,,
+detector_antibody_role,,,,,,,,,,
+detector_antibody_clonality,,,,,,,,,,
+detector_antibody_modification,,,,,,,,,,
+detector_antibody_modification_role,,,,,,,,,,
+detector_antibody_host_organism_name,,,,,,,,,,
+detector_antibody_target_organism_name,,,,,,,,,,
+detector_antibody_target_organism_taxonomy_id,,,,,,,,,,
+detector_antibody_target_organism_subtype,,,,,,,,,,
+detector_antibody_purity,,,,,,,,,,
+detector_antibody_purification_method,,,,,,,,,,
+detector_antibody_formulation,,,,,,,,,,
+detector_antibody_source,,,,,,,,,,
+detector_antibody_source_url,,,,,,,,,,
+detector_molecular_beacon_source_id,,,,,,,,,,
+detector_molecular_beacon_name,,,,,,,,,,
+detector_molecular_beacon_role,,,,,,,,,,
+detector_molecular_beacon_modification_role,,,,,,,,,,
+detector_molecular_beacon_sequence,,,,,,,,,,
+detector_molecular_beacon_expression_system,,,,,,,,,,
+detector_molecular_beacon_host_organism_name,,,,,,,,,,
+detector_molecular_beacon_host_organims_taxonomy_id,,,,,,,,,,
+detector_molecular_beacon_host_organism_subtype,,,,,,,,,,
+detector_molecular_beacon_target_organism_name,,,,,,,,,,
+detector_molecular_beacon_target_organism_taxonomy_id,,,,,,,,,,
+detector_molecular_beacon_target_organism_subtype,,,,,,,,,,
+detector_molecular_beacon_purity,,,,,,,,,,
+detector_molecular_beacon_purification_method,,,,,,,,,,
+detector_molecular_beacon_formulation,,,,,,,,,,
+detector_molecular_beacon_source,,,,,,,,,,
+detector_molecular_beacon_source_url,,,,,,,,,,
+sample_id,,,,,,,,,,
+sample_media,,,,,,,,,,
+protocol_id,,,,,,,,,,
+sample_concentration,,,,,,,,,,
+sample_concentration_unit,,,,,,,,,,
+target_analyte_type,,,,,,,,,,
+antigen_name,,,,,,,,,,
+antigen_region,,,,,,,,,,
+total_fluorescence_intensity,,,,,,,,,,
+result_intepret,,,,,,,,,,
+sample_id,,,,,,,,,,
+sample_media,,,,,,,,,,
+protocol_id,,,,,,,,,,
+sample_concentration,,,,,,,,,,
+sample_concentration_unit,,,,,,,,,,
+total_fluorescence_intensity,,,,,,,,,,
+result_intepret,,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,
+"",,,,,,,,,,

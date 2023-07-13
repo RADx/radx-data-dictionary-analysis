@@ -1,0 +1,5 @@
+Id,Variable Classification,Label,ui,Validation,Field Notes
+contact_id,other,id of the other side of a contact,text,integer,256-bit unsigned integer
+contact_duration,other,duration of contact between participants,text,integer,"32-bit uint, (measured in seconds)"
+contact_time,other,time of contact,text,time,64-bit unix time
+contact_distance,other,the RSSI detected from Bluetooth module,text,integer,negative integer

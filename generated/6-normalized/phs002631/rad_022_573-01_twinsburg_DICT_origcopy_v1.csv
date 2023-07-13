@@ -1,0 +1,6 @@
+Id,Label
+log_tau_estimate,"Point estimate of the logarithm (base 10) of the modeled parameter tau, a measure of odor detection,  using the ArOMa-T test"
+log_tau_se,"Standard error of the logarithm (base 10) of the modeled parameter tau, a measure of odor detection, using the ArOMa-T test"
+lambda_estimate,"Point estimate of the modeled parameter lambda, a measure of response criterion bias, using the ArOMa-T test"
+lambda_se,"Standard error of the modeled parameter lambda, a measure of response criterion bias, using the ArOMa-T test"
+thresh_estimate,"Odor detection threshold, using the ArOMaT test"

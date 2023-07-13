@@ -1,0 +1,140 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",0,90,,,RADx-rad Minimum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,RADx-rad Minimum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,RADx-rad Minimum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,RADx-rad Minimum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,RADx-rad Minimum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,RADx-rad Minimum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,[sex] = '2',,RADx-rad Minimum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,foot,RADx-rad Minimum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,inch,RADx-rad Minimum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,pound,RADx-rad Minimum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,RADx-rad Minimum CDE
+protocol_id,Technology Metadata,text,Unique name or identifier for biosensor protocol,,example: ddPCR_SARS-CoV-2,,,,,RADx-rad DCC
+technology_platform,Technology Metadata,text,Abbreviation or short label for technology,,example: ddPCR,,,,,RADx-rad DCC
+technology_description,Technology Metadata,text,Short description of technology,,example: Droplet Digital PCR,,,,,RADx-rad DCC
+technology_reference,Technology Metadata,url,"URL of publication, preprint, or website that describes technology",,,,,,,RADx-rad DCC
+biorecognition_type,Technology Metadata,list,Type of molecular entity used for biosensor fabrication,aptamer | antibody | enzyme,Multiple entities can be specified as list if biosenor uses a combination of molecular entities,,,,,RADx-rad DCC
+analyte_type,Technology Metadata,list,Type of analyte(s) or target(s) to be detected,antigen | viral RNA | virus | antibody | human IgA | human IgG | human IgM | neutralizing antibody | EV RNA | VOC,example: virus,,,,,RADx-rad DCC
+signal_detection,Technology Metadata,category,Type of signal generated by the methods or assay,amperometric | chemiluminescent | chromatographic | colorimetric | fluorogenic | impedimetric |,example: amerometric,,,,,RADx-rad DCC
+surface,Technology Metadata/Immobilization,text,Type of plate or electrode used in the methods or assay,,examples: polystyrene | gold electrode,,,,,RADx-rad DCC
+immobilization_reagent_name,Technology Metadata/Immobilization,text,Reagent used to immobilize a capture probe to a surface,,example: pyrrole,,,,,RADx-rad DCC
+immobilization_reagent_id,Technology Metadata/Immobilization,text,Unique identifier or catalog number of immobilization reagent given by supplier,,example: W338605,,,,,RADx-rad DCC
+immobilization_reagent_source,Technology Metadata/Immobilization,text,Supplier of reagent,,example: Sigma Aldrich,,,,,RADx-rad DCC
+capture_antigen_id,Technology Metadata/Antigen,text,"Protein Sequence Database id, e.g., UniProt accession number or NCBI GenPept id",,examples: QHD43416.1,,,,,RADX-rad DCC|https://www.uniprot.org/|https://www.ncbi.nlm.nih.gov/protein
+capture_antigen_target_organism_name,Technology Metadata/Aptamer,text,NCBI organism name of target organism,,example: SARS-CoV-2,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+capture_antigen_target_organism_taxonomy_id,Technology Metadata/Aptamer,text,NCBI taxonomy id of target organism,,example: 2697049,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+capture_antigen_region,Technology Metadata/Antigen,text,Domain or subunit name,,example: Receptor Binding Domain,,,,,RADx-rad DCC
+capture_antigen_region_start,Technology Metadata/Antigen,integer,Start residue number of region,,example: 319,,,,,RADx-rad DCC
+capture_antigen_region_end,Technology Metadata/Antigen,integer,End residue number of region,,example: 591,,,,,RADx-rad DCC
+capture_antigen_modification,Technology Metadata/Antigen,text,Name of modification attached to the antigen,,example: HIS; AVI,,,,,RADx-rad DCC
+capture_antigen_expression_system,Technology Metadata/Antigen,category,System used to express protein,,,,,,,RADx-rad DCC
+capture_antigen_source,Technology Metadata/Antigen,text,Supplier of antigen or publication,,example: GenScript,,,,,RADx-rad DCC
+capture_antigen_source_id,Technology Metadata/Antigen,text,Unique identifier or catalog number of capture antigen given by supplier,,example: GenScript,,,,,RADx-rad DCC
+capture_antigen_source_url,Technology Metadata/Antigen,url,URL of supplier catalog page or publication DOI link,,example: https://www.genscript.com/protein/Z03483-SARS_CoV_2_Spike_protein_RBD_His_Tag_.html,,,,,RADx-rad DCC
+detector_antibody_id,Technology Metadata/Antibody,text,Unique identifier or catalog number of antibody given by supplier,,,,,,,RADx-rad DCC
+detector_antibody_name,Technology Metadata/Antibody,text,Name of the capture antibody,,,,,,,RADx-rad DCC
+detector_antibody_clonality,Technology Metadata/Antibody,category,Clonal state of the antibody,monoclonal | polyclonal,,,,,,RADx-rad DCC
+detector_antibody_clone,Technology Metadata/Antibody,text,Name of the antibody clone,,,,,,,RADx-rad DCC
+detector_antibody_modification,Technology Metadata/Antibody,text,Name of modification attached to the antibody,,,,,,,RADx-rad DCC
+detector_antibody_modification_role,Technology Metadata/Antibody,category,Role of the modification,capturing | capturing + detection | detection,,,,,,RADx-rad DCC
+detector_antibody_source,Technology Metadata/Antibody,text,Supplier of the antibody or antibody conjugate or publication DOI link,,,,,,,RADx-rad DCC
+detector_antibody_source_url,Technology Metadata/Antibody,url,URL of supplier catalog page or publication DOI link,,example:  https://doi.org/10.1002/anie.202107730,,,,,RADx-rad DCC
+reporter_id,Technology Metadata/Reporter,text,"Protein Sequence Database id, e.g., UniProt accession number or NCBI GenPept id",,,,,,,RADx-rad DCC
+reporter_name,Technology Metadata/Reporter,text,"Name of the reporter (e.g., linked-enzyme antibody or non-enzymatic reporter molecule)",,example: Streptavidin-HRP,,,,,RADx-rad DCC
+reporter_source,Technology Metadata/Reporter,text,Supplier of the reporter,,,,,,,RADx-rad DCC
+reporter_source_url,Technology Metadata/Reporter,url,URL of supplier catalog page or publication DOI link,,,,,,,RADx-rad DCC
+substrate_id,Technology Metadata/Probe,text,"Unique identifeir, common short label, or acronym of the substrate",,example: TMB,,,,,RADx-rad DCC
+substrate_name,Technology Metadata/Probe,text,Name of the substrate,,"example: 3,3′,5,5′-Tetramethyl[1,1′-biphenyl]-4,4′-diamine",,,,,RADx-rad DCC
+substrate_inchi_key,Technology Metadata/Probe,text,InChI Key of the substrate,,example: UAIUNKRWKOVEES-UHFFFAOYSA-N,,,,,RADx-rad DCC|https://pubchem.ncbi.nlm.nih.gov/|https://iupac.org/who-we-are/divisions/division-details/inchi/
+substrate_source,Technology Metadata/Probe,text,Unique identifier or catalog number of reporter given by supplier,,,,,,,RADx-rad DCC
+substrate_source_url,Technology Metadata/Probe,url,URL of supplier catalog page or publication DOI link,,,,,,,RADx-rad DCC
+sample_id,Sample,text,Unique identifier for a spiked (contrived) sample,,,,,,,RADx-rad DCC
+sample_media,Sample,text,Media used to prepare the spiked sample,,example: pooled saliva,,,,,RADx-rad DCC
+sample_concentration,Sample,float,Concentation of target analyte in the sample,,,,,,,RADx-rad DCC
+sample_concentration_unit,Sample,text,Unit of the target analyte concentration,,example: copies/ml,,,,,RADx-rad DCC
+target_organism_name,Target,text,NCBI organism name,,example: SARS-CoV-2,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+target_organism_taxonomy_id,Target,text,NCBI taxonomy id for organism,,example: 2697049,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+antigen_name,Sample/Antigen,text,UniProt preferred protein name,,example: Spike glycoprotein,,,,,RADx-rad DCC
+antigen_id,Sample/Antigen,text,"Protein Sequence Database id, e.g., UniProt accession number or NCBI GenPept id",,examples: P0DTC2|YP_009724390.1,,,,,RADx-rad DCC|https://www.uniprot.org/|https://www.ncbi.nlm.nih.gov/protein
+antigen_region,Sample/Antigen,text,Domain or subunit name,,examples: S1|Receptor Binding Domain,,,,,RADx-rad DCC
+antigen_region_start,Sample/Antigen,integer,Start residue number of region,,example: 16,,,,,RADx-rad DCC
+antigen_region_end,Sample/Antigen,integer,End residue number of region,,example: 685,,,,,RADx-rad DCC
+standard_antibody_id,Sample/Antibody,text,Unique identifier or catalog number of antibody given by supplier,,,,,,,RADx-rad DCC
+standard_antibody_name,Sample/Antibody,text,Name of the capture antibody,,,,,,,RADx-rad DCC
+standard_antibody_clonality,Sample/Antibody,category,Clonal state of the antibody,monoclonal | polyclonal,,,,,,RADx-rad DCC
+standard_antibody_clone,Sample/Antibody,text,Name of the antibody clone,,,,,,,RADx-rad DCC
+standard_antibody_source,Sample/Antibody,text,Supplier of the antibody or antibody conjugate or publication DOI link,,,,,,,RADx-rad DCC
+standard_antibody_source_url,Sample/Antibody,url,URL of supplier catalog page or publication DOI link,,example:  https://doi.org/10.1002/anie.202107730,,,,,RADx-rad DCC
+cohort_id,Clinical,text,Identifier for groups of patients,,,,,,,RADx-rad DCC
+symptom_onset_days,Clinical,integer,Number of days since the onset of symptoms when the patient's sample was collected,,,,,,,RADx-rad DCC
+covid_vaccine_type,Vaccine Acceptance,category,Covid vaccine type,Pfizer-BioNTech | Moderna | Novavax | J&J/Jansen,FDA approved vaccines,,,,,RADx-rad DCC|https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/overview-COVID-19-vaccines.html?s_cid=11758:covid%20vaccine%20brands:sem.ga:p:RG:GM:gen:PTN:FY22
+covid_vaccine,Vaccine Acceptance,radio,Have you received a COVID-19 vaccine?,"1, Yes | 0, No | 98,  not sure/prefer not to answer",,,,,,RADx-rad DCC
+covid_vaccine_doses,Vaccine Acceptance,integer,How many COVID-19 vaccine doses have you received?,,"use 0 if covid_vaccine == 0, leave blank if covid_vaccine == 98",,,,,RADx-rad DCC
+covid_test_target_disease_status,Covid Testing,radio,Participant Testing Disease Status,"1, Asymptomatic | 2, Pre-symptomatic illness | 3, Mild/Moderate outpatient illness | 4, Acute illness | 5, Severe/Critical inpatient illness| 6, Exposed | 9, Convalescent illiness",,,,,,RADx-UP Testing Core
+covid_test_type,Covid Testing,radio,Test Method Target,"1, Antibody | 2, Antigen | 3, Nucleic acid/PCR | 4, Nucleic acid/Isothermal | 5, Molecular/host response | 6, Biochemical marker (eg, pH) | 90, Other, Specify",,,,,,RADx-UP Testing Core
+covid_test_specimen_type,Covid Testing,radio,Specimen Type,"1, Anterior nasal swab | 2, Mid-turbinate nasal swab | 3, Nasopharyngeal swab | 4, Oropharyngeal swab | 5, Nasal lavage | 6, Saliva | 7, Sputum | 8, Whole blood | 90, Other, Specify",,,,,,RADx-UP Testing Core
+covid_test_specimen_collector,Covid Testing,radio,Specimen Collector,"1, Self-collect | 2, Health Care Provider collected | 90, Other, Specify",,,,,,RADx-UP Testing Core
+covid_test_ct_value,Covid Testing,integer,PCR cycle threshold,,,,,,,RADx-rad DCC
+covid_test_result,Covid Testing,radio,Test result,"1, Positive | 2, Negative | 3, Failed | 4, Lost | 90, Other",,,,,,RADx-UP Testing Core
+covid_diagnosis,Covid Testing,radio,Have you ever been diagnosed with COVID-19?,"1, Yes | 0, No | 98,  not sure/prefer not to answer",,,,,,RADx-rad DCC
+nih_tobacco,Medical History,category,Tobacco Use,"0, No tobacco use| 1, Current Tobacco user| 2, Former Tobacco User| 98, Don't Know | 99, Prefer not to answer",,,,,,RADx-rad Global Codebook
+sample_group,Sample,text,Unique identifier for a grouping of samples or runs,,,,,,,RADx-rad DCC
+assay_result,Assay Results,category,"Measured result. If other, specify result in assay_result_other",positive|negative|failed|lost |other,,,,,,RADx-rad DCC
+assay_readout,Assay Results,float,Numerical assay readout,,,,,,,RADx-rad DCC
+assay_readout_unit,Assay Results,text,Unit of the assay readout,,,,,,,RADx-rad DCC
+sample_size,Analytical Performance,integer,Number of samples in a sample_group used to calculate metrics,,,,,,,RADx-rad DCC
+limit_of_blank,Analytical Performance,float,Limit of Blank (LOB).  The highest apparent analyte concentration expected to be found when a replicate of a sample containing no analyte are tested.,,"Armbruster DA, Pry T. Limit of blank, limit of detection and limit of quantitation. Clin Biochem Rev. 2008 Aug;29 Suppl 1(Suppl 1):S49-52. PMID: 18852857; PMCID: PMC2556583.",,,,,RADx-rad DCC|https://ncbi.nlm.nih.gov/pmc/articles/PMC2556583
+limit_of_detection,Analytical Performance,float,Limit of Detection (LOD). The minimum amount or concentration of analyte that can be reliably distinguished from zero.,,"Armbruster DA, Pry T. Limit of blank, limit of detection and limit of quantitation. Clin Biochem Rev. 2008 Aug;29 Suppl 1(Suppl 1):S49-52. PMID: 18852857; PMCID: PMC2556583.",,,,,RADx-rad DCC|https://ncbi.nlm.nih.gov/pmc/articles/PMC2556583
+limit_of_detection_unit,Analytical Performance,text,Concentration unit for limit_of_blank,,,,,,,"RADx-rad DCC "
+dynamic_range_min,Analytical Performance,float,Dynamic range min is the  lowest concentration of an analyte that can be reliably detected by the assay.,,,,,,,RADx-rad DCC
+dynamic_range_min_unit,Analytical Performance,text,Unit of dynamic range minimum value,,,,,,,RADx-rad DCC
+dynamic_range_max,Analytical Performance,float,Dynamic range ax is the heighest concentration of an analyte that can be reliably detected by the assay.,,,,,,,RADx-rad DCC
+dynamic_range_max_unit,Analytical Performance,text,Unit of dynamic range maximum value,,,,,,,RADx-rad DCC
+area_under_the_ROC_curve,Analytical/Clinical Performance,float,ROC-based performance. AUC under ROC curve.,,,,,,,RADx-rad DCC
+cohort_size,Clinical Performance,integer,Number of subject in a cohort (see cohort_id) used to calculate metrics,,,,,,,RADx-rad DCC
+true_positives,Clinical Performance,integer,True Positives (TP). The number of subjects/specimens with true positive test results,,,,,,,RADx-rad DCC|https://www.fda.gov/files/medical%20devices/published/Guidance-for-Industry-and-FDA-Staff---Statistical-Guidance-on-Reporting-Results-from-Studies-Evaluating-Diagnostic-Tests-%28PDF-Version%29.pdf
+false_positives,Clinical Performance,integer,False Positives (FP). The number of subjects/specimens with false positive test results,,,,,,,RADx-rad DCC|https://www.fda.gov/files/medical%20devices/published/Guidance-for-Industry-and-FDA-Staff---Statistical-Guidance-on-Reporting-Results-from-Studies-Evaluating-Diagnostic-Tests-%28PDF-Version%29.pdf
+true_negatives,Clinical Performance,integer,True Negatives (TN). The number of subjects/specimens with true negative test results.,,,,,,,RADx-rad DCC|https://www.fda.gov/files/medical%20devices/published/Guidance-for-Industry-and-FDA-Staff---Statistical-Guidance-on-Reporting-Results-from-Studies-Evaluating-Diagnostic-Tests-%28PDF-Version%29.pdf
+false_negatives,Clinical Performance,integer,False Negatives (FN). The number of subjects/specimens with false negative test results,,,,,,,RADx-rad DCC|https://www.fda.gov/files/medical%20devices/published/Guidance-for-Industry-and-FDA-Staff---Statistical-Guidance-on-Reporting-Results-from-Studies-Evaluating-Diagnostic-Tests-%28PDF-Version%29.pdf
+clinical_sensitivity,Clinical Performance,float,The proportion of subjects with the target condition in whom the test is positive; calculated as 100xTP/(TP+FN). Used for comparison with a reference (Gold) standard.,,PCR is Gold standard for COVID-19. For comparison with a non-reference standard use percent agreement metrics.,,,,,RADx-rad DCC
+clinical_specificity,Clinical Performance,float,The proportion of subjects without the target condition in whom the test is negative; calculated as 100xTN/(FP+TN).,,PCR is Gold standard for COVID-19. For comparison with a non-reference standard use percent agreement metrics.,,,,,RADx-rad DCC|https://www.fda.gov/files/medical%20devices/published/Guidance-for-Industry-and-FDA-Staff---Statistical-Guidance-on-Reporting-Results-from-Studies-Evaluating-Diagnostic-Tests-%28PDF-Version%29.pdf
+positive_predictive_value,Clinical Performance,float,The proportion of test positive patients who have the target condition; calculated as 100xTP/(TP+FP),,,,,,,RADx-rad DCC|https://www.fda.gov/files/medical%20devices/published/Guidance-for-Industry-and-FDA-Staff---Statistical-Guidance-on-Reporting-Results-from-Studies-Evaluating-Diagnostic-Tests-%28PDF-Version%29.pdf
+negative_predictive_value,Clinical Performance,float,The proportion of test negative patients who do not have the target condition; calculated as 100xTN/(TN+FN),,,,,,,RADx-rad DCC|https://www.fda.gov/files/medical%20devices/published/Guidance-for-Industry-and-FDA-Staff---Statistical-Guidance-on-Reporting-Results-from-Studies-Evaluating-Diagnostic-Tests-%28PDF-Version%29.pdf
+clinical_cutoff_min,Clinical Performance,float,,,,,,,,RADx-rad DCC
+clinical_cutoff_min_unit,Clinical Performance,text,,,,,,,,

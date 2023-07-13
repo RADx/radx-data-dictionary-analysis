@@ -1,0 +1,9 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,phs002689
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,phs002689
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,phs002689
+pcr result,PCR Result,text,PCR Result,,,,,,,,rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,phs002689
+ct_orf1ab,Ct_ORF1ab,text,Ct_ORF1ab,,,,,,,,rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,phs002689
+ct_n gene,Ct_N Gene,text,Ct_N Gene,,,,,,,,rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,phs002689
+ct_s gene,Ct_S Gene,text,Ct_S Gene,,,,,,,,rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,phs002689
+ct_ms2 (control),Ct_MS2 (Control),text,Ct_MS2 (Control),,,,,,,,rad_035_5-07S1_COVID_DICT_origcopy_v1.csv,phs002689

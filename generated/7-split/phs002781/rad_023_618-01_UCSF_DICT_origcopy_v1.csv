@@ -1,0 +1,4 @@
+Id,form_name,Section,ui,Label,Enumeration,Notes,pattern,min,max,branching_logic,required
+study_id,demographics,Identity,text,Participant ID,,,,,,,
+chills,symptoms,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,y
+diarrhea,symptoms,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,y

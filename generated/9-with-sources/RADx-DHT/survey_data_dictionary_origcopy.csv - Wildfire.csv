@@ -1,5 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory
-Wildfire,0,wildfire,"In the past WEEK, have you or your environment been affected by wildfire or the associated smoke?",true,select one,Yes;No;Other,survey_data_dictionary_origcopy.csv - Wildfire.csv,RADx-DHT
-Wildfire,0,air_quality,Has your local air quality been noticeably affected by wildfire smoke?,true,select one,Yes;No;Other,survey_data_dictionary_origcopy.csv - Wildfire.csv,RADx-DHT
-Wildfire,0,evacuated,Have you evacuated to escape the effects of wildfire?,true,select one,Yes;No;Other,survey_data_dictionary_origcopy.csv - Wildfire.csv,RADx-DHT
-Wildfire,0,public_sheltering,"Are you sheltering in a shared public location, such as a stadium or school gymnasium?",true,select one,Yes;No;Other,survey_data_dictionary_origcopy.csv - Wildfire.csv,RADx-DHT

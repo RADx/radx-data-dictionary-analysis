@@ -1,6 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints
-Food Security,0,food_last,"The food that I bought just didn’t last, and I didn’t have money to get more.",true,select one,Often true;Sometimes true;Never true
-Food Security,0,balance_meals,I couldn’t afford to eat balanced meals.,true,select one,Often true;Sometimes true;Never true
-Food Security,0,skip_meals,"In the last 30 days, did you ever have to cut the size of your meals or skip meals because there wasn’t enough money for food?",true,select one,"Yes, on 1 day;Yes, on 2 days;Yes, on 3 or more days;No"
-Food Security,0,eat_less,"In the last 30 days, did you ever eat less than you felt you should because there wasn't enough money for food?",true,select one,Yes;No
-Food Security,0,hungry," In the last 30 days, were you ever hungry but didn't eat because there wasn't enough money for food?",true,select one,Yes;No

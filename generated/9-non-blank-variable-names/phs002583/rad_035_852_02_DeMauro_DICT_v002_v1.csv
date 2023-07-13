@@ -1,0 +1,12 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+flow_rate,Engineering Constraint,float,,,,0,20,,L/min,
+particle_diameter,Engineering Constraint,float,,,,0,50,,micron,
+input_pressure,Engineering Constraint,float,,,,0,5,,psig,
+voltage,Engineering Constraint,float,,,,0,1000,,mV,
+concentration,Engineering Constraint,float,,,,0,5000,,ng/mL,
+particle_flow_rate,Engineering Constraint,float,,,,0,2,,mL/min,
+stokes,Engineering Constraint,float,,,,0,100,,N/A,
+efficiency,Engineering Constraint,,,,,0,100,,%,

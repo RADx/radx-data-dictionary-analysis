@@ -1,5 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory
-Religious Services,0,attend_relig_service,"In the past WEEK, how many times did you attend a church, synagogue, mosque, temple, or other place of worship?",true,integer,|times,survey_data_dictionary_origcopy.csv - Religious Services.csv,RADx-DHT
-Religious Services,0,service_outdoors,Is your place of worship required to hold services outdoors?,true,select one,Yes;No;Don’t Know,survey_data_dictionary_origcopy.csv - Religious Services.csv,RADx-DHT
-Religious Services,0,service_soc_dist,Do services at your place of worship practice physical/social distancing?,true,select one,Yes;No;Don’t Know,survey_data_dictionary_origcopy.csv - Religious Services.csv,RADx-DHT
-Religious Services,0,percent_mask,Approximately what percentage of people at your place of worship wear masks?,true,integer,|%,survey_data_dictionary_origcopy.csv - Religious Services.csv,RADx-DHT

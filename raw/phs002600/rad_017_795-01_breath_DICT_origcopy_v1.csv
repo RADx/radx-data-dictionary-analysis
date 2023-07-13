@@ -1,0 +1,68 @@
+Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minimum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",,0,90,,,RADx-rad Minimum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,,RADx-rad Minimum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,,RADx-rad Minimum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,,RADx-rad Minimum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,,RADx-rad Minimum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,,RADx-rad Minimum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,,[sex] = '2',,RADx-rad Minimum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,foot,RADx-rad Minimum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,,inch,RADx-rad Minimum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,,pound,RADx-rad Minimum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,,RADx-rad Minimum CDE
+covid_vaccine,Vaccine Acceptance,radio,Have you received a COVID-19 vaccine?,"1, Yes | 0, No | 98, not sure/prefer not to answer",,,,,,,RADx-rad DCC
+covid_vaccine_doses,Vaccine Acceptance,integer,How many COVID-19 vaccine doses have you received?,,"use 0 if covid_vaccine == 0, leave blank if covid_vaccine == 98",,,,,,RADx-rad DCC
+covid_test_target_disease_status,Covid Testing,radio,Participant Testing Disease Status,"1, Asymptomatic | 2, Pre-symptomatic illness | 3, Mild/Moderate outpatient illness | 4, Acute illness | 5, Severe/Critical inpatient illness| 6, Exposed | 9, Convalescent illiness",,,,,,,RADx-UP Testing Core
+covid_test_type,Covid Testing,radio,Test Method Target,"1, Antibody | 2, Antigen | 3, Nucleic acid/PCR | 4, Nucleic acid/Isothermal | 5, Molecular/host response | 6, Biochemical marker (eg, pH) | 90, Other, Specify",,,,,,,RADx-UP Testing Core
+covid_test_type_other,Covid Testing,text,Other method target,,,,,,"[covid_test_type] = ""90""",,RADx-UP Testing Core
+covid_test_name,Covid Testing,text,Test manufacturer (or LDT) and test name,,,,,,,,RADx-UP Testing Core
+covid_test_ct_value,Covid Testing,integer,PCR cycle threshold,,,,,,,,
+covid_test_specimen_type,Covid Testing,radio,Specimen Type,"1, Anterior nasal swab | 2, Mid-turbinate nasal swab | 3, Nasopharyngeal swab | 4, Oropharyngeal swab | 5, Nasal lavage | 6, Saliva | 7, Sputum | 8, Whole blood | 90, Other, Specify",,,,,,,RADx-UP Testing Core
+covid_test_specimen_type_other,Covid Testing,text,Other specimen type,,,,,,"[covid_test_specimen_type] = ""90""",,RADx-UP Testing Core
+covid_test_specimen_collector,Covid Testing,radio,Specimen Collector,"1, Self-collect | 2, Health Care Provider collected | 90, Other, Specify",,,,,,,RADx-UP Testing Core
+covid_test_specimen_collector_other,Covid Testing,text,Other specimen collector,,,,,,"[covid_test_specimen_collector] = ""90""",,RADx-UP Testing Core
+covid_test_result_raw,Covid Testing,text,Raw test result (if not a Positive/Negative/Failed report),,,,,,,,RADx-UP Testing Core
+covid_test_result,Covid Testing,radio,Test result,"1, Positive | 2, Negative | 3, Failed | 4, Lost | 90, Other",,,,,,,RADx-UP Testing Core
+covid_diagnosis,Covid Testing,radio,Have you ever been diagnosed with COVID-19?,"1, Yes | 0, No | 98, not sure/prefer not to answer",,,,,,,RADx-rad DCC
+covid_test_result_other,Covid Testing,text,Other test result,,,,,,"[covid_test_result] = ""90""",,RADx-UP Testing Core
+sore_throat,Symptoms,radio,Sore Throat,"1, Yes | 0, No",,,,,,,RADx-rad DCC
+gender_identity_term,Gender,radio,Gender Identity,"1, Woman | 0, Man | 2, Non-binary | 3, Transgender Man/Female-to-male (FTM) | 4, Transgender woman/Male-to-female (MTF) | 5, Gender non-binary/Genderqueer/Gender nonconforming | 6, Agender | 7, Bigender | 96, None of these describe me | 99, Prefer not to answer ",,,,,,,RADx-rad DCC
+voc_relative_abundance,VOC,float,The relative abundance of a VOC in a sample.,,,,,,,,RADx-rad DCC
+peak_id,VOC,text,Unique identifer for the peak in a mass spectrum defined by the mass and retention time.,,Example: peak_1,,,,,,RADx-rad DCC
+peak_mass,VOC,float,The most probable mass of the peak after the identification or mass-to-charge ratio (m/z) when not identified.,,g/mol when peak identified and m/z when peak not identified . Example: 57.1,,,,,m/z,RADx-rad DCC
+peak_retention_time,VOC,float,The measure of time taken for a peak to pass through a chromatography column.,,Example: 22.1,,,,,minutes,RADx-rad DCC

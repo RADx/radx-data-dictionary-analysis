@@ -1,0 +1,6 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_020_841-01_smFET_DICT_origcopy_v1.csv,phs002550
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_020_841-01_smFET_DICT_origcopy_v1.csv,phs002550
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_020_841-01_smFET_DICT_origcopy_v1.csv,phs002550
+gate voltage,physical parameter,float,,,,,,,,,rad_020_841-01_smFET_DICT_origcopy_v1.csv,phs002550
+nanoamps,physical parameter,float,,,,,,,,,rad_020_841-01_smFET_DICT_origcopy_v1.csv,phs002550

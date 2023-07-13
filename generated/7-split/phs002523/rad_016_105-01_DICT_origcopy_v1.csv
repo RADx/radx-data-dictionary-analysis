@@ -1,0 +1,6 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,RADx-rad Minimum CDE
+heartrate file,Health Status,file,,,,40,200,bpm,
+step file,Health Status,file,,,,0,86400,step count,

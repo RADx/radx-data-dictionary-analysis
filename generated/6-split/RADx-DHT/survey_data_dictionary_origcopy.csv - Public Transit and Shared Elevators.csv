@@ -1,3 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints
-Public Transit and Shared Elevators,0,public_transit,"In the past WEEK, how many times have you travelled on public transit (such as by bus, train, or ferry)?",true,integer,|times
-Public Transit and Shared Elevators,0,shared_elevator,"In the past WEEK, how many times have you used a shared elevator in your home or place of work?",true,integer,|times

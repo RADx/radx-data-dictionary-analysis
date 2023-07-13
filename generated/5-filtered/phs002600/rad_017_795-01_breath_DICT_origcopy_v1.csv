@@ -1,0 +1,25 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+covid_vaccine,Vaccine Acceptance,radio,Have you received a COVID-19 vaccine?,"1, Yes | 0, No | 98, not sure/prefer not to answer",,,,,,RADx-rad DCC
+covid_vaccine_doses,Vaccine Acceptance,integer,How many COVID-19 vaccine doses have you received?,,"use 0 if covid_vaccine == 0, leave blank if covid_vaccine == 98",,,,,RADx-rad DCC
+covid_test_target_disease_status,Covid Testing,radio,Participant Testing Disease Status,"1, Asymptomatic | 2, Pre-symptomatic illness | 3, Mild/Moderate outpatient illness | 4, Acute illness | 5, Severe/Critical inpatient illness| 6, Exposed | 9, Convalescent illiness",,,,,,RADx-UP Testing Core
+covid_test_type,Covid Testing,radio,Test Method Target,"1, Antibody | 2, Antigen | 3, Nucleic acid/PCR | 4, Nucleic acid/Isothermal | 5, Molecular/host response | 6, Biochemical marker (eg, pH) | 90, Other, Specify",,,,,,RADx-UP Testing Core
+covid_test_type_other,Covid Testing,text,Other method target,,,,,"[covid_test_type] = ""90""",,RADx-UP Testing Core
+covid_test_name,Covid Testing,text,Test manufacturer (or LDT) and test name,,,,,,,RADx-UP Testing Core
+covid_test_ct_value,Covid Testing,integer,PCR cycle threshold,,,,,,,
+covid_test_specimen_type,Covid Testing,radio,Specimen Type,"1, Anterior nasal swab | 2, Mid-turbinate nasal swab | 3, Nasopharyngeal swab | 4, Oropharyngeal swab | 5, Nasal lavage | 6, Saliva | 7, Sputum | 8, Whole blood | 90, Other, Specify",,,,,,RADx-UP Testing Core
+covid_test_specimen_type_other,Covid Testing,text,Other specimen type,,,,,"[covid_test_specimen_type] = ""90""",,RADx-UP Testing Core
+covid_test_specimen_collector,Covid Testing,radio,Specimen Collector,"1, Self-collect | 2, Health Care Provider collected | 90, Other, Specify",,,,,,RADx-UP Testing Core
+covid_test_specimen_collector_other,Covid Testing,text,Other specimen collector,,,,,"[covid_test_specimen_collector] = ""90""",,RADx-UP Testing Core
+covid_test_result_raw,Covid Testing,text,Raw test result (if not a Positive/Negative/Failed report),,,,,,,RADx-UP Testing Core
+covid_test_result,Covid Testing,radio,Test result,"1, Positive | 2, Negative | 3, Failed | 4, Lost | 90, Other",,,,,,RADx-UP Testing Core
+covid_diagnosis,Covid Testing,radio,Have you ever been diagnosed with COVID-19?,"1, Yes | 0, No | 98, not sure/prefer not to answer",,,,,,RADx-rad DCC
+covid_test_result_other,Covid Testing,text,Other test result,,,,,"[covid_test_result] = ""90""",,RADx-UP Testing Core
+sore_throat,Symptoms,radio,Sore Throat,"1, Yes | 0, No",,,,,,RADx-rad DCC
+gender_identity_term,Gender,radio,Gender Identity,"1, Woman | 0, Man | 2, Non-binary | 3, Transgender Man/Female-to-male (FTM) | 4, Transgender woman/Male-to-female (MTF) | 5, Gender non-binary/Genderqueer/Gender nonconforming | 6, Agender | 7, Bigender | 96, None of these describe me | 99, Prefer not to answer ",,,,,,RADx-rad DCC
+voc_relative_abundance,VOC,float,The relative abundance of a VOC in a sample.,,,,,,,RADx-rad DCC
+peak_id,VOC,text,Unique identifer for the peak in a mass spectrum defined by the mass and retention time.,,Example: peak_1,,,,,RADx-rad DCC
+peak_mass,VOC,float,The most probable mass of the peak after the identification or mass-to-charge ratio (m/z) when not identified.,,g/mol when peak identified and m/z when peak not identified . Example: 57.1,,,,m/z,RADx-rad DCC
+peak_retention_time,VOC,float,The measure of time taken for a peak to pass through a chromatography column.,,Example: 22.1,,,,minutes,RADx-rad DCC

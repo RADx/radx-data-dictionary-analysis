@@ -1,0 +1,70 @@
+Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minimum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",,0,90,,,RADx-rad Minimum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,,RADx-rad Minimum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,,RADx-rad Minimum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,,RADx-rad Minimum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed","Modified CDE, refers to patient, teenagers (>14 years) only",,,,,,RADx-rad Minimum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have? Defaulted to “Public insurance” for patients living in countries with universal healthcare. ,"1, Private insurance | 2, Public insurance | 3, None",Modidied CDE,,,,,,RADx-rad Minimum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+memory_dis_1,Disability Status,radio,"If your child is 12 years old or younger, how would you characterize your child’s development compared to other children of the same age? ","1, About the same | 2, A little behind | 3, Some challenges","Modified CDE, age appropriate 0-12 years",,,,,,RADx-rad Minimum CDE
+memory_dis_2,Disability Status,radio,"If your child is 13 years old or older, does he/she have serious difficulty concentrating, remembering, or making decisions because of a physical, mental, or emotional condition? ","1, Always | 2, Sometimes | 3, Never","Modified CDE, age appropriate, 13-21 years",,,,,,RADx-rad Minimum CDE
+walking_climbing_dis_1,Disability Status,radio,If your child is 6 years old or younger how would you characterize your child’s physical skills compared to other children of the same age? ,"1, About the same | 2, A little behind | 3, Some challenges","Modified CDE, age appropriate 0-6 years",,,,,,RADx-rad Minimum CDE
+walking_climbing_dis_2,Disability Status,radio,If your child is 7 years old or older  does he/she have serious difficulty walking or climbing stairs?,"1, Always | 2, Sometimes | 3, Never","Modified CDE, age appropriate, 7-21 years",,,,,,RADx-rad Minimum CDE
+dress_bathe_dis,Disability Status,radio,Does your child require more help with regular daily activities (e.g. dressing/bathing) than other kids of their age? ,"1, Always | 2, Sometimes | 3, Never","Modified CDE, age appropriate, <21 years",,,,,,RADx-rad Minimum CDE
+errand_dis_1,Disability Status,radio,"If your child is 12 years old or younger, how would you characterize your child’s social/emotional development compare to other children of the same age? ","1, About the same | 2, A little behind | 3, Some challenges","Modified CDE, age appropriate 0-12 years",,,,,,RADx-rad Minimum CDE
+errand_dis_2,Disability Status,radio,"If your child is 13 years old or older, is he/she having difficulties participating in age-appropriate social activities? ","1, Always | 2, Sometimes | 3, Never","Modified CDE, age appropriate, 13-21 years",,,,,,RADx-rad Minimum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,,[sex] = '2',,RADx-rad Minimum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,foot,RADx-rad Minimum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,,inch,RADx-rad Minimum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,,pound,RADx-rad Minimum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,,RADx-rad Minimum CDE
+education_parent_A,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+ (parent A),,,,,,PreVAIL Minimum CDE
+education_parent_B,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+ (parent B),,,,,,PreVAIL Minimum CDE
+employment_parent_A,Employment,radio,Are you employed? (parent A),"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,,PreVAIL Minimum CDE
+employment_parent_B,Employment,radio,Are you employed? (parent B),"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,,PreVAIL Minimum CDE
+year,Clinical data,integer,Year of admission,,Year,,,,,,
+dx_misc,Clinical data,radio,Enrollment group = MIS-C,"1, Yes | 0, No",,,,,,,
+dx_covid,Clinical data,radio,Enrollment group = COVID/No MIS-C,"1, Yes | 0, No",,,,,,,
+dx_kd,Clinical data,radio,Enrollment group = KD/No MIS-C,"1, Yes | 0, No",,,,,,,
+r_inf_stat,Clinical data,radio,Tested COVID+ at admission,"1, Yes | 0, No",,,,,,,
+r_inf_contact6wk,Clinical data,radio,COVID+ contact within 6 weeks of admission,"1, Yes | 0, No",,,,,,,
+r_allergies,Clinical data,radio,Allergies,"1, Yes | 0, No",,,,,,,
+r_prevkd,Clinical data,radio,Previous history of KD,"1, Yes | 0, No",,,,,,,
+r_familykd,Clinical data,radio,History of KD in 1st/2nd relative,"1, Yes | 0, No",,,,,,,
+r_familyimm,Clinical data,radio,History of autoimmune disease in 1st/2nd relative,"1, Yes | 0, No",,,,,,,
+r_gestwk,Clinical data,radio,Gestational age at birth,"1, Yes | 0, No",,,,,,,
+criteria,Clinical data,integer,Number of classic KD criteria,,,,,,,,
+cpl_kd,Clinical data,radio,Meet complete KD criteria,"1, Yes | 0, No",,,,,,,
+inc_kd,Clinical data,radio,Meet incomplete KD criteria,"1, Yes | 0, No",,,,,,,
+ds_hospinf,Clinical data,radio,Infection other than coronavirus at admission,"1, Yes | 0, No",,,,,,,
+rds_highesttemp,Clinical data,float,Highest temperature recorded before immunosupression (deg C),,Temperature in C,,,,,C,

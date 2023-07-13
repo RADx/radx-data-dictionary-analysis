@@ -1,0 +1,85 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Units,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minumum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,RADx-rad Minumum CDE
+ethnicity,Ethnicity,checkbox,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,RADx-rad Minumum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",0,90,,,RADx-rad Minumum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,RADx-rad Minumum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,RADx-rad Minumum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,RADx-rad Minumum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,RADx-rad Minumum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,RADx-rad Minumum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,[sex] = '2',,RADx-rad Minumum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,RADx-rad Minumum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,foot,RADx-rad Minumum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,inch,RADx-rad Minumum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,pound,RADx-rad Minumum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,RADx-rad Minumum CDE
+run_id,Experiment,text,Unique id for an experiment or trial,,,,,,,
+aptamer_sequence,Experiment,text,The 5' - 3' primary DNA sequence of the aptamer,"TTTTTCCCATGGTAGGTATTGCTTGGTAGGGATAGTGGG ",,,,,,
+aptamer_source,Experiment,text,The literature or the person that provided the aptamer sequence,"Schmitz, A. et al. Angew. Chem. Int. Ed. 60, 10279–10285 (2021)",,,,,,
+aptamer_name,Experiment,text,Each aptamer has a code or name that is used in the literature and in our lab,Aptamer 3,,,,,,
+aptamer_target,Experiment,text,"The protein binding target for the aptamer if known (ie… spike protein, etc.)","Spike protein ",,,,,,
+aptamer_Kd,Experiment,float,The reported Kd between aptamer and target,N/A,,,,,nM,
+aptamer_Koff,Experiment,float,,N/A,,,,,,
+aptamer_Kon,Experiment,float,,N/A,,,,,,
+aptamer_motor_grafting,Experiment,text,The chemistry used to attach the aptamer onto the motor,"Azide on the motor surface is copper clicked on the alkyne modification on the aptamer ",,,,,,
+aptamer_chip_grafting,Experiment,text,The chemistry used to anchor the aptamer onto the chip,The aptamer is hybridized to the chip via the DNA anchor,,,,,,
+incubation_time,Experiment,integer,Duration of incubation time between the virus sample and the motors,30,,,,,minutes,
+incubation_Mg_conc,Experiment,float,Mg concentration in incubation medium,None,,,,,mM,
+incubation_medium,Experiment,text,"The type of media (PBS, saliva, etc…) used for incubation between the motors and the viral sample",Artificial saliva,PBS: Phosphate Buffered Saline,,,,,
+spin_speed,Experiment,float,"After incubation, the motors are spun down and this is the speed of the spin down",No wash included,,,,,rpm,
+spin_time,Experiment,float,"After incubation, motors are spun down and this is the time of the spin",No wash included,,,,,minutes,
+num_washes,Experiment,integer,Number of washes performed to remove unbound virus,5,,,,,um,
+motor_diameter,Experiment,float,The diameter of motors (typically 5 micron),,,,,,,
+motor_conc,Experiment,float,Final concentration of motors used for incubation in units of particles/ul,800,,,,,particles/ul,
+aptamer_density_motor,Experiment,float,Density of aptamer on motor in units of percentage of available sites,10,,,,,percent,
+aptamer_density_chip,Experiment,float,Density of aptamer on chip surface in units of percentage of available sites,50,,,,,percent,
+motor_runtime,Experiment,integer,Duration of time motors were allowed to run; longer run times will lead to longer displacements,30,,,,,minutes,
+fuel_density_motor,Experiment,float,Density of DNA fuel on motor in units of percentage of surface sites,90,,,,,percent,
+fuel_density_chip,Experiment,float,Density of RNA fuel on chip in units of percentage of surface sites,50,,,,,percent,
+framerate,Experiment,float,Frame rate when imaging motors displacements; in units of per second,5,,,,,seconds per frame,
+motion_Mg_conc,Experiment,float,concentration of Mg used for motor motion; in units of millimolar,1.5,,,,,mM,
+motion_formamide_conc,Experiment,float,Concentration of formamide used in buffer for motor displacement; in units of mM,10,,,,,v/v percent,
+motion_TritonX-100_conc,Experiment,text,Concentration of TritonX-100 used for motor motion; in units of v/v percent,0.75,,,,,v/v percent,
+microscope_model,Experiment,text,"indicates the instrument maker for the microscope (ie. Nikon, iphone, etc.)",Nikon,,,,,,
+objective_magnification,Experiment,integer,"indicates the magnification level for the objective (10x, 100x, etc.)",20x,,,,,,
+objective_NA,Experiment,float,indicates the numerical aperture of the objective (value from 0.1 - 0.95),0.5,,,,,,
+CCD_field_of_view,Experiment,float,the field of view for the objective in units of microns squared (200 x 200 micron),884x884,,,,,um,
+CCD_pixels,Experiment,integer,indicate the number of pixel in the x and y dimension for the CCD (ie. 512x512),1608x1608,,,,,,
+organism_name,Sample,text,Peter will provide a standardized description for the sample section,None,,,,,,
+variant_id,Sample,text,unique id for this variant,Delta (B.1.617.2),,,,,,
+variant_source,Sample,text,,"University of California San Diego and BEI Resources ",,,,,,
+variant_batch,Sample,text,,,,,,,,
+inactivation_method,Sample,text,,UV inactivation,,,,,,
+virus_conc,Sample,float,Final concentration of virus sample in incubation in units of molar (copies/mL),10^3-10^8,,,,,Copies/mL,

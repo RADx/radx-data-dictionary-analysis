@@ -1,0 +1,6 @@
+Id,Label,source_file,source_directory
+log_tau_estimate,"Point estimate of the logarithm (base 10) of the modeled parameter tau, a measure of odor detection,  using the ArOMa-T test",rad_022_573-01_twinsburg_DICT_origcopy_v1.csv,phs002631
+log_tau_se,"Standard error of the logarithm (base 10) of the modeled parameter tau, a measure of odor detection, using the ArOMa-T test",rad_022_573-01_twinsburg_DICT_origcopy_v1.csv,phs002631
+lambda_estimate,"Point estimate of the modeled parameter lambda, a measure of response criterion bias, using the ArOMa-T test",rad_022_573-01_twinsburg_DICT_origcopy_v1.csv,phs002631
+lambda_se,"Standard error of the modeled parameter lambda, a measure of response criterion bias, using the ArOMa-T test",rad_022_573-01_twinsburg_DICT_origcopy_v1.csv,phs002631
+thresh_estimate,"Odor detection threshold, using the ArOMaT test",rad_022_573-01_twinsburg_DICT_origcopy_v1.csv,phs002631

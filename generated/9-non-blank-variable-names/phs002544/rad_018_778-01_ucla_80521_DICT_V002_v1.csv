@@ -1,0 +1,5 @@
+Id,Section,ui,Label,Enumeration,Notes,pattern,min,max,branching_logic,Units,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minumum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE
+hospitalization,Medical History,radio,Hospitalization due to COVID-19,"1, Yes | 0, No",,,,,,,

@@ -1,8 +1,0 @@
-variable_name,description,datatype,value_constraints,units,source_file,source_directory
-uid,Opaque id assigned by the mobile app at time of onboarding,string,32 bytes ASCII ; UUID4 format,,data_dictionary_user.xlsx [User].csv,RADx-DHT
-user-hash,An opaque hash of the user data to allow detection of duplicate data,string,32 bytes ASCII,,data_dictionary_user.xlsx [User].csv,RADx-DHT
-id-type,The identity document type selected by user,string,"Enumerated ; [“dl”, “passport”, “id”]",,data_dictionary_user.xlsx [User].csv,RADx-DHT
-gender,Gender noted on the id document,string,"Enumerated ; [“m”,”f”]",,data_dictionary_user.xlsx [User].csv,RADx-DHT
-state,State in which registration is occurring,string,,,data_dictionary_user.xlsx [User].csv,RADx-DHT
-municipality,Local municipality in which registration is occurring,string,,,data_dictionary_user.xlsx [User].csv,RADx-DHT
-age,Computed from MRZ Scan of Date of Birth on ID Document during registration,integer,Range 1 - 120,years,data_dictionary_user.xlsx [User].csv,RADx-DHT

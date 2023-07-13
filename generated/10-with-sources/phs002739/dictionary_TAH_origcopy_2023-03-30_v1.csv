@@ -1,0 +1,46 @@
+Id,Label,Datatype,source_file,source_directory
+participantidentifier,Participant Identifier,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+alcoholuse,Alchol Use,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+eciguse,E Cigarette Use,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+educationlevel,Education Level,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+employmentstatus,Employment Status,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+healthinsurance,Health Insurance,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+height_cm,Height in cm,decimal,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+hispanicorigin,Hispanic or Latino,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+limitdailyactivity,Have these problems limited your daily activity?,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+nicotineuse,Nicotine Use,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+pregnant,Pregnant,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+visiondifficulty,Vision Difficulty,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+weight_kg,Weight in kg,decimal,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_hypertension,Hypertension,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_immun_compromised,Immuno-compromised,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_diabetes,Diabetes,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_ckd,CKD,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_cancer,Cancer,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_cvd,CVD,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_asthma,Asthma,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_copd,COPD,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_chronic_lung_disease,ChronicLungDisease,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_depression,Depression,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_alcohol_subs,AlcoholOrSubstanceUseDisorder,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_mental_health,MentalHealthDisorder,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_iv_drug,IntravenousDrugUse,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_other,CurrentConditionsOther,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+cond_none,None,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+race_noans,Race: NoAnswer,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+race_oth,Race: Some other race,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+race_nativeam,Race: American Indian or Alaska Native,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+research_test,Study Number,string,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_fever,Fever or chills,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_cough,Cough,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort",boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_fatigue,Fatigue,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_body_aches,Muscle or body aches,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_headache,Headache,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_loss_smell,New loss of taste or smell,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea",boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_runny_nose,"Congestion, sore throat, runny nose",boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_abd_pain,Abdominal Pain,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_rash,Rash,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_other,Other,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739
+smp_none,None,boolean,dictionary_TAH_origcopy_2023-03-30_v1.csv,phs002739

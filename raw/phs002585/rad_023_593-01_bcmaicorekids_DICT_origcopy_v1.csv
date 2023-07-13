@@ -1,0 +1,53 @@
+Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Unit,CDE Reference
+study_id,deidentified_id,text,deidentified_id,Hashed ID via DCC Tool,,,,,,,RADx-rad Minimum CDE
+race,Race,integer,What is your race?,"1-American Indian/Alaska Native, 2-Asian, 3-Black/African American, 4-Native Hawaiian/Pacific Islander, 5-White, 6-Other",,,,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,integer,Are you of Hispanic/Latino Origin?,"0-No, not of Hispanic/Latino Origin, 1-Yes, of Hispanic/Latino Origin, 2-Unknown",,,,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,Age in years,"Age in years. For babies less than 1 year old, write 0 as the age",,0,90,,,RADx-rad Minimum CDE
+sex,Sex,integr,What is your biological sex assigned at birth?,"0-Unknown, 1-Male, 2-Female, 3-Intersex, 4-None of these describe me",,,,,,,RADx-rad Minimum CDE
+education,Education,N/A Exeption,How many years of education have you completed?,N/A Exeption given by NIH as our patients are largely within the pediatric age range and currently students. ,N/A,,,,,,RADx-rad Minimum CDE
+zip,Domicile,integer,Zip or Postal Code:,4 digit integer representing first 3 digits of zip code,De-Identified zip code,,,,,,RADx-rad Minimum CDE
+employment,Employment,integer,Are you employed?,"0-NULL, 1-Permanent Employment, 2-Temporary Employment, 3-Not Employed Currently",,,,,,,RADx-rad Minimum CDE
+insurance,Insurance Status,integer,What kind of health insurance do you have?,"0-NULL, 1-Private, 2-Public, 3-None",,,,,,,RADx-rad Minimum CDE
+deaf,Disability Status,N/A Exeption,Are you deaf or do you have serious difficulty hearing?,N/A Exeption-Our data is retrospectively collected and we do not have elements pertaining to this. ,Variance Exception given by NIH for this CDE,,,,,,RADx-rad Minimum CDE
+blind,Disability Status,N/A Exeption,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?",N/A Exeption-Our data is retrospectively collected and we do not have elements pertaining to this. ,Variance Exception given by NIH for this CDE,,,,,,RADx-rad Minimum CDE
+memory_dis,Disability Status,N/A Exeption,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?",N/A Exeption-Our data is retrospectively collected and we do not have elements pertaining to this. ,Variance Exception given by NIH for this CDE,,,,,,RADx-rad Minimum CDE
+walking_climbing_dis,Disability Status,N/A Exeption,Do you have serious difficulty walking or climbing stairs?,N/A Exeption-Our data is retrospectively collected and we do not have elements pertaining to this. ,Variance Exception given by NIH for this CDE,,,,,,RADx-rad Minimum CDE
+dress_bathe_dis,Disability Status,N/A Exeption,Do you have difficulty dressing or bathing?,N/A Exeption-Our data is retrospectively collected and we do not have elements pertaining to this. ,Variance Exception given by NIH for this CDE,,,,,,RADx-rad Minimum CDE
+errand_dis,Disability Status,N/A Exeption,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?",N/A Exeption-Our data is retrospectively collected and we do not have elements pertaining to this. ,Variance Exception given by NIH for this CDE,,,,,,RADx-rad Minimum CDE
+vaping,ICD10 & DiagnosisDSC,integer,Vaping Use,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+nicotine,ICD10 & DiagnosisDSC,integer,Nicotine Use,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+alcohol_use,ICD10 & DiagnosisDSC,integer,Alcohol Use,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+asthma,ICD10 & DiagnosisDSC,integer,Asthma,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+cancer,ICD10 & DiagnosisDSC,integer,Cancer,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+cardiovascular_disease,ICD10 & DiagnosisDSC,integer,Cardiovascular disease,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+chronic_kidney_disease,ICD10 & DiagnosisDSC,integer,Chronic kidney disease,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+chronic_lung_disease,ICD10 & DiagnosisDSC,integer,Chronic lung disease,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+diabetes,ICD10 & DiagnosisDSC,integer,Diabetes,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+hypertension,ICD10 & DiagnosisDSC,integer,Hypertension,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+immunosuppressive_conditio,ICD10 & DiagnosisDSC,integer,Immunosuppressive condition,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+serious_mental_illness,ICD10 & DiagnosisDSC,integer,Serious mental illness,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+sickle_cell_disease,ICD10 & DiagnosisDSC,integer,Sickle cell disease,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+pregnancy_status,ICD10 & DiagnosisDSC,integer,Pregnancy status,"0-absent, 1-present",,,,,[sex] = '2',,RADx-rad Minimum CDE
+cough,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Cough,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+fever,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Fever,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Shortness of breath or difficulty breathing,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+headache,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Headache,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+muscle_ache,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Muscle ache,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,New loss of taste or smell,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+chills,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Chills,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+excessive_fatigue,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Excessive fatigue,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+nausea_vomiting,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Nausea/vomiting,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+diarrhea,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Diarrhea,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+abdominal_pain,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Abdominal pain,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+skin_rash,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Skin rash,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+conjunctivitis,"Diagnosis1DSC, Diagnosis2DSCÉ",integer,Conjunctivitis,"0-absent, 1-present",,,,,,,RADx-rad Minimum CDE
+height_feet,Height_Feet,integer,Height Feet,Height provided in feet,,,,,,foot,RADx-rad Minimum CDE
+height_inches,Height_Inches,integer,Height Inches,Height provided in inches,,,,,,inch,RADx-rad Minimum CDE
+weight_lbs,WeightLbsNBR,float,What is your weight?,Weight provided in pounds,Weight in pounds,,,,,pound,RADx-rad Minimum CDE
+health_status,Health Status,N/A Exeption,"Would you say that (your) health in general is excellent, very good, good, fair or poor?",N/A Exeption,Variance Exception given by NIH for this CDE,,,,,,RADx-rad Minimum CDE
+DiagnosisClusterDSC,"Diagnosis1DSC, Diagnosis2DSCÉ",text,N/A,Pipe-separated ICD10 codes,,,,,,,
+raceDSC,raceDSC,text,What is your race?,Descriptor ,,,,,,,
+ethnicityDSC,ethnicityDSC,text,Are you of Hispanic/Latino Origin?,Descriptor ,,,,,,,
+sexDSC,sexDSC,text,What is your sex as assigned at birth?,Descriptor,,,,,,,
+employmentDSC,EmploymentDSC,text,Are you employed?,Descriptor ,,,,,,,
+insuranceDSC,Insurance StatusDSC,text,What kind of health insurance do you have?,Descriptor,,,,,,,

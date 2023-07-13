@@ -1,0 +1,37 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+ethn,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sex_birth,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 0, Female | 3, Intersex | 4, None of these describe me",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sex_birth_wa,Sex,radio,How do you identify your gender?,"1, Male | 2, Female | 3, Transgender male-to-female | 4, Transgender female-to-male | 5, Non-binary",,,,,,,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+educ,Education,integer,What level of education have you completed?,"1, Less than high school, no diploma | 2, High school graduate or GED | 3, Some college but no degree | 4, Associate degree, 2 year degree, occupational, technical, or vocational program | 5, College degree or higher",Years of education from 0 - 20+,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+insur,Insurance Status,checkbox,What kind of health insurance do you have? Check all that apply.,"1, Private insurance | 2, Public insurance | 3, None",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sub_use_vape,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sub_use_tobb,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sub_use_alc,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_heart,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_renal,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_lung,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_dm,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_hbp,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_immun,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_mental,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+brfss_sickle,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_breath,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_head,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_musc,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_taste,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_nausea,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_abdom,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+sympt7_conjunct,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+heightft,Health Status,dropdown,Height Feet,"3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 ",,,,,foot,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+heightin,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,inch,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+weight,Health Status,float,What is your weight?,,Weight in pounds,,,,pound,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551
+genhealth,Health Status,radio,Would you say that your health in general is ...,"1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,RADx-rad Minimum CDE,rad_016_526-01_DICT_MASCUP_v004_v1.csv,phs002551

@@ -1,0 +1,19 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+electrode,Sensor ID,text,Electrode used to measure peak height,,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+viral strain,Sample,text,Strain of Sars-Cov-2,,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+analyte dilution (1:3000) averaged peak height,Averaged Peak Heights,float,Averaged peak height l for 1:3000 dilution,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+analyte dilution (1:750) averaged peak height,Averaged Peak Heights,float,Averaged peak height l for 1:750 dilution,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+analyte dilution (1:350) averaged peak height,Averaged Peak Heights,float,Averaged peak height l for 1:350 dilution,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+analyte dilution (1:250) averaged peak height,Averaged Peak Heights,float,Averaged peak height l for 1:250 dilution,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+analyte dilution (1:150) averaged peak height,Averaged Peak Heights,float,Averaged peak height l for 1:150 dilution,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+linear r^2,Quality Metric,float,Measure for how well electrode measures analyte,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+ebc control averaged peak height,Averaged Peak Heights,float,Averaged peak height for enviornmental breath condensate,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+ebc stock averaged peak height,Averaged Peak Heights,float,Averaged peak height for enviornmental breath condensate stock,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+ebc sample 1 averaged peak height,Averaged Peak Heights,float,Averaged peak height for enviornmental breath condensate sample 1,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+ebc sample 2 averaged peak height,Averaged Peak Heights,float,Averaged peak height for enviornmental breath condensate sample 2,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+ebc sample 3 averaged peak height,Averaged Peak Heights,float,Averaged peak height for enviornmental breath condensate sample 3,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+ebc sample 4 averaged peak height,Averaged Peak Heights,float,Averaged peak height for enviornmental breath condensate sample 4,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700
+ebc sample 5 averaged peak height,Averaged Peak Heights,float,Averaged peak height for enviornmental breath condensate sample 5,Computer generated value,,,,,,,rad_014_331-01_WUSTL1_DICT_origcopy_v1.csv,phs002700

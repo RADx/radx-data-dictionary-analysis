@@ -1,0 +1,12 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+flow_rate,Engineering Constraint,float,,,,0,20,,L/min,,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+particle_diameter,Engineering Constraint,float,,,,0,50,,micron,,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+input_pressure,Engineering Constraint,float,,,,0,5,,psig,,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+voltage,Engineering Constraint,float,,,,0,1000,,mV,,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+concentration,Engineering Constraint,float,,,,0,5000,,ng/mL,,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+particle_flow_rate,Engineering Constraint,float,,,,0,2,,mL/min,,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+stokes,Engineering Constraint,float,,,,0,100,,N/A,,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583
+efficiency,Engineering Constraint,,,,,0,100,,%,,rad_035_852_02_DeMauro_DICT_v002_v1.csv,phs002583

@@ -1,8 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory
-Anxiety Survey,2,nervous,"Feeling nervous, anxious, or on edge.",true,select one,Not at all;Several days;More than half the days;Nearly every day,survey_data_dictionary_origcopy.csv - Anxiety Survey.csv,RADx-DHT
-Anxiety Survey,2,worry,Not being able to stop or control worrying.,true,select one,Not at all;Several days;More than half the days;Nearly every day,survey_data_dictionary_origcopy.csv - Anxiety Survey.csv,RADx-DHT
-Anxiety Survey,2,worry2,Worrying too much about different things.,true,select one,Not at all;Several days;More than half the days;Nearly every day,survey_data_dictionary_origcopy.csv - Anxiety Survey.csv,RADx-DHT
-Anxiety Survey,2,relax,Trouble relaxing.,true,select one,Not at all;Several days;More than half the days;Nearly every day,survey_data_dictionary_origcopy.csv - Anxiety Survey.csv,RADx-DHT
-Anxiety Survey,2,restless,Being so restless that it is hard to sit still.,true,select one,Not at all;Several days;More than half the days;Nearly every day,survey_data_dictionary_origcopy.csv - Anxiety Survey.csv,RADx-DHT
-Anxiety Survey,2,annoyed,Becoming easily annoyed or irritable.,true,select one,Not at all;Several days;More than half the days;Nearly every day,survey_data_dictionary_origcopy.csv - Anxiety Survey.csv,RADx-DHT
-Anxiety Survey,2,afraid,Feeling afraid as if something awful might happen.,true,select one,Not at all;Several days;More than half the days;Nearly every day,survey_data_dictionary_origcopy.csv - Anxiety Survey.csv,RADx-DHT

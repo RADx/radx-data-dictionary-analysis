@@ -1,0 +1,145 @@
+﻿Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",0,90,,,RADx-rad Minimum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,RADx-rad Minimum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,RADx-rad Minimum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,RADx-rad Minimum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,RADx-rad Minimum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,RADx-rad Minimum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,[sex] = '2',,RADx-rad Minimum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,foot,RADx-rad Minimum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,inch,RADx-rad Minimum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,pound,RADx-rad Minimum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,RADx-rad Minimum CDE
+protocol_id,Technology Metadata,text,Unique name or identifier for biosensor protocol,,example: ddPCR_SARS-CoV-2,,,,,RADx-rad DCC
+technology_platform,Technology Metadata,text,Abbreviation or short label for technology,,example: ddPCR,,,,,RADx-rad DCC
+technology_description,Technology Metadata,text,Short description of technology,,example: Droplet Digital PCR,,,,,RADx-rad DCC
+technology_reference,Technology Metadata,url,"URL of publication, preprint, or website that describes technology",,,,,,,RADx-rad DCC
+biorecognition_type,Technology Metadata,list,Type of molecular entity used for biosensor fabrication,aptamer | antibody | antigen | nanobody | primer | receptor,Multiple entities can be specified as list if biosenor uses a combination of molecular entities,,,,,RADx-rad DCC
+analyte_type,Technology Metadata,list,Type of analyte(s) or target(s) to be detected,antigen | viral RNA | virus | antibody | human IgA | human IgG | human IgM | neutralizing antibody | EV RNA | VOC,example: virus,,,,,RADx-rad DCC
+target_analyte,Technology Metadata,text,Target molecule to be detected,,,,,,,RADx-rad DCC
+signal_detection,Technology Metadata,category,Type of signal generated by the methods or assay,amperometric | chemiluminescent | chromatographic | colorimetric | displacement | fluorogenic |  gas-chromatograpic | impedimetric | MS peak area | olfactory perception | Raman scattering intensity | voltammetric,example: amerometric,,,,,RADx-rad DCC
+surface,Technology Metadata/Immobilization,text,Type of plate or electrode used in the methods or assay,,examples: polystyrene | gold electrode | carbon electrode,,,,,RADx-rad DCC
+immobilization_reagent_name,Technology Metadata/Immobilization,text,Reagent used to immobilize a capture probe to a surface,,example: pyrrole,,,,,RADx-rad DCC
+immobilization_reagent_id,Technology Metadata/Immobilization,text,Unique identifier or catalog number of immobilization reagent given by supplier,,example: W338605,,,,,RADx-rad DCC
+immobilization_reagent_source,Technology Metadata/Immobilization,text,Supplier of reagent,,example: Sigma Aldrich,,,,,RADx-rad DCC
+immobilization_reagent_source_url,Technology Metadata/Immobilization,text,URL of supplier catalog page or publication DOI link for immobilization reagent,,,,,,,RADx-rad DCC
+electrochemical_method_name,Technology Metadata/Electrochemical,text,Type of electrochemical technique performed to run the test,,,,,,,RADx-rad DCC
+electrochemical_method_instrument,Technology Metadata/Electrochemical,text,Type of instrument used to run the test,,,,,,,RADx-rad DCC
+electrochemical_method_solution,Technology Metadata/Electrochemical,text,Name of electrolyte or buffer used in the test,,,,,,,RADx-rad DCC
+electrochemical_method_solution_source,Technology Metadata/Electrochemical,text,Information of manufacturer of the solution used in electrochemical experiments,,,,,,,RADx-rad DCC
+reference_electrode,Technology Metadata/Electrochemical,text,Type of reference electrode used in the electrochemical experiment,,,,,,,RADx-rad DCC
+auxiliary_electrode,Technology Metadata/Electrochemical,text,Type of auxiliary (a.k.a counter) electrode used in the electrochemical experiment,,,,,,,RADx-rad DCC
+working_electrode,Technology Metadata/Electrochemical,text,Type of platform or electrode used in the methods or assay,,,,,,,RADx-rad DCC
+capture_aptamer_id,Technology Metadata/Aptamer,text,Unique name or identifier for aptamer,,example: SNAP1,,,,,RADx-rad DCC
+capture_aptamer_sequence,Technology Metadata/Aptamer,sequence,5' to 3' nucleic acid sequence,,"example: TCGCTCTTTCCGCTTCTTCGCGGTCATTGTGCATCCTGACTGACCCTA
+AGGTGCGAACATCGCCCGCGTAAGTCCGTGTGTGCGAA",,,,,RADx-rad DCC
+capture_aptamer_modification_5prime,Technology Metadata/Aptamer,text,Name of modification attached to the 5' end. This may include a spacer modification.,,examples: FITC | biotin-iSp18,,,,,RADx-rad DCC
+capture_aptamer_modification_5prime_role,Technology Metadata/Aptamer,category,Role of the 5' modification,capturing | detection | capturing + detection | immobilization,,,,,,RADx-rad DCC
+capture_aptamer_formulation,Technology Metadata/Aptamer,text,Formulation of aptamer,,,,,,,RADx-rad DCC
+capture_aptamer_source,Technology Metadata/Aptamer,text,Supplier or instrument used for synthesis,,,,,,,RADx-rad DCC
+capture_aptamer_source_url,Technology Metadata/Aptamer,url,URL of supplier catalog page or publication DOI link,,example:  https://doi.org/10.1002/anie.202107730,,,,,RADx-rad DCC
+capture_aptamer_target_organism_name,Technology Metadata/Aptamer,text,NCBI organism name of target organism,,example: SARS-CoV-2,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+capture_aptamer_target_protein_name,Technology Metadata/Aptamer,text,UniProt preferred protein name,,example: Spike glycoprotein,,,,,RADx-rad DCC|https://www.uniprot.org/
+capture_aptamer_target_protein_id,Technology Metadata/Aptamer,text,UniProt accession number,,example: P0DTC2,,,,,RADx-rad DCC|https://www.uniprot.org/
+capture_aptamer_target_protein_region,Technology Metadata/Aptamer,text,Domain or subunit name,,example: Receptor Binding Domain,,,,,RADx-rad DCC
+capture_receptor_name,Technology Metadata/Receptor,text,Name of the capture receptor,,example: Human Angiotensin-Converting Enzyme 2,,,,,RADx-rad DCC
+capture_receptor_region,Technology Metadata/Receptor,text,Domain or subunit name,,"example: ",,,,,RADx-rad DCC
+capture_receptor_region_start,Technology Metadata/Receptor,integer,Start residue of region,,example: 18,,,,,RADx-rad DCC
+capture_receptor_region_end,Technology Metadata/Receptor,integer,End residue of region,,example: 611,,,,,RADx-rad DCC
+capture_receptor_modification,Technology Metadata/Receptor,list,Name of modification attached to the receptor,,example: Biotin|C-terminal HIS,,,,,RADx-rad DCC
+capture_receptor_expression_system,Technology Metadata/Receptor,category,System used to express protein,human-recombinant-baculovirus | human-recombinant-E.coli | human-recombinant-yeast| human-recombinant-mamalian,example: human-recombinant-mamalian,,,,,RADx-rad DCC
+capture_receptor_formulation,Technology Metadata/Receptor,text,Formulation of capture receptor,,"example: pH: 7.4, constituents: 0.001% Zinc chloride, 0.32% Tris HCl, 10% Glycerol, 0.88% Sodium chloride",,,,,RADx-rad DCC
+capture_receptor_source,Technology Metadata/Receptor,text,Supplier of antigen or publication,,example: abcam,,,,,RADx-rad DCC
+capture_receptor_source_id,Technology Metadata/Receptor,text,Unique identifier or catalog number of receptor given by supplier,,example: ab151852,,,,,RADx-rad DCC
+capture_receptor_source_name,Technology Metadata/Receptor,text,Name of receptor given by supplier,,example: Recombinant Human ACE2 protein,,,,,RADx-rad DCC
+capture_receptor_source_url,Technology Metadata/Receptor,url,URL of supplier catalog page or publication DOI link,,example: https://www.abcam.com/recombinant-human-ace2-protein-ab151852.html,,,,,RADx-rad DCC
+capture_receptor_id,Technology Metadata/Receptor,text,"Protein Sequence Database id, e.g., UniProt accession number or NCBI GenPept id",,,,,,,RADx-rad DCC
+forward_primer_id,PCR metadata,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-F,,,,,RADx-rad DCC
+forward_primer_sequence,PCR metadata,sequence,5' to 3' sequence of primer,,example: 5'-GACCCCAAAATCAGCGAAAT-3',,,,,RADx-rad DCC
+reverse_primer_id,PCR metadata,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-R,,,,,RADx-rad DCC
+reverse_primer_sequence,PCR metadata,sequence,5' to 3' sequence of primer,,example: 5'-TCTGGTTACTGCCAGTTGAATCTG-3',,,,,RADx-rad DCC
+probe_id,PCR metadata,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-P,,,,,RADx-rad DCC
+probe_sequence,PCR metadata,sequence,"5' to 3' sequence of probe with modifications separated by ""-""",,example: FAM-5'-ACCCCGCATTACGTTTGGTGGACC-3'-BHQ1,,,,,RADx-rad DCC
+sample_id,Sample,text,Unique identifier for a spiked (contrived) sample,,,,,,,RADx-rad DCC
+sample_media,Sample,text,Media used to prepare the spiked sample,,example: pooled saliva,,,,,RADx-rad DCC
+sample_media_id,Sample,text,"Catalog number, batch number, etc. for the sample media",,,,,,,RADx-rad DCC
+sample_media_source,Sample,text,Entity that provided the sample media,,example: Lee Biosolutions,,,,,RADx-rad DCC
+sample_media_source_url,Sample,text,URL of the sample media provider,,example: https://www.leebio.com/product/1769/saliva-pooled-human-donors-991-05-p-prec,,,,,RADx-rad DCC
+sample_concentration,Sample,float,Concentation of target analyte in the sample,,,,,,,RADx-rad DCC
+sample_concentration_unit,Sample,text,Unit of the target analyte concentration,,example: copies/ml,,,,,RADx-rad DCC
+sample_concentration_reference_gene,Sample,text,The reference gene used for viral samples,,example: ORF1a,,,,,RADx-rad DCC
+target_organism_name,Target,text,NCBI organism name,,example: SARS-CoV-2,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+target_organism_taxonomy_id,Target,text,NCBI taxonomy id for organism,,example: 2697049,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+isolate_name,Target,text,Name of the isolate,,example: hCoV-19/USA/WA1/2020,,,,,RADx-rad DCC
+gisaid_id,Target,text,GISAID isolate id of the original isolate,,example: EPI_ISL_751801,,,,,RADx-rad DCC|https://www.gisaid.org
+gisaid_clade,Target,text,GISAID clade for SARS-CoV-2 variant,,example: GRY,,,,,RADx-rad DCC|https://www.gisaid.org
+nucleotide_db_id,Target,text,"Nucleotide Sequence Database id, e.g., GenBank or ENA id of the original isolate",,example: MN985325.1,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/genbank|https://www.ebi.ac.uk/ena
+pango_lineage,Target,text,Pango lineage for SARS-CoV-2 variant,,example: B.1.1.7,,,,,RADx-rad DCC|https://cov-lineages.org
+who_label,Target,text,WHO label for SARS-CoV-2 variant,,example: Alpha,,,,,RADx-rad DCC|https://www.who.int/en/activities/tracking-SARS-CoV-2-variants
+virus_sample_id,Sample/VQA panel,text,"Identifier for virus sample, for VQA panels this is the QR code, for BEI the catalog number",,"examples: XXXX-XXXX-XXXX-XXXX (VQA panel),  NR-52286 (BEI Resources)",,,,,RADx-rad DCC
+virus_batch_number,Sample/VQA panel,text,Batch and or/lot number of virus sample,,,,,,,RADx-rad DCC
+virus_sample_formulation,Sample/VQA panel,text,Formulation of virus sample,,"example: Strain diluted in cell culture
+media (DMEM + 1% FBS + 10mM HEPES + 50 units/ml Penicillin and 50 ug/ml Streptomycin).",,,,,RADx-rad DCC
+virus_sample_source,Sample/VQA panel,text,Provider from where the inactivated virus sample was procured from,,examples: UCSD|BEI Resources|ATCC,,,,,RADx-rad DCC
+virus_sample_source_url,Sample/VQA panel,url,URL of supplier catalog page or publication DOI link,,example:  https://www.beiresources.org/Catalog/animalviruses/NR-52281.aspx,,,,,RADx-rad DCC
+virus_source,Sample/VQA panel,text,Source of the live virus,,"examples: BEI Resources, UCSD ",,,,,RADx-rad DCC
+virus_sample_type,Sample/VQA panel,category,Type of virus sample,inactivated virus|life virus,example: inactivated virus,,,,,RADx-rad DCC
+virus_sample_inactivation_method,Sample/VQA panel,category,Method of virus inactivation,UV | heat | Gamma-irradiated,example: heat,,,,,RADx-rad DCC
+virus_sample_concentration,Sample/VQA panel,float,Concentration of virus (gene copies/ml),,example:  1.48E+10,,,,copies/ml,RADx-rad DCC
+virus_sample_concentration_reference_gene,Sample/VQA panel,text,Reference gene used to determine concentration of virus,,example: N,,,,,RADx-rad DCC
+virus_sample_genome_equivalents,Sample/VQA panel,float,Genome equivalents in virus sample,,example: 4.9E+09,,,,copies/ml,RADx-rad DCC
+virus_sample_genome_equivalents_reference_gene,Sample/VQA panel,text,Reference gene used to determine genome equivalents,,example: ORF1a,,,,,RADx-rad DCC
+virus_preinactivation_tcid50,Sample/VQA panel,float,Tissue Culture Infectious Dose 50% (TCID50) endpoint is the 50% infectious endpoint in cell culture. The TCID50 is the dilution of virus that under the conditions of the assay can be expected to infect 50% of the culture vessels inoculated. (TCID50/ml),,example: 2E+07,,,,TCID50/ml,RADx-rad DCC|https://www.beiresources.org
+virus_sample_grow_cell_line,Sample/VQA panel,text,Cell line used for producing virus,,example: Caco2,,,,,RADx-rad DCC
+sample_group,Sample,text,Unique identifier for a grouping of samples or runs,,,,,,,RADx-rad DCC
+assay_readout,Assay Results,float,Numerical assay readout,,example: 0.7,,,,,RADx-rad DCC
+assay_readout_unit,Assay Results,text,Unit of assay_readout,,example: F,,,,,RADx-rad DCC
+assay_readout_description,Assay Results,text,Description of assay readout type,,example: capacitance,,,,,RADx-rad DCC
+sample_size,Analytical Performance,integer,Number of samples in a sample_group used to calculate metrics,,,,,,,RADx-rad DCC
+limit_of_blank,Analytical Performance,float,Limit of Blank (LOB).  The highest apparent analyte concentration expected to be found when a replicate of a sample containing no analyte are tested.,,"Armbruster DA, Pry T. Limit of blank, limit of detection and limit of quantitation. Clin Biochem Rev. 2008 Aug;29 Suppl 1(Suppl 1):S49-52. PMID: 18852857; PMCID: PMC2556583.",,,,,RADx-rad DCC|https://ncbi.nlm.nih.gov/pmc/articles/PMC2556583
+limit_of_blank_unit,Analytical Performance,text,Concentration unit for limit_of_blank,,,,,,,"RADx-rad DCC "
+limit_of_detection,Analytical Performance,float,Limit of Detection (LOD). The minimum amount or concentration of analyte that can be reliably distinguished from zero.,,"Armbruster DA, Pry T. Limit of blank, limit of detection and limit of quantitation. Clin Biochem Rev. 2008 Aug;29 Suppl 1(Suppl 1):S49-52. PMID: 18852857; PMCID: PMC2556583.",,,,,RADx-rad DCC|https://ncbi.nlm.nih.gov/pmc/articles/PMC2556583
+limit_of_detection_unit,Analytical Performance,text,Concentration unit for limit_of_detection,,,,,,,"RADx-rad DCC "
+limit_of_detection_reference_gene,Analytical Performance,text,Name of the gene used to define the concentration of a viral sample,,Example: ORF1a,,,,,RADx-rad DCC
+limit_of_detection_sn_ratio,Analytical Performance,float,Signal to noise ratio used to define the limit of detection in standard deviations.,,Example: 3,,,,,RADx-rad DCC
+limit_of_detection_detail,Analytical Performance,text,Description of how limit of detection was determined.,,"Example: A dilution series of heat inactivated SARS-CoV-2 virus stock (USA-WA1/2020) was prepared in natural clinical matrix (pooled nasopharyngeal swab samples eluted in VTM). Five (5) replicates were tested per dilution. The testing was performed as per the recommended instructions for use, with the virus in clinical matrix applied directly onto the Swab until the saturation of the flocked tip. The estimated LoD concentration for verification was selected as the concentration in between the dilution factor that returned 5/5 positive test outcomes (100%) and the next dilution factor that returned 0/5 positive (0%) based on the qualitative result. Source: https://www.fda.gov/media/144592/download.",,,,,RADx-rad DCC
+limit_of_detection_ci_percent,Analytical Performance,float,Percent used to define two-sided confidence interval for limit_of_detection.,,Example: 95,,,,,RADx-rad DCC
+analytical_sensitivity,Analytical Performance,float,Analytical sensitivity is defined as the slope of the calibration curve.,,"Armbruster DA, Pry T. Limit of blank, limit of detection and limit of quantitation. Clin Biochem Rev. 2008 Aug;29 Suppl 1(Suppl 1):S49-52. PMID: 18852857; PMCID: PMC2556583; https://www.youtube.com/watch?v=8Pe3k3fJNe8",,,,,RADx-rad DCC
+analytical_sensitivity_unit,Analytical Performance,text,Unit of analytical sensitivity,,,,,,,RADx-rad DCC
+turnaround_time,Clinical Performance,integer,Turnaround time for test in minutes,,,,,,min,RADx-rad DCC
+turnaround_time_unit,Clinical Performance,text,Unit for turnaround_time,,,,,,,RADx-rad DCC

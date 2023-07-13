@@ -1,0 +1,37 @@
+﻿Variable Name,Description,Data Type,Permissible Value,Prompt
+UID,Personal identifier,String,,
+Date_Stamp,Date and Time stamp for the survey response,Date,yyyy-mm-ddThh:mm:ss.sssZ,
+Exposure,"Indicates whether the participant reported been exposed to someone who has tested positive for COVID-19 or is currently undergoing testing for COVID-19, within the past 24 hours",Categorical,Yes; No; NA,"""To the best of your knowledge have you been exposed to someone who has tested positive for COVID-19 or is currently undergoing testing for COVID-19, within the past 24 hours?"""
+Permitted,Indicates confirmation by the participant on being informed that they are permitted to enter a WSSC Water facility or work location if they were scheduled to on that day.,Categorical,"Yes, I understand","""(COVID-19 Not Monitored) Based on your responses, you are permitted to enter a WSSC Water facility or work location today if you are scheduled to do so.
+Click “Yes, I understand” to confirm the information you provided is accurate """
+Quarantine,Indicates whether the participant reported that either they or someone in their household were asked to Quarantine.,Categorical,Yes; No; NA,"""Have you been instructed by a health care provider or health department to isolate or quarantine or has someone in your household (spouse, roommate, family member, etc.) been instructed by a health care provider or health department to isolate or quarantine?"""
+Test_Result,Indicates whether the participant reported receiving a positive COVID-19 test result or diagnosis.,Categorical,Yes; No; NA,"""Have you received a positive COVID-19 test result or diagnosis since the last time you took this survey?"""
+Wellness,Indicates how the participant reported they were feeling on the day of filling out the survey. ,Categorical,Good; Fair; Poor; ,"""How are you feeling today?"""
+Not_Permitted,Indicates confirmation by the participant on being informed that they are Not Permitted to enter a WSSC Water facility or work location on that day.,Categorical,"Yes, I understand","Based on your response, you ARE NOT PERMITTED to enter a WSSC Water Facility or work location at this time.  You may be contacted by human resources to follow up on your responses.
+* If you are feeling well enough and have the ability to telework to complete certain job duties, please coordinate with your supervisor to determine if telework is an option for you at this time.
+* If you believe you received this message in error, please contact the WSSC Water Nurse.
+ Click “Yes, I understand” to confirm the information you provided is accurate."
+Symptoms_None,Indicates that the participant reported not having any of the covid-related symptoms mentioned on the survey in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Headache,Indicates that the participant reported having Headache in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Diarrhea,Indicates that the participant reported having Diarrhea in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Congestion or runny nose,Indicates that the participant reported having Congestion or runny nose in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Cough,Indicates that the participant reported having Cough in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Sore throat,Indicates that the participant reported having Sore throat in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Fatigue,Indicates that the participant reported having Fatigue in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Fever (above 100.4 F or 38 C) or chills,Indicates that the participant reported having Fever (above 100.4 F or 38 C) or chills in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Muscle or body aches,Indicates that the participant reported having Muscle or body aches in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Nausea or vomiting,Indicates that the participant reported having Nausea or vomiting in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_New loss of taste or smell,Indicates that the participant reported having New loss of taste or smell in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"
+Symptoms_Tightness of the chest or difficulty breathing,Indicates that the participant reported having Tightness of the chest or difficulty breathing in the past 24 hours,Categorical,"1, Yes;
+0, No","In the past 24 hours, have you experienced any of the following covid-related symptoms?"

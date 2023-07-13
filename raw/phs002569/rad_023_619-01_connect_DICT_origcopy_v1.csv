@@ -1,0 +1,781 @@
+Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Units,CDE Reference,,,,,,
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minumum CDE,,,,,,
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,,RADx-rad Minumum CDE,,,,,,
+ethnicity,Ethnicity,checkbox,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,,RADx-rad Minumum CDE,,,,,,
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",,0,90,,,RADx-rad Minumum CDE,,,,,,
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,,RADx-rad Minumum CDE,,,,,,
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,,RADx-rad Minumum CDE,,,,,,
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,,RADx-rad Minumum CDE,,,,,,
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,,RADx-rad Minumum CDE,,,,,,
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,,RADx-rad Minumum CDE,,,,,,
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,,[sex] = '2',,RADx-rad Minumum CDE,,,,,,
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,,,,,,
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,foot,RADx-rad Minumum CDE,,,,,,
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,,inch,RADx-rad Minumum CDE,,,,,,
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,,pound,RADx-rad Minumum CDE,,,,,,
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,,RADx-rad Minumum CDE,,,,,,
+record_id,basic_data,,text,Record ID,,,,,,,,,,,,,
+subject_id1,basic_data,,text,Subject ID,,,,,,,,y,,,,,
+medical_center,basic_data,,radio,CONNECT enrollment site,"7, RWJMS and BMSCH | 2, WMC/MFCH | 3, Montefiore | 4, Hackensack | 5, NYU | 8, Cincinnati | 9, DARTNet affiliate | 10, Barnabas | 6, Other",,,,,,,y,,,,,
+med_center,basic_data,,text,Please specify center.,,,,,,,[medical_center] = '6',y,,,,,
+age_enroll,basic_data,,text,Age (in years) at time of recruitment/enrollment,,Write 0 for infants under 1 year old,number,0,21,,,y,,,,, @HIDDEN
+age_group_enroll,basic_data,,radio,Age group at time of recruitment/enrollment,"1, <1 year old | 2, 1-5 years old | 3, 6-11 years old | 4, 12-17 years old | 5, 18-21 years old",,,,,,,y,,,,,
+sex_at_birth,basic_data,,radio,Sex at birth,"1, Male | 2, Female | 3, Intersex | 4, Other",,,,,,,y,,,,,
+other_sex_at_birth,basic_data,,text,Please specify.,,,,,,,[sex_at_birth] = '4',y,,,,,
+race,basic_data,,radio,Race,"1, White | 2, Black or African American | 3, American Indian or Alaskan Native | 4, Native Hawaiian or Other Pacific Islander | 5, Asian | 6, Other race | 7, Unknown race",,,,,,,y,,,,,
+ethnicity,basic_data,,radio,Ethnicity,"1, Hispanic, Latino, or Spanish Origin | 2, Non Hispanic, Latino, or Spanish Origin | 3, Unknown ethnicity",,,,,,,y,,,,,
+cohort_type,basic_data,,radio,Participant group,"8, Mild or asymptomatic SARS-CoV-2 infection (control) diagnosed in the outpatient setting (including urgent care and emergency room without admission) with no or mild symptoms (e.g., fever, muscle aches, nasal congestion) not requiring inpatient care | 9, Severe acute COVID-19 (COVID-19 case) requiring hospitalization for COVID-19-related pulmonary disease (e.g., pneumonia or acute respiratory distress syndrome [ARDS]) | 10, Multisystem inflammatory syndrome in children (MIS-C cases) (defined below)",Hospitalized children with incidental SARS-CoV-2-positive testing based on universal screening are not eligible if they were not hospitalized specificially for manifestations of COVID-19 or MIS-C.,,,,,,y,,,,,
+misc_definition,basic_data,,descriptive,"Multisystem Inflammatory Syndrome in Children (CDC criteria): 
+a. 	Positivity for current or recent SARS-CoV-2 infection by RT-PCR, serology, or antigen test; or exposure to someone with suspected or confirmed COVID-19 around 3-5 weeks prior to the onset of symptoms
+b. 	Fever
+c. 	Laboratory evidence of inflammation (e.g., elevated CRP, D-dimer, LDH, or IL-6; low lymphocytes or albumin)
+d. 	Evidence of clinically severe illness requiring hospitalization with dysfunction or disorders affecting at least 2 organs (cardiac, renal, respiratory, hematologic, gastrointestinal, dermatologic or neurological)",,,,,,,,,,,,,
+prevalent_incident_case,basic_data,,radio,Incident or prevalent subject: ,"2, Incident subject: enrolled 0-14 days after diagnosis | 1, Prevalent subject: enrolled more than 14 days after diagnosis",,,,,,,y,,,,,
+enrolled,basic_data,,yesno,Was the subject enrolled?,,,,,,,,y,,,,,
+not_enrolled,basic_data,,checkbox,Why wasn't the subject enrolled?,"0, Not eligible | 1, Not interested | 2, Interested but unable to commit | 3, Unable to reach potential participant | 4, Other",,,,,,[enrolled] = '0',,,,,,
+not_enrolled_oth,basic_data,,text,For what other reason wasn't the subject enrolled?,,,,,,,[not_enrolled(4)] = '1',,,,,,
+enroll_date,basic_data,,text,Date of enrollment / consent,,,date_mdy,,,,[enrolled] = '1',y,,,,,
+biospecimens,basic_data,,yesno,Have biospecimens been collected from the subject?,,,,,,,[enrolled] = '1',y,,,,,
+parent_enroll,basic_data,,radio,Have parents been enrolled?,"0, No, parents declined participation | 1, One parent has been consented | 2, Both parents have been consented",,,,,,[cohort_type] = '10' and [enrolled] = '1',y,,,,,
+parent_biospecimen,basic_data,,radio,Have parents provided biospecimens?,"0, Neither parent has provided specimens | 1, One parent has provided a specimen | 2, Both parents have provided specimens",,,,,,[parent_enroll] = '1' or [parent_enroll] = '2' ,y,,,,,
+dob,clinical_data_abstraction,Baseline Information,text,Date of birth,,,date_mdy,,,y,,y,,,,,
+zip_code,clinical_data_abstraction,,text,Zip code,,,zipcode,,,y,,y,,,,,
+insurance,clinical_data_abstraction,,radio,Insurance,"1, Private | 2, Self-pay | 3, US government (e.g. Medicaid) | 4, Unknown",,,,,,,y,,,,,
+knowledge_of_infection_time,clinical_data_abstraction,,yesno,Do we know approximately when the infection started?,,,,,,,,,,,,, @HIDDEN
+timing_of_infection,clinical_data_abstraction,,text,Timing of infection:,,,date_mdy,,,,[knowledge_of_infection_time] = '1',y,,,,, @HIDDEN
+date_dx_mildasx,clinical_data_abstraction,,text,Date of SARS-CoV-2 infection diagnosis,,,date_mdy,,,y,[cohort_type] = '8',,,,,,
+admission_date,clinical_data_abstraction,,text,Date of admission for acute illness (COVID-19 or MIS-C),,,date_mdy,,,y,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+discharge_date,clinical_data_abstraction,,text,Date of discharge for acute illness (COVID-19 or MIS-C),,,date_mdy,,,y,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+icu_stay,clinical_data_abstraction,,yesno,ICU stay?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+icu_admission,clinical_data_abstraction,,text,Date of ICU admission,,,date_mdy,,,y,[icu_stay]='yes',y,,,,,
+icu_discharge,clinical_data_abstraction,,text,Date of ICU discharge,,,date_mdy,,,y,[icu_stay]='yes',y,,,,,
+discharge_location,clinical_data_abstraction,,radio,Disposition,"1, Discharged home | 2, Transferred to other acute care facility | 3, Discharged to rehabilitation | 4, Discharged to chronic care facility | 5, Died",,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+rehab_facility,clinical_data_abstraction,,yesno,Was the patient admitted from a rehabilitation facility?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+chronic_care_facility,clinical_data_abstraction,,yesno,Was the patient admitted from a chronic care facility?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+neuro_function_pre_illness,clinical_data_abstraction,,yesno,Was the neurologic function normal at baseline (pre-illness)? ,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+neuro_func_disc,clinical_data_abstraction,,yesno,Was neurologic function at discharge the same as the pre-illness baseline?,,,,,,,([cohort_type] = '9' or [cohort_type] = '10') and [discharge_location] <> '5',y,,,,,
+reinfection,clinical_data_abstraction,,yesno,Was this person diagnosed with a subsequent SARS-CoV-2 REINFECTION?,,,,,,,,,,,,,
+reinfection_when,clinical_data_abstraction,,text,When was the subsequent SARS-CoV-2 infection diagnosed?,,,date_mdy,,,y,[reinfection] = '1',,,,,,
+reinfection_sev,clinical_data_abstraction,,radio,What was the severity or clinical presentation of the subsequent (initial) SARS-CoV-2 infection?,"1, Asymptomatic | 2, Mildly or moderately symptomatic but not requiring hospitalization | 3, Severe COVID-19 requiring hospitalization | 4, MISC requiring hospitalization | 5, Other",,,,,,[reinfection] = '1',,,,,,
+reinfection_notes,clinical_data_abstraction,,notes,Additional details about reinfection:,,,,,,,[reinfection] = '1',,,,,,
+vacc_rec,clinical_data_abstraction,,radio,Was the participant vaccinated against Covid?,"1, Yes | 0, No | 2, Unsure",,,,,,,,,,,,
+vacc_rec_date,clinical_data_abstraction,,text,"Approximately when was the first vaccine given? [Note: If unsure of the exact date but the approximate month is known, may provide the 15th of that month]",,,date_mdy,,,,[vacc_rec] = '1',,,,,,
+vacc_brand,clinical_data_abstraction,,radio,What vaccine did the participant get? ,"1, Pfizer | 2, Moderna | 3, J&J | 4, Unsure",,,,,,[vacc_rec] = '1',,,,,,
+vacc_series,clinical_data_abstraction,,radio,Did the participant complete the primary vaccine series?,"1, Yes | 0, No | 2, Unsure",,,,,,[vacc_brand] = '1' or [vacc_brand] = '2',,,,,,
+booster,clinical_data_abstraction,,radio,Did the participant get a booster? ,"1, Yes | 0, No | 2, Unsure",,,,,,[vacc_rec] = '1',,,,,,
+booster_date,clinical_data_abstraction,,text,"Approximately when did the participant get the booster? [Note: If unsure of the exact date but the approximate month is known, may provide the 15th of that month]",,,date_mdy,,,,[booster] = '1',,,,,,
+booster_brand,clinical_data_abstraction,,radio,What vaccine booster did the participant get? ,"1, Pfizer | 2, Moderna | 3, J&J | 4, Unsure",,,,,,[booster] = '1',,,,,,
+sec_booster,clinical_data_abstraction,,radio,Did the participant get a second booster?,"1, Yes | 0, No | 2, Unsure",,,,,,[booster] = '1',,,,,,
+sec_booster_date,clinical_data_abstraction,,text,"Approximately when did the participant get the booster? [Note: If unsure of the exact date but the approximate month is known, may provide the 15th of that month]",,,date_mdy,,,,[sec_booster] = '1',,,,,,
+sec_booster_brand,clinical_data_abstraction,,radio,What vaccine did the participant get?,"1, Pfizer | 2, Moderna | 3, J&J | 4, Unsure",,,,,,[sec_booster] = '1',,,,,,
+discharged_equipment,clinical_data_abstraction,,radio,Was the patient discharged with:,"1, New or increased oxygen support | 2, New chronic mechanical ventilation support | 3, New tracheotomy | 4, None",,,,,,,,,,,, @HIDDEN
+new_chronic_conditions,clinical_data_abstraction,,yesno,Was the patient discharged with any new chronic conditions due to their illness?,,,,,,,,,,,,, @HIDDEN
+new_chronic_illness,clinical_data_abstraction,,notes,Please explain.,,,,,,,[new_chronic_conditions] = '1',,,,,, @HIDDEN
+readmission,clinical_data_abstraction,,yesno,Was the patient readmitted to the site hospital or an affiliated hospital within 30 days of hospital discharge?,,,,,,,,,,,,, @HIDDEN
+covid_sym_readmission,clinical_data_abstraction,,yesno,"If yes, was the readmission noted to potentially be related to COVID-19 symptoms or complications?",,,,,,,[readmission] = '1',,,,,, @HIDDEN
+non_covid_readmission,clinical_data_abstraction,,yesno,"If yes, was the readmission due to a non-COVID respiratory illness?",,,,,,,[readmission] =1,,,,,, @HIDDEN
+cardiac_complications,clinical_data_abstraction,,yesno,"If yes, was the readmission due to cardiac-related complications or illness?",,,,,,,[readmission]=1,,,,,, @HIDDEN
+gen_med_questions,clinical_data_abstraction,Baseline Health at Time of Diagnosis,descriptive,General medical questions:,,,,,,,,,,,,,
+no_med_hx,clinical_data_abstraction,,descriptive,"If patient was healthy with no history of medical (prematurity, any medications) or psychological conditions (anxiety, depression, etc) this section can be skipped.",,,,,,,,,,,,, @HIDDEN
+prescription_meds,clinical_data_abstraction,,checkbox,Prescription meds prior to diagnosis:,"1, Diuretics | 2, Beta-agonist bronchodilators | 3, Inhaled steroids | 4, Systemic glucocorticoids in the last 3 months (i.e. oral or IV) | 5, Statins | 6, Immunosuppressive drugs | 7, Chemotherapeutic agents | 8, None of the above",,,,,,,y,,,,,
+steroid_when,clinical_data_abstraction,,radio,When were systemic glucocorticoids last taken prior to diagnosis?,"1, 1-7 days before diagnosis | 2, 8-30 days before diagnosis | 3, 31-90 days before diagnosis",,,,,,[prescription_meds(4)] = '1',,,,,,
+immunosuppressive_drugs,clinical_data_abstraction,,checkbox,Please specify which immunosuppressive drug(s).,"1, Cyclosporine, tacrolimus | 2, Abatacept, belatacept | 3, Anti-CD20 drugs (e.g. rituximab) | 4, Eculizumab | 5, IL-2 receptor antagonists (e.g. basiliximab) | 6, Anti-TNF-? drugs (e.g. infliximab, adalimumab, etanercept) | 7, IL-1 inhibitors (e.g. anakinra) | 8, IL-6 inhibitors (e.g. tocilizumab) | 9, IL-17 inhibitors (e.g. secukinumab) | 10, Pan-lymphocyte depleting agents (e.g. alemtuzumab) | 11, Anti-proliferative agents (e.g. sirolimus, everolimus) | 12, Glucocorticoids as part of the regimen | 13, Antimetabolites (e.g. azathioprine, mycophenylate, leflunomide) | 14, Other",,,,,,[prescription_meds(6)] = '1',y,,,,,
+immunosup_drugs,clinical_data_abstraction,,notes,Please specify which other immunosuppressive drug(s).,,,,,,,[immunosuppressive_drugs(14)] = '1',y,,,,,
+chemo_agents,clinical_data_abstraction,,notes,Please specify which chemotherapeutic agents.,,,,,,,[prescription_meds(7)] = '1',y,,,,,
+mech_med_support,clinical_data_abstraction,,descriptive,Check if any of the following forms of mechanical medical support were needed at baseline (before COVID-19/MISC diagnosis) or at time of hospital discharge (if relevant) ,,Check all that apply,,,,,,,,,,,
+feed_tube,clinical_data_abstraction,,checkbox,Chronic gastrostomy or other feeding tube use,"0, Not present at baseline or discharge | 1, Present at baseline (prior to diagnosis) | 2, Present at discharge",,,,,,,y,,,devices,,
+tracheostomy,clinical_data_abstraction,,checkbox,Tracheostomy,"0, Not present at baseline or discharge | 1, Present at baseline (prior to diagnosis) | 2, Present at discharge",,,,,,,y,,,devices,,
+mech_ventil,clinical_data_abstraction,,checkbox,Invasive or non-invasive mechanical ventilator support,"0, Not present at baseline or discharge | 1, Present at baseline (prior to diagnosis) | 2, Present at discharge",,,,,,,y,,,devices,,
+chronic_oxgn,clinical_data_abstraction,,checkbox,Chronic oxygen need,"0, Not present at baseline or discharge | 1, Present at baseline (prior to diagnosis) | 2, Present at discharge",,,,,,,y,,,devices,,
+dialysis,clinical_data_abstraction,,checkbox,Dialysis,"0, Not present at baseline or discharge | 1, Present at baseline (prior to diagnosis) | 2, Present at discharge",,,,,,,y,,,devices,,
+cardiac_assist,clinical_data_abstraction,,checkbox,Cardiac assist device,"0, Not present at baseline or discharge | 1, Present at baseline (prior to diagnosis) | 2, Present at discharge",,,,,,,y,,,devices,,
+device_check,clinical_data_abstraction,,descriptive,"<div style=""background-color:#FFCCCC;padding:10px"">You checked both not present and present. Please confirm status of device use at baseline and discharge.</div>",,,,,,,([feed_tube(0)] = '1' and [feed_tube(1)] = '1') or ([feed_tube(0)] = '1' and [feed_tube(2)] = '1') or ([tracheostomy(0)] = '1' and [tracheostomy(1)] = '1') or ([tracheostomy(0)] = '1' and [tracheostomy(2)] = '1') or  ([mech_ventil(0)] = '1' and [mech_ventil(1)] = '1') or ([mech_ventil(0)] = '1' and [mech_ventil(2)] = '1') or  ([chronic_oxgn(0)] = '1' and [chronic_oxgn(1)] = '1') or ([chronic_oxgn(0)] = '1' and [chronic_oxgn(2)] = '1') or  ([dialysis(0)] = '1' and [dialysis(1)] = '1') or ([dialysis(0)] = '1' and [dialysis(2)] = '1') or  ([cardiac_assist(0)] = '1' and [cardiac_assist(1)] = '1') or ([cardiac_assist(0)] = '1' and [cardiac_assist(2)] = '1') ,,,,,,
+vent_support,clinical_data_abstraction,,checkbox,Invasive or non-invasive mechanical ventilator support,"1, For primary lung failure | 2, For sleep apnea",,,,,,[mech_ventil(1)] = '1' or [mech_ventil(2)] = '1',,,,,,
+cardiac_assist_device,clinical_data_abstraction,,checkbox,Which cardiac assist device?,"1, Pacemaker | 2, Ventricular assist device | 3, Other",,,,,,[cardiac_assist(1)] = '1' or [cardiac_assist(2)] = '1',,,,,,
+cardiac_assist_device_oth,clinical_data_abstraction,,text,Which other cardiac assist device?,,,,,,,[cardiac_assist_device(3)] = '1',,,,,,
+system_based_q,clinical_data_abstraction,,descriptive,System based questions:,,,,,,,,,,,,,
+underlying_resp_disorder,clinical_data_abstraction,"Respiratory system disorders include:
+-	Asthma
+- Chronic restrictive lung disease 
+-	Tracheomalacia / Bronchomalacia
+-	Bronchopulmonary dysplasia
+-	Cystic fibrosis
+-	Obstructive sleep apnea
+-	Recurrent aspiration into lungs
+-	Pulmonary hypertension
+-	Other
+",yesno,Pre-existing respiratory system disorder?,,,,,,,,y,,,,,
+resp_disorder_which,clinical_data_abstraction,,checkbox,Which pre-existing respiratory system disorder(s)?,"1, Asthma | 2, Chronic restrictive lung disease  | 3, Tracheomalacia / Bronchomalacia | 4, Bronchopulmonary dysplasia | 5, Cystic fibrosis | 6, Obstructive sleep apnea | 7, Recurrent aspiration into lungs | 8, Pulmonary hypertension | 9, Other chronic lung disease",Check all that apply,,,,,[underlying_resp_disorder] = '1',y,,,,,
+asthma,clinical_data_abstraction,,yesno,Asthma,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+asthma_hosp,clinical_data_abstraction,,yesno,Prior hospitalization for asthma?,,,,,,,[resp_disorder_which(1)] = '1',y,,,,,
+asthma_hosp_within_year,clinical_data_abstraction,,yesno,Was the hospitalization within the last year?,,,,,,,[asthma_hosp] =1,y,,,,,
+bronchodilators,clinical_data_abstraction,,radio,On bronchodilators for asthma?,"1, Routine/scheduled | 2, PRN only | 3, No",,,,,,[resp_disorder_which(1)] = '1',y,,,,,
+asthma_steroids,clinical_data_abstraction,,radio,On inhaled steroids for asthma? ,"1, Routine/scheduled | 2, PRN only | 3, No",,,,,,[resp_disorder_which(1)] = '1',y,,,,,
+chronic_lung_dz,clinical_data_abstraction,,yesno,Chronic lung disease (non-asthma),,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+chronic_rest_lung_dz,clinical_data_abstraction,,yesno,Chronic restrictive lung disease ,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+tracheomalacia,clinical_data_abstraction,,yesno,Tracheomalacia / Bronchomalacia,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+broncho_dysplasia,clinical_data_abstraction,,yesno,Bronchopulmonary dysplasia,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+cystic_fibrosis,clinical_data_abstraction,,yesno,Cystic fibrosis,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+sleep_apnea,clinical_data_abstraction,,yesno,Obstructive sleep apnea,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+lung_aspiration,clinical_data_abstraction,,yesno,Recurrent aspiration into lungs,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+pulm_htn,clinical_data_abstraction,,yesno,Pulmonary hypertension,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+other_chronic_lung_dz,clinical_data_abstraction,,yesno,Other chronic lung disease,,,,,,,[underlying_resp_disorder] = '1',,,,,, @HIDDEN
+lung_dz_desc,clinical_data_abstraction,,text,What other chronic lung disease(s)?,,,,,,,[resp_disorder_which(9)] = '1',y,,,,,
+cv_disorder,clinical_data_abstraction,"Cardiovascular system disorders include:
+- Congenital heart disease
+- Acquired heart disease
+- Cardiac repair (surgery or interventional catheterization)
+- Systemic hypertension
+- Other",yesno,Pre-existing disorder of the cardiovascular system?,,,,,,,,y,,,,,
+cv_disorder_which,clinical_data_abstraction,,checkbox,Which pre-existing disorder(s) of the cardiovascular system?,"1, Congenital heart disease | 2, Rheumatic heart disease | 3, Coronary artery dilatation from Kawasaki disease | 4, Prior myocarditis | 5, Prior cardiac repair (surgery or interventional catheterization) | 6, Systemic hypertension (not pulmonary) | 7, Other cardiovascular disorder (specify below)",Check all that apply,,,,,[cv_disorder] = '1',y,,,,,
+heart_dz,clinical_data_abstraction,,yesno,Congenital heart disease,,,,,,,[cv_disorder] = '1',,,,,, @HIDDEN
+acquired_heart_dz,clinical_data_abstraction,,yesno,"Acquired heart disease (e.g., rheumatic heart disease, coronary artery dilatation from Kawasaki disease, myocarditis)",,,,,,,[cv_disorder] = '1',,,,,, @HIDDEN
+cardiac_repair,clinical_data_abstraction,,yesno,Has the patient undergone cardiac repair (surgery or interventional catheterization) in the past?,,,,,,,[cv_disorder] = '1',,,,,, @HIDDEN
+systemic_htn,clinical_data_abstraction,,yesno,Systemic hypertension,,,,,,,[cv_disorder] = '1',,,,,, @HIDDEN
+other_cardio_dz,clinical_data_abstraction,,yesno,Other cardiovascular disorder,,,,,,,[cv_disorder] = '1',,,,,, @HIDDEN
+specific_cardio_dz,clinical_data_abstraction,,text,What other cardiovascular disorder(s)?,,,,,,,[cv_disorder_which(7)] ='1',y,,,,,
+neurologic_disorder,clinical_data_abstraction,"Neurologic and neuromuscular disorders include:
+- Muscular dystrophy
+- Static encephalopathy
+- Spastic quadriplegia (e.g. cerebral palsy)
+- Seizure disorder (excluding simple febrile seizures)
+- Neuromuscular weakness
+- Other",yesno,Pre-existing neurologic and/or neuromuscular disorder?,,,,,,,,y,,,,,
+neurologic_disorder_which,clinical_data_abstraction,,checkbox,Which pre-existing neurologic and/or neuromuscular disorder(s)?,"1, Muscular dystrophy | 2, Static encephalopathy | 3, Cerebral palsy (e.g., spastic quadriplegia) | 4, Seizure disorder / epilepsy (not including simple febrile seizures) | 5, Neuromuscular disorder | 6, Other neurologic or muscular disorder",Check all that apply,,,,,[neurologic_disorder]='1',y,,,,,
+musc_dystrophy,clinical_data_abstraction,,yesno,Muscular dystrophy,,,,,,,[neurologic_disorder]='1',,,,,, @HIDDEN
+encephalopathy,clinical_data_abstraction,,yesno,Static encephalopathy,,,,,,,[neurologic_disorder]='1',,,,,, @HIDDEN
+spastic_quadriplegia,clinical_data_abstraction,,yesno,"Cerebral palsy (e.g., spastic quadriplegia)",,,,,,,[neurologic_disorder]='1',,,,,, @HIDDEN
+seizure_disorder,clinical_data_abstraction,,yesno,Seizure disorder / epilepsy (not including simple febrile seizures),,,,,,,[neurologic_disorder]='1',,,,,, @HIDDEN
+neuromuscular_weakness,clinical_data_abstraction,,yesno,Neuromuscular disorder,,,,,,,[neurologic_disorder]='1',,,,,, @HIDDEN
+other_neuro_disorder,clinical_data_abstraction,,yesno,Other neurologic or muscular disorder,,,,,,,[neurologic_disorder]='1',,,,,, @HIDDEN
+specific_neuro_disorder,clinical_data_abstraction,,text,What other neurologic or muscular disorder(s)?,,,,,,,[neurologic_disorder_which(6)]='1',y,,,,,
+renal_disorder,clinical_data_abstraction,"Renal disorders include:
+- Chronic kidney disease
+- Receiving hemodialysis or peritoneal dialysis
+- Other",yesno,Pre-existing renal disorder?,,,,,,,,y,,,,,
+renal_disorder_which,clinical_data_abstraction,,checkbox,Which renal disorder(s)?,"1, Chronic kidney disease | 2, Other renal disorder",Check all that apply,,,,,[renal_disorder] ='1',y,,,,,
+chronic_kidney_dx,clinical_data_abstraction,,yesno,Chronic kidney disease,,,,,,,[renal_disorder] ='1',,,,,, @HIDDEN
+other_renal,clinical_data_abstraction,,yesno,Other renal disorder,,,,,,,[renal_disorder] ='1',,,,,, @HIDDEN
+specific_renal_disorder,clinical_data_abstraction,,text,What other renal disorder(s)?,,,,,,,[renal_disorder_which(2)] = '1',y,,,,,
+gastro_hep_disorder,clinical_data_abstraction,"Gastrointestinal and hepatic disorders include:
+- Chronic liver disease
+- Gastroesophageal reflux (GERD)
+- Inflammatory bowel disease (IBD)
+- Celiac disease
+- Peptic ulcer disease 
+- Other",yesno,Pre-existing gastrointestinal or hepatic disorder?,,,,,,,,y,,,,,
+gastro_hep_disorder_which,clinical_data_abstraction,,checkbox,Which gastrointestinal or hepatic disorder(s)?,"2, Gastroesophageal reflux | 5, Peptic ulcer disease | 3, Inflammatory bowel disease | 4, Celiac disease | 1, Chronic liver disease | 6, Other underlying gastrointestinal / hepatic disorder(s) (specify)",Check all that apply,,,,,[gastro_hep_disorder]='1',y,,,,,
+liver_dz,clinical_data_abstraction,,yesno,Chronic liver disease,,,,,,,[gastro_hep_disorder]='1',,,,,, @HIDDEN
+gerd,clinical_data_abstraction,,yesno,Gastroesophageal reflux,,,,,,,[gastro_hep_disorder]='1',,,,,, @HIDDEN
+ibd,clinical_data_abstraction,,yesno,Inflammatory bowel disease,,,,,,,[gastro_hep_disorder]='1',,,,,, @HIDDEN
+celiac_dz,clinical_data_abstraction,,yesno,Celiac disease,,,,,,,[gastro_hep_disorder]='1',,,,,, @HIDDEN
+peptic_ulcer_dz,clinical_data_abstraction,,yesno,Peptic ulcer disease,,,,,,,[gastro_hep_disorder]='1',,,,,, @HIDDEN
+other_gastro_hep_disorder,clinical_data_abstraction,,yesno,Other underlying gastrointestinal hepatic disorder?,,,,,,,[gastro_hep_disorder]='1',,,,,, @HIDDEN
+specific_gastro_hep_disorder,clinical_data_abstraction,,text,What other gastrointestinal or hepatic disorder(s)?,,,,,,,[gastro_hep_disorder_which(6)]='1',y,,,,,
+endo_disorder,clinical_data_abstraction,"Endocrine disorders include:
+- Diabetes mellitus
+- Adrenal insufficiency
+- Hypothyroidism
+- Other",yesno,Pre-existing endocrine disorder?,,,,,,,,y,,,,,
+endo_disorder_which,clinical_data_abstraction,,checkbox,Which endocrine disorder(s)?,"1, Type 1 diabetes mellitus | 2, Type 2 diabetes mellitus | 3, Adrenal insufficiency | 4, Hypothyroidism | 5, Other endocrine disorder(s) (specify)",Check all that apply,,,,,[endo_disorder]='1',y,,,,,
+diabetes,clinical_data_abstraction,,yesno,Diabetes mellitus,,,,,,,[endo_disorder]='1',,,,,, @HIDDEN
+insulin_dependent,clinical_data_abstraction,,yesno,Insulin dependent?,,,,,,,[endo_disorder_which(2)]='1',,,,,,
+adrenal_insufficiency,clinical_data_abstraction,,yesno,Adrenal insufficiency,,,,,,,[endo_disorder]='1',,,,,, @HIDDEN
+hypothyroidism,clinical_data_abstraction,,yesno,Hypothyroidism,,,,,,,[endo_disorder]='1',,,,,, @HIDDEN
+other_endo_disorder,clinical_data_abstraction,,yesno,Other underlying endocrine disorder?,,,,,,,[endo_disorder]='1',,,,,, @HIDDEN
+specific_endo_disorder,clinical_data_abstraction,,text,What other endocrine disorder(s)?,,,,,,,[endo_disorder_which(5)]='1',y,,,,,
+met_genetic_disorder,clinical_data_abstraction,"Metabolic or genetic disorders include:
+- Morbid obesity
+- Trisomy 21
+- Mitochondrial disorder
+- Fatty acid oxidation defect
+- Other",yesno,Pre-existing metabolic or genetic disorder?,,,,,,,,y,,,,,
+met_genetic_disorder_which,clinical_data_abstraction,,checkbox,Which metabolic or genetic disorder(s)?,"1, Morbid obesity | 2, Trisomy 21 | 3, Mitochondrial disorder | 4, Fatty acid oxidation defect | 5, Other underlying metabolic or genetic disorder (specify)",Check all that apply,,,,,[met_genetic_disorder]='1',y,,,,,
+obesity,clinical_data_abstraction,,yesno,Morbid obesity,,,,,,,[met_genetic_disorder]='1',,,,,, @HIDDEN
+trisomy_21,clinical_data_abstraction,,yesno,Trisomy 21,,,,,,,[met_genetic_disorder]='1',,,,,, @HIDDEN
+mitochondrial_disorder,clinical_data_abstraction,,yesno,Mitochondrial disorder,,,,,,,[met_genetic_disorder]='1',,,,,, @HIDDEN
+fatty_acid_defect,clinical_data_abstraction,,yesno,Fatty acid oxidation defect,,,,,,,[met_genetic_disorder]='1',,,,,, @HIDDEN
+other_genetic_disorder,clinical_data_abstraction,,yesno,Other underlying metabolic or genetic disorder,,,,,,,[met_genetic_disorder]='1',,,,,, @HIDDEN
+specific_genetic_disorder,clinical_data_abstraction,,text,What other metabolic or genetic disorder(s)?,,,,,,,[met_genetic_disorder_which(5)]='1',y,,,,,
+rheum_disorder,clinical_data_abstraction,"Rheumatologic or autoimmune disorders include:
+- Systemic lupus erythematosus
+- Chronic arthritis (such as rheumatoid arthritis/juvenile idiopathic arthritis/psoriatic arthritis/spondyloarthritis)
+- Psoriasis
+- Scleroderma
+- Vasculitis
+- History of Kawasaki Disease (prior to this illness)
+- Other
+",yesno,Pre-existing rheumatologic or autoimmune disorder?,,,,,,,,y,,,,,
+rheum_disorder_which,clinical_data_abstraction,,checkbox,Which rheumatologic or autoimmune disorder(s)?,"1, Systemic lupus erythematosus | 2, Chronic inflammatory arthritis (such as rheumatoid arthritis/juvenile idiopathic arthritis/psoriatic arthritis/spondyloarthritis) | 3, Psoriasis | 4, Scleroderma | 6, Prior Kawasaki Disease | 5, Other vasculitis (specify) | 7, Other underlying rheumatolog/autoimmune disorder (specify)",Check all that apply,,,,,[rheum_disorder]='1',y,,,,,
+lupus,clinical_data_abstraction,,yesno,Systemic lupus erythematosus,,,,,,,[rheum_disorder]='1',,,,,, @HIDDEN
+chronic_arthritis,clinical_data_abstraction,,yesno,Chronic arthritis,,,,,,,[rheum_disorder]='1',,,,,, @HIDDEN
+psoriasis,clinical_data_abstraction,,yesno,Psoriasis ,,,,,,,[rheum_disorder]='1',,,,,, @HIDDEN
+scleroderma,clinical_data_abstraction,,yesno,Scleroderma,,,,,,,[rheum_disorder]='1',,,,,, @HIDDEN
+vasculitis,clinical_data_abstraction,,yesno,Vasculitis ,,,,,,,[rheum_disorder]='1',,,,,, @HIDDEN
+kawasaki_dz,clinical_data_abstraction,,yesno,"History of Kawasaki Disease (prior to this illness)	",,,,,,,[rheum_disorder]='1',,,,,, @HIDDEN
+other_rheum_disorder,clinical_data_abstraction,,yesno,Other underlying rheumatologic/autoimmune disorder?,,,,,,,[rheum_disorder]='1',,,,,, @HIDDEN
+specific_rheum_disorder,clinical_data_abstraction,,text,What other rheumatologic or autoimmune disorder(s)?,,,,,,,[rheum_disorder_which(5)]='1' or [rheum_disorder_which(7)]='1',y,,,,,
+hem_disorder,clinical_data_abstraction,"Hematologic disorders include:
+- Congenital bleeding disorder (e.g. hemophilia, von Willebrand)
+- Hemoglobinopathy (e.g. sickle cell anemia or thalassemia)
+- Bone marrow failure (pre-transplant)
+- Chronic thrombocytopenia
+- History of deep venous thrombosis or thrombotic disorder
+- Other",yesno,Pre-existing hematologic disorder?,,,,,,,,y,,,,,
+hem_disorder_which,clinical_data_abstraction,,checkbox,Which hematologic disorder(s)?,"1, Congenital bleeding disorder (e.g., hemophilia, von Willebrand) (specify) | 2, Hemoglobinopathy (e.g., sickle cell anemia or thalassemia) (specify) | 3, Bone marrow failure (no prior transplant) | 4, Chronic thrombocytopenia | 5, Prior deep venous thrombosis or thrombotic disorder | 6, Other underlying hematologic disorder (specify)",Check all that apply,,,,,[hem_disorder]='1',y,,,,,
+bleeding_disorder,clinical_data_abstraction,,yesno,"Congenital bleeding disorder (e.g. hemophilia, von Willebrand)",,,,,,,[hem_disorder]='1',y,,,,, @HIDDEN
+hemoglobinopathy,clinical_data_abstraction,,yesno,Hemoglobinopathy (e.g. sickle cell anemia or thalassemia),,,,,,,[hem_disorder]='1',y,,,,, @HIDDEN
+bone_marrow_failure,clinical_data_abstraction,,yesno,Bone marrow failure (pre-transplant),,,,,,,[hem_disorder]='1',y,,,,, @HIDDEN
+chronic_thrombocytopenia,clinical_data_abstraction,,yesno,Chronic thrombocytopenia,,,,,,,[hem_disorder]='1',y,,,,, @HIDDEN
+dvt_thrombotic_disorder,clinical_data_abstraction,,yesno,History of deep venous thrombosis or thrombotic disorder,,,,,,,[hem_disorder]='1',y,,,,, @HIDDEN
+other_hem_disorder,clinical_data_abstraction,,yesno,Other underlying hematologic disorder?,,,,,,,[hem_disorder]='1',y,,,,, @HIDDEN
+specific_hem_disorder,clinical_data_abstraction,,text,What other hematologic disorder?,,,,,,,[hem_disorder_which(1)]='1' or [hem_disorder_which(2)]='1' or [hem_disorder_which(6)]='1',y,,,,,
+non_onco_immunosup_disorder,clinical_data_abstraction,"Non-oncologic immunosuppression disorders include:
+- Solid organ transplant
+- HIV or AIDS
+- Primary immunodeficiency
+- Bone marrow transplant for non-oncologic disease
+- Other disorder requiring treatment that suppresses immune system",yesno,Pre-existing non-oncologic immunosuppressive disorder?,,,,,,,,y,,,,,
+non_onco_immsup_dis_which,clinical_data_abstraction,,checkbox,Which non-oncologic immunosuppressive disorder(s)?,"1, Solid organ transplant | 2, HIV positive | 3, AIDS | 4, Primary immunodeficiency | 5, Bone marrow transplant for non-oncologic disease | 6, Other disorder (not previously mentioned) requiring treatment that suppresses the immune system?",Check all that apply,,,,,[non_onco_immunosup_disorder]='1',y,,,,,
+organ_transplant,clinical_data_abstraction,,yesno,Solid organ transplant,,,,,,,[non_onco_immunosup_disorder]='1',y,,,,, @HIDDEN
+transplant_type1,clinical_data_abstraction,,text,What type of solid organ transplant?,,,,,,,[non_onco_immsup_dis_which(1)]='1',y,,,,,
+time_since_transplant,clinical_data_abstraction,,radio,Time since transplant,"1, < 6 months | 2, >= 6 months",,,,,,[organ_transplant]='1',y,,,,,
+rejection_past_month,clinical_data_abstraction,,yesno,Was the participant treated for rejection in the last month?,,,,,,,[organ_transplant]='1',y,,,,, @HIDDEN
+rejection_meds,clinical_data_abstraction,,checkbox,"If yes, what medications were used for treatment of rejection?","1, Glucocorticoids | 2, Rituximab | 3, Other",,,,,,[rejection_past_month]='1',y,,,,, @HIDDEN
+specific_rej_drug,clinical_data_abstraction,,text,Please specify.,,,,,,,[rejection_meds(3)]='1',y,,,,, @HIDDEN
+hiv_positive,clinical_data_abstraction,,yesno,HIV positive,,,,,,,[non_onco_immunosup_disorder]='1',y,,,,, @HIDDEN
+aids,clinical_data_abstraction,,yesno,AIDS,,,,,,,[non_onco_immunosup_disorder]='1',y,,,,, @HIDDEN
+primary_immunodef,clinical_data_abstraction,,yesno,Primary immunodeficiency,,,,,,,[non_onco_immunosup_disorder]='1',y,,,,, @HIDDEN
+primary_immunodeficiencies,clinical_data_abstraction,,checkbox,"Primary immunodeficiencies, check all that apply","1, Phagocyte disorder (e.g., chronic granulomatous disease, leukocyte adhesion disorder) | 2, Immunoglobulin disorder (e.g. CVID, X-linked agammaglobulinemia, IgA deficiency) | 3, Severe combined immunodeficiency disorder |4, Other immune disorder",,,,,,[non_onco_immsup_dis_which(4)]='1',y,,,,,
+specific_immunodeficiency,clinical_data_abstraction,,text,Please specify which immunodeficiency/ies.,,,,,,,[non_onco_immsup_dis_which(4)]='1',y,,,,,
+bm_transplant_non_onco,clinical_data_abstraction,,yesno,Bone marrow transplant for non-oncologic disease,,,,,,,[non_onco_immunosup_disorder]='1',y,,,,, @HIDDEN
+duration_since_transplant,clinical_data_abstraction,,radio,Duration since transplant,"1, <100 days | 2, >=100 days",,,,,,[non_onco_immsup_dis_which(5)]='1',y,,,,,
+gvhd,clinical_data_abstraction,,radio,Current diagnosis of acute or chronic GVHD?,"1, Yes, acute | 2, Yes, chronic | 3, No",,,,,,[bm_transplant_non_onco]='1',y,,,,, @HIDDEN
+gvhd_treatment1,clinical_data_abstraction,,yesno,Is the participant receiving drugs for treatment/prophylaxis of GVHD?,,,,,,,[bm_transplant_non_onco]='1',y,,,,, @HIDDEN
+gvhd_drugs,clinical_data_abstraction,,checkbox,Check all drugs participant is receiving for treatment/prophylaxis of GVHD,"1, Tacrolimus | 2, Cyclosporine | 3, Glucocorticoids | 4, Other",,,,,,[gvhd_treatment1]='1',y,,,,, @HIDDEN
+gvhd_other_drugs,clinical_data_abstraction,,text,Please list other drug(s) for treatment/prophylaxis of GVHD.,,,,,,,[gvhd_drugs(4)] = '1',y,,,,, @HIDDEN
+chronic_cmv,clinical_data_abstraction,,yesno,"Chronic CMV infection	",,,,,,,[bm_transplant_non_onco]='1',y,,,,, @HIDDEN
+other_non_onco_disorder,clinical_data_abstraction,,yesno,Other disorder requiring treatment that suppresses the immune system?,,,,,,,[non_onco_immunosup_disorder]='1',y,,,,, @HIDDEN
+specific_non_onco_disorder,clinical_data_abstraction,,text,What other non-oncologic immunosuppressive disorder(s)?,,,,,,,[non_onco_immsup_dis_which(6)]='1',y,,,,,
+resolved_onco_disorder,clinical_data_abstraction,"Resolved oncologic disorders include:
+- Leukemia, lymphoma, or unspecified cancer of bloodstream
+- Solid non-CNS tumor of organ (e.g. renal, heart, liver, lung)
+- Central nervous system tumor
+- Neuroblastoma
+- Soft tissue neoplasm (e.g. rhabdomyosarcoma)
+- Any tumor of the lung including metastatic disease
+",yesno,Pre-existing resolved oncologic disorder?,,,,,,,,y,,,,,
+resolved_onco_disorder_which,clinical_data_abstraction,,checkbox,Which resolved oncologic disorder(s)?,"1, Leukemia, Lymphoma, or unspecified bloodstream cancer (resolved) | 2, Solid non-CNS tumor of organ (e.g. renal, heart, liver, lung) (resolved) | 3, Central nervous system tumor (resolved) | 4, Neuroblastoma (resolved) | 5, Soft tissue neoplasm (e.g. rhabdomyosarcoma) (resolved) | 6, Any lung tumor including metastatic disease (resolved)",Check all that apply,,,,,[resolved_onco_disorder]='1',y,,,,,
+leukemia_lymphoma,clinical_data_abstraction,,yesno,"Leukemia, Lymphoma, or unspecified cancer of bloodstream (resolved)",,,,,,,[resolved_onco_disorder]='1',y,,,,, @HIDDEN
+non_cns_tumor,clinical_data_abstraction,,yesno,"Solid non-CNS tumor of organ (e.g. renal, heart, liver, lung) (resolved)",,,,,,,[resolved_onco_disorder]='1',y,,,,, @HIDDEN
+cns_tumor,clinical_data_abstraction,,yesno,Central nervous system tumor (resolved),,,,,,,[resolved_onco_disorder]='1',y,,,,, @HIDDEN
+neuroblastoma,clinical_data_abstraction,,yesno,Neuroblastoma (resolved),,,,,,,[resolved_onco_disorder]='1',y,,,,, @HIDDEN
+soft_tissue_neoplasm,clinical_data_abstraction,,yesno,Soft tissue neoplasm (e.g. rhabdomyosarcoma) (resolved),,,,,,,[resolved_onco_disorder]='1',y,,,,, @HIDDEN
+any_lung_tumor,clinical_data_abstraction,,yesno,Any tumor in the lung including metastatic disease (resolved),,,,,,,[resolved_onco_disorder]='1',y,,,,, @HIDDEN
+active_oncologic_dis,clinical_data_abstraction,"Active oncologic disorders include:
+- Leukemia, Lymphoma, or unspecified cancer of bloodstream
+- Solid non-CNS tumor of organ (e.g. renal, heart, liver, lung)
+- Central nervous system tumor
+- Neuroblastoma
+- Soft tissue neoplasm (e.g. rhabdomyosarcoma)
+- Any tumor of the lung including metastatic disease
+",yesno,Pre-existing active oncologic disorder?,,,,,,,,y,,,,,
+active_oncologic_dis_which,clinical_data_abstraction,,checkbox,Which active oncologic disorder(s)?,"1, Leukemia, Lymphoma, or unspecified bloodstream cancer (active) | 2, Solid non-CNS tumor of organ (e.g. renal, heart, liver, lung) (active) | 3, Central nervous system tumor (active) | 4, Neuroblastoma (active) | 5, Soft tissue neoplasm (e.g. rhabdomyosarcoma) (active) | 6, Any lung tumor including metastatic disease (active)",Check all that apply,,,,,[active_oncologic_dis]='1',y,,,,,
+leukemia_lymphoma2,clinical_data_abstraction,,yesno,"Leukemia, Lymphoma, or unspecified cancer of bloodstream (active)",,,,,,,[active_oncologic_dis]='1',y,,,,, @HIDDEN
+non_cns_tumor2,clinical_data_abstraction,,yesno,"Solid non-CNS tumor of organ (e.g. renal, heart, liver, lung) (active)",,,,,,,[active_oncologic_dis]='1',y,,,,, @HIDDEN
+cns_tumor2,clinical_data_abstraction,,yesno,Central nervous system tumor (active),,,,,,,[active_oncologic_dis]='1',y,,,,, @HIDDEN
+neuroblastoma2,clinical_data_abstraction,,yesno,Neuroblastoma (active),,,,,,,[active_oncologic_dis]='1',y,,,,, @HIDDEN
+soft_tissue_neoplasm2,clinical_data_abstraction,,yesno,Soft tissue neoplasm (e.g. rhabdomyosarcoma) (active),,,,,,,[active_oncologic_dis]='1',y,,,,, @HIDDEN
+any_lung_tumor2,clinical_data_abstraction,,yesno,Any tumor in the lung including metastatic disease (active),,,,,,,[active_oncologic_dis]='1',y,,,,, @HIDDEN
+stem_cell_transplant,clinical_data_abstraction,,yesno,Bone marrow or stem cell transplant for oncologic disease?,,,,,,,[active_oncologic_dis]='1',y,,,,,
+transplant_type,clinical_data_abstraction,,radio,Type of transplant:,"1, Autologous | 2, Allogeneic",,,,,,[stem_cell_transplant] = '1',y,,,,,
+transplant_duration,clinical_data_abstraction,,radio,Duration since transplant:,"1, < 100 days | 2, >= 100 days",,,,,,[stem_cell_transplant] = '1',y,,,,,
+acute_chronic_gvhd,clinical_data_abstraction,,radio,Current diagnosis of acute or chronic GVHD?,"1, Yes acute | 2, Yes chronic | 3, No",,,,,,[stem_cell_transplant] = '1',y,,,,,
+gvhd_prophylaxis,clinical_data_abstraction,,yesno,Is the participant receiving drugs for treatment/prophylaxis of GVHD?,,,,,,,[stem_cell_transplant] = '1',y,,,,, @HIDDEN
+gvhd_treatment,clinical_data_abstraction,,checkbox,"Check all drugs participant is receiving for treatment/prophylaxis of GVHD	","1, Tacrolimus | 2, Cyclosporine | 3, Glucocorticoids | 4, Other",,,,,,[gvhd_prophylaxis]='1',y,,,,, @HIDDEN
+other_gvhd_tx,clinical_data_abstraction,,text,"What other drug(s) participant is receiving for treatment/prophylaxis of GVHD	",,,,,,,[gvhd_treatment(4)] = '1',y,,,,, @HIDDEN
+chronic_cmv_inf,clinical_data_abstraction,,yesno,Chronic CMV infection?,,,,,,,[stem_cell_transplant] = '1',y,,,,, @HIDDEN
+cart_therapy,clinical_data_abstraction,,yesno,Has the participant received CAR-T therapy?,,,,,,,[active_oncologic_dis]='1',y,,,,, @HIDDEN
+cytokine_release_syndrome,clinical_data_abstraction,,checkbox,Has the participant received any of the therapies below for cytokine release syndrome within the last month? Check all that apply.,"1, Tocilizumab | 2, Glucocorticoids | 3, Other",,,,,,[cart_therapy] = '1',y,,,,, @HIDDEN
+cytokine_release_drug,clinical_data_abstraction,,text,What other drugs has the participant received any of the therapies below for cytokine release syndrome ,,,,,,,[cytokine_release_syndrome(3)] = '1',y,,,,, @HIDDEN
+mental_illness,clinical_data_abstraction,"Mental health conditions include:
+   -ADHD
+   -Anxiety
+   -Depression
+-Bipolar disorder   
+-Behavioral disorder
+-Psychotic disorder
+-Substance use disorder ",yesno,Pre-existing mental health condition(s),,,,,,,,y,,,,,
+mental_illness_which,clinical_data_abstraction,,checkbox,Which mental health condition(s)?,"1, ADHD | 2, Anxiety | 3, Depression | 4, Bipolar disorder | 5, Behavioral disorder (e.g., oppositional defiant disorder) | 6, Psychotic disorder | 7, Substance use disorder | 8, Other disorder",,,,,,[mental_illness] = '1',y,,,,,
+mental_illness_oth,clinical_data_abstraction,,text,Which other mental health condition(s)?,,,,,,,[mental_illness_which(8)] = '1',y,,,,,
+mental_illness_tx,clinical_data_abstraction,,checkbox,Has the subject needed/received the following?,"1, Medication for the mental health condition(s) | 2, Hospitalization for the mental health condition(s)",,,,,,[mental_illness] = '1',,,,,,
+serious_mental_illness,clinical_data_abstraction,,notes,Please specify what serious mental illness(es),,,,,,,[mental_illness] = '1',y,,,,, @HIDDEN
+pregnancy_status,clinical_data_abstraction,Pregnancy status,radio,Pregnancy status at time of illness,"1, Pregnant | 2, Not pregnant | 3, Not appicable",,,,,,[sex_at_birth] <> '1',y,,,,,
+onset_date,clinical_data_abstraction,Clinical presentation at diagnosis,yesno,Is date of symptom onset known? ,,,,,,,,y,,,,,
+symptom_onset_date,clinical_data_abstraction,,text,Date of symptom onset: ,,,date_mdy,,,y,[onset_date] = '1',y,,,,,
+contact_w_covid,clinical_data_abstraction,,radio,Did the patient have contact with a person with suspected or confirmed COVID-19?,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,,
+height,clinical_data_abstraction,,text,Earliest height at time of diagnosis: ,,"If height not available, may enter most recent known height prior to diagnosis (preferably within prior 6 months)",number,,,,,y,,,,,
+height_units,clinical_data_abstraction,,radio,Units of height:,"1, cm | 2, in | 3, Not done",,,,,,,y,,,,,
+weight,clinical_data_abstraction,,text,Earliest weight at time of diagnosis:,,"If weight not available, may enter most recent known weight prior to diagnosis (preferably within prior 6 months)",number,,,,,y,,,,,
+weight_units,clinical_data_abstraction,,radio,Units of weight:,"1, kgs | 2, lbs",,,,,,,y,,,,,
+bmi_perc,clinical_data_abstraction,,text,BMI percentile (if available),,,number,1,99.99,,,,,,,,
+clin_pres_hosp,clinical_data_abstraction,Clinical Presentation,checkbox,Clinical presentation to ED or within 4 hours of hospital admission,"1, Lower respiratory infection | 2, Suspected central nervous system infection | 3, Shock requiring vasopressors | 4, Respiratory failure requiring support | 5, Cardiac arrest with CPR | 6, Stroke or acute intracranial hemorrhage | 7, Other",Check all that apply,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+clin_pres_hosp_oth,clinical_data_abstraction,,text,Which other clinical presentation(s)?,,May keep description general; separate symptom questions below,,,,,[clin_pres_hosp(7)] = '1',y,,,,,
+clin_pres_op,clinical_data_abstraction,,checkbox,Clinical presentation in control subject,"0, No symptoms | 1, Febrile illness | 2, Respiratory illness | 3, GI illness | 4, Other illness",Check all that apply,,,,,[cohort_type] = '8',y,,,,, @HIDDEN
+clin_pres_op1,clinical_data_abstraction,,yesno,Clinical presentation: Did the subject have symptoms with SARS-CoV-2 infection / COVID-19?,,,,,,,[cohort_type] = '8',y,,,,,
+clin_pres_op_oth,clinical_data_abstraction,,text,Which other clinical presentation(s)?,,May keep description general; separate symptom questions below,,,,,[clin_pres_op(4)] = '1',y,,,,, @HIDDEN
+clin_pres_op_set,clinical_data_abstraction,,radio,Setting of care at time of diagnosis in control subject,"1, Telemedicine | 2, Clinic visit | 3, Urgent care | 4, Emergency room | 5, Other",,,,,,[cohort_type] = '8',y,,,,,
+clin_pres_op_set_oth,clinical_data_abstraction,,text,What other setting of care?,,,,,,,[clin_pres_op_set] = '5',,,,,,
+resp_infection,clinical_data_abstraction,,yesno,Lower respiratory infection,,,,,,,,y,,,,, @HIDDEN
+cns_infection,clinical_data_abstraction,,yesno,Suspected central nervous system infection,,,,,,,,y,,,,, @HIDDEN
+shock_w_vasopressors,clinical_data_abstraction,,yesno,Shock requiring vasopressors   ,,,,,,,,y,,,,, @HIDDEN
+resp_failure_support,clinical_data_abstraction,,yesno,Respiratory failure requiring support  ,,,,,,,,y,,,,, @HIDDEN
+cardiac_arrest_cpr,clinical_data_abstraction,,yesno,Cardiac arrest with CPR ,,,,,,,,y,,,,, @HIDDEN
+hemorrhage,clinical_data_abstraction,,yesno,Stroke or acute intracranial hemorrhage ,,,,,,,,y,,,,, @HIDDEN
+symptoms,clinical_data_abstraction,Symptoms,checkbox,Symptoms prior to clinical presentation,"1, Fever ? 38蚓 (100.4蚌)| 2, Cough | 3, Hemoptysis | 4, Shortness of breath | 5, Chills/Rigors | 6, Wheezing | 7, Sore throat | 8, Rhinorrhea/Congestion | 9, Chest pain/chest burning/chest tightness | 10, Lower chest wall indrawing/retractions | 11, New difficulty walking or crawling | 12, Abdominal pain | 13, Nausea/loss of appetite | 14, Vomiting | 15, Diarrhea | 16, Headache | 17, Dizziness | 18, Syncope (fainting) | 19, Muscle aches (myalgias) | 20, Joint pain (arthalgia) | 21, Fatigue/weakness | 22, Altered awareness/confusion | 23, Seizure | 24, Eye pain | 25, Conjunctivitis | 26, Skin rash/Skin ulcers | 27, Swollen lymph nodes | 28, Loss of sense of smell | 29, Loss of sense of taste | 30, ""COVID toes"" (changes or purple spots on toes) | 31, Erythema of palms or soles | 32, Edema of hands or feet | 33, Periungual (nails) desquamation | 34, Peripheral gangrene | 35, Other",Check all that apply,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([cohort_type] = '8' and [clin_pres_op1] = '1'),y,,,,,
+symptoms_oth,clinical_data_abstraction,,text,What other symptom(s) prior to clinical presentation?,,,,,,,[symptoms(35)] = '1',y,,,,,
+fever_before_admiss,clinical_data_abstraction,Symptoms prior to clinical presentation (mark all that apply):,radio,Fever ? 38蚓  ,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+cough_before_admiss,clinical_data_abstraction,,radio,Cough  ,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+hemoptysis,clinical_data_abstraction,,radio,Hemoptysis,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+sob_before_admiss,clinical_data_abstraction,,radio,Shortness of breath,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+chills_rigors_before_admiss,clinical_data_abstraction,,radio,Chills/Rigors,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+wheezing_before_admiss,clinical_data_abstraction,,radio,Wheezing,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+sore_throat_before_admiss,clinical_data_abstraction,,radio,Sore throat,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+rhinorrhea_before_admiss,clinical_data_abstraction,,radio,Rhinorrhea/Congestion,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+cp_before_admiss,clinical_data_abstraction,,radio,Chest pain/chest burning/chest tightness,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+lower_chest_wall_indrawing_before_admiss,clinical_data_abstraction,,radio,"Lower chest wall indrawing/retractions	","1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+diff_walking_before_admiss,clinical_data_abstraction,,radio,New difficulty walking or crawling,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+diff_walking,clinical_data_abstraction,,notes,Specify.,,,,,,,[diff_walking_before_admiss] = '1',y,,,,, @HIDDEN
+abd_pain_before_admiss,clinical_data_abstraction,,radio,Abdominal pain,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+nausea_before_admiss,clinical_data_abstraction,,radio,Nausea/loss of appetite,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+vomiting_before_admiss,clinical_data_abstraction,,radio,Vomiting,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+diarrhea_before_admiss,clinical_data_abstraction,,radio,Diarrhea,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+headache_before_admiss,clinical_data_abstraction,,radio,Headache,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+dizz_before_admiss,clinical_data_abstraction,,radio,Dizziness ,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+syncope_before_admiss,clinical_data_abstraction,,radio,Syncope (fainting),"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+myalgias_before_admiss,clinical_data_abstraction,,radio,Muscle aches (myalgias),"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+arthalgia_before_admiss,clinical_data_abstraction,,radio,Joint pain (arthalgia),"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+fatigue_before_admiss,clinical_data_abstraction,,radio,Fatigue/weakness,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+confusion_before_admiss,clinical_data_abstraction,,radio,Altered awareness/confusion,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+seizure_before_admiss,clinical_data_abstraction,,radio,Seizure,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+eye_pain_before_admiss,clinical_data_abstraction,,radio,Eye pain,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+conjunctivitis_before_admiss,clinical_data_abstraction,,radio,Conjunctivitis ,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+rash_before_admiss,clinical_data_abstraction,,radio,Skin rash/Skin ulcers,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+swollen_lymph_before_admiss,clinical_data_abstraction,,radio,Swollen lymph nodes,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+smell_lost_before_admiss,clinical_data_abstraction,,radio,Loss of sense of smell,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+taste_lost_before_admiss,clinical_data_abstraction,,radio,Loss of sense of taste,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+covid_toes_before_admiss,clinical_data_abstraction,,radio,"""COVID toes"" (changes or purple spots on toes)","1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+erythema_soles_before_admiss,clinical_data_abstraction,,radio,Erythema of palms or soles,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+edema_before_admiss,clinical_data_abstraction,,radio,Edema of hands or feet,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+nail_desquam_before_admiss,clinical_data_abstraction,,radio,Periungual (nails) desquamation,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+gangrene_before_admiss,clinical_data_abstraction,,radio,Peripheral gangrene,"1, Yes | 2, No | 3, Unknown",,,,,,,y,,,,, @HIDDEN
+icu_admiss,clinical_data_abstraction,PRISM IV Score Criteria [ONLY IF ICU ADMISSION PRESENT],yesno,Was patient admitted to ICU?,,,,,,,,y,,,,, @HIDDEN
+directions6,clinical_data_abstraction,,descriptive,"For physiologic variables: please mark the worst measurement for each of the criteria from the first 4 hours after patient admission to the hospital. Record exact values, marking field with a ""-6"" on this form and in REDCap if measurements were not done within the first 4 hrs of hospital admission (does not include time in ED).  ",,,,,,,[icu_admiss] = '1',,,,,, @HIDDEN
+highest_temp,clinical_data_abstraction,,text,Highest Temperature (蚓): ,,,,,,,[icu_admiss] = '1',y,,,,, @HIDDEN
+lowest_temp,clinical_data_abstraction,,text,Lowest Temperature (蚓):,,,,,,,[icu_admiss] = '1',y,,,,, @HIDDEN
+highest_heart_rate,clinical_data_abstraction,,text,Highest Heart Rate (beats/minute):,,,,,,,[icu_admiss] = '1',y,,,,, @HIDDEN
+lowest_systolic_bp,clinical_data_abstraction,,text,Lowest Systolic Blood Pressure (mmHg): ,,,,,,,[icu_admiss] = '1',y,,,,, @HIDDEN
+worst_pupil_exam,clinical_data_abstraction,,radio,"Worst Pupil exam (if not available, assume both reactive):","1, Both reactive | 2, One reactive | 3, Both fixed",,,,,,[icu_admiss] = '1',y,,,,, @HIDDEN
+gcs,clinical_data_abstraction,,yesno,Was GCS recorded? ,,,,,,,[icu_admiss] = '1',y,,,,, @HIDDEN
+lowest_gcs,clinical_data_abstraction,,text,"For GCS, if the patient is sedated, paralyzed or intubated, record the estimated GCS before these events and/or use best-documented notation:",,,,,,,[gcs] = '1' and [icu_admiss] = '1',y,,,,, @HIDDEN
+vent,clinical_data_abstraction,,radio,Ventilation in first 24 hrs (check any that was used in first 24 hours of hospitalization):,"1, Invasive | 2, Non-invasive | 3, None",,,,,,[icu_admiss] = '1',y,,,,, @HIDDEN
+lab_variables,clinical_data_abstraction,,descriptive,"For laboratory variables: please mark the worst measurement for each of the criteria in the time period from 2 hours before hospital admission through the first 4 hours of admission to the hospital. Record exact values, marking field with a ""-6"" on this form and in REDCap if measurements were not done in this time period.",,,,,,,[icu_admiss]=1,,,,,, @HIDDEN
+lowest_wbc,clinical_data_abstraction,,text,Lowest WBC Count (10^3/無):,,10^3/無,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+lowest_platelet_count,clinical_data_abstraction,,text,Lowest Platelet Count (10^3/無):,,10^3/無,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+highest_pt,clinical_data_abstraction,,text,Highest PT (seconds):,,seconds,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+highest_inr,clinical_data_abstraction,,text,Highest INR (units),,units,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+highest_ptt,clinical_data_abstraction,,text,Highest PTT (seconds),,seconds,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+abg,clinical_data_abstraction,,yesno,Arterial blood gas performed?,,,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+abg_title,clinical_data_abstraction,,descriptive,ABG:,,,,,,,[abg]=1,,,,,, @HIDDEN
+abg_lowest_ph,clinical_data_abstraction,,text,Lowest pH (from ABG Only): ,,,,,,,[abg]=1,y,,,,, @HIDDEN
+abg_highest_ph,clinical_data_abstraction,,text,Highest pH (from ABG Only): ,,,,,,,[abg]=1,y,,,,, @HIDDEN
+abg_highest_total_co2,clinical_data_abstraction,,text,Highest Total CO2 (mmol/L):,,mmol/L,,,,,[abg]=1,y,,,,, @HIDDEN
+abg_lowest_pao2,clinical_data_abstraction,,text,Lowest PaO2 from ABG Only (mmHG): ,,mmHg,,,,,[abg]=1,y,,,,, @HIDDEN
+abg_highest_paco2,clinical_data_abstraction,,text,Highest PaCO2 from ABG Only (mmHg):,,mmHg,,,,,[abg]=1,y,,,,, @HIDDEN
+abg_pf_ratio,clinical_data_abstraction,,text,Lowest P/F Ratio from ABG Only (mmHg):,,mmHg,,,,,[abg]=1,y,,,,, @HIDDEN
+no_abg_lowest_total_co2,clinical_data_abstraction,,text,"No ABG, Lowest Total CO2 (mmol/L): ",,mmol/L,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+highest_glucose,clinical_data_abstraction,,text,Highest glucose (mg/dl):,,mg/dl,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+highest_potassium,clinical_data_abstraction,,text,Highest potassium (mmol/L):,,mmol/L,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+highest_creatinine,clinical_data_abstraction,,text,Highest creatinine (mg/dl):,,mg/dl,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+highest_bun,clinical_data_abstraction,,text,Highest BUN (mg/dl):,,mg/dl,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+highest_ast_sgot,clinical_data_abstraction,,text,Highest AST/SGOT (U/L):,,U/L,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+vbg,clinical_data_abstraction,,yesno,Was a venous blood gas performed?,,,,,,,[icu_admiss]=1,y,,,,, @HIDDEN
+vbg_title,clinical_data_abstraction,,descriptive,VBG:,,,,,,,[vbg]=1,,,,,, @HIDDEN
+lowest_ph_vbg,clinical_data_abstraction,,text,Lowest pH (from VBG Only): ,,,,,,,[vbg]=1,y,,,,, @HIDDEN
+highest_ph_vbg,clinical_data_abstraction,,text,Highest pH (from VBG Only): ,,,,,,,[vbg]=1,y,,,,, @HIDDEN
+highest_total_co2_vbg,clinical_data_abstraction,,text,Highest Total CO2 (mmol/L): ,,mmol/L,,,,,[vbg]=1,y,,,,, @HIDDEN
+lowest_pvco2,clinical_data_abstraction,,text,Lowest PvO2 from VBG Only (mmHg): ,,mmHg,,,,,[vbg]=1,y,,,,, @HIDDEN
+highest_pvco2,clinical_data_abstraction,,text,Highest PvCO2 from VBG Only (mmHg): ,,mmHg,,,,,[vbg]=1,y,,,,, @HIDDEN
+wbc_count_date,clinical_data_abstraction,"White Blood Count (use value closest to hospital admission time, within 24 hours)",text,Date:,,,date_mdy,,,,,y,,,,, @HIDDEN
+wbc_time,clinical_data_abstraction,,text,Time (approximate if necessary): ,,,time,,,,,y,,,,, @HIDDEN
+wbc_count,clinical_data_abstraction,,text,WBC Count:,,,,,,,,,,,,, @HIDDEN
+wbc_units,clinical_data_abstraction,,radio,WBC Count Units:,"1, 10^3/無 | 2, 10^9/L",,,,,,,y,,,,, @HIDDEN
+polys,clinical_data_abstraction,,yesno,Polys (PMN/Neutrophils) available?,,,,,,,,y,,,,, @HIDDEN
+polys_percent,clinical_data_abstraction,,text,Polys (PMN/Neutrophils) ,,"%, mark -6 if not done",,,,,[polys]=1,y,,,,, @HIDDEN
+lymphocytes,clinical_data_abstraction,,yesno,Lymphocytes available?,,,,,,,,y,,,,, @HIDDEN
+lymphocytes_percent,clinical_data_abstraction,,text,Lymphocytes ,,"%, mark -6 if not done",,,,,[lymphocytes]=1,y,,,,, @HIDDEN
+eosinophils,clinical_data_abstraction,,yesno,Eosinophils available?,,"%, mark -6 if not done",,,,,,y,,,,, @HIDDEN
+eosinophils_percent,clinical_data_abstraction,,text,Eosinophils,,"%, mark -6 if not done",,,,,[eosinophils]=1,y,,,,, @HIDDEN
+monocytes_macrophages,clinical_data_abstraction,,yesno,Monocytes/Macrophages available?,,,,,,,,y,,,,, @HIDDEN
+monocytes_macrophages_percent,clinical_data_abstraction,,yesno,Monocytes/Macrophages ,,"%, mark -6 if not done",,,,,[monocytes_macrophages] =1,y,,,,, @HIDDEN
+abg2,clinical_data_abstraction,"Initial Arterial or Venous Blood Gas (Use value closest to hospital admission time, within 24 hours. These values may be from prior to hospital admission if no value is available. Mark with a (-6) if measurements unavailable):",yesno,Arterial blood gas performed?,,Closest to admission within 24 hours. These may be from prior to admission if no value is available.,,,,,,y,,,,, @HIDDEN
+timing_of_abg,clinical_data_abstraction,,radio,Before or after hospital admission,"1, Before hospital admission | 2, After hospital admission",,,,,,[abg2]=1,y,,,,, @HIDDEN
+abg_timing,clinical_data_abstraction,,text,Number of hours before or after hospital admission:,,hours,,,,,[abg2]=1,y,,,,, @HIDDEN
+abg_ph,clinical_data_abstraction,,text,pH,,,,,,,[abg2]=1,y,,,,, @HIDDEN
+paco2,clinical_data_abstraction,,text,PaCO2 (mmHg),,mmHg,,,,,[abg2]=1,y,,,,, @HIDDEN
+pa02,clinical_data_abstraction,,text,PaO2 (mmHg),,mmHg,,,,,[abg2]=1,y,,,,, @HIDDEN
+base_excess_abg,clinical_data_abstraction,,text,Base excess (mmHg),,mmHg,,,,,[abg2]=1,y,,,,, @HIDDEN
+bicarb_abg,clinical_data_abstraction,,text,Bicarbonate (mmol/L),,mmol/L,,,,,[abg2]=1,y,,,,, @HIDDEN
+fi02_abg,clinical_data_abstraction,,text,FiO2 % at the time of blood gas,,%,,,,,[abg2]=1,y,,,,, @HIDDEN
+vbg2,clinical_data_abstraction,,yesno,Venous blood gas performed?,,Closest to admission within 24 hours. These may be from prior to admission if no value is available.,,,,,,y,,,,, @HIDDEN
+timing_of_vbg,clinical_data_abstraction,,radio,Before or after hospital admission,"1, Before hospital admission | 2, After hospital admission",,,,,,[vbg2]=1,y,,,,, @HIDDEN
+vbg_timing,clinical_data_abstraction,,text,"Number of hours before or after hospital admission:	",,,,,,,[vbg2]=1,y,,,,, @HIDDEN
+ph_vbg,clinical_data_abstraction,,text,pH,,,,,,,[vbg2]=1,y,,,,, @HIDDEN
+pvc02_vbg,clinical_data_abstraction,,text,PvCO2 (mmHg),,mmHg,,,,,[vbg2]=1,y,,,,, @HIDDEN
+pv02_vbg,clinical_data_abstraction,,text,PvO2 (mmHg),,mmHg,,,,,[vbg2]=1,y,,,,, @HIDDEN
+base_excess_vbg,clinical_data_abstraction,,text,Base excess (mmHg),,mmHg,,,,,[vbg2]=1,y,,,,, @HIDDEN
+bicarb_vbg,clinical_data_abstraction,,text,Bicarbonate (mmol/L),,mmol/L,,,,,[vbg2]=1,y,,,,, @HIDDEN
+fi02_vbg,clinical_data_abstraction,,text,FiO2 % at the time of blood gas,,%,,,,,[vbg2]=1,y,,,,, @HIDDEN
+mech_vent,clinical_data_abstraction,Respiratory and cardiovascular support during hospital admission,yesno,Did the patient receive new or increased oxygen support or mechanical ventilation during hospital admission?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+mech_vent_which,clinical_data_abstraction,,checkbox,Which support was received during hospital admission?,"1, Tracheostomy | 2, Invasive or non-invasive mechanical ventilator support | 3, Other O2 support | 4, Nitric oxide",,,,,,[mech_vent] = '1',,,,,, @HIDDEN
+bibap_cpap,clinical_data_abstraction,,yesno,"Non-invasive mechanical ventilator support (BiPAP or CPAP)	",,,,,,,[mech_vent] = '1',y,,,,, @HIDDEN
+endo_tube_tracheostomy,clinical_data_abstraction,,yesno,"Mechanical ventilator support through and endotracheal tube or tracheostomy	",,,,,,,[mech_vent] = '1',y,,,,, @HIDDEN
+invasive_vent_timing,clinical_data_abstraction,,radio,"If yes, was it prior to or after admission?","1, Prior to admission | 2, After admission",,,,,,[endo_tube_tracheostomy]=1,y,,,,, @HIDDEN
+timing_of_invasive_vent,clinical_data_abstraction,,text,"Number of hours prior to/after admission:	",,,,,,,[endo_tube_tracheostomy]=1,y,,,,, @HIDDEN
+home_vent_support,clinical_data_abstraction,,radio,"If patient is on ventilation at home, is ventilator support greater than his/her baseline?	","1, Yes | 2, No | 3, Not applicable (no vent support at baseline)",,,,,,[mech_vent] = '1',y,,,,, @HIDDEN
+nasal_cannula,clinical_data_abstraction,,yesno,"High-flow nasal cannula	",,,,,,,[mech_vent] = '1',y,,,,, @HIDDEN
+other_02_support,clinical_data_abstraction,,yesno,Other O2 Support,,,,,,,[mech_vent] = '1',y,,,,, @HIDDEN
+nitric_oxide,clinical_data_abstraction,,yesno,Nitric oxide,,,,,,,[mech_vent] = '1',y,,,,, @HIDDEN
+vasoactive_infusions,clinical_data_abstraction,,yesno,Vasoactive infusions (including ECMO) received during admission?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+dopamine_inf,clinical_data_abstraction,,yesno,"Dopamine infusion	",,,,,,,[vasoactive_infusions]='1',y,,,,, @HIDDEN
+dobutamine_inf,clinical_data_abstraction,,yesno,Dobutamine infusion,,,,,,,[vasoactive_infusions]='1',y,,,,, @HIDDEN
+epinephrine_inf,clinical_data_abstraction,,yesno,Epinephrine infusion,,,,,,,[vasoactive_infusions]='1',y,,,,, @HIDDEN
+norepinephrine_inf,clinical_data_abstraction,,yesno,Norepinephrine infusion,,,,,,,[vasoactive_infusions]='1',y,,,,, @HIDDEN
+phenylephrine_inf,clinical_data_abstraction,,yesno,Phenylephrine infusion,,,,,,,[vasoactive_infusions]='1',y,,,,, @HIDDEN
+milrinone_inf,clinical_data_abstraction,,yesno,Milrinone infusion,,,,,,,[vasoactive_infusions]='1',y,,,,, @HIDDEN
+vasopressin_inf,clinical_data_abstraction,,yesno,Vasopressin infusion (for hypotension not diabetes insipidus),,,,,,,[vasoactive_infusions]='1',y,,,,, @HIDDEN
+ecmo,clinical_data_abstraction,,yesno,ECMO support received?,,,,,,,[vasoactive_infusions]='1',y,,,,,
+type_of_ecmo,clinical_data_abstraction,,radio,Type of ECMO Support,"1, Veno-venous | 2, Veno-arterial | 3, Both VV and VA",,,,,,[ecmo]=1,y,,,,, @HIDDEN
+cpr_cardiac_arrest,clinical_data_abstraction,,yesno,CPR received for cardiac arrest?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+pulm_infiltrates,clinical_data_abstraction,Major complications identified within 24 hours (pre/post) of hospital admission: ,yesno,Pulmonary infiltrates on chest X-Ray ,,,,MOVE DOWN,,,,y,,,,, @HIDDEN
+pulm_edema,clinical_data_abstraction,,yesno,Pulmonary edema due to left heart failure,,,,MOVE DOWN,,,,y,,,,, @HIDDEN
+pneumothorax,clinical_data_abstraction,,yesno,Pneumothorax,,,,MOVE DOWN,,,,y,,,,, @HIDDEN
+pleural_effusion,clinical_data_abstraction,,yesno,Pleural effusion,,,,MOVE DOWN,,,,y,,,,, @HIDDEN
+pulm_hemorrhage,clinical_data_abstraction,,yesno,Pulmonary hemorrhage,,,,MOVE DOWN,,,,y,,,,, @HIDDEN
+seizures,clinical_data_abstraction,,yesno,Seizures,,,,MOVE DOWN,,,,y,,,,, @HIDDEN
+coma_unresponsive,clinical_data_abstraction,,yesno,Coma or unresponsive,,,,,,,,y,,,,, @HIDDEN
+rtpcr,clinical_data_abstraction,SARS-CoV-2 Viral Testing,radio,SARS-CoV-2 virus test done?,"1, Not done | 2, Done",,,,,,,y,,,,,
+sarscov2_test_which,clinical_data_abstraction,,checkbox,Which SARS-CoV-2 virus test was performed?,"1, PCR | 2, Rapid antigen test | 3, Unknown",Enter the type of first positive test,,,,,[rtpcr]='2',y,,,,,
+sarscov2_test_error,clinical_data_abstraction,,descriptive,"<div style=""background-color:#FFCCCC;padding:10px"">You checked both a specific test type and unknown. Please uncheck one of those boxes.</div>",,,,,,,([sarscov2_test_which(1)] = '1' and [sarscov2_test_which(3)] = '1') or ([sarscov2_test_which(2)] = '1' and [sarscov2_test_which(3)] = '1'),,,,,,
+pcr_collection_date,clinical_data_abstraction,,text,"Date of Collection	",,"If subject tested positive, enter date of first positive test",date_mdy,,,y,[rtpcr]='2',y,,,,,
+specimen,clinical_data_abstraction,,radio,Specimen Tested,"1, Upper (Nasal/NP/OP swab) | 2, Lower (Endotracheal, BAL) | 3, Unknown",,,,,,[rtpcr]='2',y,,,,, @HIDDEN
+covid_test_results1,clinical_data_abstraction,,radio,SARS-CoV-2 virus test results,"1, Positive | 2, Negative | 3, Inconclusive","If subject tested positive at or before diagnosis, mark as positive, even if other tests were negative or inconclusive",,,,,[rtpcr]='2',y,,,,,
+antibody_testing,clinical_data_abstraction,"SARS-CoV-2 Antibody Testing
+",yesno,Anti SARS-CoV-2 / COVID-19 antibody testing documented before or during acute illness?,,,,,,,,y,,,,,
+antibody_testing_res,clinical_data_abstraction,,radio,What was the result of the SARS-CoV-2 / COVID-19 antibody test?,"1, Positive | 2, Negative | 3, Inconclusive","If subject tested positive, mark as positive, even if other tests were negative or inconclusive
+Record test results from illness and not after recovery.",,,,,[antibody_testing]='1',y,,,,,
+antibody_testing_neg,clinical_data_abstraction,,checkbox,Which anti SARS-CoV-2 / COVID-19 antibody test was tested?,"1, Nucleocapsid | 2, Spike IgG | 3, Spike IgM | 4, Spike NOS | 5, Unknown type",Check all that apply,,,,,[antibody_testing]='1',y,,,,,
+antibody_testing_pos,clinical_data_abstraction,,checkbox,"Which anti SARS-CoV-2 / COVID-19 antibody test was positive?	","1, Nucleocapsid | 2, Spike IgG | 3, Spike IgM | 4, Spike NOS | 5, Unknown type",Check all that apply,,,,,[antibody_testing_res]='1',y,,,,,
+nucleocapsid_ab,clinical_data_abstraction,,radio,"SARS-CoV-2 Antibodies, Nucleocapsid","1, Yes | 2, No | 3, Inconclusive | 4, Not done | 5, Unknown",,,,,,[antibody_testing]=1,y,,,,, @HIDDEN
+nucleocapsid_ab_date,clinical_data_abstraction,,text,"Date of test nucleocapsid:	",,,date_mdy,,,y,[nucleocapsid_ab] = '1' or [nucleocapsid_ab] = '2' or [nucleocapsid_ab] = '3',y,,,,, @HIDDEN
+spike_igg_ab,clinical_data_abstraction,,radio,"SARS-CoV-2 Antibody, Spike, IgG","1, Yes | 2, No | 3, Inconclusive | 4, Not done | 5, Unknown",,,,,,[antibody_testing]=1,y,,,,, @HIDDEN
+spike_igg_date,clinical_data_abstraction,,text,"Date of test Spike IgG:	",,,date_mdy,,,y,[spike_igg_ab] = '1' or [spike_igg_ab] = '3' or [spike_igg_ab] = '2',y,,,,, @HIDDEN
+spike_igm_ab,clinical_data_abstraction,,radio,"SARS-CoV-2 Antibody, Spike,  IgM","1, Yes | 2, No | 3, Inconclusive | 4, Not done | 5, Unknown",,,,,,[antibody_testing]=1,y,,,,, @HIDDEN
+spike_igm_date,clinical_data_abstraction,,text,"Date of test Spike IgM:	",,,date_mdy,,,y,[spike_igm_ab] = '1' or [spike_igm_ab] = '2' or [spike_igm_ab] = '3',y,,,,, @HIDDEN
+community_acquired_viral_inf,clinical_data_abstraction,"Other Viral Testing:
+Please use the following section to describe any infections of viral origin that are suspected to be present on admission or acquired in the community.  These could have been identified at another hospital prior to admission or identified soon after admission, and colonizations should not be considered.",yesno,Does the patient have a clinical diagnosis or suspicion of community acquired viral infection other than SARS-CoV-2?,,,,,,,,y,,,,, @HIDDEN
+viral_inf_within_72_hrs,clinical_data_abstraction,,yesno,Was diagnosis of viral infection or other evidence of viral infection present within 72 hours of hospital admission?,,,,,,,,y,,,,, @HIDDEN
+viral_pathogen,clinical_data_abstraction,,radio,Was a viral pathogen identified from diagnostic testing?,"1, No, viral testing was limited to SARS-CoV-2 testing only | 2, No, other non-SARS-CoV-2 viral pathogen identified | 3, Yes/positive test",,,,,,,y,,,,, @HIDDEN
+neg_tests,clinical_data_abstraction,,checkbox,Negative tests that were performed (select all that apply):,"1, Negative Viral Rapid/EIA | 2, Negative Viral DFA | 3, Negative Viral culture | 4, Negative Viral PCR",,,,,,[viral_pathogen]=2,y,,,,, @HIDDEN
+neg_viral_pcr,clinical_data_abstraction,,text,Negative Viral PCR for what viruses?,,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+influenza,clinical_data_abstraction,,yesno,Influenza positive?,,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+influenza_pos,clinical_data_abstraction,,checkbox,Check all that apply.,"1, 2009 H1N1 Pandemic | 2, Seasonal A (H1N1) | 3, Seasonal A (H3N2) | 4, A, not subtyped | 5, B | 6, A/B not differentiated",,,,,,[influenza] = '1',y,,,,, @HIDDEN
+influenza_coll_date,clinical_data_abstraction,,text,Date of collection. ,,,date_mdy,,,y,[influenza]=1,y,,,,, @HIDDEN
+rsv,clinical_data_abstraction,,yesno,RSV positive?,,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+rsv_coll_date,clinical_data_abstraction,,text,Date of collection. ,,,date_mdy,,,y,[rsv]=1,y,,,,, @HIDDEN
+parainfluenza,clinical_data_abstraction,,yesno,"Parainfluenza 1, 2, 3, or 4 positive?",,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+parainfluenza_coll_date,clinical_data_abstraction,,text,Date of collection.,,,date_mdy,,,y,[parainfluenza]=1,y,,,,, @HIDDEN
+adenovirus,clinical_data_abstraction,,yesno,Adenovirus positive?,,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+adenovirus_coll_date,clinical_data_abstraction,,text,Date of collection.,,,date_mdy,,,y,,y,,,,, @HIDDEN
+rhinovirus,clinical_data_abstraction,,yesno,Rhinovirus positive?,,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+rhinovirus_coll_date,clinical_data_abstraction,,text,Date of collection.,,,date_mdy,,,y,[rhinovirus]=1,y,,,,, @HIDDEN
+hmpv,clinical_data_abstraction,,yesno,hMPV positive?,,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+hmpv_coll_date,clinical_data_abstraction,,text,Date of collection.,,,date_mdy,,,y,[hmpv]=1,y,,,,, @HIDDEN
+mycoplasma,clinical_data_abstraction,,yesno,Mycoplasma positive?,,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+mycoplasma_coll_date,clinical_data_abstraction,,text,Date of collection.,,,date_mdy,,,y,[mycoplasma]=1,y,,,,, @HIDDEN
+other_virus_pos,clinical_data_abstraction,,yesno,"Other virus positive (e.g. HSV, CMV)?",,,,,,,[neg_tests(4)] = '1',y,,,,, @HIDDEN
+other_viruses,clinical_data_abstraction,,text,List.,,,,,,,[other_virus_pos]=1,y,,,,, @HIDDEN
+pos_viruses,clinical_data_abstraction,,text,Date of collection.,,,date_mdy,,,y,[other_virus_pos]=1,y,,,,, @HIDDEN
+antibody_titers,clinical_data_abstraction,Antibody Titers for Other Viruses,yesno,Were antibody titers for any non SARS-CoV-2 viruses (e.g.) enterovirus or mycoplasma sent?,,,,,,,,y,,,,, @HIDDEN
+titer_test,clinical_data_abstraction,,text,Name of test(s).,,,,,,,[antibody_titers]=1,y,,,,, @HIDDEN
+titer_test_dates,clinical_data_abstraction,,text,Date of test(s):,,,,,,,[antibody_titers]=1,y,,,,, @HIDDEN
+titer_results,clinical_data_abstraction,,text,Results.,,,,,,,[antibody_titers]=1,y,,,,, @HIDDEN
+bac_fungal_testing,clinical_data_abstraction,Superinfection,yesno,Was the subject diagnosed with a secondary bacterial/fungal (super)infection?,,Organisms could have been identified at another hospital prior to admission or identified soon after admission.,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+superinfect_type,clinical_data_abstraction,,checkbox,What type of secondary bacterial/fungal (super)infection(s) was/were diagnosed?,"1, Bacteremia/sepsis | 2, Pneumonia | 8, Urinary tract infection | 6, Meningitis | 7, Wound infection | 10, Other",,,,,,[bac_fungal_testing]='1',,,,,,
+superinfect_type_oth,clinical_data_abstraction,,text,What other type of secondary bacterial/fungal (super)infection was diagnosed?,,,,,,,[superinfect_type(10)] = '1',,,,,,
+superinfect_type_type,clinical_data_abstraction,,checkbox,What type of organism was identified or reported as the cause of secondary (super)infection?,"1, Bacterial | 2, Fungal | 3, Unknown/Not reported",,,,,,[bac_fungal_testing]='1',,,,,,
+superinfect_type_bug,clinical_data_abstraction,,checkbox,What type of bacteria was identified or reported as the cause of secondary (super)infection?,"1, Streptococcus pneumoniae | 2, Group A Streptococcus | 3, Moraxella catarrhalis | 4, Staphylococcus aureus Methacillin-sensitive | 5, Staphylococcus aureus Methacillin-resistant | 6, Staphylococcus non-aureus | 7, Proteus species | 8, E. coli | 9, Klebsiella | 10, Haemophilus influenzae type b | 11, Haemophilus influenzae non-typeable | 12, Pseudomonas | 13, Other Gram negative rods | 14, Other",,,,,,[superinfect_type_type(1)] = '1',,,,,,
+superinfect_type_bug_oth,clinical_data_abstraction,,text,What other type of microbe was identified or reported?,,,,,,,[superinfect_type_bug(14)] = '1' or [superinfect_type_type(2)] = '1',,,,,,
+description,clinical_data_abstraction,,descriptive,Bacterial/Fungal Pathogen #1,,,,,,,[bac_fungal_testing]=1,,,,,, @HIDDEN
+pathogen_1,clinical_data_abstraction,,yesno,Was a bacterial or fungal pathogen identified by microbiologic culture?,,,,,,,[bac_fungal_testing]=1,y,,,,, @HIDDEN
+bac_fungal_coll_date,clinical_data_abstraction,,text,Date of specimen collection:,,,date_mdy,,,y,[pathogen_1]=1,y,,,,, @HIDDEN
+pos_report_date,clinical_data_abstraction,,text,Date of positive report:,,,date_mdy,,,y,[pathogen_1]=1,y,,,,, @HIDDEN
+culture_source_1,clinical_data_abstraction,,radio,Culture source:,"1, Blood | 2, Lower respiratory tract (endotracheal tube or tracheostomy or bronchoscopy) | 3, Nasopharyngeal | 4, Sputum | 5, Pleural Fluid | 6, Cerebrospinal Fluid | 7, Wound | 8, Urine | 9, Stool",,,,,,[pathogen_1]=1,y,,,,, @HIDDEN
+organism1,clinical_data_abstraction,,radio,Organism:,"1, Streptococcus pneumoniae | 2, Group A Streptococcus | 3, Moraxella catarrhalis | 4, Staphylococcus aureus Methacillin-sensitive | 5, Staphylococcus aureus Methacillin-resistant | 6, Staphylococcus non-aureus | 7, Proteus species | 8, E. coli | 9, Klebsiella | 10, Haemophilus influenzae type b | 11, Haemophilus influenzae non-typeable | 12, Pseudomonas | 13, Other Gram negative rods | 14, Other",,,,,,[pathogen_1]=1,y,,,,, @HIDDEN
+other_organism,clinical_data_abstraction,,text,Describe other organism:,,,,,,,[organism1] = '14',y,,,,, @HIDDEN
+abundance_1,clinical_data_abstraction,,radio,Abundance:,"1, Rare | 2, Few | 3, Moderate | 4, Many | 5, Abundant | 6, Unknown",,,,,,[pathogen_1]=1,y,,,,, @HIDDEN
+results_interpretation,clinical_data_abstraction,,radio,Interpretation of Results.,"1, Considered true infection (documented in chart or verbally by clinician) | 2, Unable to determine if colonization or true infection | 3, Assumed to be a colonization | 4, Categorized as a nosocomial infection by hospital infection control",,,,,,[pathogen_1]=1,y,,,,, @HIDDEN
+description2,clinical_data_abstraction,,descriptive,Bacterial/Fungal Pathogen #2,,,,,,,[pathogen_1]=1,,,,,, @HIDDEN
+pathogen_2,clinical_data_abstraction,,yesno,Was a second infectious bacterial or fungal pathogen identified on presentation from any source?,,,,,,,[pathogen_1]=1,y,,,,, @HIDDEN
+bac_fungal_coll_date2,clinical_data_abstraction,,text,Date of specimen collection:,,,date_mdy,,,y,[pathogen_2] = '1',y,RH,,,, @HIDDEN
+pos_report_date2,clinical_data_abstraction,,text,Date of positive report:,,,date_mdy,,,y,[pathogen_2] = '1',y,RH,,,, @HIDDEN
+culture_source_2,clinical_data_abstraction,,radio,Culture source:,"1, Blood | 2, Lower respiratory tract (endotracheal tube or tracheostomy or bronchoscopy) | 3, Nasopharyngeal | 4, Sputum | 5, Pleural Fluid | 6, Cerebrospinal Fluid | 7, Wound | 8, Urine | 9, Stool",,,,,,[pathogen_2] = '1',y,,,,, @HIDDEN
+organism2,clinical_data_abstraction,,radio,Organism:,"1, Streptococcus pneumoniae | 2, Group A Streptococcus | 3, Moraxella catarrhalis | 4, Staphylococcus aureus Methacillin-sensitive | 5, Staphylococcus aureus Methacillin-resistant | 6, Staphylococcus non-aureus | 7, Proteus species | 8, E. coli | 9, Klebsiella | 10, Haemophilus influenzae type b | 11, Haemophilus influenzae non-typeable | 12, Pseudomonas | 13, Other Gram negative rods | 14, Other",,,,,,[pathogen_2] = '1',y,,,,, @HIDDEN
+other_organism2,clinical_data_abstraction,,text,Describe other organism.,,,,,,,[organism2] = '14',y,RH,,,, @HIDDEN
+abundance_2,clinical_data_abstraction,,radio,Abundance:,"1, Rare | 2, Few | 3, Moderate | 4, Many | 5, Abundant | 6, Unknown",,,,,,[pathogen_2] = '1',y,,,,, @HIDDEN
+results_interpretation2,clinical_data_abstraction,,radio,Interpretation of Result:,"1, Considered true infection (documented in chart or verbally by clinician) | 2, Unable to determine if colonization or true infection | 3, Assumed to be a colonization | 4, Categorized as a nosocomial infection by hospital infection control",,,,,,[pathogen_2] = '1',y,,,,, @HIDDEN
+description3,clinical_data_abstraction,,descriptive,Bacterial/Fungal Pathogen #3,,,,,,,[pathogen_2]=1,,,,,, @HIDDEN
+pathogen_3,clinical_data_abstraction,,yesno,Was a third infectious bacterial or fungal pathogen identified on presentation from any source?,,,,,,,[pathogen_2]=1,y,,,,, @HIDDEN
+bac_fungal_coll_date3,clinical_data_abstraction,,text,Date of specimen collection:,,,date_mdy,,,y,,y,,,,, @HIDDEN
+pos_report_date3,clinical_data_abstraction,,text,Date of positive report:,,,date_mdy,,,y,,y,,,,, @HIDDEN
+culture_source_3,clinical_data_abstraction,,radio,Culture source:,"1, Blood | 2, Lower respiratory tract (endotracheal tube or tracheostomy or bronchoscopy) | 3, Nasopharyngeal | 4, Sputum | 5, Pleural Fluid | 6, Cerebrospinal Fluid | 7, Wound | 8, Urine | 9, Stool",,,,,,,y,,,,, @HIDDEN
+organism3,clinical_data_abstraction,,radio,Organism:,"1, Streptococcus pneumoniae | 2, Group A Streptococcus | 3, Moraxella catarrhalis | 4, Staphylococcus aureus Methacillin-sensitive | 5, Staphylococcus aureus Methacillin-resistant | 6, Staphylococcus non-aureus | 7, Proteus species | 8, E. coli | 9, Klebsiella | 10, Haemophilus influenzae type b | 11, Haemophilus influenzae non-typeable | 12, Pseudomonas | 13, Other Gram negative rods | 14, Other",,,,,,,y,,,,, @HIDDEN
+other_organism3,clinical_data_abstraction,,text,Describe other organism.,,,,,,,[organism3]=14,y,,,,, @HIDDEN
+abundance_3,clinical_data_abstraction,,radio,Abundance:,"1, Rare | 2, Few | 3, Moderate | 4, Many | 5, Abundant | 6, Unknown",,,,,,,y,,,,, @HIDDEN
+results_interpretation3,clinical_data_abstraction,,radio,Interpretation of Result.,"1, Considered true infection (documented in chart or verbally by clinician) | 2, Unable to determine if colonization or true infection | 3, Assumed to be a colonization | 4, Categorized as a nosocomial infection by hospital infection control",,,,,,,y,,,,, @HIDDEN
+labs_mild,clinical_data_abstraction,"Laboratory Values
+
+If only one laboratory value is available, or if the high and low laboratory values are equal, list the same values for high and low where applicable.",yesno,"Were any labs completed for this illness besides SARS-CoV-2 virus or antibody testing (e.g., blood counts, chemistries)?",,,,,,,[cohort_type] = '8',y,,,,,
+labs_mild_which,clinical_data_abstraction,,checkbox,"What labs were completed for this illness besides SARS-CoV-2 virus or antibody testing (e.g., blood counts, chemistries)?","1, Complete blood count (CBC) | 2, Basic metabolic panel (BMP,) comprehensive metabolic panel (CMP), or liver enzymes/panel (LFTs) | 3, Inflammatory markers or ferritin (e.g., CRP, ESR, ferritin, procalcitonin) | 4, Coags or D-dimer (e.g., PT, INR, PTT, fibrinogen, D-dimer) | 5, Other labs (e.g., LDH, triglycerides, lactate, BNP, Troponin, IL-6)",,,,,,[labs_mild] = '1',,,,,,
+wbc_high,clinical_data_abstraction,,text,WBC Count (x10^3/無 or 10^9/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+wbc_low,clinical_data_abstraction,,text,WBC Count (x10^3/無 or 10^9/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+hemoglobin_high,clinical_data_abstraction,,text,Hemoglobin (g/dL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,, @HIDDEN
+hemoglobin_low,clinical_data_abstraction,,text,Hemoglobin (g/dL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+hematocrit_high,clinical_data_abstraction,,text,Hematocrit (%) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,, @HIDDEN
+hematocrit_low,clinical_data_abstraction,,text,Hematocrit (%) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,, @HIDDEN
+platelets_high,clinical_data_abstraction,,text,Platelets (x10^3/無 or x10^9/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+platelets_low,clinical_data_abstraction,,text,Platelets (x10^3/無 or x10^9/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+lymphocytes_high,clinical_data_abstraction,,text,Absolute lymphocyte count (cells/無 or cells/mm^3) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+lymphocytes_low,clinical_data_abstraction,,text,Absolute lymphocyte count (cells/無 or cells/mm^3) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+neutrophils_high,clinical_data_abstraction,,text,Absolute neutrophil count (cells/無) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+neutrophils_low,clinical_data_abstraction,,text,Absolute neutrophil count (cells/無) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(1)] = '1'),y,,,,,
+sodium_high,clinical_data_abstraction,,text,Sodium (mmol/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+sodium_low,clinical_data_abstraction,,text,Sodium (mmol/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+potassium_high,clinical_data_abstraction,,text,Potassium (mmol/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+potassium_low,clinical_data_abstraction,,text,Potassium (mmol/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+bicarb_high,clinical_data_abstraction,,text,Bicarbonate (mmol/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+bicarb_low,clinical_data_abstraction,,text,Bicarbonate (mmol/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+urea_high,clinical_data_abstraction,,text,Urea (BUN) (mg/dL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+urea_low,clinical_data_abstraction,,text,Urea (BUN) (mg/dL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+creatinine_high,clinical_data_abstraction,,text,Creatinine (mg/dL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+creatinine_low,clinical_data_abstraction,,text,Creatinine (mg/dL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+glucose_high,clinical_data_abstraction,,text,Glucose (mg/dL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+glucose_low,clinical_data_abstraction,,text,Glucose (mg/dL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+bilirubin_high,clinical_data_abstraction,,text,Total bilirubin (mg/dL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+bilirubin_low,clinical_data_abstraction,,text,Total bilirubin (mg/dL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+albumin_high,clinical_data_abstraction,,text,Albumin (g/dL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+albumin_low,clinical_data_abstraction,,text,Albumin (g/dL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+ast_sgot_high,clinical_data_abstraction,,text,AST/SGOT (U/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+ast_sgot_low,clinical_data_abstraction,,text,AST/SGOT (U/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+alt_sgpt_high,clinical_data_abstraction,,text,ALT/SGPT (U/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+alt_sgpt_low,clinical_data_abstraction,,text,ALT/SGPT (U/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+ggt_ggtp_high,clinical_data_abstraction,,text,Gamma-glutamyl transferase (GGT/GGTP) (U/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,,
+ggt_ggtp_low,clinical_data_abstraction,,text,Gamma-glutamyl transferase (GGT/GGTP) (U/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(2)] = '1'),y,,,,, @HIDDEN
+crp_high,clinical_data_abstraction,,text,"C-Reactive Protein, CRP (mg/L or mg/dL) HIGH ",,Mark -6 if not done. Enter units below.,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(3)] = '1'),y,,,,,
+crp_unit,clinical_data_abstraction,,radio,CRP units,"1, mg/L | 2, mg/dL",,,,,,[crp_high] <> '' and [crp_high] <> '-6',y,,,,,
+crp_low,clinical_data_abstraction,,text,"C-Reactive Protein, CRP (mg/L or mg/dL) LOW",,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(3)] = '1'),y,,,,, @HIDDEN
+esr_high,clinical_data_abstraction,,text,ESR (mm/hr) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(3)] = '1'),y,,,,,
+esr_low,clinical_data_abstraction,,text,ESR (mm/hr) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(3)] = '1'),y,,,,,
+ferritin_high,clinical_data_abstraction,,text,Ferritin (ng/mL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(3)] = '1'),y,,,,,
+ferritin_low,clinical_data_abstraction,,text,Ferritin (ng/mL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(3)] = '1'),y,,,,, @HIDDEN
+procalcitonin_high,clinical_data_abstraction,,text,Procalcitonin (ng/mL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(3)] = '1'),y,,,,,
+procalcitonin_low,clinical_data_abstraction,,text,Procalcitonin (ng/mL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(3)] = '1'),y,,,,, @HIDDEN
+ldh_high,clinical_data_abstraction,,text,LDH (U/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,,
+ldh_low,clinical_data_abstraction,,text,LDH (U/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,, @HIDDEN
+triglycerides_high,clinical_data_abstraction,,text,Triglycerides (mg/dL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,,
+triglycerides_low,clinical_data_abstraction,,text,Triglycerides (mg/dL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,, @HIDDEN
+ck_high,clinical_data_abstraction,,text,Creatine kinase (U/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,,
+ck_low,clinical_data_abstraction,,text,Creatine kinase (U/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,, @HIDDEN
+pt_high,clinical_data_abstraction,,text,PT (seconds) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,,
+pt_low,clinical_data_abstraction,,text,PT (seconds) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,, @HIDDEN
+inr_high,clinical_data_abstraction,,text,INR (units) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,,
+inr_low,clinical_data_abstraction,,text,INR (units) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,, @HIDDEN
+aptt_high,clinical_data_abstraction,,text,APTT/APTR (seconds) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,,
+aptt_low,clinical_data_abstraction,,text,APTT/APTR (seconds) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,, @HIDDEN
+thrombin_time_high,clinical_data_abstraction,,text,Thrombin time (seconds) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,,
+thrombin_time_low,clinical_data_abstraction,,text,Thrombin time (seconds) LOW ,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,, @HIDDEN
+fibrinogen_high,clinical_data_abstraction,,text,Fibrinogen (mg/dL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,,
+fibrinogen_low,clinical_data_abstraction,,text,Fibrinogen (mg/dL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,,
+d_dimer_high,clinical_data_abstraction,,text,"D-dimer (mg/L, 痢/mL, or n/ml) HIGH",,Mark -6 if not done. Enter units below.,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,,
+d_dimer_unit,clinical_data_abstraction,,radio,D-dimer units,"1, mg/L | 2, 痢/mL | 3, n/ml | 4, Other units",,,,,,[d_dimer_high] <> '' and [d_dimer_high] <> '-6',y,,,,,
+d_dimer_unit_oth,clinical_data_abstraction,,text,Enter D-dimer units,,,,,,,[d_dimer_unit] = '4',y,,,,,
+d_dimer_low,clinical_data_abstraction,,text,D-dimer (mg/L or 痢/mL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(4)] = '1'),y,,,,, @HIDDEN
+lactate_high,clinical_data_abstraction,,text,Lactate (mmol/L) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,,
+lactate_low,clinical_data_abstraction,,text,Lactate (mmol/L) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,, @HIDDEN
+bnp_high,clinical_data_abstraction,,text,B-type natriuretic peptide (BNP) (pg/mL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,,
+bnp_low,clinical_data_abstraction,,text,B-type natriuretic peptide (BNP) (pg/mL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,, @HIDDEN
+troponin_t_high,clinical_data_abstraction,,text,Troponin T (ng/mL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,,
+troponin_t_low,clinical_data_abstraction,,text,Troponin T (ng/mL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,, @HIDDEN
+troponin_i_high,clinical_data_abstraction,,text,Troponin I (ng/mL) HIGH,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,,
+troponin_i_low,clinical_data_abstraction,,text,Troponin I (ng/mL) LOW,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,, @HIDDEN
+il_6_highest,clinical_data_abstraction,,text,IL-6 highest level (pg/mL):,,Mark -6 if not done,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,,
+il_levels,clinical_data_abstraction,Immune/Inflammation Specific Workup,yesno,"IL-6, IL1Ra, and IL-10 Levels",,,,,,,[cohort_type] = '9' or [cohort_type] = '10' or ([labs_mild] = '1' and [labs_mild_which(5)] = '1'),y,,,,, @HIDDEN
+il_6_initial,clinical_data_abstraction,,text,IL-6 initial/first level (pg/mL):,,Mark -6 if not done,,,,,[il_levels] = '1',y,,,,, @HIDDEN
+il_6_date,clinical_data_abstraction,,text,Date of IL-6 initial/first level (pg/mL):,,,date_mdy,,,y,[il_levels] = '1',,,,,, @HIDDEN
+il_6_highest_date,clinical_data_abstraction,,text,Date of IL-6 highest level (pg/mL):,,,date_mdy,,,y,[il_levels] = '1',,,,,, @HIDDEN
+il1ra_initial,clinical_data_abstraction,,text,IL1Ra initial/first level (pg/mL):,,Mark -6 if not done,,,,,[il_levels] = '1',y,,,,, @HIDDEN
+il1ra_initial_date,clinical_data_abstraction,,text,Date of IL1Ra initial/first level (pg/mL):,,,date_mdy,,,y,[il_levels] = '1',,,,,, @HIDDEN
+il1ra_highest,clinical_data_abstraction,,text,"IL1Ra highest level (pg/mL):	",,Mark -6 if not done,,,,,[il_levels] = '1',y,,,,, @HIDDEN
+ilra1_highest_date,clinical_data_abstraction,,text,"Date of IL1Ra highest level (pg/mL):	",,,date_mdy,,,y,[il_levels] = '1',,,,,, @HIDDEN
+il_10_initial,clinical_data_abstraction,,text,IL-10 initial/first level (pg/mL):,,Mark -6 if not done,,,,,[il_levels] = '1',y,,,,, @HIDDEN
+il_10_initial_date,clinical_data_abstraction,,text,Date of IL-10 initial/first level (pg/mL):,,,date_mdy,,,y,[il_levels] = '1',,,,,, @HIDDEN
+il_10_highest,clinical_data_abstraction,,text,IL-10 highest level (pg/mL):,,Mark -6 if not done,,,,,[il_levels] = '1',y,,,,, @HIDDEN
+il_10_highest_date,clinical_data_abstraction,,text,Date of IL-10 highest level (pg/mL):,,,date_mdy,,,y,[il_levels] = '1',,,,,, @HIDDEN
+vent_oxygen_support,clinical_data_abstraction,"Clinical Course
+
+The information in this section is from the entire hospital course to hospital discharge. 
+
+Respiratory Complications",yesno,Did the patient receive and ventilator or oxygen support during this hospitalization?,,,,,,,,y,,,,, @HIDDEN
+endo_tube_trach,clinical_data_abstraction,,yesno,Mechanical ventilatory support through an endotracheal tube or tracheostomy,,,,,,,[vent_oxygen_support] = '1',y,,,,, @HIDDEN
+intub_date,clinical_data_abstraction,,text,Date of intubation:,,,date_mdy,,,y,[endo_tube_trach] = '1',y,,,,, @HIDDEN
+intub_time,clinical_data_abstraction,,text,Time of intubation:,,,time,,,,[endo_tube_trach] = '1',y,,,,, @HIDDEN
+extub_date,clinical_data_abstraction,,text,Date of extubation:,,,date_mdy,,,y,[endo_tube_trach] = '1',y,,,,, @HIDDEN
+extub_time,clinical_data_abstraction,,text,Time of extubation:,,,time,,,,[endo_tube_trach] = '1',y,,,,, @HIDDEN
+bipap_cpap,clinical_data_abstraction,,yesno,Non-invasive mechanical ventilatory support (BiPAP or CPAP) ONLY or PRIOR TO initial intubation,,,,,,,[vent_oxygen_support] = '1',y,,,,, @HIDDEN
+bibap_cpap_extub,clinical_data_abstraction,,yesno,Non-invasive mechanical ventilatory support (BiPAP or CPAP) AFTER extubation,,,,,,,[vent_oxygen_support]='1',y,,,,, @HIDDEN
+mech_ventilator,clinical_data_abstraction,,yesno,Mechanical ventilator ,,,,,,,[vent_oxygen_support] = '1',y,,,,, @HIDDEN
+nasal_cannula2,clinical_data_abstraction,,yesno,High-flow nasal cannula,,,,,,,[vent_oxygen_support] = '1',y,,,,, @HIDDEN
+other_supp_oxygen,clinical_data_abstraction,,yesno,"Other supplemental oxygen (nasal cannula, face tent, blow-by, etc.)",,,,,,,[vent_oxygen_support] = '1',y,,,,, @HIDDEN
+no2,clinical_data_abstraction,,yesno,Nitric Oxide,,,,,,,[vent_oxygen_support] = '1',y,,,,, @HIDDEN
+pneumothorax2,clinical_data_abstraction,,yesno,Pneumothorax or other signs of barotrauma,,,,,,,,y,,,,, @HIDDEN
+resp,clinical_data_abstraction,,yesno,"Were there respiratory complications during hospitalization, such as pneumonia, ARDS, pulmonary edema, pneumothorax, pleural effusion, or pulmonary hemorrhage?",,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,,,,,,
+resp_confirm,clinical_data_abstraction,,descriptive,"<div style=""background-color:#FFCCCC;padding:10px"">You indicated that this was a case with severe acute COVID-19. Please confirm that there were no respiratory complications.</div>",,,,,,,[cohort_type] = '9' and [resp] = '0',,,,,,
+resp_complic,clinical_data_abstraction,,checkbox,Which respiratory complications were diagnosed during hospitalization?,"1, Pneumonia | 2, Acute respiratory distress syndrome (ARDS) | 3, Pulmonary edema | 4, Pneumothorax | 5, Pleural effusion | 6, Pulmonary hemorrhage | 7, Other",,,,,,[resp] = '1',y,,,,,
+resp_complic_oth,clinical_data_abstraction,,text,Which other respiratory complications were diagnosed during hospitalization?,,,,,,,[resp_complic(7)] = '1',,,,,,
+pleural_effusion2,clinical_data_abstraction,,yesno,Pleural effusion,,,,,,,,y,,,,, @HIDDEN
+chest_tube,clinical_data_abstraction,,yesno,Chest-tube or drainage required,,,,,,,,y,,,,, @HIDDEN
+pulm_hemorrhage2,clinical_data_abstraction,,yesno,Pulmonary hemorrhage,,,,,,,,y,,,,, @HIDDEN
+bronchospasm,clinical_data_abstraction,,yesno,"Severe bronchospasm requiring continuous bronchodilators	",,,,,,,,y,,,,, @HIDDEN
+chest_xray,clinical_data_abstraction,,yesno,Chest X-ray performed?,,"If yes, please include a de-identified copy of the report from the patient's first chest X-ray during this hospital stay.",,,,,,y,,,,, @HIDDEN
+cxr,clinical_data_abstraction,,file,Please include a de-identified copy of the report from the patient's first chest X-ray during this hospital stay.,,,,,,,[chest_xray]='1',y,,,,, @HIDDEN
+chest_ct,clinical_data_abstraction,,yesno,Chest CT scan performed?,,"	If yes, please include a de-identified copy of the report(s).",,,,,,y,,,,, @HIDDEN
+chest_ct_upload,clinical_data_abstraction,,file,Please include a de-identified copy of the report(s).,,,,,,,[chest_ct]='1',y,,,,, @HIDDEN
+lung_biopsy,clinical_data_abstraction,,yesno,Lung biopsy performed?,,"If yes, please include a deidentified copy of the report(s) if possible.",,,,,,y,,,,, @HIDDEN
+lung_biopsy_upload,clinical_data_abstraction,,file,Please include a de-identified copy of the report(s).,,,,,,,[lung_biopsy]='1',y,,,,, @HIDDEN
+vasoactive_infusion,clinical_data_abstraction,Cardiovascular Complications,yesno,Vasoactive infusions?,,,,,,,,y,,,,, @HIDDEN
+ecmo_support,clinical_data_abstraction,,yesno,ECMO Support,,,,,,,,y,,,,, @HIDDEN
+ecmo_type,clinical_data_abstraction,,radio,Type of ECMO Support,"1, Veno-venous | 2, Veno-arterial | 3, Both VV and VA",,,,,,[ecmo_support]='1',y,,,,, @HIDDEN
+cardiac_ct,clinical_data_abstraction,,yesno,Cardiac CT Scan,,,,,,,,y,,,,, @HIDDEN
+cardiac_ct_upload,clinical_data_abstraction,,file,Please include a de-identified copy of the report from all cardiac CT scans performed during this hospitalization.,,,,,,,[cardiac_ct]='1',y,,,,, @HIDDEN
+cardiac_cath,clinical_data_abstraction,,yesno,Cardiac Catheterization,,,,,,,,y,,,,, @HIDDEN
+cardiac_cath_upload,clinical_data_abstraction,,file,Please include a de-identified copy of the report from all cardiac catheterizations performed during this hospitalization.,,,,,,,[cardiac_cath]='1',y,,,,, @HIDDEN
+echo,clinical_data_abstraction,,yesno,Echocardiogram,,,,,,,,y,,,,, @HIDDEN
+cardiac,clinical_data_abstraction,,yesno,"Were there cardiac complications during hospitalization, such as coronary artery aneurysms, pericarditis, pericardial effusions, myocarditis, cardiac dysfunction, or arrhythmia?",,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+cardiac_complic,clinical_data_abstraction,,checkbox,Which cardiac complications were diagnosed during hospitalization?,"1, Coronary artery aneurysms | 2, Pericarditis or pericardial effusions | 3, Myocarditis | 4, Cardiac dysfunction including reduced ejection fraction or heart failure | 5, Arrhythmia/dysrhythmia | 6, Other cardiac complication",,,,,,[cardiac] = '1',,,,,,
+cardiac_complic_oth,clinical_data_abstraction,,text,Which other cardiac complication(s) were diagnosed during hospitalization?,,,,,,,[cardiac_complic(6)] = '1',y,,,,,
+coronary_artery_aneurysms,clinical_data_abstraction,,yesno,Did the patient have coronary artery aneurysms documented?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,, @HIDDEN
+max_z_score,clinical_data_abstraction,,text,Maximum Z score if ? 2.5:,,Mark -6 if not done,,,,,[echo]='1',y,,,,, @HIDDEN
+aneurysms_location,clinical_data_abstraction,,text,Location(s) of aneurysms: ,,,,,,,[coronary_artery_aneurysms]='1',y,,,,, @HIDDEN
+ejection_fraction,clinical_data_abstraction,,text,Lowest ejection fraction on echocardiography (%):,,"%, mark -6 if not done",,,,,[echo]='1',y,,,,, @HIDDEN
+echo_uploads,clinical_data_abstraction,,file,Please include a de-identified copy of the report from all echocardiograms performed during this hospitalization.,,,,,,,[echo]='1',y,,,,, @HIDDEN
+pericarditis,clinical_data_abstraction,,yesno,Pericarditis or pericardial effusion diagnosed during hospital stay?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,, @HIDDEN
+myocarditis,clinical_data_abstraction,,yesno,Myocarditis or cardiac dysfunction diagnosed during hospital stay?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,, @HIDDEN
+myocarditis_recovery,clinical_data_abstraction,,radio,Did the patient recover to have a normal cardiac ejection fraction on echocardiography?,"1, Yes | 2, No | 3, Not done",,,,,,,y,,,,, @HIDDEN
+myocard_recovery,clinical_data_abstraction,,text,How many days after myocarditis/cardiac dysfunction diagnosis did the patient recover?,,days,,,,,[myocarditis_recovery]='1',y,,,,, @HIDDEN
+myocarditis_tx,clinical_data_abstraction,,yesno,"If patient did not recover, do they need treatment at hospital discharge?",,,,,,,[myocarditis_recovery]='2',y,,,,, @HIDDEN
+myocard_tx_drugs,clinical_data_abstraction,,text,Please list drugs required for ongoing treatment of myocarditis/cardiac dysfunction: ,,,,,,,[myocarditis_tx]='1',y,,,,, @HIDDEN
+cardiac_dysrhythmia,clinical_data_abstraction,,yesno,Cardiac dysrhythmia/arrhythmia documented,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,, @HIDDEN
+specific_dysrhythmia,clinical_data_abstraction,,text,Specify dysrhythmia:,,,,,,,[cardiac_complic(5)] = '1',y,,,,,
+neuro,clinical_data_abstraction,Neurologic Complications,yesno,"Were there neurologic complications during hospitalization, such as encephalitis, aseptic meningitis, demyelinating disorder (ADEM), stroke or cerebrovascular accident (CVA), increased intracranial pressure (ICP), decreased hearing or vision, or iritis/uveitis?",,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+neuro_which,clinical_data_abstraction,,checkbox,Which neurologic complications were diagnosed during hospitalization?,"1, Encephalitis | 2, Aseptic meningitis | 3, Demyelinating disorder (ADEM) | 4, Stroke or cerebrovascular accident (CVA) | 10, Coma | 11, Seizures | 5, Increased intracranial pressure (ICP) | 6, Decreased hearing | 7, Decreased vision | 8, Iritis or uveitis | 9, Other",Check all that apply,,,,,[neuro] = '1',y,,,,,
+neuro_which_oth,clinical_data_abstraction,,text,What other neurologic complication(s) were diagnosed during hospitalization?,,,,,,,[neuro_which(9)] = '1',y,,,,,
+adem,clinical_data_abstraction,,yesno,"Encephalitis, aseptic meningitis, or demyelinating disorder (ADEM) diagnosed during ICU stay?",,,,,,,,y,,,,, @HIDDEN
+decreased_hearing,clinical_data_abstraction,,yesno,Decreased hearing,,,,,,,,y,,,,, @HIDDEN
+decreased_vision,clinical_data_abstraction,,yesno,Decreased vision,,,,,,,,y,,,,, @HIDDEN
+iritis_uveitis,clinical_data_abstraction,,yesno,Iritis or uveitis diagnosed.,,,,,,,,y,,,,, @HIDDEN
+stroke_cva,clinical_data_abstraction,,yesno,Stroke or cerebrovascular accident (CVA),,,,,,,,y,,,,, @HIDDEN
+icp,clinical_data_abstraction,,yesno,Increased intracranial pressure (ICP),,,,,,,,y,,,,, @HIDDEN
+gi_complications,clinical_data_abstraction,GI Complications,yesno,"Did the subject experience any GI complications during this hospitalization, such as appendicitis, severe diarrhea, severe abdominal pain, gallbladder hydrops or edema, pancreatitis, or hepatitis?",,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+gi_complic_which,clinical_data_abstraction,,checkbox,What GI complications were diagnosed during hospitalization?,"1, Appendicitis | 2, Severe diarrhea | 3, Severe abdominal pain | 4, Gallbladder hydrops (marked dilation) or edema | 5, Pancreatitis  | 6, Hepatitis | 7, Other",Check all that apply,,,,,[gi_complications]='1',y,,,,,
+gi_complic_which_oth,clinical_data_abstraction,,text,What other GI complication(s) were diagnosed during hospitalization?,,,,,,,[gi_complic_which(7)] = '1',y,,,,,
+appendicitis,clinical_data_abstraction,,yesno,Appendicitis,,,,,,,[gi_complications]='1',y,,,,, @HIDDEN
+appendix_removed,clinical_data_abstraction,,yesno,Was the patient's appendix removed?,,,,,,,[gi_complic_which(1)] = '1',y,,,,,
+diarrhea1,clinical_data_abstraction,,yesno,Severe diarrhea,,,,,,,[gi_complications]='1',y,,,,, @HIDDEN
+abd_pain1,clinical_data_abstraction,,yesno,Severe abdominal pain,,,,,,,[gi_complications]='1',y,,,,, @HIDDEN
+gallbladder_hydrops,clinical_data_abstraction,,yesno,"Gallbladder hydrops (marked dilation) or edema	",,,,,,,[gi_complications]='1',y,,,,, @HIDDEN
+pancreatitis,clinical_data_abstraction,,yesno,Pancreatitis ,,,,,,,[gi_complications]='1',y,,,,, @HIDDEN
+hepatitis_hepatomegaly,clinical_data_abstraction,,yesno,"Hepatitis or hepatomegaly	",,,,,,,[gi_complications]='1',y,,,,, @HIDDEN
+hem_complications,clinical_data_abstraction,Hematologic/Thrombotic Complications,yesno,Did the subject experience any hematologic/thrombotic complications during this hospitalization?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,y,,,,,
+hem_complic_which,clinical_data_abstraction,,checkbox,Which hematologic/thrombotic complication(s) were diagnosed during hospitalization?,"1, Deep vein thrombosis | 2, Pulmonary embolism | 3, Sinus venous thrombosis | 4, Bleeding | 5, Other",Check all that apply,,,,,[hem_complications]='1',y,,,,,
+hem_complic_which_oth,clinical_data_abstraction,,text,Which other hematologic/thrombotic complication(s) were diagnosed during hospitalization?,,,,,,,[hem_complic_which(5)] = '1',y,,,,,
+dvt1,clinical_data_abstraction,,yesno,"Deep vein thrombosis	",,,,,,,[hem_complications]='1',y,,,,, @HIDDEN
+pulm_embolism,clinical_data_abstraction,,yesno,Pulmonary embolism,,,,,,,[hem_complications]='1',y,,,,, @HIDDEN
+venous_thrombosis,clinical_data_abstraction,,yesno,Sinus venous thrombosis,,,,,,,[hem_complications]='1',y,,,,, @HIDDEN
+bleeding,clinical_data_abstraction,,yesno,Bleeding,,,,,,,[hem_complications]='1',y,,,,, @HIDDEN
+renal,clinical_data_abstraction,Renal Complications,yesno,Did the subject experience any renal complications during this hospitalization?,,,,,,,[cohort_type] = '9' or [cohort_type] = '10' ,,,,,,
+renal_which,clinical_data_abstraction,,checkbox,Which renal complication(s) were diagnosed during hospitalization?,"1, Acute kidney injury (AKI) | 2, Dialysis | 3, Other",,,,,,[renal] = '1',,,,,,
+renal_which_oth,clinical_data_abstraction,,text,Which other renal complication(s) were diagnosed during hospitalization?,,,,,,,[renal_which(3)] = '1',,,,,,
+aki,clinical_data_abstraction,,yesno,AKI,,,,,,,,y,,,,, @HIDDEN
+dialysis1,clinical_data_abstraction,,yesno,Dialysis,,,,,,,,y,,,,, @HIDDEN
+tx_any,clinical_data_abstraction,Specific SARS-CoV-2 Treatments,yesno,Were any specific treatments given for the acute illness?,,,,,,,,y,,,,,
+treatments,clinical_data_abstraction,,checkbox,Please indicate which treatments the subject received for the acute illness.,"1, Remdesivir | 2, Anakinra | 3, Tocilizimab | 4, Sarilumab | 5, Dexamethasone (specifically for COVID-19) | 6, Hydrocortisone (specifically for COVID-19) | 7, Methylprednisone (specifically for COVID-19) | 22, Anticoagulant (e.g., heparin, enoxaparin, bivalirudin, warfarin, argatroban) | 8, Plasma exchange | 9, Convalescent plasma | 10, IVIG | 11, Bamlanivimab (anti-spike monoclonal antibody) | 12, Etesevimab (anti-spike monoclonal antibody) | 13, Casirivimab and imdevimab (REGN-COV2) (anti-spike monoclonal antibodies) | 14, Hydroxychloroquine/Chloroquine | 15, Azithromycin | 16, Ivermectin | 17, Lopinavir/ritonavir | 18, Interferon ? | 19, Interferon ? | 20, Other antibiotics specific for COVID-19 (specify) | 21, Other treatments for COVID-19 (specify)","Include treatments received while hospitalized, if applicable.",,,,,[tx_any] = '1',y,,,,,
+remdesivir,clinical_data_abstraction,,yesno,Remdesivir,,,,,,,,y,,,,, @HIDDEN
+anakinra,clinical_data_abstraction,,yesno,Anakinra,,,,,,,,y,,,,, @HIDDEN
+tocilizimab,clinical_data_abstraction,,yesno,Tocilizimab,,,,,,,,y,,,,, @HIDDEN
+sarilumab,clinical_data_abstraction,,yesno,Sarilumab,,,,,,,,y,,,,, @HIDDEN
+dexamethasone,clinical_data_abstraction,,yesno,Dexamethasone (specifically for COVID-19),,,,,,,,y,,,,, @HIDDEN
+hydrocortisone,clinical_data_abstraction,,yesno,Hydrocortisone (specifically for COVID-19),,,,,,,,y,,,,, @HIDDEN
+methylprednisone,clinical_data_abstraction,,yesno,Methylprednisone (specifically for COVID-19),,,,,,,,y,,,,, @HIDDEN
+plasma_exchange,clinical_data_abstraction,,yesno,Plasma Exchange,,,,,,,,y,,,,, @HIDDEN
+convalescent_plasma,clinical_data_abstraction,,yesno,Convalescent plasma,,,,,,,,y,,,,, @HIDDEN
+ivig,clinical_data_abstraction,,yesno,IVig,,,,,,,,y,,,,, @HIDDEN
+bamlanivimab,clinical_data_abstraction,,yesno,Bamlanivimab - monoclonal antibody against spike protein,,,,,,,,y,,,,, @HIDDEN
+etesevimab,clinical_data_abstraction,,yesno,Etesevimab - monoclonal antibody against spike protein,,,,,,,,y,,,,, @HIDDEN
+casirivimab_imdevimab,clinical_data_abstraction,,yesno,Casirivimab and imdevimab (REGN-COV2) - monoclonal antibodies to spike protein,,,,,,,,y,,,,, @HIDDEN
+hydroxychloroquine_chloroquine,clinical_data_abstraction,,yesno,Hydroxychloroquine/Chloroquine,,,,,,,,y,,,,, @HIDDEN
+azithromycin,clinical_data_abstraction,,yesno,Azithromycin,,,,,,,,y,,,,, @HIDDEN
+ivermectin,clinical_data_abstraction,,yesno,Ivermectin,,,,,,,,y,,,,, @HIDDEN
+lopinavir_ritonavir,clinical_data_abstraction,,yesno,Lopinavir/ritonavir,,,,,,,,y,,,,, @HIDDEN
+interferon_a,clinical_data_abstraction,,yesno,Interferon ?,,,,,,,,y,,,,, @HIDDEN
+interferon_b,clinical_data_abstraction,,yesno,Interferon ?,,,,,,,,y,,,,, @HIDDEN
+anticoagulation_therapy,clinical_data_abstraction,,checkbox,What anticoagulant(s)?,"1, Heparin | 2, Enoxaparin | 3, Bivalirudin | 4, Warfarin | 5, Argatroban | 6, Other anticoagulant",,,,,,[treatments(22)]='1',y,,,,,
+anticoagulation_oth,clinical_data_abstraction,,text,What other anticoagulant(s)?,,,,,,,[anticoagulation_therapy(6)] = '1',y,,,,,
+covid_abx,clinical_data_abstraction,,yesno,Other antibiotics specific for COVID-19?,,,,,,,,y,,,,, @HIDDEN
+covid_abx_list,clinical_data_abstraction,,text,What other antibiotics specific for COVID-19?,,,,,,,[treatments(20)]='1',y,,,,,
+other_abx,clinical_data_abstraction,,yesno,Others?,,,,,,,,y,,,,, @HIDDEN
+other_abx_list,clinical_data_abstraction,,text,What other treatments for COVID-19?,,,,,,,[treatments(21)]='1',y,,,,,
+anticoag_therapies,clinical_data_abstraction,,text,List therapies.,,,,,,,,y,,,,, @HIDDEN
+covid_trial,clinical_data_abstraction,,radio,"Did the subject participant in another COVID study (e.g., clinical trial)?","0, No | 1, Yes | 9, Unknown",,,,,,,y,,,,,
+other_covid_trial_specify,clinical_data_abstraction,,text,Please specify which other study or trial.,,,,,,,[covid_trial]='1',y,,,,,
+clinical_notes,clinical_data_abstraction,,notes,Record any additional pertinent information about the data collected or clinical course here,,Please avoid recording any identifiers here,,,,,,,,,,,

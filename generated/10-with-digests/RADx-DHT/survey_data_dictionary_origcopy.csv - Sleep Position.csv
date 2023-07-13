@@ -1,2 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory,Digest (variable_name|source_file|source_directory)
-Sleep Position,0;1,sleep_position,In what position are you most comfortable sleeping?,true,select one,On my back;On my side;On my stomach;No preference;I don't know;Other,survey_data_dictionary_origcopy.csv - Sleep Position.csv,RADx-DHT,288b5b0be4cb0065b5763920b33d54ee7cfba984eae9f263b25791f7131885a3effa794724d253b05284b14ccb15e61d86da80ef747497583699a51483004308

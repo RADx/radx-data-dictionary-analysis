@@ -1,0 +1,15 @@
+Id,Section,ui,Label,Enumeration,Notes,min,max,branching_logic,Unit,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,RADx-rad Minimum CDE,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,RADx-rad Minimum CDE,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+system_type,Model System,radio,What model system is being used?,"1, IGE | 0, SP6",,,,,,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+aptamer_present,Surface Type,radio,Is aptamer immobilized on the surface?,"1, Yes | 0, No",,,,,,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+aptamer _type,Model System,radio,What type of aptamer?,"1, monoaptamer | 2, polyaptamer | 3, polyrandomer | 4, N/A",,,,,,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+assay_type,Assay Type,radio,What type of assay?,"1, Bead | 2, Protein | 3, Virus",,,,,,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+protein_decorated_bead,Bead Type,radio,Is protein immobilized on the bead?,"1, Yes | 0, No | 3, N/A",,,,,,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+protein_type,Bead Type,radio,What type of protein?,"1, IgE | 2, Spike Protein | 3, N/A",,,,,,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+surface_chemistry,Surface Type,radio,What is the surface chemistry?,"1, Streptavidin-Biotin Chemistry | 0, Click Chemistry",,,,,,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+surface_source,Surface Type,radio,Is the surface commercial or made in-house?,"1, Commercial | 0, In-house",,,,,,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+protein_concentration,Performance,float,What is the protein concentration?,,nM,,,,nM,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+average_intensity,Performance,float,What is the average fluorescence signal?,,RFU,,,,RFU,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543
+std_dev,Performance,float,What was the std dev of the fluorescence signal?,,RFU,,,,RFU,,rad_014_324-01_igesolprotbindcurve001_DICT_v001_v1.csv,phs002543

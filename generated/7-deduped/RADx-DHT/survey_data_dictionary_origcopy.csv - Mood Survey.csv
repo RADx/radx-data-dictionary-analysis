@@ -1,9 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints
-Mood Survey,2,littleinterest,Little interest or pleasure in doing things.,true,select one,Not at all;Several days;More than half the days;Nearly every day
-Mood Survey,2,feelingdown,"Feeling down, depressed, or hopeless.",true,select one,Not at all;Several days;More than half the days;Nearly every day
-Mood Survey,2,sleep,"Trouble falling or staying asleep, or sleeping too much.",true,select one,Not at all;Several days;More than half the days;Nearly every day
-Mood Survey,2,littleenergy,Feeling tired or having little energy.,true,select one,Not at all;Several days;More than half the days;Nearly every day
-Mood Survey,2,appetite,Poor appetite or overeating.,true,select one,Not at all;Several days;More than half the days;Nearly every day
-Mood Survey,2,feelingbad,Feeling bad about yourself - or that you are a failure or have let yourself or your family down.,true,select one,Not at all;Several days;More than half the days;Nearly every day
-Mood Survey,2,concentration,"Trouble concentrating on things, such as reading the newspaper or watching television.",true,select one,Not at all;Several days;More than half the days;Nearly every day
-Mood Survey,2,moving,Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual.,true,select one,Not at all;Several days;More than half the days;Nearly every day

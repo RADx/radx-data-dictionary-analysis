@@ -1,0 +1,135 @@
+Variable / Field Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Branching Logic (Show field only if...),Unit,CDE Reference
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minimum CDE
+race,Race,checkbox,What is your race? Mark one or more boxes.,"1, American Indian or Alaska Native | 2, Asian | 3, Black or African American | 4, Native Hawaiian or Other Pacific Islander | 5, White | 6, Some other race",,,,,,,RADx-rad Minimum CDE
+ethnicity,Ethnicity,radio,Are you of Hispanic or Latino origin?,"1, Yes, of Hispanic or Latino origin | 0, No, not of Hispanic or Latino origin",,,,,,,RADx-rad Minimum CDE
+age,Age,integer,What is your age?,,"Age in years. For babies less than 1 year old, write 0 as the age",,0,90,,,RADx-rad Minimum CDE
+sex,Sex,radio,What is your biological sex assigned at birth?,"1, Male | 2, Female | 3, Intersex | 4, None of these describe me",,,,,,,RADx-rad Minimum CDE
+education,Education,integer,How many years of education have you completed?,,Years of education from 0 - 20+,,,,,,RADx-rad Minimum CDE
+zip,Domicile,text,Zip or Postal Code:,,De-Identified zip code,,,,,,RADx-rad Minimum CDE
+employment,Employment,radio,Are you employed?,"1, Employed in a permanent position | 2, Employed in a temporary position | 3, Not currently employed",,,,,,,RADx-rad Minimum CDE
+insurance,Insurance Status,radio,What kind of health insurance do you have?,"1, Private insurance | 2, Public insurance | 3, None",,,,,,,RADx-rad Minimum CDE
+deaf,Disability Status,radio,Are you deaf or do you have serious difficulty hearing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+blind,Disability Status,radio,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+memory_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+walking_climbing_dis,Disability Status,radio,Do you have serious difficulty walking or climbing stairs?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+dress_bathe_dis,Disability Status,radio,Do you have difficulty dressing or bathing?,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+errand_dis,Disability Status,radio,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?","1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+vaping,Medical History,radio,Vaping Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nicotine,Medical History,radio,Nicotine Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+alcohol_use,Medical History,radio,Alcohol Use,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+asthma,Medical History,radio,Asthma,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cancer,Medical History,radio,Cancer,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+cardiovascular_disease,Medical History,radio,Cardiovascular disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_kidney_disease,Medical History,radio,Chronic kidney disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chronic_lung_disease,Medical History,radio,Chronic lung disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diabetes,Medical History,radio,Diabetes,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+hypertension,Medical History,radio,Hypertension,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+immunosuppressive_conditio,Medical History,radio,Immunosuppressive condition,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+serious_mental_illness,Medical History,radio,Serious mental illness,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+sickle_cell_disease,Medical History,radio,Sickle cell disease,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+pregnancy_status,Medical History,radio,Pregnancy status,"1, Currently pregnant | 0, Not pregnant",,,,,[sex] = '2',,RADx-rad Minimum CDE
+cough,Symptoms,radio,Cough,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+fever,Symptoms,radio,Fever,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+shortness_of_breath_or_dif,Symptoms,radio,Shortness of breath or difficulty breathing,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+headache,Symptoms,radio,Headache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+muscle_ache,Symptoms,radio,Muscle ache,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+new_loss_of_taste_or_smell,Symptoms,radio,New loss of taste or smell,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+excessive_fatigue,Symptoms,radio,Excessive fatigue,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+nausea_vomiting,Symptoms,radio,Nausea/vomiting,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+abdominal_pain,Symptoms,radio,Abdominal pain,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+skin_rash,Symptoms,radio,Skin rash,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+conjunctivitis,Symptoms,radio,Conjunctivitis,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE
+height_feet,Health Status,dropdown,Height Feet,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8",,,,,,foot,RADx-rad Minimum CDE
+height_inches,Health Status,dropdown,Height Inches,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11",,,,,,inch,RADx-rad Minimum CDE
+weight_lbs,Health Status,float,What is your weight?,,Weight in pounds,,,,,pound,RADx-rad Minimum CDE
+health_status,Health Status,radio,"Would you say that (your) health in general is excellent, very good, good, fair or poor?","1, Excellent | 2, Very good | 3, Good | 4, Fair | 5, Poor",,,,,,,RADx-rad Minimum CDE
+pcr-type,PCR,category,,LAMP | ddpcr,,,,,,,
+pcr_multipexed,PCR,text,if pcr was multiplexed,Yes | No,,,,,,,
+pcr_nucleic_acid_type,PCR,category,type of nucleic acid targeted in the assay,RNA | DNA,,,,,,,
+pcr_target_organism_name,PCR,text,NCBI organism name,,example: SARS-CoV-2,,,,,,
+pcr_target_organims_taxonomy_id,PCR,integer,NCBI taxonomy id for organism,,example: 2697049,,,,,,https://www.ncbi.nlm.nih.gov/taxonomy
+pcr_target_organism_subtype,PCR,text,subtype of organism,,example: H1N1 (for influenza),,,,,,
+pcr_target_refseq,PCR,text,GenBank reference sequence id,,example: MN985325.1,,,,,,
+pcr_target_gisaid_id,PCR,text,GISAID id reference sequence id,,example: EPI_ISL_402124,,,,,,
+pcr_target_organism_pango_lineage,PCR,text,Pango lineage for SARS-CoV-2 variants,,example: B.1.1.7,,,,,,https://cov-lineages.org/
+pcr_target_organism_who_label,PCR,text,WHO label for SARS-CoV-2 variants,,example: Alpha,,,,,,https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/
+pcr_target_organism_gisaid_clade,PCR,text,GISAID clade for SARS-CoV-2 variants,,example: GRY,,,,,,
+pcr_target_gene_name,PCR,text,NCBI or UniProt gene name,,example: S,,,,,,
+pcr_target_gene_id,PCR,text,unique identifier for the gene,,e.g. gene Ensemble ID,,,,,,
+pcr_target_gene_region,PCR,text,domain or subunit name,,e.g. receptor binding domain,,,,,,
+pcr_target_chromosome,PCR,text,chromosome number,,"e.g. 1-22, X, Y for human",,,,,,
+forward_primer_id,PCR,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-F,,,,,,
+forward_primer_sequence,PCR,sequence,5' to 3' sequence of primer,,example: 5'-GACCCCAAAATCAGCGAAAT-3',,,,,,
+forward_primer_strand,PCR,category,primer strand,Positive | Negative,,,,,,,
+forward_primer_genome_start,PCR,integer,starting position (1-based) of the primer in the genome reference sequence,,example: 28287,,,,,,
+forward_primer_genome_end,PCR,integer,ending position (1-based) of the primer in the reference genome sequence,,example: 28306,,,,,,
+reverse_primer_id,PCR,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-R,,,,,,
+reverse_primer_sequence,PCR,sequence,5' to 3' sequence of primer,,example: 5'-TCTGGTTACTGCCAGTTGAATCTG-3',,,,,,
+reverse_primer_strand,PCR,category,primer strand,Positive | Negative,,,,,,,
+reverse_primer_genome_start,PCR,integer,starting position (1-based) of the primer in the genome reference sequence,,example: 28335,,,,,,
+reverse_primer_genome_end,PCR,integer,ending position (1-based) of the primer in the reference genome sequence,,example: 28358,,,,,,
+primer_source,PCR,text,"supplier name, instrument for synthesis, or literature reference",,,,,,,,
+primer_lot_number,PCR,text,lot number for primer,,,,,,,,
+primer_source_url,PCR,url,"URL that links to vendors catalog page for this primer or pcr kit, or link to paper",,,,,,,,
+probe_id,PCR,text,"unique identifier such as name, id, product name, or catalog number",,example: 2019-nCoV_N1-P,,,,,,
+probe_source,PCR,text,"suppler name, instrument for synthesis, or literature reference",,,,,,,,
+probe_source_url,PCR,url,URL that links to vendors catalog page for this probe or pcr kit,,,,,,,,
+probe_lot_number,PCR,text,lot number,,,,,,,,
+probe_sequence,PCR,sequence,"5' to 3' sequence of probe with modifications separated by ""-""",,example: FAM-5'-ACCCCGCATTACGTTTGGTGGACC-3'-BHQ1,,,,,,
+probe_genome_start,PCR,integer,starting position (1-based) of the probe in the genome reference sequence,,example: 28309,,,,,,
+probe_genome_end,PCR,integer,ending position (1-based) of the primer in the reference genome sequence,,example: 28332,,,,,,
+probe_reporter,PCR,text,name of the 5' fluorescent probe,,example: FAM,,,,,,
+probe_quencher_internal,PCR,text,name of internal quencher,,example: ZEN,,,,,,
+probe_quencher,PCR,text,name of 3' quencher,,example: BHQ1,,,,,,
+probe_minor_groove_binder,PCR,text,name of the 3' minor groove binder,,example: MGB,,,,,,
+pcr_run_id,PCR,text,unique identifier for the PCR run,,,,,,,,
+pcr_instrument,PCR,text,maker and model of PCR instrument used for the assay,,,,,,,,
+pcr_cycle_threshold,PCR,float,calculated Cq value based on threshold and standards,,,,,,,,
+pcr_count,PCR,integer,calculated Count value based on threshold and standards,,,,,,,,
+pcr_indication,PCR,category,indication of positive or negative result for target 1,Positive | Negative,,,,,,,
+pcr_standard_type,PCR,text,"indication of whether the well acts as a standard. If so, which type.",NTC | Count Standard | Negative (what does NTC mean?),,,,,,,
+pcr_standard_count,PCR,integer,"if well is a count standard, known count value",,,,,,,,
+assay_date,PCR,date,date of assay performed,,example: 2021-01-01,,,,,,
+well_id,PCR,text,well location,,example: A1,,,,,,
+notes,PCR,text,notes about this sample or assay,,,,,,,,
+covid_vaccine,Vaccine Acceptance,radio,Have you received a COVID-19 vaccine?,"1, Yes | 0, No | 98, not sure/prefer not to answer",,,,,,,
+covid_test_result,Covid Testing,radio,Test result,"1, Positive | 2, Negative | 3, Failed | 4, Lost | 90, Other",,,,,,,
+sample_media,Sample,text,Media used to prepare the spiked sample,,example: pooled saliva,,,,,,RADx-rad DCC
+sample_media_id,Sample,text,"Catalog number, batch number, etc. for the sample media",,,,,,,,RADx-rad DCC
+sample_media_provider,Sample,text,Entity that provided the sample media,,example: Lee Biosolutions,,,,,,RADx-rad DCC
+sample_media_provider_url,Sample,text,URL of the sample media provider,,example:Êhttps://www.leebio.com/product/1769/saliva-pooled-human-donors-991-05-p-prec,,,,,,RADx-rad DCC
+sample_concentration,Sample,float,Concentation of target analyte in the sample,,,,,,,,RADx-rad DCC
+sample_concentration_unit,Sample,text,Unit of the target analyte concentration,,example: copies/ml,,,,,,RADx-rad DCC
+dilution_factor,Sample,float,Dilution factor of inactivated virus spiked into media,,,,,,,,
+sample_concentration_measured,Sample,float,The measured concentation of target analyte in the sample (for verification),,,,,,,,
+sample_concentration_measured_unit,Sample,text,Unit of the target analyte concentration,,example: copies/ml,,,,,,RADx-rad DCC
+measured_spike_in_control,Sample,float,Concentation of target analyte spiked in sample media processed,,,,,,,,
+measured_spike_in_control_unit,Sample,text,Unit of the target analyte concentration,,example: copies/ml,,,,,,
+target_organism_name,Target,text,NCBI organism name,,example: SARS-CoV-2,,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+target_organism_taxonomy_id,Target,text,NCBI taxonomy id for organism,,example: 2697049,,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/taxonomy
+isolate_name,Target,text,Name of the isolate,,example: hCoV-19/USA/WA1/2020,,,,,,RADx-rad DCC
+gisaid_id,Target,text,GISAID isolate id of the original isolate,,example: EPI_ISL_751801,,,,,,RADx-rad DCC|https://www.gisaid.org
+nucleotide_db_id,Target,text,"Nucleotide Sequence Database id, e.g., GenBank or ENA id of the original isolate",,example: MN985325.1,,,,,,RADx-rad DCC|https://www.ncbi.nlm.nih.gov/genbank|https://www.ebi.ac.uk/ena
+pango_lineage,Target,text,Pango lineage for SARS-CoV-2 variant,,example: B.1.1.7,,,,,,RADx-rad DCC|https://cov-lineages.org
+who_label,Target,text,WHO label for SARS-CoV-2 variant,,example: Alpha,,,,,,RADx-rad DCC|https://www.who.int/en/activities/tracking-SARS-CoV-2-variants
+target_analyte_type,Sample,list,Type of analyte(s) or target(s) to be detected,antigen | genomic RNA | inactivated virus | live virus | pseudovirus | antibody,example: antigen,,,,,,RADx-rad DCC
+antigen_name,Sample/Antigen,text,UniProt preferred protein name,,example: Spike glycoprotein,,,,,,RADx-rad DCC
+antigen_expression_system,Sample/Antigen,text,System used to express protein,,,,,,,,RADx-rad DCC
+antigen_formulation,Sample/Antigen,text,Formulation of antigen,,"example: Lyophilized from sterile PBS, pH 7.4.",,,,,,RADx-rad DCC
+antigen_source,Sample/Antigen,text,Supplier of antigen or publication,,example: Sino Biological,,,,,,RADx-rad DCC
+antigen_source_url,Sampe/Antigen,url,URL of supplier catalog page or publication DOI link,,example:Êhttps://www.sinobiological.com/recombinant-proteins/2019-ncov-cov-spike-40591-v08h,,,,,,RADx-rad DCC
+antigen_concentration,Sample/Antigen,float,Protein concentration added to the herringbone chip,,example: 1.0,,,,,,RADx-rad DCC
+antigen_concentration_unit,Sample/Antigen,text,Unit of protein concentration that is added to the herringbone chip,mM | uM| nM | pM | fM,example: nM,,,,,,RADx-rad DCC
+virus_sample_id,Sample/VQA panel,text,"Identifier for virus sample, for VQA panels this is the QR code, for BEI the catalog number",,"examples: XXXX-XXXX-XXXX-XXXX (VQA panel), NR-52286 (BEI Resources)",,,,,,RADx-rad DCC
+virus_batch_number,Sample/VQA panel,text,Batch and or/lot number of virus sample,,,,,,,,RADx-rad DCC
+gisaid_clade,Target,text,GISAID clade for SARS-CoV-2 variant,,example: GRY,,,,,,RADx-rad DCC|https://www.gisaid.org
+virus_sample_provider,Sample/VQA panel,text,Provider from where the inactivated virus sample was procured from,,examples: UCSD|BEI Resources|ATCC,,,,,,RADx-rad DCC
+virus_sample_provider_url,Sample/VQA panel,url,URL of supplier catalog page or publication DOI link,,example:Êhttps://www.beiresources.org/Catalog/animalviruses/NR-52281.aspx,,,,,,RADx-rad DCC
+virus_source,Sample/VQA panel,text,Source of the live virus,,"examples: BEI Resources, UCSDÊ",,,,,,RADx-rad DCC
+virus_sample_type,Sample/VQA panel,category,Type of virus sample,inactivated virus|life virus,example: inactivated virus,,,,,,RADx-rad DCC
+virus_sample_inactivation_method,Sample/VQA panel,category,Method of virus inactivation,UV | heat | Gamma-irradiated,example: heat,,,,,,RADx-rad DCC
+virus_sample_formulation,Sample/VQA panel,text,Formulation (media) of virus sample,,,,,,,,RADx-rad DCC
+virus_sample_concentration,Sample/VQA panel,float,Concentration of virus (gene copies/ml),,example: 1.48E+10,,,,,copies/ml,RADx-rad DCC
+virus_sample_concentration_reference_gene,Sample/VQA panel,text,Reference gene used to determine concentration of virus,,example: N,,,,,,RADx-rad DCC

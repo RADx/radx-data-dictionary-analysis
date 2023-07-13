@@ -1,0 +1,5 @@
+Id,Section,ui,Label,Enumeration,Notes,pattern,min,max,branching_logic,Units,CDE Reference,source_file,source_directory
+study_id,Identity,text,RADx-rad Study ID; Subject ID; Datavent ID,,,,,,,,RADx-rad Minumum CDE,rad_018_778-01_ucla_80521_DICT_origcopy_v1.csv,phs002544
+chills,Symptoms,radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,rad_018_778-01_ucla_80521_DICT_origcopy_v1.csv,phs002544
+diarrhea,Symptoms,radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minumum CDE,rad_018_778-01_ucla_80521_DICT_origcopy_v1.csv,phs002544
+hospitalization,Medical History,radio,Hospitalization due to COVID-19,"1, Yes | 0, No",,,,,,,,rad_018_778-01_ucla_80521_DICT_origcopy_v1.csv,phs002544

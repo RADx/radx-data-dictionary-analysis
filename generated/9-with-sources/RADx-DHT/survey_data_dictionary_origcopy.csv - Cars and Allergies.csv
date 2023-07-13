@@ -1,4 +1,0 @@
-survey_name,survey_version,variable_name,label,required,datatype,value_constraints,source_file,source_directory
-Cars and Allergies,0,face_cover_while_driving,Do you wear a face covering while traveling between locations in your own car?,true,select one,Yes;No;Other,survey_data_dictionary_origcopy.csv - Cars and Allergies.csv,RADx-DHT
-Cars and Allergies,0,seasonal_allergies,Do you experience seasonal allergies?,true,select one,Yes;No;Other,survey_data_dictionary_origcopy.csv - Cars and Allergies.csv,RADx-DHT
-Cars and Allergies,0,when_seasonal_allergies,When during the year do you experience allergies? Select all that apply.,true,select any,Winter;Spring;Summer;Fall/Autumn;Other;I don’t know,survey_data_dictionary_origcopy.csv - Cars and Allergies.csv,RADx-DHT
