@@ -1,0 +1,557 @@
+Id,Label,Datatype,Enumeration
+ParticipantIdentifier,Participant Identifier,string,
+HousingCategorization,How would you define your neighborhood?,string,
+HousingOther,Please specify your type of housing,string,
+EducationGrade,Please choose the highest level of education you have completed.,string,
+Housing,What type of housing do you live in?,string,
+EmploymentStatusStudent,Student status,string,
+EmploymentStatusOther,Please specify about what you do,string,
+closecontactwhen_b,When were you in close contact with someone who tested positive for COVID-19? Baseline,string,
+PriorInfection,How many times have you tested positive for COVID-19 (0-9)?,integer,
+closecontacthousehold_b,Do you live in the same household as the person who tested positive for the COVID-19 virus? Baseline,string,
+closecontactduration_b,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Baseline,string,
+closecontact_b,Were you in close contact with someone who tested positive for COVID-19 in the past 7 days? Baseline,string,
+contactduration_b,How much time did you spend with this person? Baseline,string,
+GroupCode,Are you a member of any of the following groups?,string,
+PriorInfectionTimeframe,What is your best guess for how long ago your prior infection was?,string,
+PriorInfectionWhen,How long ago was your last COVID-19 infection?,string,
+CurrentConditionsOther,Please specify your other chronic condition,string,
+DifficultyDecisionMaking,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?",string,
+OverallHealth,"Would you say your health in general is excellent, very good, good, fair, or poor?",integer,
+ColorBlind,Are you color-blind or do you have serious difficulty seeing colors?,string,
+CigarrettesPerDay,"On average, how many cigarettes per day do you smoke?",integer,
+gender_man,Man,integer,"""1"" =[Checked]"
+gender_noans,NoAnswer,integer,"""1"" =[Checked]"
+gender_nonbin,Non-binary,integer,"""1"" =[Checked]"
+gender_trans,Transgender,integer,"""1"" =[Checked]"
+gender_woman,Woman,integer,"""1"" =[Checked]"
+race_pacisl,Native Hawaiian or Pacific Islander,integer,"""1"" =[Checked]"
+race_asian_asian,Asian,integer,"""1"" =[Checked]"
+race_asian_chinese,Chinese,integer,"""1"" =[Checked]"
+race_asian_filipino,Filipino,integer,"""1"" =[Checked]"
+race_asian_indian,Indian,integer,"""1"" =[Checked]"
+race_asian_japanese,Japanese,integer,"""1"" =[Checked]"
+race_asian_korean,Korean,integer,"""1"" =[Checked]"
+race_asian_other,Other Asian or Mix,integer,"""1"" =[Checked]"
+race_asian_vietnamese,Vietnamese,integer,"""1"" =[Checked]"
+pacisl_nathaw,Native Hawaiian,integer,"""1"" =[Checked]"
+cond_SeriousMentalIllness,Serious Mental Illness,integer,"""1"" =[Checked]"
+elig_smp_cough,Cough at Eligibility Screen,integer,
+elig_smp_body_aches,Muscle or body aches at Eligibility Screen,integer,
+elig_smp_loss_smell,New loss of taste or smell at Eligibility Screen,integer,
+elig_smp_other,Other Symptoms at Eligiblity Screen,integer,
+Vaccinated,Vaccination status at Baseline,integer,"""0"" =[Unvaccinated]|""1"" =[Vaccinated]"
+devicenum,RADx Device Number,string,
+VaccineRecordDose3Company_elig,Which companys vaccine did you receive as your third dose? Eligibility Screen,string,
+VaccineRecordDoses_elig,How many vaccine doses have you recieved? Eligibility Screen,integer,
+VaccineRecordDose4Company_elig,Which companys vaccine did you receive as your fourth dose? Eligibility Screen,string,
+VaccineRecord_elig,Have you ever received a COVID-19 vaccine?,string,
+VaccineRecordDose1Date_elig,Date of first COVID-19 Vaccine Eligibility Screen,date,
+VaccineRecordDose2Company_elig,Which companys vaccine did you receive as your second dose? Eligibility Screen,string,
+VaccineRecordDose3Date_elig,Date of third COVID-19 Vaccine Eligibility Screen,date,
+VaccineRecordDose2Date_elig,Date of second COVID-19 Vaccine Eligibility Screen,date,
+VaccineIntent_elig,Do you intend to receive a vaccine for COVID-19? Eligibility Screen,string,
+VaccineRecordDose1Company_elig,Which companys vaccine did you receive as your first dose? Eligibility Screen,string,
+SetParticipantType,Type of Participant (Adult or Child),string,
+VaccineRecordDose4Date_elig,Date of fourth COVID-19 Vaccine Eligibility Screen,date,
+HearAbout,How did you find out about this study?,string,
+Useful_SignUp,How useful were The instructions to sign up for the study (scale 1-5),integer,
+Useful_Alerts,How useful were The Alerts from the app for study activities (scale 1-5),integer,
+Useful_AppInstructions,How useful were The instructions within the app for completing the study activities (scale 1-5),integer,
+Useful_TextMessages,How useful were The text messages from study staff reminding you to do study activities (scale 1-5),integer,
+Useful_Support,How useful was live support from the study staff through the hotline (scale 1-5),integer,
+Useful_PhoneCalls,How useful were The phone calls from study staff reminding you to do study activities (scale 1-5),integer,
+Useful_TestShipment,How useful were The experience of receiving tests delivered to your home (scale 1-5),integer,
+EnrollmentDt,Enrollment Date,date,
+otc_result,OTC RESULT Study Day 1,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 1",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 1,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 1,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 1,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 1,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 1,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 1",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 1,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 1,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 1,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 1",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 1,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 1,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 1,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 1,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 1,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 1,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 1,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 1",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 1",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 1",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 1,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 1,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 1",string,
+roche_result,ROCHE RESULT Study Day 1,string,
+orf_gene,ORF CT Value Study Day 1,decimal,
+ngene,N gene CT Value Study Day 1,decimal,
+testingdate,Testing and Study Date 1,date,
+otc_result,OTC RESULT Study Day 2,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 2",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 2,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 2,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 2,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 2,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 2,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 2",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 2,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 2,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 2,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 2",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 2,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 2,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 2,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 2,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 2,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 2,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 2,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 2",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 2",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 2",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 2,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 2,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 2",string,
+roche_result,ROCHE RESULT Study Day 2,string,
+orf_gene,ORF CT Value Study Day 2,decimal,
+ngene,N gene CT Value Study Day 2,decimal,
+testingdate,Testing and Study Date 2,date,
+otc_result,OTC RESULT Study Day 3,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 3",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 3,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 3,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 3,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 3,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 3,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 3",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 3,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 3,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 3,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 3",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 3,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 3,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 3,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 3,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 3,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 3,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 3,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 3",string,
+Cough_StartTime,Cough Day Symptoms Started Study Day 3,string,
+Fever_StartTime,Fever  Day Symptoms Started Study Day 3,string,
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 3",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 3",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 3",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+roche_result,ROCHE RESULT Study Day 3,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+orf_gene,ORF CT Value Study Day 3,decimal,
+ngene,N gene CT Value Study Day 3,decimal,
+testingdate,Testing and Study Date 3,date,
+otc_result,OTC RESULT Study Day 4,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 4",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 4,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 4,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 4,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 4,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 4,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 4",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 4,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 4,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 4,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 4",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 4,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 4,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 4,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 4,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 4,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 4,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 4,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 4",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 4",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 4",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 4,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 4,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 4",string,
+roche_result,ROCHE RESULT Study Day 4,string,
+orf_gene,ORF CT Value Study Day 4,decimal,
+ngene,N gene CT Value Study Day 4,decimal,
+testingdate,Testing and Study Date 4,date,
+otc_result,OTC RESULT Study Day 5,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 5",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 5,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 5,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 5,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 5,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 5,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 5",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 5,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 5,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 5,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 5",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 5,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 5,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 5,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 5,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 5,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 5,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 5,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 5",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 5",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 5",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 5,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 5,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 5",string,
+roche_result,ROCHE RESULT Study Day 5,string,
+orf_gene,ORF CT Value Study Day 5,decimal,
+ngene,N gene CT Value Study Day 5,decimal,
+testingdate,Testing and Study Date 5,date,
+otc_result,OTC RESULT Study Day 6,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 6",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 6,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 6,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 6,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 6,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 6,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 6",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 6,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 6,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 6,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 6",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 6,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 6,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 6,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 6,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 6,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 6,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 6,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 6",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 6",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 6",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 6,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 6,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 6",string,
+roche_result,ROCHE RESULT Study Day 6,string,
+orf_gene,ORF CT Value Study Day 6,decimal,
+ngene,N gene CT Value Study Day 6,decimal,
+testingdate,Testing and Study Date 6,date,
+otc_result,OTC RESULT Study Day 7,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 7",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 7,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 7,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 7,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 7,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 7,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 7",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 7,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 7,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 7,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 7",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 7,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 7,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 7,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 7,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 7,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 7,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 7,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 7",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 7",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 7",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 7,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 7,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 7",string,
+roche_result,ROCHE RESULT Study Day 7,string,
+orf_gene,ORF CT Value Study Day 7,decimal,
+ngene,N gene CT Value Study Day 7,decimal,
+testingdate,Testing and Study Date 7,date,
+otc_result,OTC RESULT Study Day 8,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 8",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 8,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 8,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 8,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 8,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 8,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 8",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 8,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 8,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 8,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 8",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 8,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 8,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 8,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 8,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 8,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 8,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 8,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 8",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 8",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 8",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 8,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 8,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 8",string,
+roche_result,ROCHE RESULT Study Day 8,string,
+orf_gene,ORF CT Value Study Day 8,decimal,
+ngene,N gene CT Value Study Day 8,decimal,
+testingdate,Testing and Study Date 8,date,
+otc_result,OTC RESULT Study Day 9,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 9",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 9,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 9,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 9,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 9,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 9,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 9",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 9,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 9,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 9,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 9",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 9,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 9,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 9,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 9,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 9,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 9,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 9,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 9",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 9",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 9",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 9,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 9,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 9",string,
+roche_result,ROCHE RESULT Study Day 9,string,
+orf_gene,ORF CT Value Study Day 9,decimal,
+ngene,N gene CT Value Study Day 9,decimal,
+testingdate,Testing and Study Date 9,date,
+otc_result,OTC RESULT Study Day 10,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 10",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 10,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 10,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 10,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 10,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 10,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 10",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 10,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 10,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 10,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 10",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 10,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 10,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 10,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 10,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 10,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 10,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 10,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 10",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 10",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 10",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 10,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 10,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 10",string,
+roche_result,ROCHE RESULT Study Day 10,string,
+orf_gene,ORF CT Value Study Day 10,decimal,
+ngene,N gene CT Value Study Day 10,decimal,
+testingdate,Testing and Study Date 10,date,
+otc_result,OTC RESULT Study Day 11,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 11",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 11,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 11,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 11,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 11,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 11,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 11",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 11,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 11,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 11,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 11",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 11,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 11,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 11,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 11,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 11,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 11,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 11,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 11",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 11",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 11",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 11,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 11,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 11",string,
+roche_result,ROCHE RESULT Study Day 11,string,
+orf_gene,ORF CT Value Study Day 11,decimal,
+ngene,N gene CT Value Study Day 11,decimal,
+testingdate,Testing and Study Date 11,date,
+otc_result,OTC RESULT Study Day 12,string,
+smp_nausea,"Feeling sick to your stomach, nausea, vomiting, or diarrhea Study Day 12",boolean,"""1"" =[Checked]"
+smp_fever,Fever or Chills Study Day 12,boolean,"""1"" =[Checked]"
+smp_headache,Headache Study Day 12,boolean,"""1"" =[Checked]"
+smp_body_aches,Muscle or body aches Study Day 12,boolean,"""1"" =[Checked]"
+smp_loss_smell,New loss of taste or smell Study Day 12,boolean,"""1"" =[Checked]"
+smp_rash,Rash Study Day 12,boolean,"""1"" =[Checked]"
+smp_sob,"Shortness of breath, difficulty breathing or chest discomfort Study Day 12",boolean,"""1"" =[Checked]"
+smp_other,Other Symptoms Study Day 12,boolean,"""1"" =[Checked]"
+smp_none,No Symptoms Study Day 12,boolean,"""1"" =[Checked]"
+smp_abd_pain,Abdominal pain Study Day 12,boolean,"""1"" =[Checked]"
+smp_runny_nose,"Congestion, sore throat, runny nose Study Day 12",boolean,"""1"" =[Checked]"
+smp_cough,Cough Study Day 12,boolean,"""1"" =[Checked]"
+smp_fatigue,Fatigue Study Day 12,boolean,"""1"" =[Checked]"
+CloseContactWhen,When were you in close contact with someone who tested positive for COVID-19? Study Day 12,string,
+CloseContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 12,string,
+ContactDuration,How much time did you spend within 6 feet of the person who tested positive for the COVID-19 virus? Study Day 12,string,
+CloseContactHousehold,Do you live in the same household as the person who tested positive for the COVID-19 virus? Study Day 12,string,
+ExpertReadResult,Coordinator Interpretation of OTC Test Study Day 12,string,
+Nausea_StartTime,"Feeling sick to your stomach, vomiting Day Symptoms Started Study Day 12",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Cough_StartTime,Cough Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fever_StartTime,Fever  Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Congestion_StartTime,"Congestion, sore throat, runny nose Day Symptoms Started Study Day 12",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+LossSmellTaste_StartTime,New loss of taste or smell Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Headache_StartTime,Headache Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Fatigue_StartTime,Fatigue Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Other_StartTime,Other Symptoms Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Conjunctivitis_StartTime,Conjuctivitis  Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+ShortnessOfBreath_StartTime,"Shortness of breath, difficulty breathing or chest discomfort Day Symptoms Started Study Day 12",string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+BodyAche_StartTime,Muscle or body aches Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Chills_StartTime,Chills  Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+AbdominalPain_StartTime,Abdominal pain Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+NoSymptoms_StartTime,How long have you been without symptoms? Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+Diarrhea_StartTime,Diarrhea Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+SkinRash_StartTime,Rash Day Symptoms Started Study Day 12,string,"0=[Today] |""1""=[1 day ago]|""2""=[2 days ago]|""3""=[3 days ago]|""4""=[4 days ago]|""5""=[5 days ago]|""6""=[6 days ago]|""7""=[7 days ago]|""8-14""=[8-14 days ago]|""14+""=[More than 14 days ago]"
+recentpositivetestlocation,Was your positive COVID-19 test result from a test you used in this study? Study Day 12,string,
+recentpositivetest,"In the past 7 days, have you tested positive for COVID-19? Study Day 12",string,
+roche_result,ROCHE RESULT Study Day 12,string,
+orf_gene,ORF CT Value Study Day 12,decimal,
+ngene,N gene CT Value Study Day 12,decimal,
+testingdate,Testing and Study Date 12,date,

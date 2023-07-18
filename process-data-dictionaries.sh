@@ -23,33 +23,34 @@ dd strip --in $outdir/0-extracted --out $outdir/1-stripped
 
 dd collapse --in  $outdir/1-stripped --out $outdir/2-collapsed --key-field-name question_name --key-field-regex "^([^\-]+)\-\d+" --key-field-regex-group 1
 
-#dd collapse --in  $outdir/2-collapsed --out $outdir/2-collapsed --key-field-name Id --key-field-regex "^(([a-zA-Z0-9]|_[a-zA-Z0-9])+)___\d+" --key-field-regex-group 1
-
 dd fill-down --in $outdir/2-collapsed --out $outdir/3-filled --field-names survey_name,survey_version,"Section Header"    
 
 dd replace-field-names --in $outdir/3-filled --out $outdir/4-mapped   --mapping-file field-name-synonyms.csv         
 
-dd drop-tier-1-fields --in $outdir/4-mapped --out $outdir/5-filtered --id-field Id
+dd collapse --in $outdir/4-mapped --out $outdir/5-collapsed --key-field-name Id,Label --key-field-regex "(.*?)(_+\d+$)",".*" --key-field-regex-group 1,0 --delimeter " $ " --separator ","
 
-dd transform --in $outdir/5-filtered --out $outdir/6-normalized --lowercase --collapse-white-space --field-names required,Id,Datatype,Units 
 
-dd split --in $outdir/6-normalized --out $outdir/7-split  --field-names survey_name
+dd drop-tier-1-fields --in $outdir/5-collapsed --out $outdir/6-filtered --id-field Id
 
-dd retain-max-rows --in $outdir/7-split --out $outdir/8-deduped --field-names survey_version
+dd transform --in $outdir/6-filtered --out $outdir/7-normalized --lowercase --collapse-white-space --field-names required,Id,Datatype,Units 
 
-dd filter --in $outdir/8-deduped --out $outdir/9-non-blank-variable-names --field-value-filter Id=.+
+dd split --in $outdir/7-normalized --out $outdir/8-split  --field-names survey_name
 
-dd append-source --in $outdir/9-non-blank-variable-names --out $outdir/10-with-sources  
+dd retain-max-rows --in $outdir/8-split --out $outdir/9-deduped --field-names survey_version
 
-dd merge --in $outdir/10-with-sources --out $outdir/11-merged/merged/merged.csv  --distinct
+dd filter --in $outdir/9-deduped --out $outdir/10-non-blank-variable-names --field-value-filter Id=.+
 
-st join --csv-file $outdir/11-merged/merged/merged.csv --field-id "source_directory" --out $outdir/11-merged/merged/merged.csv
+dd append-source --in $outdir/10-non-blank-variable-names --out $outdir/11-with-sources  
 
-dd drop-duplicates --in $outdir/11-merged --out $outdir/12-deduped --fields Id,Label,Program
+dd merge --in $outdir/11-with-sources --out $outdir/12-merged/merged/merged.csv  --distinct
 
-dd append-global-code-book --in $outdir/12-deduped --out $outdir/13-with-gcb
+st join --csv-file $outdir/12-merged/merged/merged.csv --field-id "source_directory" --out $outdir/12-merged/merged/merged.csv
 
-dd append-digest --in $outdir/13-with-gcb   --out $outdir/14-with-digests --field-names Id,source_file,source_directory
+dd drop-duplicates --in $outdir/12-merged --out $outdir/13-deduped --fields Id,Label,Program
+
+dd append-global-code-book --in $outdir/13-deduped --out $outdir/14-with-gcb
+
+dd append-digest --in $outdir/14-with-gcb   --out $outdir/15-with-digests --field-names Id,source_file,source_directory
 
 
 # dd retain-fields --in $latestversions --out $outdir/variable_names --field-names variable_name,label

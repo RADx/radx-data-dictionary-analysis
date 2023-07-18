@@ -1,0 +1,120 @@
+Id,Label,Datatype,Enumeration
+user_id,User ID,decimal,
+site,Site,string,
+research_test,Research Test Assigned,integer,
+standard_result,Standard Test Result,integer,"""0""=[Negative For Covid 19]|""1""=[Positive For Covid 19]|""77""=[Inconclusive]|""88""=[No Result]"
+standard_form_dt,Standard Form Date,datetime,
+research_datetime,Research Test Date,datetime,
+standard_datetime,At what date and time was the Standard Test administered?,datetime,
+stand_performed,The test sample collection was performed by:,integer,"""1""=[Study Staff]|""2""=[The Participant, Supervised By Study Staff]|""10""=[Parent/Guardian]|""11""=[Pediatric Participant]"
+stand_method,What was the sample collection method of the Standard Test?,integer,"""1""=[Anterior Nares]|""2""=[Saliva]|""3""=[Mid-Turbinate]|""4""=[Nasopharyngeal]|""99""=[Other]"
+stand_location,What was the sample collection location of the Standard Test?,integer,"""1""=[Left]|""2""=[Right]|""3""=[Both]|""99""=[Other]"
+stand_concerns,Are there any concerns about the test sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+stand_adverse_event,Did any adverse events occur during the research test sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+stand_adverse_attrib,Was any adverse event attributable to research?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+stand_result_time,What is the date and time of results?,datetime,
+performed_lab,What was the time the test was performed by the lab?,datetime,
+internal_flags,"Were there any internal flag samples or machine issues? (e.g. power outage, spills, dry wells, carrier over contamination identified or human errors.)",integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+internal_flags_desc,Please describe the internal flags or machine issues.,string,
+internal_cont_res,Were there any internal control results including cycle threshold?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+int_cont_result,What was the internal control result?,string,
+stand_qs_result,"What was the Quantitation Standard Result, if applicable?",string,
+stand_d_result,"What was the D testing result, if applicable?",string,
+stand_cycle_time,What is the cycle threshold value?,string,
+stand_cycle_time_ind,Were there cycle threshold values reported for individual targets?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+stand_cycle_time_tar,What were the cycle thresholds for each target?,string,
+frequent,I think that I would like to use this system frequently.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+complex,I found the system unnecessarily complex.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+easy,I thought the system was easy to use.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+technical,I think that I would need the support of a technical person to be able to use this system.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+integrated,I found the various functions in this system were well integrated.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+quick,I would imagine that most people would learn to use this system very quickly.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+cumbersome,I found the system very cumbersome to use.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+confident,I felt very confident using the system.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+learn,I needed to learn a lot of things before I could get going with this system.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+promoter,Would you recommend this system to someone else?,integer,"""1""=[Definitely Yes]|""2""=[Probably Yes]|""3""=[Unsure]|""4""=[Probably Not]|""5""=[Definitely Not]"
+inconsistency,I thought there was too much inconsistency in this device.,integer,"""1""=[Strongly Disagree]|""2""=[Disagree]|""3""=[Neutral]|""4""=[Agree]|""5""=[Strongly Agree]"
+covid_vax,Have you ever received a COVID-19 (SARS-CoV-2) vaccine?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+covid_vax_co,Which companys COVID-19 vaccine did you receive?,integer,"""1""=[Astrazeneca]|""2""=[Janssen]|""3""=[Moderna]|""4""=[Novavax]|""5""=[Pfizer]|""77""=[Dont Know]|""99""=[Other]"
+covid_vax_doses,How many vaccine doses have you received?,integer,
+covid_vax_date_dose1,What was the date of your first COVID-19 vaccine (OK to guess if unsure)?,datetime,
+covid_vax_date_dose2,What was the date of your second COVID-19 vaccine (OK to guess if unsure)?,datetime,
+covid_tx_prev,Have you previously received any of the following treatments for COVID-19?,integer,"""0""=[I Have Never Received A Treatment For Covid-19]|""1""=[Dexamethasone]|""2""=[Remdesivir (Veklury)]|""3""=[Casirivimab & Imdevimab (Regn-Cov2)]|""4""=[Bamlanivimab (Ly-Cov555)]|""5""=[Monoclonal Antibodies (Antibodies Made In A Laboratory)]|""6""=[Convalescent Plasma (Antibodies Collected From People)]|""77""=[I Have Received A Treatment For Covid-19, But I Do Not Know The Name]|""99""=[Other Therapy Specifically Treating Covid-19]"
+covid_tx_curr,Are you currently receiving any of the following treatments for COVID-19?,integer,"""0""=[I Am Not Currently Receiving A Therapy For Covid-19]|""1""=[Dexamethasone]|""2""=[Remdesivir (Veklury)]|""3""=[Casirivimab & Imdevimab (Regn-Cov2)]|""4""=[Bamlanivimab (Ly-Cov555)]|""5""=[Monoclonal Antibodies (Antibodies Made In A Laboratory)]|""6""=[Convalescent Plasma (Antibodies Collected From People)]|""77""=[I Am Currently Receiving A Treatment For Covid-19, But I Do Not Know The Name]|""99""=[Other Therapy Specifically Treating Covid-19]"
+known_exposure,"In the past two weeks, have you been in close contact (within 6 feet for more than 15 minutes) with anyone who recently (within 1 week of your exposure) tested positive for COVID-19 virus?",integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+known_exposure_days,How many days ago were you exposed to someone who recently tested positive for the COVID-19 virus?,decimal,
+standard_test,Standard Test Assigned,integer,
+sus_score,SUS Score,integer,
+covid_vax_co2,Which companys COVID-19 booster vaccine did you receive?,integer,"""1""=[Astrazeneca]|""2""=[Janssen]|""3""=[Moderna]|""4""=[Novavax]|""5""=[Pfizer]|""77""=[Dont Know]|""99""=[Other]"
+covid_vax_co3,Which companys COVID-19 second booster vaccine did you receive?,integer,"""1""=[Astrazeneca]|""2""=[Janssen]|""3""=[Moderna]|""4""=[Novavax]|""5""=[Pfizer]|""77""=[Dont Know]|""99""=[Other]"
+household_sx_past_48_hrs,"IN THE PAST 48 HOURS, has ANYONE (other than you) in your household had ANY of those symptoms?",integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+ASSAY,PCR Assay used,string,
+stand_tar1,Standard Target 1,integer,
+stand_tar2,Standard Target 2,integer,
+vb_sample_success,Was the VENOUS BLOOD sample collection successful?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+sal_sample_success,Was the SALIVA sample collection successful?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+dbs_sample_success,Was the DRIED BLOOD SPOT sample collection successful?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+mt_sample_success,Was the MID-TURBINATE sample collection successful?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+np_sample_success,Was the NASOPHARYNGEAL sample collection successful?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+why_dbs_samp_not_collec,Why was the DRIED BLOOD SPOT Research Test collection not successful?,integer,
+dbs_performed,The DRIED BLOOD SPOT sample collection was performed by:,integer,"""1""=[Study Staff]|""2""=[The Participant, Supervised By Study Staff]|""10""=[Parent/Guardian]|""11""=[Pediatric Participant]"
+dbs_time,At what date and time was the DRIED BLOOD SPOT sample collected?,datetime,
+dbs_location,What was the sample collection location of the DRIED BLOOD SPOT Research Test?,integer,"""1""=[Left Thumb]|""2""=[Right Thumb]|""3""=[Left Index Finger]|""4""=[Right Index Finger]|""5""=[Left Middle Finger]|""6""=[Right Middle Finger]|""7""=[Left Ring Finger]|""8""=[Right Ring Finger]|""9""=[Left Pinky Finger]|""10""=[Right Pinky Finger]|""99""=[Other]"
+dbs_concern,Were there any concerns about the DRIED BLOOD SPOT sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+mt_performed,The MID-TURBINATE sample collection was performed by:,integer,"""1""=[Study Staff]|""2""=[The Participant, Supervised By Study Staff]|""10""=[Parent/Guardian]|""11""=[Pediatric Participant]"
+mt_time,At what date and time was the MID-TURBINATE sample collected?,datetime,
+mt_location,What was the sample collection location of the MID-TURBINATE Research Test?,integer,"""1""=[Left]|""2""=[Right]|""3""=[Both]|""99""=[Other]"
+mt_medium,What type of transport medium is in the tube that the MID-TURBINATE swab was placed in?,integer,"""1""=[Dry (No Transport Medium)]|""2""=[Vtm]|""3""=[Saline]|""4""=[Ethanol]|""5""=[Utm]|""99""=[Other]"
+mt_medium_oth,What was the other medium in the tube that the MID-TURBINATE swab was placed in?,integer,
+mt_concern,Were there any concerns about the MID-TURBINATE sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+np_performed,The NASOPHARYNGEAL sample collection was performed by:,integer,"""1""=[Study Staff]|""2""=[The Participant, Supervised By Study Staff]|""10""=[Parent/Guardian]|""11""=[Pediatric Participant]"
+np_time,At what date and time was the NASOPHARYNGEAL sample collected?,datetime,
+np_location,What was the sample collection location of the NASOPHARYNGEAL Research Test?,integer,"""1""=[Left]|""2""=[Right]|""3""=[Both]|""99""=[Other]"
+np_medium,What type of transport medium is in the tube that the NASOPHARYNGEAL swab was placed in?,integer,"""1""=[Dry (No Transport Medium)]|""2""=[Vtm]|""3""=[Saline]|""4""=[Ethanol]|""5""=[Utm]|""99""=[Other]"
+np_medium_oth,What was the other medium in the tube that the NASOPHARYNGEAL swab was placed in?,integer,
+np_concern,Were there any concerns about the NASOPHARYNGEAL sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+sal_performed,The SALIVA sample collection was performed by:,integer,"""1""=[Study Staff]|""2""=[The Participant, Supervised By Study Staff]|""10""=[Parent/Guardian]|""11""=[Pediatric Participant]"
+sal_time,At what date and time was the SALIVA sample collected?,datetime,
+sal_concern,Were there any concerns about the SALIVA sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+vb_time,At what date and time was the VENOUS BLOOD sample collected?,datetime,
+vb_location,What was the sample collection location of the VENOUS BLOOD Research Test?,integer,"""1""=[Left Antecubital]|""2""=[Right Antecubital]|""3""=[Left Arm]|""4""=[Right Arm]|""5""=[Left Hand]|""6""=[Right Hand]|""99""=[Other]"
+vb_type_tube_green,Which blood collection tubes were used? Light green top tube (lithium heparin),boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+vb_type_tube_gold,Which blood collection tubes were used? Gold top tube (serum separator),boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+vb_type_tube_red,Which blood collection tubes were used? Red top tube (serum separator),boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+vb_type_tube_oth,Which blood collection tubes were used? Other,boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+vb_count_tube_green,How many LIGHT GREEN top tubes were collected?,integer,
+vb_count_tube_gold,How many GOLD top tubes were collected?,integer,
+vb_count_tube_red,How many RED top tubes were collected?,integer,
+vb_type_tube_oth_specify,What was the other tube type?,integer,
+vb_count_tube_oth,How many OTHER tubes were collected?,integer,
+vb_volume,What was the approximate volume of blood collected? (ml),integer,
+vb_concern,Were there any concerns about the VENOUS BLOOD sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+an_performed,The ANTERIOR NARES sample collection was performed by:,integer,"""1""=[Study Staff]|""2""=[The Participant, Supervised By Study Staff]|""10""=[Parent/Guardian]|""11""=[Pediatric Participant]"
+an_time,At what date and time was the ANTERIOR NARES sample collected?,datetime,
+an_location,What was the sample collection location of the ANTERIOR NARES Research Test?,integer,"""1""=[Left]|""2""=[Right]|""3""=[Both]|""99""=[Other]"
+an_medium,What type of transport medium is in the tube that the ANTERIOR NARES swab was placed in?,integer,"""1""=[Dry (No Transport Medium)]|""2""=[Vtm]|""3""=[Saline]|""4""=[Ethanol]|""5""=[Utm]|""99""=[Other]"
+an_concern,Were there any concerns about the ANTERIOR NARES sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+abc_performed,The ARM BASED CAPILLARY sample collection was performed by:,integer,"""1""=[Study Staff]|""2""=[The Participant, Supervised By Study Staff]|""10""=[Parent/Guardian]|""11""=[Pediatric Participant]"
+abc_time,At what date and time was the ARM BASED CAPILLARY sample collected?,datetime,
+abc_location,What was the sample collection location of the ARM BASED CAPILLARY Research Test?,integer,"""1""=[Left]|""2""=[Right]|""3""=[Both]|""99""=[Other]"
+abc_concern,Were there any concerns about the ARM BASED CAPILLARY sample collection?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+covid_vax_date_dose3,What was the date of your third COVID-19 vaccine (OK to guess if unsure)?,datetime,
+stand_adverse_what,What adverse event(s) occurred? Epistaxis (nose bleed),boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+stand_adverse_what,What adverse event(s) occurred? Nasal pain,boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+stand_adverse_what,What adverse event(s) occurred? Headache,boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+stand_adverse_what,What adverse event(s) occurred? Ear discomfort,boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+stand_adverse_what,What adverse event(s) occurred? Rhinorrhea (runny nose),boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+stand_adverse_what,What adverse event(s) occurred? Other,boolean,""".""=[Unchecked]|""0""=[Unchecked]|""1""=[Checked]"
+adverse_what,What adverse event occurred?,integer,"""1""=[Epistaxis (Nose Bleed)]|""2""=[Nasal Pain]|""3""=[Headache]|""4""=[Ear Discomfort]|""5""=[Rhinorrhea (Runny Nose)]|""6""=[Vomiting]|""7""=[Excessive Bleeding (Dried Blood Spot)]|""8""=[Nausea]|""9""=[Fainting]|""10""=[Dizziness]|""11""=[Diaphoresis (Excessive Sweating)]|""12""=[Vasovagal Reaction]|""99""=[Other]"
+date_start,Date that the adverse event started?,datetime,
+date_end,Date that the adverse event ended?,datetime,
+severity,What was the level of severity of this adverse event?,integer,"""1""=[Mild]|""2""=[Moderate]|""3""=[Severe]"
+action_taken,What was the action taken?,integer,"""0""=[None]|""1""=[Study Intervention Stopped]|""99""=[Other]"
+attribution,Was this adverse event attributable to research?,integer,"""0""=[Unrelated]|""1""=[Unlikely]|""2""=[Possible]|""3""=[Probable]|""4""=[Definite]"
+outcome,What was the outcome?,integer,"""1""=[Recovered]|""2""=[Ongoing]"
+expected,Was this adverse event expected?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+serious,Was this adverse event serious?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+dev_risk,Did the deviation put the participant at risk and/or negatively affect primary study aims?,integer,"""0""=[No]|""1""=[Yes]|""77""=[Dont Know]|""88""=[Refused/Na]|""99""=[Other]"
+dev_date_occured,Date that the deviation occurred?,datetime,
+dev_date_noted,Date that the deviation was noted?,datetime,
+stand_cycle_time,What is the cycle threshold value?,integer,

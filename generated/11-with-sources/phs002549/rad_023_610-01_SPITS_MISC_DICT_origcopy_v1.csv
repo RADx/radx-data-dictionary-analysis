@@ -1,0 +1,290 @@
+Id,Section,ui,Label,Enumeration,Notes,pattern,min,max,branching_logic,Unit,CDE Reference,form_name,source_file,source_directory
+study_id,,text,Study ID,,,,,,,,RADx-rad Minimum CDE,form_1,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chills,"Symptoms ",radio,Chills,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE,form_1,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+diarrhea,"Symptoms ",radio,Diarrhea,"1, Yes | 0, No",,,,,,,RADx-rad Minimum CDE,form_1,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+vital signs (vs),"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+date of ed visit,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+date and time of vs,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+day of hospitalization,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+temperature in centigrade,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+heart rate/min,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+respiratory rate/min,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+systolic bp mmhg,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+diastolic bp mmhg,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pulse ox in percent,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+weight in kg,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+labs,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+day of hospitalization,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+date and time of order,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+wbc,"Symptoms ",,,,,,,,,K/CUMM,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+absolute lymphocyte count,"Symptoms ",,,,,,,,,K/CUMM,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+absolute neutrophil count,"Symptoms ",,,,,,,,,K/CUMM,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+hemoglobin,"Symptoms ",,,,,,,,,gm/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+platelets,"Symptoms ",,,,,,,,,K/CUMM,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+d dimer,"Symptoms ",,,,,,,,,mg/L FEU,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+esr,"Symptoms ",,,,,,,,,mm/hr,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pt,"Symptoms ",,,,,,,,,Second(s),,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+ptt,"Symptoms ",,,,,,,,,Second(s),,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+inr,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+fibrinogen,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+crp,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+albumin,"Symptoms ",,,,,,,,,gms.dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+alt,"Symptoms ",,,,,,,,,Units/Liter,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+ast,"Symptoms ",,,,,,,,,Units/Liter,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+bilirubin,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+ferritin,"Symptoms ",,,,,,,,,ng/mL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+ldh,"Symptoms ",,,,,,,,,Units/Liter,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+cpk,"Symptoms ",,,,,,,,,Units/Liter,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+serum sodium,"Symptoms ",,,,,,,,,mMol/L,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+serum potassium,"Symptoms ",,,,,,,,,mMol/L,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+serum chloride,"Symptoms ",,,,,,,,,mMol/L,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+serum bicarbonate,"Symptoms ",,,,,,,,,mMol/L,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+blood urea nitrogen,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+creatinine,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+serum glucose,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+troponin,"Symptoms ",,,,,,,,,ng/L,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+brain natriuretic peptide,"Symptoms ",,,,,,,,,pg/mL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+capillary blood gas ph,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+capillary blood gas pco2,"Symptoms ",,,,,,,,,mmHg,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+capillary blood gas po2,"Symptoms ",,,,,,,,,mmHg,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+capillary blood gas base excess,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+capillary blood gas hco3,"Symptoms ",,,,,,,,,mEq/L,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+capillary blood gas lactate,"Symptoms ",,,,,,,,,mmol/L,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+csf nucleated cell count,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+csf rbc,"Symptoms ",,,,,,,,,cells/CUMM,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+csf protein,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+csf glucose,"Symptoms ",,,,,,,,,mg/dL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine ph,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine specific gravity,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine glucose,"Symptoms ",radio,,1= Negative 2= Positive,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine protein,"Symptoms ",radio,,1= Negative 2= Positive,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine leukocyte esterase,"Symptoms ",radio,,1= Negative 2= Positive ( Trace/1+/2+ and 3+),,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine nitrite,"Symptoms ",radio,,1= Negative 2= Positive,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine red cell count/hpf,"Symptoms ",radio,,"1= < 5, 2= 5-10 , 3= >10-50 4= >50",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine white cell count/hpf,"Symptoms ",radio,,"1= < 5, 2= 5-10 , 3= >10-20 4= >20-50 5= >50-100 ",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+blood culture,"Symptoms ",radio,," 1= Negative 2= Positive",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+blood culture result if positive,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+csf culture,"Symptoms ",radio,," 1= Negative 2= Positive",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+csf culture result if positive,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine culture,"Symptoms ",radio,," 1= Negative 2= Positive",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+urine culture result if positive,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid 19 antibody,"Symptoms ",radio,,"1= Negative, 2= Positive (>0.05)",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+il6,"Symptoms ",,,,,,,,,pg/mL,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+lab normal values,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+imaging,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+imaging,"Symptoms ",radio,,1= Normal 2= Abnormal,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+day of hospitalization,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+date,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+time,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+result,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+impression,"Symptoms ",radio,,"1=Normal 2= Abnormal ",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+ejection fraction in %,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+lv dysfunction,"Symptoms ",radio,,0= Normal function 1= mild dysfunction 2= moderate dysfunction 3= severe dysfunction,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+disposition,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+admitted,"Symptoms ",radio,,0=No 1= yes,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+type of admission,"Symptoms ",radio,,"1, < 24 hours | 2, Full admit | 3, PICU | 4, Transferred",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+admit diagnosis,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+date of admission,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+time of admission,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+date of discharge,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+death,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+los in hospital in days,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+severe illness,"Symptoms ",radio,,0=No 1= yes,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+return visit date,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+medications,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+respiratory medication (albuterol/duoneb),"Symptoms ",radio,,"0= None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pressor 1,"Symptoms ",radio,,"0= None, 1= Epineprhine, 2= Nor epinephrine, 3= Dopamine, 4= Dobutamine, 6= Milrinone, 7= Vasopressin, 8- epi + milrinone",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pressor 2,"Symptoms ",radio,,"0= None, 1= Epineprhine, 2= Nor epinephrine, 3= Dopamine, 4= Dobutamine, 6= Milrinone, 7= Vasopressin, 8- epi + milrinone",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pressor 3,"Symptoms ",radio,,"0= None, 1= Epineprhine, 2= Nor epinephrine, 3= Dopamine, 4= Dobutamine, 6= Milrinone, 7= Vasopressin, 8- epi + milrinone",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+steroid 1,"Symptoms ",radio,,"0= None, 1= Hydrocortisone, 2= Methylprednisolone, 3= Dexamethasone, 4= Prednisolone",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+steroid 2,"Symptoms ",radio,," 0= None, 1= Hydrocortisone, 2= Methylprednisolone, 3= Dexamethasone, 4= Prednisolone",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+steroid 3,"Symptoms ",radio,,"0= None,  1= Hydrocortisone, 2= Methylprednisolone, 3= Dexamethasone, 4= Prednisolone",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+remdesivir,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+ivig,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+number of doses of ivig,"Symptoms ",radio,,"1, 2, 3",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+aspirin,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+anticoagulation,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+tocilizumab,"Symptoms ",radio,,"0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+anakinra,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+infliximab,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+antibiotic - ceftriaxone,"Symptoms ",radio,,"0= None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+antibiotic - cefepime,"Symptoms ",radio,,"0= None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+antibiotic - clindamycin,"Symptoms ",radio,,"0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+antibiotic -vancomycin,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+antibiotic -meropenem,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+antibiotic- flagyl,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+antibiotic-azithromycin,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+other meds,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+interventions,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+oxygen- non invasive (highest),"Symptoms ",radio,,"0= None, 1= nasal cannula, 2= face mask, 3= BIPAP/CPAP,4=high flow, 5= NIPPV",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+mechanical ventilation,"Symptoms ",radio,,"0= No, 1 =Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+ecmo,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+redcap data,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+immunizations_utd,"Symptoms ",radio,,"1, Yes | 0, No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+flu_vaccine,"Symptoms ",radio,,"0=No, 1=Yes,  2=DON'T KNOW",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_vaccine,"Symptoms ",radio,,"1, Yes | 0, No | 2, N/A (Not of Age)",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_asthma,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_diabetes,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_seizures,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_cardiac,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_malignancy,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_hematological,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_immunocompromised states (other than malignancy),"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_neurological,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_technology dependent disease,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_others,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pmh_other type,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_asthma,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_diabetes,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_hypertension,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_cardiac,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_seizures,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_obesity,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_not documented,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_none,"Symptoms ",radio,,"0=None, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_hx_other,"Symptoms ",radio,,"0= None, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family_other type,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_exposure,"Symptoms ",radio,,"0= None, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+contact_mother,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+contact_father,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+contact_sister,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+contact_brother,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+contact_cousin,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+contact_schoolmate,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+contact_others,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+contact_unknown,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+"covid_if other, exposure_type","Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_positive,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_test_type_rt pcr,"Symptoms ",radio,,"0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_test_type_cepheid,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_test_type_labcorp,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_test_type_serology (igg),"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_epidemiological link,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid_test_type_other outside test,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief complaint,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_fever,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_cough,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_runny nose,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_sore throat,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_abdominal pain,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_nausea/vomiting,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_diarrhea,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_rash,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_red eye,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_redness/swelling of hands and feet,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_headache,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_seizures,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_malaise,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_obesity,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_others,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+chief_complaint_other_type,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+fever_duration in days,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+physical exam,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+height_cms,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+body mass index,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_irritability,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_alertness,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_conjunctival erythema,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_strawberry_tongue,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_cracked lips,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_lymphadenopathy,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_cardiac_murmur,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_gallop,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_lungs_clear,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_abd_tenderness,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_organomegaly,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_neural_focus,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_meningeal_signs,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pe_rash,"Symptoms ",radio,,"0=No, 1= Yes, 2= Not documented",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+family strengths survey,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+lang_pref,"Symptoms ",radio,,"1= English, 2= Spanish",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+age of caretaker,"Symptoms ",radio,,"1= 18-29 years, 2= 30-44 years, 3= 45-64, 4=?65 years",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+no_of_adults,"Symptoms ",,How many adults (over the age of 18 years) live in your household (including yourself)?,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+dependent_children,"Symptoms ",,"How many dependent children (between 0-18 years old) live in your household? ",,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+age groups,"Symptoms ",,"Please choose the age groups of the children in your household. ",,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+marital_status,"Symptoms ",radio,,"1, Married | 2, Widowed | 3, Separated | 4, Divorced | 5, Never married | 6, Living with partner",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+gender_identify,"Symptoms ",radio,,"1, Male | 2, Female | 3, Non-binary/third gender | 4, Gender fluid or genderqueer | 5, Different identity | 6, Prefer not to answer",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+hispanic,"Symptoms ",radio," Do you identify as Hispanic or Latino/a/x?; ","1, Yes | 2, No | 3, Prefer not to answer",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+american indian or alaska native,"Symptoms ",radio,," 0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+black or african american,"Symptoms ",radio,,"0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+asian,"Symptoms ",radio,,"0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+white,"Symptoms ",radio,,"0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+native hawaiian / pacific islander,"Symptoms ",radio,,"0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+some other race,"Symptoms ",radio,," 0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+prefer not to answer,"Symptoms ",radio,,"0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+other_race,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+primary_language,"Symptoms ",radio," Is English the primary language spoken in your home?","0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+"food, housing and job security","Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+food_a,"Symptoms ",radio,a) We worried whether our food would run out before we got money to buy more.,"1, Often true | 2, Sometimes true | 3, Never True",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+food_b,"Symptoms ",radio,"b) The food we bought just didn't last, and we didn't have money to get more.","1, Often true | 2, Sometimes true | 3, Never True",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+type_of_housing,"Symptoms ",radio,"What is your housing situation today? What is your housing situation today? ","1= I have housing, 2= Staying with friends, 3= I do not have a house (staying in a shelter, hotel, car, staying outside on the ",,,,,,Please specify:,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+losing_your_housing,"Symptoms ",radio," Are you worried about losing your housing?","0= No, 1= yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+no_of_rooms,"Symptoms ",Integer,"How many separate rooms are in your home (house, apartment, or mobile unit)?",,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+clothing,"Symptoms ",radio," In the past month, have you or any family members you live with been unable to get any of the following when it was really needed?, ","1= Yes, 2= No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+utilities,"Symptoms ",radio," In the past month, have you or any family members you live with been unable to get any of the following when it was really needed?","1= Yes, 2= No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+phone,"Symptoms ",radio," In the past month, have you or any family members you live with been unable to get any of the following when it was really needed?","1= Yes, 2= No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+internet,"Symptoms ",radio," In the past month, have you or any family members you live with been unable to get any of the following when it was really needed?","1= Yes, 2= No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+child_care,"Symptoms ",radio," In the past month, have you or any family members you live with been unable to get any of the following when it was really needed?","1= Yes, 2= No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+school_supplies,"Symptoms ",radio," In the past month, have you or any family members you live with been unable to get any of the following when it was really needed?","1= Yes, 2= No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+employment status,"Symptoms ",radio,"Are you working now, looking for work, retired, a student or what?","1, Working now | 2, Only temporarily laid off, maternity leave or sick leave | 3, Looking for work, unemployed | 4, Retired | 5, Disabled, permanently or temporarily | 6, Keeping House (home maker, stay at home parent) | 7, Student | 8, Other | 9, Prefer not to answer/Don't Know",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+other_occupation,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+pandemic related job loss,"Symptoms ",radio,"Have you or another adult in your household lost your job or experienced a decrease in income because of the COVID pandemic? ","0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+job_lost_12 months,"Symptoms ",radio,"Thinking about the next 12 months, how likely do you think it is that you will lose your job or be laid off? ","1, Very likely | 2, Fairly likely | 3, Not too likely | 4, Not at all likely | 5, Will be leaving labor force (vol.) | 6, Not applicable",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+health systems and services,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+needed_child_health,"Symptoms ",radio,"During the past 12 months, was there any time when your child needed health care but it was not received? By health care, we mean medical care as well as other kinds of care like dental care, vision care, and mental health services."," 0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+health care,"Symptoms ",radio,Which types of care were not received? Check all that apply.,"1, Medical Care for a child's illness or problem | 2, Medical Care for a check-up or well check or shots | 3, Dental Care | 4, Vision Care | 5, Hearing Care | 6, Mental Health Services | 7, Other",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+other_health_care,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+health insurance,"Symptoms ",radio,Is this child CURRENTLY covered by ANY kind of health insurance or health coverage plan?,"1= No, the child does not have health insurance coverage. | 2= Yes, insurance through a current or former employer or union. | 3= Yes, insurance purchased ",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+other_health_insurance,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+covid19,"Symptoms ",radio,"Have you or anyone in your household been diagnosed with COVID19, hospitalized with COVID 19 or died of COVID19?","0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+"environment, safety and transportation","Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+lack_of_transportation,"Symptoms ",radio," Has lack of transportation kept you from medical appointments, meetings, work, or from getting things needed for daily living? ","1, Yes | 2, No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+neighborhood_help,"Symptoms ",radio,"a) People in this neighborhood help each other out. ","1, Definitely agree | 2, Somewhat agree | 3, Somewhat disagree | 4, Definitely disagree",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+children_safe,"Symptoms ",radio,"b) Children are safe in our neighborhood. ","1, Definitely agree | 2, Somewhat agree | 3, Somewhat disagree | 4, Definitely disagree",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+social environment (family relationships and social support),"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+support_needs,"Symptoms ",radio,a)My child gets the support he/she needs from our family.,"1, Never | 2, Rarely | 3, Sometimes | 4, Often | 5, Always",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+my_problems,"Symptoms ",radio,b) I have people I can turn to for help with my problems.,"1, Never | 2, Rarely | 3, Sometimes | 4, Often | 5, Always",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+who_will_listen,"Symptoms ",radio,c) I have someone who will listen to me when I need to talk.,"1, Never | 2, Rarely | 3, Sometimes | 4, Often | 5, Always",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+less_courtesy,"Symptoms ",radio,d)You are treated with less courtesy or respect than other people.,"1, Almost everyday | 2, At least once a week | 3, A few times a month | 4, A few times a year | 5, Less than once a year | 6, Never",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+poorer_service,"Symptoms ",radio,e)You receive poorer service than other people at restaurants or stores,"1, Almost everyday | 2, At least once a week | 3, A few times a month | 4, A few times a year | 5, Less than once a year | 6, Never",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+not_smart,"Symptoms ",radio,f)People act as if they think you are not smart.,"1, Almost everyday | 2, At least once a week | 3, A few times a month | 4, A few times a year | 5, Less than once a year | 6, Never",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+afraid,"Symptoms ",radio,g) People act as if they are afraid of you.,"1, Almost everyday | 2, At least once a week | 3, A few times a month | 4, A few times a year | 5, Less than once a year | 6, Never",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+threatened,"Symptoms ",radio,h) You are threatened or harassed.,"1, Almost everyday | 2, At least once a week | 3, A few times a month | 4, A few times a year | 5, Less than once a year | 6, Never",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+what do you think is the main reason for these experiences?,"Symptoms ",radio,,"1, Your Ancestry or National Origins | 2, Your Gender | 3, Your Race | 4, Your Age | 5, Your Religion | 6, Your Height | 7, Your Weight | 8,Some other Aspect of Your Physical Appearance | 9, Your Sexual Orientation | 10, Your Education or Income Level | 11, A physical disability | 12, Your shade of skin color | 13, Your tribe | 14, Other",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+other_experience,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+mental and behavioral health,"Symptoms ",radio,The following questions ask about how you have been feeling during the past 30 days.,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+nervous,"Symptoms ",radio,,"4, All of the time | 3, Most of the time | 2, Some of the time | 1, A little of the time | 0, None of the time",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+hopeless,"Symptoms ",radio,,"4, All of the time | 3, Most of the time | 2, Some of the time | 1, A little of the time | 0, None of the time",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+restless_or_fidgety,"Symptoms ",radio,,"4, All of the time | 3, Most of the time | 2, Some of the time | 1, A little of the time | 0, None of the time",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+depressed,"Symptoms ",radio,,"4, All of the time | 3, Most of the time | 2, Some of the time | 1, A little of the time | 0, None of the time",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+an_effort,"Symptoms ",radio,,"4, All of the time | 3, Most of the time | 2, Some of the time | 1, A little of the time | 0, None of the time",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+worthless,"Symptoms ",,,"4, All of the time | 3, Most of the time | 2, Some of the time | 1, A little of the time | 0, None of the time",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+about_feelings,"Symptoms ",radio,"The last six questions asked about feelings that might have occurred during the past 30 days. Taking them altogether, did these feelings occur more often in the past 30 days than is usual for you, about the same as usual, or less often than usual?","1, More often than usual - A lot | 2, More often than usual - Some | 3, More often than usual - A little | 4, About the same as usual | 5, Less often than usual - A little | 6, Less often than usual - Some | 7, Less often than usual - A lot",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+number_of_days,"Symptoms ",Integer,"During the past 30 days, how many days out of 30 were you totally unable to work or carry out your normal activities because of these feelings? (Number of days), Integer",,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+reported_days,"Symptoms ",Integer," How many days in the past 30 were you able to do only half or less of what you would normally have been able to do, because of these feelings? (Number of days), Integer",,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+health professional,"Symptoms ",Integer," During the past 30 days, how many times did you see a doctor or other health professional about these feelings? (Number of times)",,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+physical_health_problems,"Symptoms ",radio,"During the past 30 days, how often have physical health problems been the main cause of these feelings?","4, All of the time | 3, Most of the time | 2, Some of the time | 1, A little of the time | 0, None of the time",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+cut down,"Symptoms ",radio,"Have you ever felt that you ought to cut down on your drinking or drug use? ","1, Yes | 0, No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+criticize drug use,"Symptoms ",radio,"Have people annoyed you by criticizing your drinking or drug use? ","1, Yes | 0, No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+felt_bad_or guilty,"Symptoms ",radio,c) Have you ever felt bad or guilty about your drinking or drug use?,"1, Yes | 0, No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+hangover,"Symptoms ",radio,"d) Have you ever had a drink or used drugs first thing in the morning to steady your nerves or to get rid of a hangover? ","1, Yes | 0, No",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+income and education,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+highest_educ_level,"Symptoms ",radio,"What is the highest grade or level of school you have completed or the highest degree you have received? ","1, Less than 9th grade | 2, 9th-12th grade, No diploma | 3, High school graduate; GED or equivalent | 4, Some college, no degree | 5, Associate degree | 6, Bachelor's degree | 7, Graduate or professional degree",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+household_income,"Symptoms ",radio," What is your current yearly household income? ","1, Less than $15,000 | 2, $15,000-$24,999 | 3, $25,000-$49,999 | 4, $50,000-$74,999 | 5, $75,000-$99,999 | 6, $100,000 or higher",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+cytokines,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+study id,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+date of sample collection,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+listing of 8 cytokines in columns,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+weight_kg,"Symptoms ",,,,,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+body_weight_category,"Symptoms ",,,"1, Obese (? 95th percentile) | 2, Overweight (85th to < 95th percentile) | 3, Normal (5th to < 85th percentile) | 4, Underweight (< 5th percentile)",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+age_groups,"Symptoms ",radio,,"Infants/Toddler; 0= No, 1= Yes $ Preschool; 0= No, 1= Yes $ Schoolage; 0= No, 1= Yes $ Adolescent/Teenager; 0= No, 1= Yes $  Young adult; 0= No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+health_care,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549
+main_reason_for_these_experiences,"Symptoms ",radio,,"0=No, 1= Yes",,,,,,,,,rad_023_610-01_SPITS_MISC_DICT_origcopy_v1.csv,phs002549

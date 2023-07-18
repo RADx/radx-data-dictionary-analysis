@@ -1,0 +1,158 @@
+Id,Label,Terms,Datatype,Unit,Enumeration,Additional Missing Value Codes
+nih_record_id,User ID,,string,,,"""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_sex,What is your biological sex assigned at birth?,"NCIT:C124436
+PATO:0000047",integer,,"""0""=[Female] |
+""1""=[Male] |
+""2""=[Intersex] |
+""3""=[Non-binary] |
+""96""=[None of these describe me] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_asthma,Asthma,MONDO:0004979,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_autoimm,Autoimmune disease,MONDO:0007179,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_cancer_past_yr,Cancer diagnosis and/or treatment within the past 12 months,MONDO:0004992,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_chronic_kidney_disease,Chronic kidney disease,MONDO:0005300,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_chronic_lung,Other chronic lung disease,MONDO:0005275,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_copd,Chronic obstructive pulmonary disease (COPD),MONDO:0005002,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_cardiovascular_disease,Cardiovascular disease,MONDO:0004995,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_depression,Depression,MONDO:0002050,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_diabetes,Diabetes,MONDO:0005015,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_hypertension,Hypertension,MONDO:0005044,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_immunocompromised,Immunocompromised condition,HP:0002721,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_other_chronic_cond,Other chronic condition,NCIT:C165593,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_sickle_cell_disease,Sickle cell disease,NCIT:C34383,integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+consent_given,Is consent required for this study?,,int,,"""0""=[No] |""1""=[Yes] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+covid_test_result,Test result,,int,,"""1""=[Positive] |""2""=[Negative] |""3""=[Failed] |""4""=[Lost] |""90""=[Other] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+covid_vaccine,Have you received a COVID-19 vaccine?,,int,,"""0""=[No] |""1""=[Yes] |""98""=[Prefer not to answer] |""99""=[Don't know] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_employment,Please specify your employment status.,"NCIT:C179143
+NCIT:C25172",integer,,"""0""=[Yes - Employed] |
+""1""=[No - Not Employed] |
+""2""=[Student] |
+""3""=[Keeping household] |
+""4""=[Retired] |
+""5""=[Disabled or government support] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_education,What is the highest level of education you have achieved outside or in the United States?,NCIT:C17953,integer,,"""0""=[Have never gone to school] |
+""1""=[Some school (Includes any education received below highschool graduate level)] |
+""2""=[High school graduate or GED completed] |
+""3""=[Some college (graduated or not) associates degree,technical degree,or vocational degree] |
+""4""=[Bachelor's degree] |
+""5""=[Other advanced degree (Master's,Doctorate or Professional Doctorate)] |
+""97""=[Other] |
+""98""=Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+family_income,"In 2019, what was your total household income before taxes?",,int,,"""1""=[Less than $15,000] |""2""=[$15,000 - $19,999] |""3""=[$20,000 - $24,999] |""4""=[$25,000 - $34,999] |""5""=[$35,000 - $49,999] |""6""=[$50,000 - $74,999] |""7""=[$75,000 - $99,999] |""8""=[$100,000 and above] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_insurance,What kind of health insurance do you have?,NCIT:C157356,integer,,"""0""=[None] |
+""1""=[Private] |
+""2""=[Public] |
+""97""=[Other] |
+""98""=Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+language_pref,What is your preferred language at home?,,int,,"""1""=[Spanish] |""10""=[Albanian] |""11""=[Apache] |""12""=[Arabic] |""13""=[Bengali/Bangla] |""14""=[Bhutanese] |""15""=[Burmese] |""16""=[Cape Verdean Creole] |""17""=[Creole] |""18""=[Chamoru] |""19""=[Chuukese] |""2""=[Vietnamese] |""20""=[Dakota] |""21""=[Fijian] |""22""=[French] |""23""=[Hmong] |""24""=[Karen] |""25""=[Khmer/Cambodian] |""26""=[Kinyarwanda] |""27""=[Korean] |""28""=[Kosraean] |""29""=[Lakota] |""3""=[Mandarin] |""30""=[Lingala] |""31""=[Mam] |""32""=[Marshallese] |""33""=[Mixteco] |""34""=[Nakota] |""35""=[Nepali] |""36""=[Portuguese] |""37""=[Pohnpeian] |""38""=[Russian] |""39""=[Sign Language] |""4""=[Cantonese] |""40""=[Somali] |""41""=[Samoan] |""42""=[Swahili] |""43""=[Thai] |""44""=[Tongan] |""45""=[Triqui] |""46""=[Zapoteco] |""5""=[Tagalog] |""6""=[Hawaiian] |""7""=[Ilokano] |""8""=[Navajo] |""9""=[English] |""90""=[Other] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_ethnicity,Are you of Hispanic or Latino origin? May include Spanish origin.,NCIT:C16564,integer,,"""0""=[No, not of Hispanic or Latino origin] |
+""1""=[Yes, of Hispanic or Latino origin] |
+""97""=[Other] |
+""98""=[Don't Know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+redcap_event_name,REDCap event name used to label longitudinal data,,,,,"""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+redcap_repeat_instance,REDcap repeating instance counter for instruments,,,,,"""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+redcap_repeat_instrument,REDCap instrument that may be repeated,,,,,"""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_disability,"Do you have a disability, including serious physical or mental conditions, that interfere with your ability to carry out daily activities?","NCIT:C21007
+GSSO:001811
+GSSO:001810",integer,,"""0""=[No] |
+""1""=[Yes] |
+""97""=[Other] |
+""98""=[Don't know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_health_status,"Would you say that (your) health in general is excellent, very good, good, fair, or poor?",,integer,,"""0""=[Excellent] |
+""1""=[Very Good] |
+""2""=[Good] |
+""3""=[Fair] |
+""4""=[Poor] |
+""98""=[Don't know] |
+""99""=[Prefer not to state]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+tested_for_covid,Have you ever been tested for COVID-19?,,int,,"""1""=[Yes] |""2""=[No] |""98""=[Don't know] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+tested_positive_for_covid,Have you ever tested positive for COVID-19?,,int,,"""1""=[Yes] |""2""=[No] |""98""=[Don't know] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+vaccine_avail,"How likely are you to get an approved COVID-19 vaccine when it becomes available? ",,int,,"""1""=[Very likely] |""2""=[Fairly likely] |""3""=[Not too likely] |""4""=[Not at all likely] |""5""=[Definitely not] |""97""=[Not applicable] |""98""=[Don't know] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_race,What is your race?,"NCIT:C17049
+GSSO:002199",integer,,"""0""=[American Indian or Alaska Native] |
+""1""=[Black or African American] |
+""2""=[Asian] |
+""3""=[Native Hawaiian or Other Pacific Islander] |
+""4""=[White] |
+""5""=[Middle Eastern or North African] |
+""6""=[Two or more races] |
+""97""=[Some other race] |
+""98""=[Do not know] |
+""99""=[Prefer not to answer]","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_height,What is your height in inches?,,integer,inch,,"""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+nih_weight,What is your weight in pounds?,,integer,pound,,"""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+cov_pan_chal_hlth,Getting the health care I need (including for mental health),,int,,"""0""=[No, not a challenge] |""1""=[Yes, a minor challenge] |""2""=[Yes, this is a major challenge] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+cov_pan_chal_med,Getting the medicine I need,,int,,"""0""=[No, not a challenge] |""1""=[Yes, a minor challenge] |""2""=[Yes, this is a major challenge] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+cov_pan_chlng_trans,"Getting to where I need to go ",,int,,"""0""=[No, not a challenge] |""1""=[Yes, a minor challenge] |""2""=[Yes, this is a major challenge] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+covid_pandemic_challenges_abod,Having a place to stay/live,,int,,"""0""=[No, not a challenge] |""1""=[Yes, a minor challenge] |""2""=[Yes, this is a major challenge] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+covid_pandemic_challenges_food,Getting enough food to eat,,int,,"""0""=[No, not a challenge] |""1""=[Yes, a minor challenge] |""2""=[Yes, this is a major challenge] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+covid_pandemic_challenges_wate,Having clean water to drink,,int,,"""0""=[No, not a challenge] |""1""=[Yes, a minor challenge] |""2""=[Yes, this is a major challenge] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+flu_vaccine_season,Have you received a flu vaccine in the last 12 months?,,int,,"""0""=[No] |""1""=[Yes] |""98""=[Don't know] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+flu_vaccinehistind,Have you ever received a flu vaccination?,,int,,"""0""=[No] |""1""=[Yes] |""98""=[Don't know] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+household_famgen,What best describes the people at your home:,,int,,"""1""=[Just me] |""2""=[Living with spouse, no kids] |""3""=[Family including kids] |""4""=[Family with 3 generations (parents, children, grandchildren)] |""5""=[Family with 4 generations] |""6""=[Living with roommates] |""90""=[None of these] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+language_home,What languages are spoken at home?,,bit,,"""0""=[Spanish] |""1""=[Spanish]  $ ""0""=[English] |""1""=[English]  $ ""0""=[Other] |""1""=[Other]  $ ""0""=[Prefer not to answer] |""1""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+race_ethn_hispanic_detail_2,Please specify your origin,,bit,,"""0""=[Mexican, Mexican Am., Chicano] |""1""=[Mexican, Mexican Am., Chicano]  $ ""0""=[Puerto Rican] |""1""=[Puerto Rican]  $ ""0""=[Cuban] |""1""=[Cuban]  $ ""0""=[Another Hispanic, Latino, or Spanish origin] |""1""=[Another Hispanic, Latino, or Spanish origin]  $ ""0""=[Salvadoran] |""1""=[Salvadoran]  $ ""0""=[Dominican] |""1""=[Dominican]  $ ""0""=[Colombian] |""1""=[Colombian]  $ ""0""=[Prefer not to answer] |""1""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+self_reported_weight_units,Please choose the units you would like to use for weight,,int,,"""1""=[Kilograms] |""2""=[Pounds] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+test_accesseasy,It is easy to get tested for COVID-19.,,int,,"""0""=[Strongly disagree] |""1""=[Disagree] |""2""=[Neither disagree or agree] |""3""=[Agree] |""4""=[Strongly agree] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+test_accesswhere,I know where I can get COVID-19 testing in my community.,,int,,"""0""=[Strongly disagree] |""1""=[Disagree] |""2""=[Neither disagree or agree] |""3""=[Agree] |""4""=[Strongly agree] |""99""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+vaccine_concerns_3,"Why would you NOT get a COVID-19 vaccine? ",,bit,,"""0""=[I'm allergic to vaccines] |""1""=[I'm allergic to vaccines]  $ ""0""=[Other] |""1""=[Other]  $ ""0""=[I don't like needles] |""1""=[I don't like needles]  $ ""0""=[I'm not concerned about getting really sick from COVID-19] |""1""=[I'm not concerned about getting really sick from COVID-19]  $ ""0""=[I'm concerned about side effects from the vaccine] |""1""=[I'm concerned about side effects from the vaccine]  $ ""0""=[I don't think vaccines work very well] |""1""=[I don't think vaccines work very well]  $ ""0""=[I don't trust that the vaccine will be safe] |""1""=[I don't trust that the vaccine will be safe]  $ ""0""=[I don't believe the COVID-19 pandemic is as bad as some people say it is] |""1""=[I don't believe the COVID-19 pandemic is as bad as some people say it is]  $ ""0""=[I don't want to pay for it] |""1""=[I don't want to pay for it]  $ ""0""=[I don't know enough about how well a COVID-19 vaccine works] |""1""=[I don't know enough about how well a COVID-19 vaccine works]  $ ""0""=[Not Applicable] |""1""=[Not Applicable]  $ ""0""=[Prefer not to answer] |""1""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
+vaccine_reasons_3,Why would you get a COVID-19 vaccine?,,bit,,"""0""=[I want to keep my family safe] |""1""=[I want to keep my family safe]  $ ""0""=[Required by my school or workplace] |""1""=[Required by my school or workplace]  $ ""0""=[Required for travel] |""1""=[Required for travel]  $ ""0""=[I want to keep my community safe] |""1""=[I want to keep my community safe]  $ ""0""=[I want to keep myself safe] |""1""=[I want to keep myself safe]  $ ""0""=[I have a chronic health problem, like asthma or diabetes] |""1""=[I have a chronic health problem, like asthma or diabetes]  $ ""0""=[My doctor told me to get a COVID-19 vaccine] |""1""=[My doctor told me to get a COVID-19 vaccine]  $ ""0""=[I don't want to get really sick from COVID-19] |""1""=[I don't want to get really sick from COVID-19]  $ ""0""=[I want to feel safe around other people] |""1""=[I want to feel safe around other people]  $ ""0""=[I believe life won't go back to normal until most people get a COVID-19 vaccine] |""1""=[I believe life won't go back to normal until most people get a COVID-19 vaccine]  $ ""0""=[Other] |""1""=[Other]  $ ""0""=[Not Applicable] |""1""=[Not Applicable]  $ ""0""=[Prefer not to answer] |""1""=[Prefer not to answer] ","""-9999""=[Reason Unknown] |""-9960""=[This information was not provided by the originator (participant or sensor)] |""-9985""=[Data was invalid (wrong format, wrong or unknown units, not parseable, or impossible value)] |""-9944""=[This element (question or variable) was not presented to user for collection (reason unspecified)]"
